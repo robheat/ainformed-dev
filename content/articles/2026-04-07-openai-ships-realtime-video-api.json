@@ -1,0 +1,13 @@
+{
+  "slug": "2026-04-07-openai-ships-realtime-video-api",
+  "title": "OpenAI Ships Realtime Video API: Stream and Analyze Live Video with GPT-5V",
+  "summary": "OpenAI's new Realtime Video API lets developers pipe live camera streams directly to GPT-5V, enabling sub-second visual understanding for robotics, accessibility tools, and consumer apps.",
+  "body": "OpenAI has launched its long-awaited Realtime Video API, a WebRTC-based interface that allows developers to stream live video feeds directly into GPT-5V and receive structured JSON responses in near real time. The API supports up to 1080p30 input and returns object detections, scene descriptions, and free-form answers to natural-language queries with median latency under 400ms.\n\nThe release opens significant new use cases: accessibility apps that narrate surroundings for visually impaired users, manufacturing QA systems that inspect products on a conveyor belt, and robotics pipelines that replace expensive custom vision models with a single API call. Pricing is set at $0.02 per second of video processed, which the company notes is roughly comparable to running a 4K LiDAR sensor in cost-per-insight terms.\n\nEarly developer previews have already shown impressive demos including a real-time sign-language interpreter and an autonomous drone navigation system that uses GPT-5V as its sole perception backbone. OpenAI's documentation confirms the API is compatible with the existing Assistants SDK, meaning teams can layer in memory, tool-calling, and function execution on top of the video stream.",
+  "sourceUrl": "https://platform.openai.com/docs/guides/realtime-video",
+  "sourceName": "OpenAI Platform",
+  "category": "tools",
+  "tags": ["openai", "gpt-5v", "video", "api", "multimodal"],
+  "publishedAt": "2026-04-07T07:00:00.000Z",
+  "imageUrl": null,
+  "twitterThread": []
+}

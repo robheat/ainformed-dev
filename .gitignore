@@ -38,4 +38,7 @@ yarn-error.log*
 
 # typescript
 *.tsbuildinfo
+
+# pipeline cache (raw + curated intermediates)
+pipeline/cache/
 next-env.d.ts

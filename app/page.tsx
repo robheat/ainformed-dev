@@ -1,65 +1,101 @@
-import Image from "next/image";
+import { Metadata } from "next";
+import { getLatestArticles, getTodaysDigest } from "@/lib/content";
+import ArticleCard from "@/components/ArticleCard";
+import { formatDate } from "@/lib/utils";
 
-export default function Home() {
+export const revalidate = 3600; // ISR: revalidate every hour
+
+export const metadata: Metadata = {
+  title: "AInformed — Daily AI News",
+  description:
+    "The latest AI news, research, and breakthroughs — curated and summarized daily by AI.",
+  openGraph: {
+    title: "AInformed — Daily AI News",
+    description:
+      "The latest AI news, research, and breakthroughs — curated and summarized daily by AI.",
+    url: "https://ainformed.dev",
+    images: [{ url: "/api/og?title=AInformed+Daily+AI+News" }],
+  },
+};
+
+export default function HomePage() {
+  const todayArticles = getTodaysDigest();
+  const recentArticles = getLatestArticles(12);
+  const heroArticles = todayArticles.length > 0 ? todayArticles : recentArticles;
+  const [featured, ...rest] = heroArticles;
+  const today = new Date().toISOString();
+
   return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
+    <div className="max-w-6xl mx-auto px-4 sm:px-6 py-8">
+      {/* Header bar */}
+      <div className="flex items-center justify-between mb-6">
+        <div>
+          <h1 className="text-2xl font-bold text-neutral-100">
+            Today&apos;s AI Digest
           </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
+          <p className="text-sm text-neutral-500 mt-0.5">
+            {formatDate(today)} — curated &amp; summarized by AI
           </p>
         </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
+        <span className="text-xs font-mono text-violet-400 bg-violet-500/10 border border-violet-500/20 px-2 py-1 rounded">
+          {heroArticles.length} stories
+        </span>
+      </div>
+
+      {/* Featured grid */}
+      {featured && (
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
+          <ArticleCard article={featured} featured />
+          <div className="flex flex-col gap-4">
+            {rest.slice(0, 2).map((a) => (
+              <ArticleCard key={a.slug} article={a} />
+            ))}
+          </div>
         </div>
-      </main>
+      )}
+
+      {/* Secondary grid */}
+      {rest.length > 2 && (
+        <>
+          <h2 className="text-lg font-semibold text-neutral-300 mb-4">
+            More Stories
+          </h2>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mb-10">
+            {rest.slice(2).map((a) => (
+              <ArticleCard key={a.slug} article={a} />
+            ))}
+          </div>
+        </>
+      )}
+
+      {/* Empty state */}
+      {heroArticles.length === 0 && (
+        <div className="text-center py-24 text-neutral-500">
+          <p className="text-lg">Pipeline runs daily at 7 AM UTC.</p>
+          <p className="text-sm mt-2">Check back soon for today&apos;s AI digest.</p>
+        </div>
+      )}
+
+      {/* CTA */}
+      <div className="border border-neutral-800 rounded-xl p-6 bg-neutral-900 text-center mt-4">
+        <p className="text-neutral-400 text-sm mb-1">Stay in the loop</p>
+        <h3 className="text-lg font-semibold mb-3">
+          Follow{" "}
+          <a
+            href="https://twitter.com/AInformedDev"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-violet-400 hover:text-violet-300"
+          >
+            @AInformedDev
+          </a>{" "}
+          on X
+        </h3>
+        <p className="text-xs text-neutral-600">
+          Daily AI news threads posted automatically every morning.
+        </p>
+      </div>
     </div>
   );
 }
+

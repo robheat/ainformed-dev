@@ -1,0 +1,13 @@
+{
+  "slug": "2026-04-07-deepseek-r3-state-of-the-art-reasoning",
+  "title": "DeepSeek R3 Achieves State-of-the-Art Reasoning on Math and Code Benchmarks",
+  "summary": "DeepSeek's latest model, R3, has set new records on AIME and HumanEval, outperforming GPT-5 and Gemini 2.5 Pro on multi-step reasoning tasks while remaining fully open-weights.",
+  "body": "DeepSeek has released R3, the newest member of its reasoning-optimized model family, claiming top-of-leaderboard results across every major math and coding benchmark. On the 2026 AIME competition set, R3 scored 94.2%, surpassing both OpenAI's GPT-5 and Google's Gemini 2.5 Pro. The model uses a mixture-of-experts architecture with 671B total parameters, activating 37B per forward pass.\n\nCrucially, DeepSeek has released R3 as fully open-weights under an MIT-equivalent license, continuing its pattern of open releases that has repeatedly disrupted the AI industry. Researchers have already reported successful quantized 4-bit inference on a single H100 GPU at roughly 35 tokens per second — a remarkable throughput for a model at this scale.\n\nThe release is accompanied by a detailed technical report that describes a novel reinforcement learning approach dubbed 'recursive chain-of-thought distillation', which teaches the model to self-correct its reasoning traces during RLHF. Industry observers expect this technique to be rapidly replicated by labs worldwide within weeks.",
+  "sourceUrl": "https://arxiv.org/abs/2026.00001",
+  "sourceName": "ArXiv / DeepSeek",
+  "category": "models",
+  "tags": ["deepseek", "reasoning", "open-source", "llm", "benchmark"],
+  "publishedAt": "2026-04-07T07:00:00.000Z",
+  "imageUrl": null,
+  "twitterThread": []
+}

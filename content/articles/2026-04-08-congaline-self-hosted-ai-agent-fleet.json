@@ -1,0 +1,27 @@
+{
+  "slug": "2026-04-08-congaline-self-hosted-ai-agent-fleet",
+  "title": "CongaLine: Self-Hosted AI Agent Fleet",
+  "summary": "CongaLine is a self-hosted AI agent fleet that allows teams and individuals to run isolated AI assistants. It prioritizes security and offers flexible deployment options.",
+  "body": "CongaLine was built to address the issue of shared AI instances, providing a self-hosted solution for teams and individuals. Each agent runs in its own Docker container, ensuring isolated networks, secrets, and config. This design prioritizes security, making it an attractive option for those seeking a secure AI solution.\n\nThe CongaLine platform offers three deployment targets via a single Go CLI, including local deployment via Docker Desktop, remote deployment on any SSH-accessible Linux host, and AWS deployment with zero-ingress via SSM. The runtime is decoupled from deployment, allowing for flexibility and ease of use. CongaLine ships with OpenClaw (Node.js) and Hermes Agent (Python), making it a versatile solution for various use cases.\n\nAs CongaLine gains traction, it will be interesting to see how it impacts the AI landscape. With its focus on security and flexibility, it has the potential to become a leading solution for self-hosted AI assistants. As the platform continues to evolve, it's likely that we'll see new features and deployment options emerge, further solidifying its position in the market.",
+  "sourceUrl": "https://github.com/cruxdigital-llc/congaline",
+  "sourceName": "Hacker News AI",
+  "category": "open-source",
+  "tags": [
+    "self-hosted",
+    "ai-agents",
+    "security",
+    "docker",
+    "deployment"
+  ],
+  "publishedAt": "2026-04-08T23:04:27.670436+00:00",
+  "imageUrl": null,
+  "twitterThread": [
+    "🚀 Introducing CongaLine: a self-hosted AI agent fleet that's changing the game for teams and individuals! 🤖",
+    "Here's why this matters: CongaLine prioritizes security, ensuring each agent runs in its own isolated Docker container. No more shared instances! 🚫",
+    "The wild part? CongaLine offers three deployment targets via a single Go CLI: local, remote, and AWS. Talk about flexibility! 🌐",
+    "Let that sink in: with CongaLine, you can deploy AI agents on any SSH-accessible Linux host, including Raspberry Pi and bare metal. The possibilities are endless! 🤯",
+    "This changes everything for self-hosted AI assistants. CongaLine is poised to become a leading solution, and we can't wait to see what's next! 🚀",
+    "Full breakdown → https://ainformed.dev"
+  ],
+  "standaloneTweet": "Meet CongaLine, the self-hosted AI agent fleet that's redefining security and flexibility in AI deployment! With isolated Docker containers and multiple deployment options, CongaLine is a game-changer. https://ainformed.dev/articles/congaline-self-hosted-ai-agent-fleet"
+}

@@ -1,0 +1,26 @@
+{
+  "slug": "2026-04-08-linggen-open-source-ai-agent",
+  "title": "Linggen: Open-source AI Agent",
+  "summary": "Linggen is a local-first, open-source AI coding agent with P2P remote access. It proposes step-by-step plans before writing code and works with various models.",
+  "body": "Linggen, a local-first AI coding agent, has introduced new features in its 0.9.2 version. The agent now allows P2P remote access via WebRTC, enabling users to control it from their phones without needing port forwarding or cloud relay. This is achieved by simply running `ling login` and scanning a QR code. \n\n The update also includes a plan mode, where the agent proposes a step-by-step plan before writing code, allowing users to approve or edit the plan before execution. Linggen is designed to work with any model, including Ollama, OpenAI-compatible APIs, Gemini, and DeepSeek, and users can bring their own keys or run the agent fully local. \n\n With its model-agnostic approach, extensibility through skills using markdown files, and new accessibility features, Linggen offers a unique solution for AI coding. The introduction of P2P remote access and plan mode enhances the agent's usability and flexibility, making it an attractive option for developers looking for a customizable and accessible AI coding tool.",
+  "sourceUrl": "https://linggen.dev/",
+  "sourceName": "Hacker News AI",
+  "category": "open-source",
+  "tags": [
+    "ai",
+    "coding",
+    "p2p",
+    "remote-access"
+  ],
+  "publishedAt": "2026-04-08T23:03:52.465195+00:00",
+  "imageUrl": null,
+  "twitterThread": [
+    "🚀 Introducing Linggen: an open-source AI coding agent with P2P remote access! 📱 Control your agent from your phone, no port forwarding needed.",
+    "Here's why this matters: Linggen works with ANY model - Ollama, OpenAI, Gemini, and more. Bring your own keys or run fully local.",
+    "The wild part: Linggen proposes a step-by-step plan before writing code. You approve or edit before execution. Total control!",
+    "Let that sink in: model-agnostic, extensible, and accessible from anywhere. This changes everything for AI coding.",
+    "This is the future of AI coding: customizable, accessible, and open-source. Get ready to revolutionize your workflow with Linggen!",
+    "Full breakdown → https://ainformed.dev"
+  ],
+  "standaloneTweet": "Control your AI coding agent from your phone with Linggen! 📱 This open-source tool offers P2P remote access, plan mode, and works with any model. https://ainformed.dev/articles/linggen-open-source-ai-agent"
+}

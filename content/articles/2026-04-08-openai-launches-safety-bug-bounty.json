@@ -1,0 +1,25 @@
+{
+  "slug": "2026-04-08-openai-launches-safety-bug-bounty",
+  "title": "OpenAI Launches Safety Bug Bounty",
+  "summary": "OpenAI introduces a Safety Bug Bounty program to identify AI safety risks. The program aims to detect vulnerabilities like agentic risks and data exfiltration.",
+  "body": "OpenAI has launched a Safety Bug Bounty program to identify and mitigate AI safety risks. The program focuses on detecting vulnerabilities such as agentic risks, prompt injection, and data exfiltration. By crowdsourcing bug discovery, OpenAI hopes to strengthen its AI systems' safety and security.\n\nThe Safety Bug Bounty program is a crucial step in addressing the growing concerns around AI safety. As AI models become increasingly powerful, the potential risks associated with their use also grow. The program encourages researchers and security experts to identify potential vulnerabilities, helping OpenAI to stay ahead of potential threats. The company's proactive approach to AI safety is a positive development in the industry.\n\nThe launch of the Safety Bug Bounty program is likely to have significant implications for the AI industry as a whole. As other companies take note of OpenAI's initiative, we can expect to see a greater emphasis on AI safety and security. The program's success will depend on the participation of researchers and security experts, and it will be interesting to see how the industry responds to this new development.",
+  "sourceUrl": "https://openai.com/index/safety-bug-bounty",
+  "sourceName": "OpenAI Blog",
+  "category": "models",
+  "tags": [
+    "ai-safety",
+    "bug-bounty",
+    "openai"
+  ],
+  "publishedAt": "2026-04-08T23:05:45.548404+00:00",
+  "imageUrl": null,
+  "twitterThread": [
+    "🚨 OpenAI just launched a Safety Bug Bounty program to identify AI safety risks! 🚨",
+    "Here's why this matters: agentic risks, prompt injection, and data exfiltration are just a few of the vulnerabilities they're targeting.",
+    "The wild part: OpenAI is crowdsourcing bug discovery to stay ahead of potential threats. Let that sink in.",
+    "This changes everything for AI safety: OpenAI's proactive approach sets a new standard for the industry.",
+    "What's next? We can expect to see a greater emphasis on AI safety and security across the board.",
+    "Full breakdown → https://ainformed.dev"
+  ],
+  "standaloneTweet": "OpenAI launches Safety Bug Bounty program to tackle AI safety risks like agentic vulnerabilities and data exfiltration! What does this mean for the future of AI? https://ainformed.dev/articles/openai-launches-safety-bug-bounty"
+}

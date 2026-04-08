@@ -1,8 +1,8 @@
 {
   "slug": "2026-04-08-propublica-staff-strike-over-ai-layoffs-wages",
   "title": "ProPublica Staff Strike Over AI, Layoffs, Wages",
-  "summary": "ProPublica's unionized staff are on a 24-hour strike due to unresolved issues in collective bargaining. Key concerns include AI use, layoff protections, and wages. ",
-  "body": "The ProPublica Guild, comprising around 150 members, began a 24-hour strike on Wednesday, calling for the public to support their digital picket line. This action comes amidst ongoing negotiations for a collective bargaining agreement, which the staff unionized for in 2023. \n\n The strike is driven by several unresolved issues, including the need for protections around AI use, 'just cause' provisions for employee discipline or termination, layoff protections, and wage concerns. These issues have been under negotiation for over two years, with the union seeking fair resolutions. \n\n The strike reflects the growing concerns of media workers regarding the impact of AI on their jobs and the need for stronger protections against unfair layoffs and discipline. As the situation unfolds, it remains to be seen how ProPublica management will respond to the union's demands and whether a resolution can be reached soon.",
+  "summary": "Unionized ProPublica staff are on a 24-hour strike over key issues including AI protections and wages. The strike is part of ongoing collective bargaining agreement negotiations.",
+  "body": "The ProPublica Guild, comprising roughly 150 members, has initiated a 24-hour strike in response to unresolved issues in their collective bargaining agreement negotiations. The strike, which began on Wednesday, includes a digital picket line that the public is being asked to honor. \n\n The key issues in contention include protections around the use of AI, 'just cause' provisions for disciplining or firing employees, layoff protections, and wages. These issues have been unresolved for over two years, despite quiet efforts to resolve them. \n\n The strike reflects the growing concerns of journalists and media workers regarding the impact of AI on their jobs and the need for fair wages and job security. The outcome of the negotiations and the strike will be closely watched, as it may set a precedent for other newsrooms and industries grappling with similar issues.",
   "sourceUrl": "https://www.theverge.com/news/908401/propublica-union-strike-negotiations-ai-layoffs",
   "sourceName": "The Verge AI",
   "category": "industry",
@@ -10,17 +10,17 @@
     "union",
     "strike",
     "ai-ethics",
-    "media",
-    "labor"
+    "wages",
+    "layoffs"
   ],
-  "publishedAt": "2026-04-08T12:34:36.811128+00:00",
+  "publishedAt": "2026-04-08T12:50:15.404929+00:00",
   "imageUrl": null,
   "twitterThread": [
-    "Breaking: ProPublica's unionized staff are on strike over unresolved issues including AI use, layoff protections, and wages. Support their digital picket line today!",
-    "The strike highlights growing concerns in the media industry about the impact of AI on jobs and the need for fair labor practices.",
-    "ProPublica's union has been negotiating for over two years, seeking protections for employees in the face of AI integration and potential layoffs.",
-    "As the media landscape evolves, the fight for workers' rights and fair labor standards continues. Stay tuned for updates on the ProPublica strike.",
-    "The use of AI in newsrooms raises important questions about job security, bias, and accountability. The ProPublica strike brings these issues to the forefront.",
+    "Breaking: Unionized staff at @ProPublica are on a 24-hour strike over AI, layoffs, and wages. The strike includes a digital picket line, and the public is being asked to show support.",
+    "The ProPublica Guild has been negotiating a collective bargaining agreement for over two years, but key issues remain unresolved. The strike is a significant escalation of the dispute.",
+    "The use of AI in newsrooms is a growing concern for journalists, who fear it could lead to job losses and undermine the quality of reporting. The ProPublica strike is a test case for the industry.",
+    "The outcome of the strike and negotiations will have significant implications for the future of journalism and the use of AI in newsrooms. Will other newsrooms follow suit?",
+    "As the strike continues, the public is being asked to honor the digital picket line and show support for the unionized staff. The fight for fair wages, job security, and AI protections is ongoing.",
     "Read more at https://ainformed.dev"
   ]
 }

@@ -1,0 +1,25 @@
+{
+  "slug": "2026-04-08-sunos-copyright-filters-easily-fooled",
+  "title": "Suno's Copyright Filters Easily Fooled",
+  "summary": "Suno's AI music platform has a policy against using copyrighted material, but its filters can be easily bypassed. This allows users to generate AI versions of popular songs.",
+  "body": "Suno, an AI music platform, claims to recognize and prevent the use of copyrighted material. However, its copyright filters have been found to be surprisingly easy to fool. With minimal effort and free software, users can generate AI-generated imitations of popular songs that are remarkably close to the originals.\n\n The implications of this are significant, as it raises concerns about copyright infringement and the potential for users to create and share unauthorized versions of copyrighted music. This could have serious consequences for the music industry and artists who rely on copyright protections to earn a living.\n\n As a result, Suno faces potential backlash from the music industry and may need to re-evaluate its copyright filters to prevent such bypassing. The company's response to this issue will be closely watched, and it remains to be seen how it will address the concerns of artists and copyright holders.",
+  "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/906896/sunos-copyright-ai-music-covers",
+  "sourceName": "The Verge AI",
+  "category": "industry",
+  "tags": [
+    "ai",
+    "music",
+    "copyright",
+    "infringement",
+    "filters"
+  ],
+  "publishedAt": "2026-04-08T12:50:26.362668+00:00",
+  "imageUrl": null,
+  "twitterThread": [
+    "Breaking: Suno's AI music platform has a major copyright problem. Its filters can be easily fooled, allowing users to generate unauthorized versions of popular songs.",
+    "The implications are huge. Copyright infringement could run rampant, hurting artists and the music industry as a whole.",
+    "But how does it work? With just a few tweaks and some free software, users can bypass Suno's filters and create AI-generated covers of popular songs.",
+    "The music industry is sure to take notice. Will Suno be able to fix its filters and prevent copyright infringement, or will it face a backlash from artists and labels?",
+    "Read more at https://ainformed.dev"
+  ]
+}

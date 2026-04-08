@@ -1,0 +1,24 @@
+{
+  "slug": "2026-04-08-gemma-4-released",
+  "title": "Gemma 4 Released",
+  "summary": "Gemma 4 is a new multimodal intelligence model. It enables on-device processing for various tasks.",
+  "body": "Hugging Face has announced the release of Gemma 4, a frontier multimodal intelligence model designed to operate on devices. This development allows for more efficient and private processing of multimodal data. \n\n The release of Gemma 4 is significant as it pushes the boundaries of what is possible with on-device AI processing. By enabling multimodal intelligence on devices, Gemma 4 opens up new possibilities for applications that require both privacy and efficiency. \n\n As Gemma 4 becomes available, developers and users alike can expect to see new and innovative applications of multimodal AI. With its focus on on-device processing, Gemma 4 is poised to make a significant impact in the field of AI research and development.",
+  "sourceUrl": "https://huggingface.co/blog/gemma4",
+  "sourceName": "Hugging Face Blog",
+  "category": "open-source",
+  "tags": [
+    "gemma",
+    "multimodal",
+    "on-device",
+    "ai",
+    "hugging-face"
+  ],
+  "publishedAt": "2026-04-08T13:31:49.537332+00:00",
+  "imageUrl": null,
+  "twitterThread": [
+    "Introducing Gemma 4, the latest breakthrough in multimodal intelligence! This new model enables on-device processing, making AI more efficient and private than ever before.",
+    "What does this mean for you? With Gemma 4, you can expect faster and more secure processing of multimodal data, right on your device.",
+    "The implications are huge! Gemma 4 opens up new possibilities for applications that require both privacy and efficiency. Stay tuned for innovative new uses of multimodal AI!",
+    "Want to learn more about Gemma 4 and its potential applications? Read more at https://ainformed.dev"
+  ]
+}

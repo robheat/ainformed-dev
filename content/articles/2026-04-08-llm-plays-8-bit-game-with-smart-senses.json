@@ -1,0 +1,26 @@
+{
+  "slug": "2026-04-08-llm-plays-8-bit-game-with-smart-senses",
+  "title": "LLM Plays 8-bit Game with Smart Senses",
+  "summary": "A large language model was connected to an 8-bit shoot-'em-up game, receiving structured text summaries instead of traditional inputs. The model developed strategies and discovered an exploit in the game's AI.",
+  "body": "A recent experiment involved connecting a large language model to an 8-bit shoot-'em-up game, PvP-AI, running on a Commander X16 emulator. The model, instead of receiving pixels or audio, was given structured text summaries, dubbed'smart senses', based on the game's existing touch and EMF-style inputs. This allowed the model to maintain notes between turns and develop strategies across games.\n\n The use of'smart senses' enabled the model to understand the game state in a more abstract and high-level manner, facilitating the development of complex strategies. The model's ability to discover an exploit in the built-in AI's behavior further demonstrates its capacity for learning and adaptation. This approach has implications for the development of more sophisticated AI systems that can interact with and understand their environment in a more human-like way.\n\n The experiment's results, including technical details and gameplay recordings, are available online. The success of this project raises questions about the potential applications of large language models in gaming and beyond, and how they might be used to create more intelligent and interactive systems. Reactions to the experiment have been positive, with many praising the innovative approach to AI development.",
+  "sourceUrl": "https://pvp-ai.russell-harper.com",
+  "sourceName": "Hacker News AI",
+  "category": "general",
+  "tags": [
+    "llm",
+    "gaming",
+    "ai",
+    "innovation",
+    "experiment"
+  ],
+  "publishedAt": "2026-04-08T13:33:09.168428+00:00",
+  "imageUrl": null,
+  "twitterThread": [
+    "Just witnessed a large language model play an 8-bit shoot-'em-up game using'smart senses'! The model developed strategies and even discovered an exploit in the game's AI. #AI #Gaming",
+    "The'smart senses' approach allows the model to understand the game state in a more abstract way, enabling complex strategies and learning. What other applications could this have? #Innovation #LLM",
+    "The experiment's success raises questions about the potential of large language models in gaming and beyond. How might they be used to create more intelligent and interactive systems? #AI #Future",
+    "Check out the technical details and gameplay recordings from the experiment: https://pvp-ai.russell-harper.com/#v3. What do you think about the potential of'smart senses' in AI development? #Gaming #AI",
+    "The implications of this experiment are vast. Large language models could revolutionize the way we interact with games and other systems. Stay tuned for more updates on this innovative technology! #LLM #Innovation",
+    "Read more at https://ainformed.dev"
+  ]
+}

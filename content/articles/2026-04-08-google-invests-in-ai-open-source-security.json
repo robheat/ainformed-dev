@@ -1,0 +1,27 @@
+{
+  "slug": "2026-04-08-google-invests-in-ai-open-source-security",
+  "title": "Google Invests in AI Open Source Security",
+  "summary": "Google is investing in open source security for the AI era. The company is building new tools and developing code security to improve open source security.",
+  "body": "Google has announced its latest investment in open source security, focusing on the AI era. The company is committed to improving the security of open source software, recognizing its critical role in the development of AI technologies. \n\n The investment includes building new tools and developing code security to identify and address potential vulnerabilities in open source code. This effort aims to enhance the overall security posture of open source software, which is increasingly used in AI applications. \n\n As the use of AI continues to grow, the importance of securing open source software cannot be overstated. Google's investment in this area is expected to have a positive impact on the broader AI community, and the company's efforts will likely be closely watched by industry stakeholders. Reactions to the announcement have been positive, with many experts welcoming Google's commitment to improving open source security.",
+  "sourceUrl": "https://blog.google/innovation-and-ai/technology/safety-security/ai-powered-open-source-security/",
+  "sourceName": "Google AI Blog",
+  "category": "open-source",
+  "tags": [
+    "ai",
+    "security",
+    "open-source",
+    "google",
+    "investment"
+  ],
+  "publishedAt": "2026-04-08T22:06:51.730036+00:00",
+  "imageUrl": null,
+  "twitterThread": [
+    "🚨 Google is doubling down on open source security for the AI era! 🚨",
+    "Here's why this matters: open source software is the backbone of many AI applications. Securing it is crucial for the entire ecosystem.",
+    "The wild part: Google is building new tools and developing code security to identify vulnerabilities in open source code. This is a game-changer.",
+    "Let that sink in: Google's investment in open source security will have a ripple effect across the entire AI industry. This changes everything for developers, researchers, and users.",
+    "This changes everything for the future of AI: with Google leading the charge on open source security, we can expect to see a significant reduction in vulnerabilities and a safer AI ecosystem.",
+    "Full breakdown → https://ainformed.dev"
+  ],
+  "standaloneTweet": "Google invests in AI open source security, building new tools and developing code security to protect the backbone of AI applications! https://ainformed.dev/articles/google-invests-in-ai-open-source-security"
+}

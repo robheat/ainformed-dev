@@ -33,9 +33,22 @@ Requirements:
   Separate paragraphs with \\n\\n.
 - category: One of: models, research, tools, policy, industry, open-source, general
 - tags: 3-6 lowercase single-word or hyphenated tags
-- twitterThread: An array of 4-6 tweet strings (each ≤280 chars) that form a thread
-  summarizing the story. First tweet should hook the reader. Last tweet should link
-  back: "Read more at https://ainformed.dev"
+- twitterThread: An array of 4-6 tweet strings (each ≤280 chars) forming a viral thread.
+  Style: punchy, opinionated, conversational — like a top AI influencer on X.
+  Use short sentences. Sentence fragments OK. Strategic line breaks for readability.
+  Tweet 1: A bold hook — lead with the most surprising or impactful angle. Use an emoji.
+  Tweet 2-4: The key details, each tweet building on the last. Include concrete numbers,
+    names, comparisons. Use phrases like "Here's why this matters:", "The wild part:",
+    "Let that sink in.", "This changes everything for..."
+  Tweet 5: A hot take or forward-looking angle — what this means for the industry.
+  Final tweet: "Full breakdown → https://ainformed.dev" (not the article slug, just the site)
+  Do NOT use hashtags. Do NOT be generic. Every tweet should make someone want to read the next.
+
+- standaloneTweet: A single catchy tweet (≤280 chars) that could go viral on its own.
+  Lead with the most interesting angle, not just the headline. Include a take or hook.
+  End with the article URL: https://ainformed.dev/articles/{slug}
+  where {slug} is the URL-safe version of the title.
+  No hashtags.
 
 Write factually. Do not hallucinate details not present in the input.
 If the description is thin, stay close to what's stated.
@@ -47,7 +60,8 @@ Respond with ONLY valid JSON matching this schema:
   "body": string,
   "category": string,
   "tags": string[],
-  "twitterThread": string[]
+  "twitterThread": string[],
+  "standaloneTweet": string
 }
 """
 
@@ -109,6 +123,7 @@ def generate_article(story: dict) -> dict | None:
         "publishedAt": datetime.now(timezone.utc).isoformat(),
         "imageUrl": None,
         "twitterThread": result.get("twitterThread", []),
+        "standaloneTweet": result.get("standaloneTweet", ""),
     }
 
     return article

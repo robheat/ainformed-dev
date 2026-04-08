@@ -10,6 +10,7 @@ export interface Article {
   publishedAt: string; // ISO 8601
   imageUrl?: string;
   twitterThread?: string[];
+  standaloneTweet?: string;
 }
 
 export type Category =

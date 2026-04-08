@@ -175,11 +175,14 @@ def main():
     ids = post_thread(thread_tweets)
     print(f"\nThread posted: {len(ids)} tweets")
 
-    # Post a standalone tweet for each remaining article (just headline + link)
+    # Post a standalone tweet for each remaining article
     for art in articles[1:5]:  # top 5 articles max
-        tweet = f"📰 {art['title']}\n\nhttps://ainformed.dev/articles/{art['slug']}"
+        tweet = art.get("standaloneTweet", "").strip()
+        # Fallback if no standalone tweet was generated
+        if not tweet:
+            tweet = f"📰 {art['title']}\n\nhttps://ainformed.dev/articles/{art['slug']}"
         if len(tweet) > 280:
-            tweet = f"📰 {art['title'][:200]}…\n\nhttps://ainformed.dev/articles/{art['slug']}"
+            tweet = tweet[:277] + "…"
 
         print(f"\nPosting: {art['title'][:60]}...")
         if DRY_RUN:

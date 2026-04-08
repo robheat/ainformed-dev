@@ -1,6 +1,7 @@
 """
 venice_client.py — Thin wrapper around the Venice AI API (OpenAI-compatible).
 """
+import base64
 import os
 import json
 import http.client
@@ -73,3 +74,52 @@ def json_chat(
         lines = content.splitlines()
         content = "\n".join(lines[1:-1] if lines[-1] == "```" else lines[1:])
     return json.loads(content)
+
+
+def generate_image(
+    prompt: str,
+    model: str = "grok-imagine-image",
+    width: int = 1024,
+    height: int = 1024,
+    fmt: str = "webp",
+) -> bytes:
+    """
+    Call Venice AI image generation and return raw image bytes.
+    Raises RuntimeError on non-200 responses.
+    """
+    payload = json.dumps(
+        {
+            "model": model,
+            "prompt": prompt,
+            "width": width,
+            "height": height,
+            "format": fmt,
+            "safe_mode": False,
+            "return_binary": False,
+        }
+    ).encode("utf-8")
+
+    conn = http.client.HTTPSConnection(VENICE_HOST)
+    conn.request(
+        "POST",
+        f"{VENICE_BASE_PATH}/images/generations",
+        body=payload,
+        headers={
+            "Authorization": f"Bearer {VENICE_API_KEY}",
+            "Content-Type": "application/json",
+            "Accept": "application/json",
+        },
+    )
+    resp = conn.getresponse()
+    body = resp.read()
+    conn.close()
+
+    if resp.status != 200:
+        raise RuntimeError(
+            f"Venice AI image API error {resp.status}: {body.decode('utf-8', errors='replace')[:400]}"
+        )
+
+    data = json.loads(body.decode("utf-8"))
+    # Venice returns {"data": [{"b64_json": "..."}]}
+    b64 = data["data"][0]["b64_json"]
+    return base64.b64decode(b64)

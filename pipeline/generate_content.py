@@ -10,12 +10,14 @@ import sys
 from datetime import datetime, timezone
 from pathlib import Path
 
-from venice_client import json_chat
+from venice_client import chat, json_chat, generate_image
 
 CACHE_DIR = Path(__file__).parent / "cache"
 INPUT_FILE = CACHE_DIR / "curated_stories.json"
 CONTENT_DIR = Path(__file__).parent.parent / "content" / "articles"
 CONTENT_DIR.mkdir(parents=True, exist_ok=True)
+IMAGES_DIR = Path(__file__).parent.parent / "public" / "images" / "articles"
+IMAGES_DIR.mkdir(parents=True, exist_ok=True)
 
 CATEGORIES = ["models", "research", "tools", "policy", "industry", "open-source", "general"]
 
@@ -126,7 +128,50 @@ def generate_article(story: dict) -> dict | None:
         "standaloneTweet": result.get("standaloneTweet", ""),
     }
 
+    # Generate article image
+    image_url = generate_article_image(article)
+    if image_url:
+        article["imageUrl"] = image_url
+
     return article
+
+
+IMAGE_PROMPT_SYSTEM = """\
+You are a visual prompt engineer. Given an article title and summary about AI/tech news,
+write a concise DALL-E / Stable Diffusion style image prompt (max 200 chars) for a
+compelling hero image. The image should be abstract, futuristic, and tech-themed.
+Do NOT include any text or letters in the image. No people's faces. No logos.
+Respond with ONLY the image prompt text, nothing else."""
+
+
+def generate_article_image(article: dict) -> str | None:
+    """Generate a hero image for the article using Venice AI image generation."""
+    try:
+        # Use LLM to craft a good image prompt from the article
+        image_prompt = chat(
+            [
+                {"role": "system", "content": IMAGE_PROMPT_SYSTEM},
+                {"role": "user", "content": f"Title: {article['title']}\nSummary: {article['summary']}"},
+            ],
+            temperature=0.7,
+            max_tokens=100,
+        )
+        image_prompt = image_prompt.strip().strip('"')
+        print(f"  [IMG] Prompt: {image_prompt[:80]}...")
+
+        # Generate image via Venice AI
+        image_bytes = generate_image(image_prompt, width=1200, height=630, fmt="webp")
+
+        # Save to public/images/articles/
+        image_filename = f"{article['slug']}.webp"
+        image_path = IMAGES_DIR / image_filename
+        image_path.write_bytes(image_bytes)
+        print(f"  [IMG] Saved: {image_filename} ({len(image_bytes)//1024}KB)")
+
+        return f"/images/articles/{image_filename}"
+    except Exception as exc:
+        print(f"  [IMG ERROR] {exc}")
+        return None
 
 
 def generate_all():

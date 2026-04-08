@@ -19,9 +19,11 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 CONTENT_DIR = Path(__file__).parent.parent / "content" / "articles"
+IMAGES_DIR = Path(__file__).parent.parent / "public" / "images" / "articles"
 
-# Twitter API v2 endpoints
+# Twitter API endpoints
 TWEET_URL = "https://api.twitter.com/2/tweets"
+MEDIA_UPLOAD_URL = "https://upload.twitter.com/1.1/media/upload.json"
 
 # Env vars
 API_KEY = os.environ.get("TWITTER_API_KEY", "")
@@ -71,13 +73,75 @@ def _oauth_header(method: str, url: str, extra_params: dict | None = None) -> st
     return f"OAuth {header_parts}"
 
 
-def post_tweet(text: str, reply_to: str | None = None) -> str | None:
+def upload_media(image_path: str) -> str | None:
+    """
+    Upload an image to Twitter via the v1.1 media/upload endpoint.
+    Returns media_id_string on success, None on failure.
+    """
+    import base64 as b64mod
+
+    file_path = Path(image_path)
+    if not file_path.exists():
+        print(f"  [MEDIA] Image not found: {image_path}")
+        return None
+
+    image_data = file_path.read_bytes()
+    b64_data = b64mod.b64encode(image_data).decode("ascii")
+
+    # media/upload uses form-encoded body, not JSON
+    form_params = {
+        "media_data": b64_data,
+        "media_category": "tweet_image",
+    }
+    form_body = urllib.parse.urlencode(form_params).encode("utf-8")
+
+    # OAuth for media upload needs the form params included in signature
+    auth_header = _oauth_header("POST", MEDIA_UPLOAD_URL, extra_params=form_params)
+
+    req = urllib.request.Request(
+        MEDIA_UPLOAD_URL,
+        data=form_body,
+        headers={
+            "Authorization": auth_header,
+            "Content-Type": "application/x-www-form-urlencoded",
+        },
+        method="POST",
+    )
+
+    try:
+        with urllib.request.urlopen(req) as resp:
+            data = json.loads(resp.read().decode())
+            media_id = data.get("media_id_string")
+            print(f"  [MEDIA] Uploaded: {media_id}")
+            return media_id
+    except urllib.error.HTTPError as e:
+        error_body = e.read().decode()
+        print(f"  [MEDIA ERROR] Twitter API {e.code}: {error_body[:300]}")
+        return None
+
+
+def get_article_image_path(article: dict) -> str | None:
+    """Return the local image path for an article, or None."""
+    image_url = article.get("imageUrl")
+    if not image_url:
+        return None
+    # imageUrl is like /images/articles/slug.webp
+    filename = image_url.split("/")[-1]
+    path = IMAGES_DIR / filename
+    if path.exists():
+        return str(path)
+    return None
+
+
+def post_tweet(text: str, reply_to: str | None = None, media_id: str | None = None) -> str | None:
     """
     Post a single tweet. Returns tweet ID on success, None on failure.
     """
     payload: dict = {"text": text}
     if reply_to:
         payload["reply"] = {"in_reply_to_tweet_id": reply_to}
+    if media_id:
+        payload["media"] = {"media_ids": [media_id]}
 
     body = json.dumps(payload).encode("utf-8")
     auth_header = _oauth_header("POST", TWEET_URL)
@@ -103,7 +167,7 @@ def post_tweet(text: str, reply_to: str | None = None) -> str | None:
         return None
 
 
-def post_thread(tweets: list[str]) -> list[str]:
+def post_thread(tweets: list[str], first_media_id: str | None = None) -> list[str]:
     """Post a thread (list of tweet texts). Returns list of tweet IDs."""
     if not tweets:
         return []
@@ -117,7 +181,9 @@ def post_thread(tweets: list[str]) -> list[str]:
             ids.append(f"dry-run-{i}")
             continue
 
-        tweet_id = post_tweet(text, reply_to=prev_id)
+        # Attach image only to the first tweet of the thread
+        media = first_media_id if i == 0 else None
+        tweet_id = post_tweet(text, reply_to=prev_id, media_id=media)
         if tweet_id:
             ids.append(tweet_id)
             prev_id = tweet_id
@@ -168,11 +234,18 @@ def main():
             f"Read more → https://ainformed.dev/articles/{top['slug']}",
         ]
 
+    # Upload image for top article thread
+    top_media_id = None
+    top_image_path = get_article_image_path(top)
+    if top_image_path and not DRY_RUN:
+        print(f"\nUploading image for thread: {top_image_path}")
+        top_media_id = upload_media(top_image_path)
+
     print(f"\nPosting thread for: {top['title'][:70]}")
     if DRY_RUN:
         print("[DRY RUN MODE]")
 
-    ids = post_thread(thread_tweets)
+    ids = post_thread(thread_tweets, first_media_id=top_media_id)
     print(f"\nThread posted: {len(ids)} tweets")
 
     # Post a standalone tweet for each remaining article
@@ -184,11 +257,17 @@ def main():
         if len(tweet) > 280:
             tweet = tweet[:277] + "…"
 
+        # Upload image for this article
+        art_media_id = None
+        art_image_path = get_article_image_path(art)
+        if art_image_path and not DRY_RUN:
+            art_media_id = upload_media(art_image_path)
+
         print(f"\nPosting: {art['title'][:60]}...")
         if DRY_RUN:
             print("  [DRY RUN] Would post tweet")
         else:
-            tweet_id = post_tweet(tweet)
+            tweet_id = post_tweet(tweet, media_id=art_media_id)
             if tweet_id:
                 print(f"  → Posted: {tweet_id}")
             time.sleep(3)

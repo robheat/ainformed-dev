@@ -1,0 +1,27 @@
+{
+  "slug": "2026-04-08-phase-associative-memory",
+  "title": "Phase-Associative Memory",
+  "summary": "Phase-Associative Memory (PAM) is a new sequence model using complex-valued representations. It achieves 30.0 validation perplexity on WikiText-103, close to a matched transformer's 27.1.",
+  "body": "Researchers have introduced Phase-Associative Memory (PAM), a recurrent sequence model that utilizes complex-valued representations. In PAM, associations are accumulated in a matrix state via outer products, and retrieval is operated through the conjugate inner product. This approach has been tested on WikiText-103, where it reached a validation perplexity of 30.0 with approximately 100M parameters.\n\nThe significance of PAM lies in its ability to perform competitively with transformer models, despite the additional arithmetic overhead from complex computation. Notably, PAM's performance is within 10% of a matched transformer trained under identical conditions, which achieved a validation perplexity of 27.1. This suggests that PAM could offer a viable alternative for sequence modeling tasks, particularly where complex-valued representations are beneficial.\n\nAs PAM is a new development in the field of sequence modeling, its future applications and potential improvements are yet to be fully explored. Further research could focus on optimizing PAM's performance, exploring its suitability for various tasks, and understanding the implications of using complex-valued representations in sequence modeling.",
+  "sourceUrl": "https://arxiv.org/abs/2604.05030",
+  "sourceName": "ArXiv cs.CL",
+  "category": "research",
+  "tags": [
+    "sequence-modeling",
+    "complex-hilbert-space",
+    "transformer-models",
+    "recurrent-neural-networks",
+    "natural-language-processing"
+  ],
+  "publishedAt": "2026-04-08T21:26:44.530076+00:00",
+  "imageUrl": null,
+  "twitterThread": [
+    "Introducing Phase-Associative Memory (PAM) 🚀, a new sequence model that uses complex-valued representations to achieve competitive results with transformer models!",
+    "Here's why this matters: PAM reaches a validation perplexity of 30.0 on WikiText-103, within 10% of a matched transformer's 27.1, despite 4x arithmetic overhead from complex computation.",
+    "The wild part: PAM's performance is achieved with approximately 100M parameters, making it a promising alternative for sequence modeling tasks where complex-valued representations are beneficial.",
+    "Let that sink in: PAM's use of complex-valued representations could offer new insights and capabilities for natural language processing and other sequence modeling tasks.",
+    "This changes everything for sequence modeling: PAM's competitive performance with transformer models could lead to new developments and innovations in the field.",
+    "Full breakdown → https://ainformed.dev"
+  ],
+  "standaloneTweet": "Phase-Associative Memory (PAM) achieves 30.0 validation perplexity on WikiText-103, rivaling transformer models despite 4x arithmetic overhead! Read more: https://ainformed.dev/articles/phase-associative-memory"
+}

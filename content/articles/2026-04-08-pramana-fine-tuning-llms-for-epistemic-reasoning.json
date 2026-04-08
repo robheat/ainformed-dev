@@ -1,0 +1,27 @@
+{
+  "slug": "2026-04-08-pramana-fine-tuning-llms-for-epistemic-reasoning",
+  "title": "Pramana: Fine-Tuning LLMs for Epistemic Reasoning",
+  "summary": "Pramana is a novel approach to teach large language models epistemological metacognition. It aims to improve systematic reasoning and reduce hallucinations in AI-generated text.",
+  "body": "Researchers have found that large language models struggle with systematic reasoning, often producing confident but unfounded claims. A recent study by Apple researchers showed that adding irrelevant context to mathematical problems degraded LLM performance by 65%. This highlights the epistemic gap in AI, where claims are not grounded in traceable evidence. \n\nThe introduction of Pramana, a fine-tuning approach for LLMs, aims to address this issue. By teaching LLMs explicit epistemological metacognition, Pramana enables them to better justify their claims and reduce hallucinations. This approach has significant implications for AI reliability in domains requiring justification, such as scientific research and decision-making. \n\nThe development of Pramana is a promising step towards more reliable and trustworthy AI systems. As the field of AI continues to evolve, it will be important to monitor the impact of Pramana and other similar approaches on the development of more advanced and transparent AI models. The potential applications of Pramana are vast, and its success could pave the way for more significant advancements in AI research and development.",
+  "sourceUrl": "https://arxiv.org/abs/2604.04937",
+  "sourceName": "ArXiv cs.AI",
+  "category": "research",
+  "tags": [
+    "llms",
+    "epistemology",
+    "ai-reliability",
+    "fine-tuning",
+    "metacognition"
+  ],
+  "publishedAt": "2026-04-08T21:25:51.845046+00:00",
+  "imageUrl": null,
+  "twitterThread": [
+    "🚨 AI alert! 🚨 Large language models are struggling with systematic reasoning, producing confident but unfounded claims. But what if we could teach them to think more critically? 💡",
+    "Here's why this matters: a recent study showed that adding irrelevant context to math problems degraded LLM performance by 65%! 📉 The epistemic gap in AI is real, and it's limiting reliability in critical domains.",
+    "The wild part: Pramana, a novel fine-tuning approach, is tackling this issue head-on. By teaching LLMs epistemological metacognition, we can enable them to justify their claims and reduce hallucinations. 📊",
+    "Let that sink in: Pramana could be the key to unlocking more reliable and trustworthy AI systems. The implications are vast, from scientific research to decision-making. 🚀",
+    "This changes everything for AI research and development. With Pramana, we're one step closer to creating AI models that can think critically and transparently. The future of AI just got a whole lot brighter! 🌟",
+    "Full breakdown → https://ainformed.dev"
+  ],
+  "standaloneTweet": "AI breakthrough! Pramana, a novel fine-tuning approach, teaches large language models to think critically and justify their claims. This could be the key to unlocking more reliable and trustworthy AI systems. https://ainformed.dev/articles/pramana-fine-tuning-llms-for-epistemic-reasoning"
+}

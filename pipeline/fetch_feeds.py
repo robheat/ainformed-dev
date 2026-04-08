@@ -20,17 +20,12 @@ OUTPUT_FILE = CACHE_DIR / "raw_stories.json"
 RSS_FEEDS = [
     {
         "name": "Hacker News AI",
-        "url": "https://hnrss.org/newest?q=AI+LLM+machine+learning&count=30",
+        "url": "https://hnrss.org/newest?q=AI+OR+LLM+OR+GPT+OR+machine+learning&count=30",
         "category_hint": "general",
     },
     {
         "name": "ArXiv cs.AI",
         "url": "https://rss.arxiv.org/rss/cs.AI",
-        "category_hint": "research",
-    },
-    {
-        "name": "ArXiv cs.LG",
-        "url": "https://rss.arxiv.org/rss/cs.LG",
         "category_hint": "research",
     },
     {
@@ -49,19 +44,29 @@ RSS_FEEDS = [
         "category_hint": "industry",
     },
     {
-        "name": "MIT Technology Review AI",
-        "url": "https://www.technologyreview.com/feed/",
-        "category_hint": "research",
-    },
-    {
         "name": "The Verge AI",
         "url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
         "category_hint": "industry",
     },
     {
-        "name": "Wired AI",
-        "url": "https://www.wired.com/feed/tag/ai/latest/rss",
-        "category_hint": "general",
+        "name": "Ars Technica AI",
+        "url": "https://feeds.arstechnica.com/arstechnica/technology-lab",
+        "category_hint": "industry",
+    },
+    {
+        "name": "Google AI Blog",
+        "url": "https://blog.google/technology/ai/rss/",
+        "category_hint": "models",
+    },
+    {
+        "name": "OpenAI Blog",
+        "url": "https://openai.com/blog/rss.xml",
+        "category_hint": "models",
+    },
+    {
+        "name": "Hugging Face Blog",
+        "url": "https://huggingface.co/blog/feed.xml",
+        "category_hint": "open-source",
     },
 ]
 
@@ -93,6 +98,24 @@ def _ns(tag: str, namespace: str = "") -> str:
     return f"{{{namespace}}}{tag}" if namespace else tag
 
 
+def _find_first(el: ET.Element, *paths: str) -> ET.Element | None:
+    """Find the first matching child element, avoiding deprecated truth-value tests."""
+    for p in paths:
+        found = el.find(p)
+        if found is not None:
+            return found
+    return None
+
+
+def _find_all_first(el: ET.Element, *paths: str) -> list[ET.Element]:
+    """Find all children matching the first path that returns results."""
+    for p in paths:
+        found = el.findall(p)
+        if len(found) > 0:
+            return found
+    return []
+
+
 def parse_rss(raw: bytes, source_name: str, category_hint: str) -> list[dict]:
     stories = []
     try:
@@ -101,26 +124,39 @@ def parse_rss(raw: bytes, source_name: str, category_hint: str) -> list[dict]:
         print(f"  [WARN] XML parse error for {source_name}: {e}")
         return stories
 
-    # Handle both RSS 2.0 and Atom
+    # Handle RSS 2.0, Atom, and RDF feeds
     ns_atom = "http://www.w3.org/2005/Atom"
-    items = root.findall(".//item") or root.findall(f".//{_ns('entry', ns_atom)}")
+    ns_rdf = "http://purl.org/rss/1.0/"
+
+    items = _find_all_first(
+        root,
+        ".//item",
+        f".//{_ns('entry', ns_atom)}",
+        f".//{_ns('item', ns_rdf)}",
+    )
+
+    if not items:
+        print(f"  [WARN] No items found in feed for {source_name}")
 
     for item in items[:MAX_STORIES_PER_FEED]:
-        title_el = item.find("title") or item.find(_ns("title", ns_atom))
-        link_el = (
-            item.find("link")
-            or item.find(_ns("link", ns_atom))
+        title_el = _find_first(item, "title", _ns("title", ns_atom), _ns("title", ns_rdf))
+        link_el = _find_first(item, "link", _ns("link", ns_atom), _ns("link", ns_rdf))
+        desc_el = _find_first(
+            item,
+            "description",
+            "summary",
+            _ns("summary", ns_atom),
+            _ns("content", ns_atom),
+            _ns("description", ns_rdf),
         )
-        desc_el = (
-            item.find("description")
-            or item.find("summary")
-            or item.find(_ns("summary", ns_atom))
-            or item.find(_ns("content", ns_atom))
-        )
-        pub_el = (
-            item.find("pubDate")
-            or item.find("published")
-            or item.find(_ns("published", ns_atom))
+        pub_el = _find_first(
+            item,
+            "pubDate",
+            "published",
+            _ns("published", ns_atom),
+            _ns("updated", ns_atom),
+            "dc:date",
+            "{http://purl.org/dc/elements/1.1/}date",
         )
 
         title = _strip_html(title_el.text if title_el is not None else "")

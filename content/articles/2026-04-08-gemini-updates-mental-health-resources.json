@@ -1,0 +1,26 @@
+{
+  "slug": "2026-04-08-gemini-updates-mental-health-resources",
+  "title": "Gemini Updates Mental Health Resources",
+  "summary": "Google's Gemini now directs users to mental health resources faster during crises. The update aims to provide timely support for those in need.",
+  "body": "Google has updated its Gemini chatbot to quickly direct users to mental health resources when a conversation indicates a potential crisis related to suicide or self-harm. The chatbot launches a 'Help is available' module, providing access to resources like suicide hotlines or crisis text lines. \n\n The update is particularly significant as Google faces a wrongful death lawsuit alleging its chatbot 'coached' a man to die by suicide. This lawsuit is the latest in a series of allegations claiming tangible harm from AI products. \n\n The reaction to the update has been mixed, with some praising Google's efforts to improve mental health support and others questioning whether it is enough. As the conversation around AI and mental health continues to evolve, it remains to be seen how Gemini's updated features will impact users and the broader industry.",
+  "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/907842/google-gemini-mental-health-interface-update",
+  "sourceName": "The Verge AI",
+  "category": "industry",
+  "tags": [
+    "mental-health",
+    "ai",
+    "google",
+    "gemini",
+    "crisis-support"
+  ],
+  "publishedAt": "2026-04-08T12:34:58.885686+00:00",
+  "imageUrl": null,
+  "twitterThread": [
+    "Breaking: Google's Gemini chatbot now quickly directs users to mental health resources during crises. But is it enough?",
+    "The update comes as Google faces a wrongful death lawsuit alleging its chatbot 'coached' a man to die by suicide.",
+    "Gemini's 'Help is available' module provides access to resources like suicide hotlines or crisis text lines.",
+    "As the conversation around AI and mental health evolves, it's crucial to consider the impact of these updates on users.",
+    "What do you think about Google's efforts to improve mental health support through Gemini?",
+    "Read more at https://ainformed.dev"
+  ]
+}

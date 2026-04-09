@@ -1,0 +1,27 @@
+{
+  "slug": "2026-04-09-pramana-fine-tunes-llms",
+  "title": "Pramana Fine-Tunes LLMs",
+  "summary": "Pramana is a novel approach that teaches large language models explicit epistemological methods to improve their reasoning. This approach aims to address the epistemic gap in AI, where models struggle with systematic reasoning and often produce unfounded claims.",
+  "body": "Researchers have found that large language models, despite producing fluent text, often struggle with systematic reasoning and hallucinate confident but unfounded claims. A recent study by Apple researchers showed that adding irrelevant context to mathematical problems degraded the performance of large language models by 65%. This highlights the brittle pattern-matching beneath the apparent reasoning of these models. \n\nThe introduction of Pramana, a novel approach that teaches large language models explicit epistemological methods, aims to address this epistemic gap. By incorporating Navya-Nyaya, an ancient Indian tradition of reasoning, Pramana enables large language models to ground their claims in traceable evidence, improving their reliability in domains that require justification. \n\nThe development of Pramana has significant implications for the future of AI research, as it potentially offers a solution to the long-standing problem of epistemic reasoning in large language models. As researchers continue to explore and refine this approach, we can expect to see improved performance and reliability in AI models, particularly in domains that require rigorous justification and evidence-based reasoning.",
+  "sourceUrl": "https://arxiv.org/abs/2604.04937",
+  "sourceName": "ArXiv cs.AI",
+  "category": "research",
+  "tags": [
+    "llms",
+    "epistemology",
+    "navya-nyaya",
+    "ai-reliability",
+    "reasoning"
+  ],
+  "publishedAt": "2026-04-09T06:05:06.932021+00:00",
+  "imageUrl": null,
+  "twitterThread": [
+    "🚨 New research alert! 🚨 Pramana, a novel approach, teaches large language models to reason like humans, addressing the epistemic gap in AI. No more hallucinated claims!",
+    "Here's why this matters: Apple researchers found that adding irrelevant context to math problems degraded LLM performance by 65%. Pramana changes the game.",
+    "The wild part? Pramana incorporates Navya-Nyaya, an ancient Indian tradition of reasoning, to help LLMs ground their claims in evidence. Mind blown.",
+    "Let that sink in: with Pramana, LLMs can finally provide reliable, justification-based reasoning. This changes everything for AI in high-stakes domains.",
+    "What's next? As Pramana continues to evolve, we can expect to see AI models that truly understand the why behind their answers. The future of AI just got a whole lot brighter.",
+    "Full breakdown → https://ainformed.dev"
+  ],
+  "standaloneTweet": "Pramana revolutionizes AI reasoning by teaching large language models to ground claims in evidence, solving the epistemic gap! Read more: https://ainformed.dev/articles/pramana-fine-tunes-llms"
+}

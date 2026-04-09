@@ -1,0 +1,27 @@
+{
+  "slug": "2026-04-09-waymo-rule-for-ai-code",
+  "title": "Waymo Rule for AI Code",
+  "summary": "The Waymo Rule proposes guidelines for AI-generated code. It aims to ensure accountability and transparency in AI development.",
+  "body": "The Waymo Rule is a proposed set of guidelines for AI-generated code, inspired by the Waymo vs. Uber lawsuit. This rule suggests that developers should be transparent about the use of AI-generated code in their projects. \n\n The implications of the Waymo Rule are significant, as it could change the way companies approach AI development. By being open about the use of AI-generated code, developers can ensure accountability and build trust with their users. This rule also raises questions about the ownership and authorship of AI-generated code. \n\n As the use of AI-generated code becomes more prevalent, the Waymo Rule could become a standard for the industry. It will be interesting to see how companies respond to this proposal and whether it will lead to a shift in the way AI is developed and used.",
+  "sourceUrl": "https://rng.md/posts/the-waymo-rule-for-ai-generated-code/",
+  "sourceName": "Hacker News AI",
+  "category": "general",
+  "tags": [
+    "ai",
+    "code",
+    "transparency",
+    "accountability",
+    "waymo"
+  ],
+  "publishedAt": "2026-04-09T06:06:11.649019+00:00",
+  "imageUrl": null,
+  "twitterThread": [
+    "🚨 The Waymo Rule is coming! 🚨 This proposed guideline could change the game for AI-generated code. Transparency and accountability are key. ",
+    "Here's why this matters: AI-generated code is becoming increasingly common. But who's responsible when something goes wrong? ",
+    "The wild part: the Waymo Rule could lead to a shift in how companies approach AI development. Will they be open about using AI-generated code? ",
+    "Let that sink in: the Waymo Rule could be the start of a new era in AI transparency. What does this mean for the future of AI? ",
+    "This changes everything for AI developers. The Waymo Rule is a wake-up call to prioritize transparency and accountability. ",
+    "Full breakdown → https://ainformed.dev"
+  ],
+  "standaloneTweet": "The Waymo Rule proposes transparency and accountability for AI-generated code. What does this mean for the future of AI? https://ainformed.dev/articles/waymo-rule-for-ai-code"
+}

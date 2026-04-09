@@ -160,10 +160,15 @@ def generate_article_image(article: dict) -> str | None:
         print(f"  [IMG] Prompt: {image_prompt[:80]}...")
 
         # Generate image via Venice AI
-        image_bytes = generate_image(image_prompt, width=1200, height=630, fmt="webp")
+        image_bytes = generate_image(image_prompt)
 
-        # Save to public/images/articles/
-        image_filename = f"{article['slug']}.webp"
+        # Save to public/images/articles/ — detect format from magic bytes
+        ext = "png"
+        if image_bytes[:4] == b"RIFF":
+            ext = "webp"
+        elif image_bytes[:3] == b"\xff\xd8\xff":
+            ext = "jpg"
+        image_filename = f"{article['slug']}.{ext}"
         image_path = IMAGES_DIR / image_filename
         image_path.write_bytes(image_bytes)
         print(f"  [IMG] Saved: {image_filename} ({len(image_bytes)//1024}KB)")

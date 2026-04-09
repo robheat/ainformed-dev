@@ -79,9 +79,6 @@ def json_chat(
 def generate_image(
     prompt: str,
     model: str = "grok-imagine-image",
-    width: int = 1024,
-    height: int = 1024,
-    fmt: str = "webp",
 ) -> bytes:
     """
     Call Venice AI image generation and return raw image bytes.
@@ -91,11 +88,6 @@ def generate_image(
         {
             "model": model,
             "prompt": prompt,
-            "width": width,
-            "height": height,
-            "format": fmt,
-            "safe_mode": False,
-            "return_binary": False,
         }
     ).encode("utf-8")
 

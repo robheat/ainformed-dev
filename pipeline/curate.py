@@ -13,8 +13,25 @@ from venice_client import json_chat
 CACHE_DIR = Path(__file__).parent / "cache"
 INPUT_FILE = CACHE_DIR / "raw_stories.json"
 OUTPUT_FILE = CACHE_DIR / "curated_stories.json"
+ARTICLES_DIR = Path(__file__).parent.parent / "content" / "articles"
 
 TARGET_STORIES = int(__import__("os").environ.get("TARGET_STORIES", "8"))
+
+
+def _load_recent_titles() -> list[str]:
+    """Load titles of recently published articles to avoid topic repetition."""
+    titles: list[str] = []
+    if not ARTICLES_DIR.exists():
+        return titles
+    for f in sorted(ARTICLES_DIR.iterdir(), reverse=True):
+        if f.suffix == ".json":
+            try:
+                titles.append(json.loads(f.read_text()).get("title", ""))
+            except Exception:
+                pass
+        if len(titles) >= 50:  # last 50 articles is enough context
+            break
+    return titles
 
 SCORE_SYSTEM_PROMPT = """\
 You are a senior AI journalist and editor for AInformed.dev, a daily AI news digest.
@@ -27,6 +44,9 @@ Scoring criteria (each 0-10):
 - readability: Is the title clear and informative? (0 = clickbait/vague, 10 = precise and informative)
 
 Exclude: duplicates, non-AI stories, pure opinion pieces, press releases with no substance.
+Strongly penalize stories that cover the same topic as recently published articles (listed below).
+Favor DIVERSE topics — spread coverage across different areas of AI (models, tools, policy, industry, research, applications).
+"""
 
 Respond ONLY with a valid JSON array. Each element must have:
   "index": <int, same as input index>,
@@ -45,17 +65,22 @@ Respond ONLY with a valid JSON array of index integers to KEEP (remove duplicate
 """
 
 
-def score_batch(stories: list[dict]) -> list[dict]:
+def score_batch(stories: list[dict], recent_titles: list[str]) -> list[dict]:
     """Score a batch of up to 40 stories with a single Venice AI call."""
     candidates = [
         {"index": i, "title": s["title"], "description": s["description"], "source": s["source_name"]}
         for i, s in enumerate(stories)
     ]
+    recent_context = ""
+    if recent_titles:
+        recent_context = "\n\nRecently published articles (penalize similar topics):\n" + "\n".join(
+            f"- {t}" for t in recent_titles[:30]
+        )
     messages = [
         {"role": "system", "content": SCORE_SYSTEM_PROMPT},
         {
             "role": "user",
-            "content": f"Score these {len(candidates)} story candidates:\n\n{json.dumps(candidates, ensure_ascii=False)}",
+            "content": f"Score these {len(candidates)} story candidates:\n\n{json.dumps(candidates, ensure_ascii=False)}{recent_context}",
         },
     ]
     scores = json_chat(messages, temperature=0.1, max_tokens=4096)
@@ -92,13 +117,16 @@ def curate() -> list[dict]:
     if not raw:
         return []
 
+    recent_titles = _load_recent_titles()
+    print(f"Recent articles for topic diversity: {len(recent_titles)}")
+
     # Score in batches of 40
     all_scores: list[dict] = []
     batch_size = 40
     for i in range(0, len(raw), batch_size):
         batch = raw[i : i + batch_size]
-        print(f"Scoring batch {i}–{i+len(batch)-1} ...")
-        scored = score_batch(batch)
+        print(f"Scoring batch {i}\u2013{i+len(batch)-1} ...")
+        scored = score_batch(batch, recent_titles)
         # Adjust indices for global list
         for s in scored:
             s["index"] = i + s["index"]

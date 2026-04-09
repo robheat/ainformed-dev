@@ -112,6 +112,17 @@ export default async function ArticlePage({ params }: Props) {
           {article.summary}
         </p>
 
+        {/* Hero image */}
+        {article.imageUrl && (
+          <div className="relative w-full aspect-video rounded-lg overflow-hidden mb-8 bg-neutral-800">
+            <img
+              src={article.imageUrl}
+              alt={article.title}
+              className="w-full h-full object-cover"
+            />
+          </div>
+        )}
+
         {/* Body */}
         <div className="prose prose-invert prose-neutral max-w-none">
           {paragraphs.map((para, i) => (

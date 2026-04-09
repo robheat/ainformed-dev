@@ -90,14 +90,15 @@ def upload_media(image_path: str) -> str | None:
     b64_data = b64mod.b64encode(image_data).decode("ascii")
 
     # media/upload uses form-encoded body, not JSON
+    # OAuth signature must NOT include media_data (too large)
     form_params = {
         "media_data": b64_data,
         "media_category": "tweet_image",
     }
     form_body = urllib.parse.urlencode(form_params).encode("utf-8")
 
-    # OAuth for media upload needs the form params included in signature
-    auth_header = _oauth_header("POST", MEDIA_UPLOAD_URL, extra_params=form_params)
+    # OAuth spec: only include params < 2KB in signature base string
+    auth_header = _oauth_header("POST", MEDIA_UPLOAD_URL)
 
     req = urllib.request.Request(
         MEDIA_UPLOAD_URL,
@@ -216,18 +217,19 @@ def _save_tweeted_slugs(slugs: set[str]) -> None:
 
 
 def get_todays_articles() -> list[dict]:
-    """Load today's article JSONs that haven't been tweeted yet."""
+    """Load today's article JSONs that haven't been tweeted yet, newest first."""
     today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
     tweeted = _load_tweeted_slugs()
     articles = []
     if not CONTENT_DIR.exists():
         return articles
-    for f in sorted(CONTENT_DIR.iterdir()):
+    for f in sorted(CONTENT_DIR.iterdir(), reverse=True):  # newest first
         if f.suffix == ".json" and f.name.startswith(today):
             art = json.loads(f.read_text())
             if art.get("slug") not in tweeted:
                 articles.append(art)
-    return articles
+    # Only tweet the most recent batch (up to 8)
+    return articles[:8]
 
 
 def main():

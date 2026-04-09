@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { Article } from "@/lib/types";
 import { formatDate } from "@/lib/utils";
 
@@ -14,7 +15,21 @@ export default function ArticleCard({ article, featured = false }: Props) {
         featured ? "md:col-span-2" : ""
       }`}
     >
-      <Link href={`/articles/${article.slug}`} className="block p-5 h-full">
+      <Link href={`/articles/${article.slug}`} className="block h-full">
+        {article.imageUrl && (
+          <div className={`relative w-full overflow-hidden bg-neutral-800 ${
+            featured ? "h-48 md:h-56" : "h-40"
+          }`}>
+            <Image
+              src={article.imageUrl}
+              alt={article.title}
+              fill
+              className="object-cover group-hover:scale-105 transition-transform duration-300"
+              sizes={featured ? "(max-width: 768px) 100vw, 66vw" : "(max-width: 768px) 100vw, 33vw"}
+            />
+          </div>
+        )}
+        <div className="p-5">
         <div className="flex items-center gap-2 mb-3">
           <span className="text-xs font-medium uppercase tracking-wider px-2 py-0.5 rounded-full bg-violet-500/20 text-violet-400 border border-violet-500/30">
             {article.category}
@@ -49,6 +64,7 @@ export default function ArticleCard({ article, featured = false }: Props) {
               #{tag}
             </span>
           ))}
+        </div>
         </div>
       </Link>
     </article>

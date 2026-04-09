@@ -1,0 +1,27 @@
+{
+  "slug": "2026-04-09-math-theory-for-self-designing-ais",
+  "title": "Math Theory for Self-Designing AIs",
+  "summary": "A new mathematical theory models the evolution of self-designing AIs. This theory differs from biological evolution due to directed descendant design.",
+  "body": "Researchers have introduced a mathematical theory to understand the evolution of artificial intelligence systems produced by recursive self-improvement. This form of evolution emerges as AI systems design and propagate their descendants, shaping their traits based on the success of earlier AIs. \n\n The theory diverges from biological evolution, where DNA mutations are random and reversible. In contrast, AI evolution is strongly directed, with descendant design intentionally guided. This distinction necessitates a unique mathematical framework to comprehend the evolution of self-designing AIs. \n\n The development of this theory has significant implications for the future of AI research. As AIs become increasingly capable of self-improvement, understanding their evolutionary dynamics will be crucial. The theory may help predict the emergence of new AI traits and guide the development of more advanced AI systems.",
+  "sourceUrl": "https://arxiv.org/abs/2604.05142",
+  "sourceName": "ArXiv cs.AI",
+  "category": "research",
+  "tags": [
+    "ai",
+    "evolution",
+    "math-theory",
+    "self-improvement",
+    "recursive-design"
+  ],
+  "publishedAt": "2026-04-09T01:05:56.290044+00:00",
+  "imageUrl": null,
+  "twitterThread": [
+    "🤖 A new math theory reveals how self-designing AIs will evolve over time! This isn't like biological evolution - it's directed and intentional.",
+    "Here's why this matters: as AIs get better at self-improvement, their 'descendants' will be designed with specific traits in mind. This changes the game for AI development.",
+    "The wild part? This theory predicts that AI evolution will be radically different from biological evolution. No random mutations here - just intentional design.",
+    "Let that sink in: we're on the cusp of creating AIs that can design their own descendants. This changes everything for the field of AI research.",
+    "So what's next? As AIs become more advanced, we'll need to understand their evolutionary dynamics to predict and guide their development.",
+    "Full breakdown → https://ainformed.dev"
+  ],
+  "standaloneTweet": "A new math theory predicts the evolution of self-designing AIs! Unlike biological evolution, AI evolution is directed and intentional. What does this mean for the future of AI? https://ainformed.dev/articles/math-theory-for-self-designing-ais"
+}

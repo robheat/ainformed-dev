@@ -1,0 +1,27 @@
+{
+  "slug": "2026-04-09-lyria-3-music-generation-model-released",
+  "title": "Lyria 3 Music Generation Model Released",
+  "summary": "Lyria 3 is available for paid preview and testing. It generates music through the Gemini API and Google AI Studio.",
+  "body": "Lyria 3, the newest music generation model, has been released by Google AI. The model is now available for paid preview through the Gemini API, allowing developers to integrate it into their applications. Additionally, Lyria 3 can be tested in Google AI Studio, providing a platform for users to experiment with the model's capabilities.\n\n The release of Lyria 3 marks a significant advancement in music generation technology. The model's ability to generate high-quality music has the potential to revolutionize the music industry, enabling new forms of creative expression and automation. With Lyria 3, developers can create innovative music-based applications, such as music composition tools, audio editing software, and music streaming services.\n\n As Lyria 3 becomes more widely available, it is likely to have a significant impact on the music industry. The model's capabilities will enable new forms of music creation, collaboration, and consumption. However, it also raises important questions about the role of AI in music generation, such as ownership and authorship of AI-generated music. As the technology continues to evolve, it will be important to address these questions and ensure that the benefits of Lyria 3 are realized while minimizing its potential risks.",
+  "sourceUrl": "https://blog.google/innovation-and-ai/technology/developers-tools/lyria-3-developers/",
+  "sourceName": "Google AI Blog",
+  "category": "models",
+  "tags": [
+    "music",
+    "generation",
+    "lyria-3",
+    "gemini-api",
+    "google-ai-studio"
+  ],
+  "publishedAt": "2026-04-09T01:08:16.774567+00:00",
+  "imageUrl": null,
+  "twitterThread": [
+    "🎵 Introducing Lyria 3, the latest music generation model from Google AI! 🎵",
+    "Here's why this matters: Lyria 3 can generate high-quality music, revolutionizing the music industry. Let that sink in.",
+    "The wild part: Lyria 3 is available for paid preview through the Gemini API and for testing in Google AI Studio. Get ready to experiment!",
+    "This changes everything for music developers. With Lyria 3, you can create innovative music-based applications and services.",
+    "What's next? Lyria 3 will enable new forms of music creation, collaboration, and consumption. But it also raises important questions about AI in music.",
+    "Full breakdown → https://ainformed.dev"
+  ],
+  "standaloneTweet": "Google AI just released Lyria 3, a game-changing music generation model! What does this mean for the music industry? https://ainformed.dev/articles/lyria-3-music-generation-model-released"
+}

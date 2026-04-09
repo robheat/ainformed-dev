@@ -1,0 +1,27 @@
+{
+  "slug": "2026-04-09-pramana-fine-tuning-llms-for-epistemic-reasoning",
+  "title": "Pramana: Fine-Tuning LLMs for Epistemic Reasoning",
+  "summary": "Pramana is a novel approach to fine-tune large language models for epistemic reasoning. It teaches LLMs to ground claims in traceable evidence, addressing the epistemic gap in AI reliability.",
+  "body": "Researchers have introduced Pramana, a method to fine-tune large language models for epistemic reasoning through Navya-Nyaya. This approach aims to address the limitation of LLMs in producing systematic reasoning and hallucinating confident but unfounded claims. \n\n The epistemic gap in AI reliability is a significant concern, particularly in domains requiring justification. A study by Apple researchers found that adding irrelevant context to mathematical problems degraded LLM performance by 65%, exposing the brittle pattern-matching beneath apparent reasoning. Pramana seeks to bridge this gap by teaching LLMs explicit epistemological methods. \n\n The introduction of Pramana has significant implications for the development of more reliable AI systems. As the field of AI continues to evolve, the need for transparent and justifiable decision-making processes becomes increasingly important. With Pramana, researchers and developers can work towards creating more trustworthy AI models that can provide accurate and evidence-based responses.",
+  "sourceUrl": "https://arxiv.org/abs/2604.04937",
+  "sourceName": "ArXiv cs.AI",
+  "category": "research",
+  "tags": [
+    "llms",
+    "epistemic-reasoning",
+    "navya-nyaya",
+    "ai-reliability",
+    "fine-tuning"
+  ],
+  "publishedAt": "2026-04-09T01:04:28.421244+00:00",
+  "imageUrl": null,
+  "twitterThread": [
+    "🚨 New research alert! 🚨 Pramana is a novel approach to fine-tune LLMs for epistemic reasoning, addressing the epistemic gap in AI reliability.",
+    "Here's why this matters: LLMs often hallucinate confident but unfounded claims, degrading performance by 65% when faced with irrelevant context.",
+    "The wild part: Pramana teaches LLMs explicit epistemological methods, bridging the gap between pattern-matching and systematic reasoning.",
+    "Let that sink in: with Pramana, we can create more trustworthy AI models that provide accurate and evidence-based responses.",
+    "This changes everything for AI development: prioritizing transparency and justifiable decision-making processes is no longer a nicety, but a necessity.",
+    "Full breakdown → https://ainformed.dev"
+  ],
+  "standaloneTweet": "Meet Pramana, a novel approach to fine-tune LLMs for epistemic reasoning! By teaching LLMs to ground claims in evidence, Pramana bridges the epistemic gap in AI reliability. Read more: https://ainformed.dev/articles/pramana-fine-tuning-llms-for-epistemic-reasoning"
+}

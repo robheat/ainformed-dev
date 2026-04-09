@@ -5,6 +5,7 @@ import base64
 import os
 import json
 import http.client
+import re
 import urllib.parse
 from typing import Optional
 
@@ -69,10 +70,17 @@ def json_chat(
     Raises ValueError if the response is not valid JSON.
     """
     content = chat(messages, model=model, temperature=temperature, max_tokens=max_tokens)
+    # Strip <think>…</think> reasoning blocks (Qwen3 models)
+    content = re.sub(r"<think>.*?</think>", "", content, flags=re.DOTALL).strip()
     # Strip markdown code fences if present
-    if content.startswith("```"):
-        lines = content.splitlines()
-        content = "\n".join(lines[1:-1] if lines[-1] == "```" else lines[1:])
+    fence = re.search(r"```(?:json)?\s*\n(.*?)```", content, re.DOTALL)
+    if fence:
+        content = fence.group(1).strip()
+    # Last resort: extract first JSON array or object
+    if content and content[0] not in ("[", "{"):
+        m = re.search(r"(\[.*\]|\{.*\})", content, re.DOTALL)
+        if m:
+            content = m.group(1)
     return json.loads(content)
 
 

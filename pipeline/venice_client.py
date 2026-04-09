@@ -12,7 +12,7 @@ VENICE_API_KEY = os.environ["VENICE_AI_API_KEY"]
 VENICE_HOST = "api.venice.ai"
 VENICE_BASE_PATH = "/api/v1"
 # Default model — override via VENICE_MODEL env var
-DEFAULT_MODEL = os.environ.get("VENICE_MODEL", "llama-3.3-70b")
+DEFAULT_MODEL = os.environ.get("VENICE_MODEL", "qwen3-5-35b-a3b")
 
 
 def chat(

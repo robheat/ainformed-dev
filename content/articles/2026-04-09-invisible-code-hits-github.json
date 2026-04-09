@@ -2,7 +2,7 @@
   "slug": "2026-04-09-invisible-code-hits-github",
   "title": "Invisible Code Hits GitHub",
   "summary": "A supply-chain attack using invisible Unicode code has affected GitHub and other repositories. The attack exploits code that is invisible to the human eye.",
-  "body": "A recent supply-chain attack has hit GitHub and other repositories, using invisible Unicode code to exploit vulnerabilities. The code, which is invisible to the human eye, was previously largely abandoned but has now been utilized by attackers. \n\n The implications of this attack are significant, as it highlights the potential for malicious code to be hidden in plain sight. The use of invisible Unicode code allows attackers to conceal their malicious intentions, making it difficult for developers to detect and prevent such attacks. \n\n As the industry responds to this new threat, it is likely that new security measures will be implemented to prevent similar attacks in the future. This may include improved code scanning and detection tools, as well as increased awareness and education for developers on the potential risks of invisible code.",
+  "body": "A recent supply-chain attack has hit GitHub and other repositories, utilizing invisible Unicode code to exploit vulnerabilities. This type of code is invisible to the human eye, making it difficult to detect. \n\n The attack has significant implications for the security of open-source software, as it can be used to inject malicious code into repositories without being noticed. The use of invisible Unicode code is a relatively new tactic, and it has caught the attention of attackers. \n\n The incident has raised concerns about the security of online repositories and the need for more robust detection methods. As the attack is still being investigated, it is unclear what the full extent of the damage is, but it is likely to have a significant impact on the industry. Reactions from developers and repository owners are pending, and it is expected that new measures will be taken to prevent similar attacks in the future.",
   "sourceUrl": "https://arstechnica.com/security/2026/03/supply-chain-attack-using-invisible-code-hits-github-and-other-repositories/",
   "sourceName": "Ars Technica AI",
   "category": "industry",
@@ -13,15 +13,15 @@
     "supply-chain",
     "attack"
   ],
-  "publishedAt": "2026-04-09T00:07:15.593111+00:00",
+  "publishedAt": "2026-04-09T02:11:06.087010+00:00",
   "imageUrl": null,
   "twitterThread": [
-    "🚨 Breaking: Invisible code hits GitHub and other repositories! 🚨",
-    "Here's why this matters: attackers are using Unicode code that's invisible to the human eye to exploit vulnerabilities.",
-    "The wild part: this code was previously abandoned, but now it's being used to launch supply-chain attacks.",
-    "Let that sink in: malicious code can be hidden in plain sight, making it tough for devs to detect.",
-    "This changes everything for the industry: new security measures are needed to prevent similar attacks.",
+    "🚨 Breaking: Invisible code hits GitHub! 🚨 Attackers are using Unicode that's invisible to the human eye to exploit vulnerabilities.",
+    "Here's why this matters: The attack can inject malicious code into repositories without being noticed. Let that sink in.",
+    "The wild part: This type of attack is relatively new, and it's caught the attention of attackers. GitHub and other repositories are affected.",
+    "This changes everything for open-source software security. We need more robust detection methods to prevent similar attacks.",
+    "The future of online repositories is at risk. What's next? Will we see a new wave of attacks using invisible code?",
     "Full breakdown → https://ainformed.dev"
   ],
-  "standaloneTweet": "Invisible code hits GitHub! Attackers are using Unicode code that's invisible to the human eye to exploit vulnerabilities. What's next for the industry? https://ainformed.dev/articles/invisible-code-hits-github"
+  "standaloneTweet": "Invisible code hits GitHub! Attackers use Unicode that's invisible to the human eye to exploit vulnerabilities. This changes everything for open-source software security. https://ainformed.dev/articles/invisible-code-hits-github"
 }

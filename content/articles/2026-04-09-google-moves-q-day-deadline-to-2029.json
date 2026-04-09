@@ -1,27 +1,27 @@
 {
   "slug": "2026-04-09-google-moves-q-day-deadline-to-2029",
   "title": "Google Moves Q Day Deadline to 2029",
-  "summary": "Google has bumped up its Q Day deadline to 2029, warning the industry to move off RSA and EC quickly. This deadline is sooner than previously thought, prompting urgent action.",
-  "body": "Google has announced that it is moving its Q Day deadline to 2029, a significant shift from previous estimates. This change has major implications for the entire industry, as companies must now accelerate their efforts to move away from RSA and EC encryption methods. \n\n The reason behind this sudden change is the rapid advancement of quantum computing capabilities, which pose a significant threat to current encryption standards. As quantum computers become more powerful, they will be able to break through existing encryption methods, compromising sensitive data and communications. \n\n The industry is expected to react quickly to Google's warning, with companies scrambling to develop and implement new, quantum-resistant encryption methods. This will be a challenging task, requiring significant investment and innovation. As the deadline draws near, the industry will be watching closely to see how companies respond to this urgent call to action.",
+  "summary": "Google has bumped up its Q Day deadline to 2029, warning the industry to move off RSA and EC quickly. This deadline is far sooner than previously thought.",
+  "body": "Google has announced that it is moving its Q Day deadline to 2029, a significant shift from previous estimates. This change in timeline is a warning to the entire industry to accelerate its transition away from RSA and EC encryption methods. \n\n The move is driven by the rapid advancements in quantum computing, which threaten to render current encryption standards obsolete. Google's updated deadline underscores the urgency for companies to adopt quantum-resistant encryption methods to protect their data and systems. \n\n As the industry reacts to Google's new deadline, experts predict a surge in investment and research into post-quantum cryptography. The race is on to develop and implement secure encryption solutions before the anticipated arrival of quantum computers capable of breaking current encryption standards. Companies that fail to adapt risk exposing their data to potential quantum attacks, making Google's Q Day deadline a critical milestone for the industry's cybersecurity landscape.",
   "sourceUrl": "https://arstechnica.com/security/2026/03/google-bumps-up-q-day-estimate-to-2029-far-sooner-than-previously-thought/",
   "sourceName": "Ars Technica AI",
   "category": "industry",
   "tags": [
-    "google",
-    "q-day",
+    "quantum",
+    "security",
     "encryption",
-    "quantum-computing",
-    "security"
+    "google",
+    "deadline"
   ],
-  "publishedAt": "2026-04-09T00:07:02.580532+00:00",
+  "publishedAt": "2026-04-09T02:10:16.094046+00:00",
   "imageUrl": null,
   "twitterThread": [
-    "🚨 Google just moved its Q Day deadline to 2029! 🚨 This means the entire industry must move off RSA and EC ASAP. The clock is ticking... ",
-    "Here's why this matters: quantum computers will soon be able to break current encryption methods, putting sensitive data at risk. Companies must act fast to develop new, quantum-resistant methods.",
-    "The wild part? This deadline is years sooner than previously thought. Companies will have to scramble to keep up, investing heavily in new encryption tech.",
-    "Let that sink in: the entire industry has just a few years to completely overhaul its encryption methods. This changes everything for data security and privacy.",
-    "This changes everything for the future of data security. Companies that adapt quickly will thrive, while those that don't will be left behind. The quantum computing era is coming, fast.",
+    "🚨 Google just moved its Q Day deadline to 2029! 🚨",
+    "Here's why this matters: RSA and EC encryption won't be secure against quantum computers. Google's warning the entire industry to move off these standards ASAP.",
+    "The wild part: this deadline is years sooner than expected. Companies need to accelerate their transition to quantum-resistant encryption methods, or risk being left behind.",
+    "Let that sink in: by 2029, your data could be vulnerable to quantum attacks if you're still using RSA or EC. Google's Q Day deadline is a wake-up call for the industry.",
+    "This changes everything for cybersecurity. Get ready for a surge in investment and research into post-quantum cryptography.",
     "Full breakdown → https://ainformed.dev"
   ],
-  "standaloneTweet": "Google's Q Day deadline is now 2029, prompting a frantic rush to develop quantum-resistant encryption methods. What does this mean for data security? https://ainformed.dev/articles/google-moves-q-day-deadline-to-2029"
+  "standaloneTweet": "Google's Q Day deadline just got a lot closer - 2029 is the new target. Companies must ditch RSA and EC encryption ASAP or risk quantum attacks. What's your plan? https://ainformed.dev/articles/Google-Moves-Q-Day-Deadline-to-2029"
 }

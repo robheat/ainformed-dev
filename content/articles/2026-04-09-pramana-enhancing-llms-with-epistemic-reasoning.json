@@ -1,0 +1,27 @@
+{
+  "slug": "2026-04-09-pramana-enhancing-llms-with-epistemic-reasoning",
+  "title": "Pramana: Enhancing LLMs with Epistemic Reasoning",
+  "summary": "Pramana is a novel approach to fine-tune large language models for epistemic reasoning. It aims to address the epistemic gap in LLMs, enabling them to ground claims in traceable evidence.",
+  "body": "Researchers have introduced Pramana, a method to teach large language models (LLMs) explicit epistemological metacognition, allowing them to reason more systematically. This development is crucial as current LLMs often produce fluent text but struggle with systematic reasoning, leading to hallucinated claims. \n\n The epistemic gap in LLMs refers to their inability to justify their claims with traceable evidence, limiting their reliability in domains requiring justification. For instance, when Apple researchers added irrelevant context to mathematical problems, LLM performance degraded by 65%, exposing the brittle pattern-matching beneath their apparent reasoning. \n\n The introduction of Pramana is a significant step forward in addressing this limitation. By fine-tuning LLMs with epistemic reasoning capabilities, Pramana has the potential to enhance the reliability and trustworthiness of AI systems in various domains. As the field continues to evolve, it will be interesting to see how Pramana and similar approaches impact the development of more robust and transparent AI models.",
+  "sourceUrl": "https://arxiv.org/abs/2604.04937",
+  "sourceName": "ArXiv cs.AI",
+  "category": "research",
+  "tags": [
+    "llms",
+    "epistemic-reasoning",
+    "pramana",
+    "ai-reliability",
+    "nlp"
+  ],
+  "publishedAt": "2026-04-09T07:04:43.789357+00:00",
+  "imageUrl": null,
+  "twitterThread": [
+    "🚨 LLMs are great at generating text, but they often hallucinate claims without evidence! 🤯",
+    "Here's why this matters: when Apple researchers added irrelevant context to math problems, LLM performance dropped by 65%!",
+    "The wild part: this exposes the brittle pattern-matching beneath their apparent reasoning. Let that sink in.",
+    "This changes everything for domains requiring justification, like law, medicine, and finance. Pramana is a novel approach to teach LLMs epistemic reasoning.",
+    "The future of AI is not just about generating text, but about generating trustworthy text. Pramana is a significant step towards that goal.",
+    "Full breakdown → https://ainformed.dev"
+  ],
+  "standaloneTweet": "LLMs can hallucinate claims without evidence, but Pramana is changing the game by teaching them epistemic reasoning! This breakthrough has massive implications for AI reliability. https://ainformed.dev/articles/pramana-enhancing-llms-with-epistemic-reasoning"
+}

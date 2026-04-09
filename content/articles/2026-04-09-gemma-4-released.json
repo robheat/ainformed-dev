@@ -1,0 +1,25 @@
+{
+  "slug": "2026-04-09-gemma-4-released",
+  "title": "Gemma 4 Released",
+  "summary": "Gemma 4 is a new multimodal intelligence model. It runs on devices, enabling local AI processing.",
+  "body": "Gemma 4 has been announced, representing a significant step forward in on-device AI capabilities. This model is designed to handle multiple forms of data, such as text, images, and more, directly on user devices.\n\nThe implications of Gemma 4 are substantial, as it allows for more private and efficient AI processing. By not relying on cloud services, users can enjoy faster response times and increased security. This development also opens up new possibilities for applications where internet connectivity is limited or unreliable.\n\nAs Gemma 4 begins to be integrated into various projects and applications, we can expect to see a wide range of innovative uses. From enhancing mobile apps with AI features to enabling more sophisticated smart home devices, the potential applications are vast. The community's reaction and the future developments around Gemma 4 will be closely watched, as it paves the way for a new generation of on-device AI solutions.",
+  "sourceUrl": "https://huggingface.co/blog/gemma4",
+  "sourceName": "Hugging Face Blog",
+  "category": "open-source",
+  "tags": [
+    "multimodal",
+    "on-device",
+    "ai-model"
+  ],
+  "publishedAt": "2026-04-09T07:05:00.443157+00:00",
+  "imageUrl": null,
+  "twitterThread": [
+    "🚀 Gemma 4 is here! This game-changing multimodal model brings AI directly to your device 📱",
+    "Here's why this matters: faster processing, enhanced privacy, and no need for constant internet connectivity. The future of AI is local.",
+    "The wild part? Gemma 4 can handle text, images, and more, all on your device. Imagine the possibilities for mobile apps and smart devices.",
+    "Let that sink in: with Gemma 4, you can enjoy AI-powered features without sacrificing privacy or waiting for cloud responses. This changes everything for developers and users alike.",
+    "This changes everything for the AI landscape. On-device processing is the future, and Gemma 4 is leading the charge. What innovations will you create with this technology?",
+    "Full breakdown → https://ainformed.dev"
+  ],
+  "standaloneTweet": "Gemma 4 revolutionizes AI with on-device multimodal processing! Enjoy faster, more private AI experiences. Read more: https://ainformed.dev/articles/gemma4-released"
+}

@@ -1,0 +1,25 @@
+{
+  "slug": "2026-04-09-holotron-12b-released",
+  "title": "Holotron-12B Released",
+  "summary": "Holotron-12B is a new high throughput computer use agent. It is designed for efficient computing.",
+  "body": "Holotron-12B is a recently announced high throughput computer use agent. The details of its capabilities and applications are not specified, but it is expected to contribute to the field of computing. \n\n The release of Holotron-12B may have significant implications for various industries and research fields that rely on high-performance computing. Its potential impact on areas such as data processing, scientific simulations, and artificial intelligence is noteworthy. \n\n As the specifics of Holotron-12B's features and performance become available, the community can expect to see a more detailed analysis of its potential applications and limitations. The reaction from the industry and the future outlook for this technology will be closely watched.",
+  "sourceUrl": "https://huggingface.co/blog/Hcompany/holotron-12b",
+  "sourceName": "Hugging Face Blog",
+  "category": "open-source",
+  "tags": [
+    "computing",
+    "high-throughput",
+    "agent"
+  ],
+  "publishedAt": "2026-04-09T07:05:30.036642+00:00",
+  "imageUrl": null,
+  "twitterThread": [
+    "🚀 Holotron-12B is here! 🚀",
+    "Here's why this matters: high throughput computing can accelerate discoveries in fields like medicine and climate science.",
+    "The wild part: Holotron-12B's potential to process vast amounts of data quickly could change the game for AI and data-intensive research.",
+    "Let that sink in: faster computing means faster progress in critical areas.",
+    "This changes everything for researchers and industries relying on computing power.",
+    "Full breakdown → https://ainformed.dev"
+  ],
+  "standaloneTweet": "Holotron-12B brings high throughput computing to the table, promising to accelerate progress in medicine, climate science, and more! https://ainformed.dev/articles/holotron-12b-released"
+}

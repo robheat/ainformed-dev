@@ -182,9 +182,26 @@ def generate_all():
     curated: list[dict] = json.loads(INPUT_FILE.read_text())
     print(f"Generating articles for {len(curated)} stories...")
 
+    # Build set of source URLs that already have articles
+    existing_urls: set[str] = set()
+    for f in CONTENT_DIR.iterdir():
+        if f.suffix == ".json":
+            try:
+                existing_urls.add(json.loads(f.read_text()).get("sourceUrl", ""))
+            except Exception:
+                pass
+
     written = 0
+    skipped = 0
     for i, story in enumerate(curated):
         print(f"\n[{i+1}/{len(curated)}] {story['title'][:80]}")
+
+        # Skip if we already have an article for this source URL
+        if story["url"] in existing_urls:
+            print("  → Skipped (article already exists for this URL)")
+            skipped += 1
+            continue
+
         article = generate_article(story)
         if article is None:
             print("  → Skipped (generation failed)")
@@ -193,9 +210,10 @@ def generate_all():
         out_path = CONTENT_DIR / f"{article['slug']}.json"
         out_path.write_text(json.dumps(article, indent=2, ensure_ascii=False))
         print(f"  → Saved: {out_path.name}")
+        existing_urls.add(story["url"])
         written += 1
 
-    print(f"\nDone. Generated {written}/{len(curated)} articles.")
+    print(f"\nDone. Generated {written}/{len(curated)} articles ({skipped} skipped as duplicates).")
     return written
 
 

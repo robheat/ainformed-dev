@@ -45,7 +45,7 @@ jobs:
         run: |
           git config user.name "AInformed Bot"
           git config user.email "bot@ainformed.dev"
-          git add content/articles/ public/images/articles/
+          git add content/articles/ content/.tweeted.json public/images/articles/
           # Only commit if there are changes
           git diff --cached --quiet || git commit -m "📰 Daily digest: $(date -u +%Y-%m-%d)"
           git push

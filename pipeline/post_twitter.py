@@ -20,6 +20,7 @@ from pathlib import Path
 
 CONTENT_DIR = Path(__file__).parent.parent / "content" / "articles"
 IMAGES_DIR = Path(__file__).parent.parent / "public" / "images" / "articles"
+TWEETED_FILE = Path(__file__).parent.parent / "content" / ".tweeted.json"
 
 # Twitter API endpoints
 TWEET_URL = "https://api.twitter.com/2/tweets"
@@ -199,15 +200,33 @@ def post_thread(tweets: list[str], first_media_id: str | None = None) -> list[st
     return ids
 
 
+def _load_tweeted_slugs() -> set[str]:
+    """Load the set of article slugs we've already tweeted."""
+    if TWEETED_FILE.exists():
+        try:
+            return set(json.loads(TWEETED_FILE.read_text()))
+        except Exception:
+            pass
+    return set()
+
+
+def _save_tweeted_slugs(slugs: set[str]) -> None:
+    """Persist tweeted slugs to disk (committed to repo)."""
+    TWEETED_FILE.write_text(json.dumps(sorted(slugs), indent=2))
+
+
 def get_todays_articles() -> list[dict]:
-    """Load today's article JSONs."""
+    """Load today's article JSONs that haven't been tweeted yet."""
     today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+    tweeted = _load_tweeted_slugs()
     articles = []
     if not CONTENT_DIR.exists():
         return articles
     for f in sorted(CONTENT_DIR.iterdir()):
         if f.suffix == ".json" and f.name.startswith(today):
-            articles.append(json.loads(f.read_text()))
+            art = json.loads(f.read_text())
+            if art.get("slug") not in tweeted:
+                articles.append(art)
     return articles
 
 
@@ -218,10 +237,11 @@ def main():
 
     articles = get_todays_articles()
     if not articles:
-        print("No articles for today. Nothing to tweet.")
+        print("No new articles to tweet today.")
         return
 
-    print(f"Found {len(articles)} articles for today.")
+    tweeted_slugs = _load_tweeted_slugs()
+    print(f"Found {len(articles)} new articles to tweet (already tweeted: {len(tweeted_slugs)}).")
 
     # Post thread for top article (first one, which is usually highest scored)
     top = articles[0]
@@ -247,6 +267,8 @@ def main():
 
     ids = post_thread(thread_tweets, first_media_id=top_media_id)
     print(f"\nThread posted: {len(ids)} tweets")
+    if ids and not DRY_RUN:
+        tweeted_slugs.add(top["slug"])
 
     # Post a standalone tweet for each remaining article
     for art in articles[1:5]:  # top 5 articles max
@@ -270,7 +292,13 @@ def main():
             tweet_id = post_tweet(tweet, media_id=art_media_id)
             if tweet_id:
                 print(f"  → Posted: {tweet_id}")
+                tweeted_slugs.add(art["slug"])
             time.sleep(3)
+
+    # Persist which articles we've tweeted
+    if not DRY_RUN:
+        _save_tweeted_slugs(tweeted_slugs)
+        print(f"\nSaved {len(tweeted_slugs)} tweeted slugs.")
 
 
 if __name__ == "__main__":

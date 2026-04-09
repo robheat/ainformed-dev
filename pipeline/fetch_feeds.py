@@ -186,9 +186,31 @@ def parse_rss(raw: bytes, source_name: str, category_hint: str) -> list[dict]:
     return stories
 
 
+def _load_processed_urls() -> set[str]:
+    """Load URLs of stories we've already published, so we never re-process them."""
+    articles_dir = Path(__file__).parent.parent / "content" / "articles"
+    urls: set[str] = set()
+    if not articles_dir.exists():
+        return urls
+    for f in articles_dir.iterdir():
+        if f.suffix == ".json":
+            try:
+                data = json.loads(f.read_text())
+                src = data.get("sourceUrl", "")
+                if src:
+                    urls.add(src)
+            except Exception:
+                pass
+    return urls
+
+
 def fetch_all() -> list[dict]:
     all_stories: list[dict] = []
     seen_urls: set[str] = set()
+
+    # Load URLs we've already turned into articles — skip them entirely
+    processed = _load_processed_urls()
+    print(f"Already processed: {len(processed)} article URLs")
 
     for feed in RSS_FEEDS:
         print(f"Fetching: {feed['name']} ...")
@@ -197,12 +219,12 @@ def fetch_all() -> list[dict]:
             continue
 
         stories = parse_rss(raw, feed["name"], feed["category_hint"])
-        new = [s for s in stories if s["url"] not in seen_urls]
+        new = [s for s in stories if s["url"] not in seen_urls and s["url"] not in processed]
         seen_urls.update(s["url"] for s in new)
         all_stories.extend(new)
-        print(f"  → {len(new)} new stories")
+        print(f"  → {len(new)} new stories (skipped {len(stories) - len(new)} already processed)")
 
-    print(f"\nTotal raw stories: {len(all_stories)}")
+    print(f"\nTotal new raw stories: {len(all_stories)}")
     return all_stories
 
 

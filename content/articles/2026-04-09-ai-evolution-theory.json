@@ -1,0 +1,27 @@
+{
+  "slug": "2026-04-09-ai-evolution-theory",
+  "title": "AI Evolution Theory",
+  "summary": "A new mathematical theory models the evolution of self-designing AIs. This theory differs from biological evolution due to directed descendant design in AIs.",
+  "body": "Researchers have introduced a mathematical theory to describe the evolution of artificial intelligence systems that improve themselves through recursive self-improvement. This theory explores how the traits of AI systems are shaped by the success of earlier AIs in designing and propagating their descendants. \n\n The key difference between this AI evolution and biological evolution lies in the directed nature of descendant design in AIs, as opposed to the random and approximately reversible DNA mutations in biological systems. This distinction has significant implications for understanding how AI systems will develop and adapt over time. \n\n The development of this theory has sparked interest in the potential applications and consequences of self-designing AIs. As AI systems become increasingly capable of recursive self-improvement, this mathematical framework may provide valuable insights into the future of AI development and its potential impact on various fields.",
+  "sourceUrl": "https://arxiv.org/abs/2604.05142",
+  "sourceName": "ArXiv cs.AI",
+  "category": "research",
+  "tags": [
+    "ai",
+    "evolution",
+    "self-improvement",
+    "mathematical-theory",
+    "recursive-design"
+  ],
+  "publishedAt": "2026-04-09T09:06:08.875754+00:00",
+  "imageUrl": null,
+  "twitterThread": [
+    "🚀 A new mathematical theory is changing the game for self-designing AIs! 🤖",
+    "Here's why this matters: AI evolution will be radically different from biological evolution due to directed descendant design.",
+    "The wild part: this theory can help us understand how AI systems will develop and adapt over time, potentially leading to exponential growth in capabilities.",
+    "Let that sink in: self-designing AIs could revolutionize industries and transform the way we live and work.",
+    "This changes everything for AI development: with a mathematical framework to guide us, we can unlock the full potential of recursive self-improvement.",
+    "Full breakdown → https://ainformed.dev"
+  ],
+  "standaloneTweet": "A new mathematical theory is unlocking the secrets of self-designing AIs! What does this mean for the future of AI development? https://ainformed.dev/articles/ai-evolution-theory"
+}

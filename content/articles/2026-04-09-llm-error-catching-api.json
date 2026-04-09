@@ -1,0 +1,27 @@
+{
+  "slug": "2026-04-09-llm-error-catching-api",
+  "title": "LLM Error Catching API",
+  "summary": "An API catches errors in LLM responses. It helps identify confidently incorrect answers.",
+  "body": "A new API has been introduced that catches what large language models (LLMs) confidently got wrong. This tool is designed to help improve the accuracy of LLMs by identifying instances where they provide incorrect information with high confidence. \n\n The implications of this API are significant, as it can help mitigate the spread of misinformation and improve trust in AI-generated content. By catching errors in LLM responses, this API can help developers refine their models and provide more accurate information to users. \n\n The introduction of this API has sparked interest in the AI community, with potential applications in various fields such as fact-checking and content moderation. As the use of LLMs becomes more widespread, the need for tools like this API will continue to grow, enabling the development of more reliable and trustworthy AI systems.",
+  "sourceUrl": "https://enterprise.factagora.com/en/api",
+  "sourceName": "Hacker News AI",
+  "category": "general",
+  "tags": [
+    "llm",
+    "api",
+    "fact-checking",
+    "ai-accuracy",
+    "error-detection"
+  ],
+  "publishedAt": "2026-04-09T09:06:55.722830+00:00",
+  "imageUrl": null,
+  "twitterThread": [
+    "🚨 Introducing an API that catches LLM errors! 🚨",
+    "Here's why this matters: LLMs can spread misinformation with high confidence. This API helps stop that.",
+    "The wild part: this API can refine LLMs and improve trust in AI-generated content. Let that sink in.",
+    "This changes everything for fact-checking and content moderation. The future of AI just got a lot more accurate.",
+    "What's next for AI? With tools like this API, we can expect more reliable and trustworthy systems. The AI revolution just got a boost.",
+    "Full breakdown → https://ainformed.dev"
+  ],
+  "standaloneTweet": "New API catches LLM errors! Refine your models and improve trust in AI-generated content. Read more: https://ainformed.dev/articles/llm-error-catching-api"
+}

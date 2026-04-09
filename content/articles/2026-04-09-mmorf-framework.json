@@ -1,0 +1,27 @@
+{
+  "slug": "2026-04-09-mmorf-framework",
+  "title": "MMORF Framework",
+  "summary": "MMORF is a framework for designing multi-objective retrosynthesis planning systems. It leverages language model-based multi-agent systems to balance quality, safety, and cost objectives.",
+  "body": "Researchers have introduced MMORF, a framework for constructing multi-agent systems (MAS) for multi-objective retrosynthesis planning. This task requires balancing competing objectives such as quality, safety, and cost. MMORF features modular agentic components that can be combined and configured into different systems, enabling flexible and dynamic planning.\n\nThe significance of MMORF lies in its ability to incorporate multiple objectives into retrosynthesis planning. By leveraging interactions between specialized agents, MMORF can effectively balance competing priorities, leading to more efficient and effective planning. This approach has the potential to revolutionize the field of chemistry, enabling the discovery of new compounds and materials.\n\nThe introduction of MMORF is expected to spark further research in the field of multi-objective retrosynthesis planning. As the framework is explored and refined, it may lead to breakthroughs in fields such as pharmaceuticals, materials science, and energy. The flexibility and modularity of MMORF make it an exciting development, with potential applications in a wide range of areas.",
+  "sourceUrl": "https://arxiv.org/abs/2604.05075",
+  "sourceName": "ArXiv cs.AI",
+  "category": "research",
+  "tags": [
+    "chemistry",
+    "multi-agent",
+    "retrosynthesis",
+    "planning",
+    "framework"
+  ],
+  "publishedAt": "2026-04-09T09:07:31.775801+00:00",
+  "imageUrl": null,
+  "twitterThread": [
+    "🚀 Introducing MMORF, a game-changing framework for multi-objective retrosynthesis planning! 🌟",
+    "Here's why this matters: MMORF leverages language model-based multi-agent systems to balance quality, safety, and cost objectives. The result? More efficient and effective planning!",
+    "The wild part: MMORF features modular agentic components that can be combined and configured into different systems. This means flexible and dynamic planning, tailored to specific needs.",
+    "Let that sink in: MMORF has the potential to revolutionize the field of chemistry, enabling the discovery of new compounds and materials. The implications are vast!",
+    "This changes everything for pharmaceuticals, materials science, and energy. MMORF is the future of multi-objective retrosynthesis planning.",
+    "Full breakdown → https://ainformed.dev"
+  ],
+  "standaloneTweet": "MMORF is set to revolutionize chemistry with its flexible, modular approach to multi-objective retrosynthesis planning! What does this mean for the future of pharmaceuticals and materials science? https://ainformed.dev/articles/mmorf-framework"
+}

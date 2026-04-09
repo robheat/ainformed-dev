@@ -1,0 +1,26 @@
+{
+  "slug": "2026-04-09-nvidia-gpus-vulnerable-to-rowhammer-attacks",
+  "title": "Nvidia GPUs Vulnerable to Rowhammer Attacks",
+  "summary": "New Rowhammer attacks, including GDDRHammer, GeForge, and GPUBreach, can hijack CPUs through Nvidia GPU memory. This vulnerability gives attackers complete control of affected machines.",
+  "body": "Researchers have discovered new Rowhammer attacks that target Nvidia GPUs, allowing hackers to gain complete control of machines. The attacks, named GDDRHammer, GeForge, and GPUBreach, exploit vulnerabilities in GPU memory to hijack the CPU. \n\n These attacks are particularly concerning because they can be used to bypass traditional security measures, giving attackers unrestricted access to sensitive data and system resources. The fact that these vulnerabilities exist in widely used Nvidia GPUs makes them a significant threat to the industry. \n\n The discovery of these attacks has significant implications for the future of GPU security. As the use of GPUs continues to grow in various industries, the need for robust security measures to protect against such attacks becomes increasingly important. The reaction from Nvidia and the broader industry will be closely watched, and it remains to be seen how quickly and effectively these vulnerabilities can be patched.",
+  "sourceUrl": "https://arstechnica.com/security/2026/04/new-rowhammer-attacks-give-complete-control-of-machines-running-nvidia-gpus/",
+  "sourceName": "Ars Technica AI",
+  "category": "industry",
+  "tags": [
+    "rowhammer",
+    "nvidia",
+    "gpu-security",
+    "vulnerabilities"
+  ],
+  "publishedAt": "2026-04-09T00:06:27.043530+00:00",
+  "imageUrl": null,
+  "twitterThread": [
+    "🚨 Breaking: New Rowhammer attacks can give hackers complete control of machines running Nvidia GPUs! 🚨",
+    "Here's why this matters: GDDRHammer, GeForge, and GPUBreach can bypass traditional security measures, putting sensitive data at risk. Nvidia GPUs are used everywhere, from gaming to AI research.",
+    "The wild part: these attacks exploit vulnerabilities in GPU memory to hijack the CPU. This is a whole new level of threat. Let that sink in.",
+    "This changes everything for data centers and cloud services relying on Nvidia GPUs. The potential for widespread compromise is very real.",
+    "So, what's next? The industry needs to act fast to patch these vulnerabilities and prevent large-scale attacks. This is a wake-up call for GPU security.",
+    "Full breakdown → https://ainformed.dev"
+  ],
+  "standaloneTweet": "Nvidia GPUs vulnerable to new Rowhammer attacks! GDDRHammer, GeForge, and GPUBreach can give hackers complete control. What does this mean for the future of GPU security? https://ainformed.dev/articles/nvidia-gpus-vulnerable-to-rowhammer-attacks"
+}

@@ -1,0 +1,26 @@
+{
+  "slug": "2026-04-09-quantum-computers-threaten-encryption",
+  "title": "Quantum Computers Threaten Encryption",
+  "summary": "Quantum computers can break vital encryption with fewer resources than thought. This increases the threat to elliptic curve cryptosystems.",
+  "body": "Researchers have made new advances in quantum computing, which heighten the threat to elliptic curve cryptosystems. This means that quantum computers can potentially break encryption with vastly fewer resources than previously thought. \n\n The implications of this are significant, as elliptic curve cryptosystems are widely used to secure online transactions and communication. The fact that quantum computers can break this encryption with fewer resources increases the urgency for organizations to develop and implement quantum-resistant cryptography. \n\n As the threat of quantum computers breaking encryption becomes more real, experts are warning of an impending 'Q Day' when quantum computers will be able to break current encryption methods. This has significant implications for the security of online transactions and communication, and organizations must take steps to prepare for this eventuality.",
+  "sourceUrl": "https://arstechnica.com/security/2026/03/new-quantum-computing-advances-heighten-threat-to-elliptic-curve-cryptosystems/",
+  "sourceName": "Ars Technica AI",
+  "category": "industry",
+  "tags": [
+    "quantum",
+    "encryption",
+    "security",
+    "cryptography"
+  ],
+  "publishedAt": "2026-04-09T00:06:45.890069+00:00",
+  "imageUrl": null,
+  "twitterThread": [
+    "🚨 Quantum computers can break encryption with fewer resources than thought! 🚨",
+    "Here's why this matters: elliptic curve cryptosystems are used to secure online transactions and communication. The threat is real.",
+    "The wild part: 'Q Day' is coming, and it won't be as expensive as thought. Organizations must prepare for quantum-resistant cryptography.",
+    "Let that sink in: quantum computers can break current encryption methods. This changes everything for online security.",
+    "This is a wake-up call for the industry. We need to develop and implement quantum-resistant cryptography ASAP.",
+    "Full breakdown → https://ainformed.dev"
+  ],
+  "standaloneTweet": "Quantum computers can break encryption with vastly fewer resources than thought! This changes everything for online security. https://ainformed.dev/articles/quantum-computers-threaten-encryption"
+}

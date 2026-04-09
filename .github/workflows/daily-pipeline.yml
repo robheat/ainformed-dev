@@ -45,7 +45,8 @@ jobs:
         run: |
           git config user.name "AInformed Bot"
           git config user.email "bot@ainformed.dev"
-          git add content/articles/ content/.tweeted.json public/images/articles/
+          git add content/articles/ public/images/articles/
+          git add content/.tweeted.json 2>/dev/null || true
           # Only commit if there are changes
           git diff --cached --quiet || git commit -m "📰 Daily digest: $(date -u +%Y-%m-%d)"
           git push
@@ -59,3 +60,10 @@ jobs:
           TWITTER_ACCESS_TOKEN: ${{ secrets.TWITTER_ACCESS_TOKEN }}
           TWITTER_ACCESS_SECRET: ${{ secrets.TWITTER_ACCESS_SECRET }}
         run: python post_twitter.py
+
+      - name: Commit tweeted tracking file
+        if: always()
+        run: |
+          git add content/.tweeted.json 2>/dev/null || true
+          git diff --cached --quiet || git commit -m "🐦 Update tweeted tracking"
+          git push

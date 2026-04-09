@@ -1,0 +1,27 @@
+{
+  "slug": "2026-04-09-rethinking-generalization-in-reasoning-sft",
+  "title": "Rethinking Generalization in Reasoning SFT",
+  "summary": "Researchers challenge the notion that supervised finetuning memorizes while reinforcement learning generalizes. They find that cross-domain generalization is conditional, influenced by optimization, data, and model capability. This challenges prevailing narratives in LLM post-training.",
+  "body": "A recent study published on arXiv revisits the claim that supervised finetuning (SFT) in large language models (LLMs) primarily memorizes patterns, whereas reinforcement learning (RL) facilitates generalization. The researchers focused on reasoning SFT with long chain-of-thought (CoT) supervision, aiming to understand the conditions under which SFT can achieve cross-domain generalization.\n\nThe study reveals that cross-domain generalization is not inherently absent in SFT but is instead conditional, depending on the interplay of optimization dynamics, the quality and diversity of training data, and the capability of the base model. Interestingly, some reported failures of SFT to generalize are attributed to under-optimization, where cross-domain performance initially degrades before recovering and improving with extended training, a phenomenon described as a 'dip-and-recovery' pattern.\n\nThe implications of this research are significant, as they suggest that with appropriate optimization strategies, diverse and representative training data, and sufficiently capable base models, SFT can achieve meaningful generalization across domains. This challenges the prevailing narrative and opens new avenues for improving the generalizability of LLMs through SFT, potentially bridging the gap between memorization and true understanding in AI models.",
+  "sourceUrl": "https://arxiv.org/abs/2604.06628",
+  "sourceName": "ArXiv cs.AI",
+  "category": "research",
+  "tags": [
+    "llm",
+    "sft",
+    "generalization",
+    "optimization",
+    "ai-models"
+  ],
+  "publishedAt": "2026-04-09T15:17:29.059546+00:00",
+  "imageUrl": "/images/articles/2026-04-09-rethinking-generalization-in-reasoning-sft.jpg",
+  "twitterThread": [
+    "🚨 New research challenges the status quo on LLM training! 🚨 It's not just about memorization vs generalization. The truth is more nuanced.",
+    "Here's why this matters: under-optimization can lead to false negatives on SFT's ability to generalize. Give it more training, and you might see a 'dip-and-recovery' pattern.",
+    "The wild part? This isn't just about the model or the data; it's about how they interact. Optimization dynamics play a crucial role.",
+    "Let that sink in: with the right approach, SFT can achieve cross-domain generalization. This changes everything for LLMs and their potential applications.",
+    "So, what's next? Revisiting SFT strategies with a focus on optimization, data diversity, and model capability could be the key to unlocking true generalization in AI.",
+    "Full breakdown → https://ainformed.dev"
+  ],
+  "standaloneTweet": "New study reveals SFT in LLMs can achieve cross-domain generalization with the right optimization, data, and model capability, challenging the memorization vs generalization narrative! https://ainformed.dev/articles/rethinking-generalization-in-reasoning-sft"
+}

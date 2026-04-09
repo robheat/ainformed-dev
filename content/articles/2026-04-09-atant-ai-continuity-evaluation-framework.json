@@ -1,0 +1,27 @@
+{
+  "slug": "2026-04-09-atant-ai-continuity-evaluation-framework",
+  "title": "ATANT: AI Continuity Evaluation Framework",
+  "summary": "ATANT is an open evaluation framework for measuring continuity in AI systems. It assesses the ability to persist and update meaningful context across time.",
+  "body": "Researchers have introduced ATANT, a framework for evaluating continuity in AI systems. This framework measures the ability of AI systems to persist, update, disambiguate, and reconstruct meaningful context over time. \n\n The AI industry has developed various memory components, such as RAG pipelines and vector databases, but there is a lack of formal definition and measurement of continuity. ATANT defines continuity as a system property with 7 required properties and introduces a 10-check evaluation process. \n\n The introduction of ATANT is expected to have significant implications for the development of more advanced AI systems. With a formal framework for evaluating continuity, researchers and developers can create more sophisticated AI models that can better understand and interact with their environment. The future outlook for ATANT is promising, with potential applications in various fields, including natural language processing and decision-making systems.",
+  "sourceUrl": "https://arxiv.org/abs/2604.06710",
+  "sourceName": "ArXiv cs.AI",
+  "category": "research",
+  "tags": [
+    "ai",
+    "continuity",
+    "evaluation",
+    "framework",
+    "atant"
+  ],
+  "publishedAt": "2026-04-09T15:18:31.860426+00:00",
+  "imageUrl": "/images/articles/2026-04-09-atant-ai-continuity-evaluation-framework.jpg",
+  "twitterThread": [
+    "🚀 Introducing ATANT: the first open evaluation framework for measuring continuity in AI systems! 🤖",
+    "Here's why this matters: current AI systems struggle to maintain context over time. ATANT changes that with 7 key properties and a 10-check process.",
+    "The wild part: ATANT is an open framework, meaning anyone can use and contribute to it. This could lead to a major breakthrough in AI development.",
+    "Let that sink in: with ATANT, we could see AI systems that can learn, adapt, and interact with their environment in a more human-like way.",
+    "This changes everything for AI researchers and developers. Get ready to take your AI models to the next level with ATANT!",
+    "Full breakdown → https://ainformed.dev"
+  ],
+  "standaloneTweet": "Meet ATANT, the game-changing evaluation framework for AI continuity! Learn how it's revolutionizing AI development: https://ainformed.dev/articles/atant-ai-continuity-evaluation-framework"
+}

@@ -21,19 +21,21 @@ def chat(
     model: Optional[str] = None,
     temperature: float = 0.3,
     max_tokens: int = 1024,
+    disable_thinking: bool = False,
 ) -> str:
     """
     Call Venice AI chat completions and return the assistant reply as a string.
     Raises RuntimeError on non-200 responses.
     """
-    payload = json.dumps(
-        {
-            "model": model or DEFAULT_MODEL,
-            "messages": messages,
-            "temperature": temperature,
-            "max_tokens": max_tokens,
-        }
-    ).encode("utf-8")
+    body_dict: dict = {
+        "model": model or DEFAULT_MODEL,
+        "messages": messages,
+        "temperature": temperature,
+        "max_tokens": max_tokens,
+    }
+    if disable_thinking:
+        body_dict["venice_parameters"] = {"disable_thinking": True}
+    payload = json.dumps(body_dict).encode("utf-8")
 
     conn = http.client.HTTPSConnection(VENICE_HOST)
     conn.request(
@@ -69,8 +71,8 @@ def json_chat(
     Like chat(), but expects a JSON response and parses it.
     Raises ValueError if the response is not valid JSON.
     """
-    content = chat(messages, model=model, temperature=temperature, max_tokens=max_tokens)
-    # Strip <think>…</think> reasoning blocks (Qwen3 models)
+    content = chat(messages, model=model, temperature=temperature, max_tokens=max_tokens, disable_thinking=True)
+    # Strip <think>…</think> reasoning blocks (safety fallback)
     content = re.sub(r"<think>.*?</think>", "", content, flags=re.DOTALL).strip()
     # Strip markdown code fences if present
     fence = re.search(r"```(?:json)?\s*\n(.*?)```", content, re.DOTALL)

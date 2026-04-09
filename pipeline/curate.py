@@ -46,7 +46,6 @@ Scoring criteria (each 0-10):
 Exclude: duplicates, non-AI stories, pure opinion pieces, press releases with no substance.
 Strongly penalize stories that cover the same topic as recently published articles (listed below).
 Favor DIVERSE topics — spread coverage across different areas of AI (models, tools, policy, industry, research, applications).
-"""
 
 Respond ONLY with a valid JSON array. Each element must have:
   "index": <int, same as input index>,

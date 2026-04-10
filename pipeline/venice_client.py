@@ -83,7 +83,10 @@ def json_chat(
         m = re.search(r"(\[.*\]|\{.*\})", content, re.DOTALL)
         if m:
             content = m.group(1)
-    return json.loads(content)
+    # Use raw_decode to ignore trailing text after valid JSON
+    decoder = json.JSONDecoder()
+    result, _ = decoder.raw_decode(content)
+    return result
 
 
 def generate_image(

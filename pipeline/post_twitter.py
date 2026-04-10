@@ -35,6 +35,11 @@ ACCESS_SECRET = os.environ.get("TWITTER_ACCESS_SECRET", "")
 
 DRY_RUN = os.environ.get("TWITTER_DRY_RUN", "false").lower() == "true"
 
+# Seconds between standalone tweets (default 3 minutes)
+TWEET_INTERVAL = int(os.environ.get("TWEET_INTERVAL_SECS", "180"))
+# Seconds between tweets within a thread (default 30s)
+THREAD_INTERVAL = int(os.environ.get("THREAD_INTERVAL_SECS", "30"))
+
 
 def _percent_encode(s: str) -> str:
     return urllib.parse.quote(s, safe="")
@@ -195,9 +200,10 @@ def post_thread(tweets: list[str], first_media_id: str | None = None) -> list[st
             print(f"    → FAILED. Stopping thread.")
             break
 
-        # Rate-limit pause — Twitter v2 has 200 tweets/15min for user context
+        # Space out thread tweets for a natural cadence
         if i < len(tweets) - 1:
-            time.sleep(2)
+            print(f"    Waiting {THREAD_INTERVAL}s before next thread tweet...")
+            time.sleep(THREAD_INTERVAL)
 
     return ids
 
@@ -310,7 +316,8 @@ def main():
             if tweet_id:
                 print(f"  → Posted: {tweet_id}")
                 tweeted_slugs.add(art["slug"])
-            time.sleep(3)
+            print(f"  Waiting {TWEET_INTERVAL}s before next tweet...")
+            time.sleep(TWEET_INTERVAL)
 
     # Persist which articles we've tweeted
     if not DRY_RUN:

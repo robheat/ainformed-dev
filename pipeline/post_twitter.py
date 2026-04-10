@@ -95,24 +95,26 @@ def upload_media(image_path: str) -> str | None:
     image_data = file_path.read_bytes()
     b64_data = b64mod.b64encode(image_data).decode("ascii")
 
-    # media/upload uses form-encoded body, not JSON
-    # OAuth signature must NOT include media_data (too large)
-    # but MUST include media_category in the signature
-    form_params = {
-        "media_data": b64_data,
-        "media_category": "tweet_image",
-    }
-    form_body = urllib.parse.urlencode(form_params).encode("utf-8")
+    # Use multipart/form-data for media upload
+    # OAuth signature must NOT include any body params for multipart uploads
+    boundary = uuid.uuid4().hex
+    body_parts = []
+    # media_data field
+    body_parts.append(f"--{boundary}\r\nContent-Disposition: form-data; name=\"media_data\"\r\n\r\n{b64_data}\r\n")
+    # media_category field
+    body_parts.append(f"--{boundary}\r\nContent-Disposition: form-data; name=\"media_category\"\r\n\r\ntweet_image\r\n")
+    body_parts.append(f"--{boundary}--\r\n")
+    form_body = "".join(body_parts).encode("utf-8")
 
-    # Include media_category in OAuth signature (exclude media_data — too large)
-    auth_header = _oauth_header("POST", MEDIA_UPLOAD_URL, extra_params={"media_category": "tweet_image"})
+    # No extra params in OAuth signature for multipart uploads
+    auth_header = _oauth_header("POST", MEDIA_UPLOAD_URL)
 
     req = urllib.request.Request(
         MEDIA_UPLOAD_URL,
         data=form_body,
         headers={
             "Authorization": auth_header,
-            "Content-Type": "application/x-www-form-urlencoded",
+            "Content-Type": f"multipart/form-data; boundary={boundary}",
         },
         method="POST",
     )

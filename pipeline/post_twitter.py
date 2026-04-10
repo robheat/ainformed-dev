@@ -10,6 +10,7 @@ import hashlib
 import hmac
 import json
 import os
+import re
 import sys
 import time
 import urllib.parse
@@ -255,6 +256,16 @@ def main():
             f"🤖 {top['title']}\n\n{top['summary']}",
             f"Read more → https://ainformed.dev/articles/{top['slug']}",
         ]
+    else:
+        # Fix LLM-generated URLs: replace any ainformed.dev/articles/<wrong-slug>
+        # with the correct slug, and replace bare ainformed.dev links with article URL
+        correct_url = f"https://ainformed.dev/articles/{top['slug']}"
+        fixed = []
+        for t in thread_tweets:
+            t = re.sub(r"https?://ainformed\.dev/articles/[\w-]+", correct_url, t)
+            t = re.sub(r"https?://ainformed\.dev(?!/articles/)(?:\s|$)", correct_url + " ", t).rstrip()
+            fixed.append(t)
+        thread_tweets = fixed
 
     # Upload image for top article thread
     top_media_id = None
@@ -278,6 +289,10 @@ def main():
         # Fallback if no standalone tweet was generated
         if not tweet:
             tweet = f"📰 {art['title']}\n\nhttps://ainformed.dev/articles/{art['slug']}"
+        else:
+            # Fix LLM-generated URL to use the actual slug (includes date prefix)
+            correct_url = f"https://ainformed.dev/articles/{art['slug']}"
+            tweet = re.sub(r"https?://ainformed\.dev/articles/[\w-]+", correct_url, tweet)
         if len(tweet) > 280:
             tweet = tweet[:277] + "…"
 

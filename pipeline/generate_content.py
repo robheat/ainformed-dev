@@ -155,8 +155,10 @@ def generate_article_image(article: dict) -> str | None:
             ],
             temperature=0.7,
             max_tokens=100,
+            disable_thinking=True,
         )
-        image_prompt = image_prompt.strip().strip('"')
+        # Strip any residual thinking blocks and quotes
+        image_prompt = re.sub(r"<think>.*?</think>", "", image_prompt, flags=re.DOTALL).strip().strip('"')
         print(f"  [IMG] Prompt: {image_prompt[:80]}...")
 
         # Generate image via Venice AI

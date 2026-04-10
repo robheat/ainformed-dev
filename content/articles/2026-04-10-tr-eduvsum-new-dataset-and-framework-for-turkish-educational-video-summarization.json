@@ -1,0 +1,28 @@
+{
+  "slug": "2026-04-10-tr-eduvsum-new-dataset-and-framework-for-turkish-educational-video-summarization",
+  "title": "TR-EduVSum: New Dataset and Framework for Turkish Educational Video Summarization",
+  "summary": "Researchers introduce TR-EduVSum, a dataset of 82 Turkish educational videos with 3281 human summaries, and AutoMUP, a consensus-based summarization framework. This work advances automatic summarization for educational content in Turkish.",
+  "body": "Researchers have developed TR-EduVSum, a new dataset focused on Turkish educational videos. The dataset includes 82 videos on \"Data Structures and Algorithms\" along with 3281 independent human summaries. This resource aims to improve automated summarization for educational content in Turkish.\n\nThe study introduces the AutoMUP (Automatic Meaning Unit Pyramid) method, inspired by pyramid-based evaluation approaches. AutoMUP generates gold-standard summaries automatically by analyzing multiple human summaries, ensuring reproducibility. This framework could enhance the accessibility and efficiency of educational materials in Turkish.\n\nThe implications of this research extend beyond language-specific applications. By providing a robust dataset and evaluation framework, the study sets a precedent for other languages and domains. Future work may explore the adaptability of AutoMUP to different educational contexts and languages, potentially revolutionizing how educational content is summarized and distributed.",
+  "sourceUrl": "https://arxiv.org/abs/2604.07553",
+  "sourceName": "ArXiv cs.CL",
+  "category": "research",
+  "tags": [
+    "turkish",
+    "education",
+    "summarization",
+    "dataset",
+    "automup",
+    "research"
+  ],
+  "publishedAt": "2026-04-10T21:01:18.583093+00:00",
+  "imageUrl": "/images/articles/2026-04-10-tr-eduvsum-new-dataset-and-framework-for-turkish-educational-video-summarization.jpg",
+  "twitterThread": [
+    "🚀 A breakthrough in Turkish educational video summarization!\n\nResearchers just dropped TR-EduVSum + AutoMUP. Here's why it's a big deal:\n\n",
+    "1️⃣ 82 Turkish course videos + 3,281 human summaries. That's a LOT of data.\n\n2️⃣ AutoMUP extracts consensus-based summaries. Fully automatic. Fully reproducible.\n\n",
+    "Here's why this matters:\n\n- Makes Turkish educational content more accessible.\n- Sets a new standard for multilingual summarization.\n\n",
+    "The wild part?\n\nThis could be adapted for ANY language. Imagine summarizing lectures in Spanish, French, Mandarin...\n\n",
+    "Hot take: AutoMUP might just change how we process educational content globally. No more language barriers.\n\n",
+    "Full breakdown → https://ainformed.dev"
+  ],
+  "standaloneTweet": "Researchers just launched TR-EduVSum + AutoMUP for Turkish educational video summarization. 82 videos, 3,281 summaries. This could revolutionize multilingual education. https://ainformed.dev/articles/tr-edu-v-sum-new-dataset-and-framework-for-turkish-educational-video-summarization"
+}

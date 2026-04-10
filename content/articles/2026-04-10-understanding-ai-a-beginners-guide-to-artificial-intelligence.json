@@ -1,0 +1,28 @@
+{
+  "slug": "2026-04-10-understanding-ai-a-beginners-guide-to-artificial-intelligence",
+  "title": "Understanding AI: A Beginner's Guide to Artificial Intelligence",
+  "summary": "OpenAI's new guide demystifies AI, explaining core concepts and how large language models like ChatGPT work. It's a must-read for anyone new to the field.",
+  "body": "OpenAI has released a comprehensive guide titled 'What is AI?' aimed at beginners. The guide breaks down complex concepts into digestible explanations, covering the fundamentals of artificial intelligence. It delves into how large language models, such as ChatGPT, process and generate human-like text, providing a clear understanding of the underlying technology.\n\nThis guide is particularly significant as it bridges the gap between technical jargon and everyday understanding. It offers a valuable resource for educators, students, and the general public interested in AI. By simplifying concepts like machine learning and neural networks, OpenAI makes AI more accessible to a broader audience.\n\nThe release of this guide comes at a time when AI is increasingly integrated into daily life. As more people interact with AI tools, understanding their functionality becomes crucial. OpenAI's initiative could pave the way for more informed discussions and better AI literacy. Future updates to the guide are expected to keep pace with advancements in AI technology.",
+  "sourceUrl": "https://openai.com/academy/what-is-ai",
+  "sourceName": "OpenAI Blog",
+  "category": "models",
+  "tags": [
+    "ai",
+    "models",
+    "education",
+    "openai",
+    "beginners",
+    "chatgpt"
+  ],
+  "publishedAt": "2026-04-10T23:01:21.918060+00:00",
+  "imageUrl": "/images/articles/2026-04-10-understanding-ai-a-beginners-guide-to-artificial-intelligence.jpg",
+  "twitterThread": [
+    "🚀 OpenAI just dropped a game-changer: a beginner's guide to AI. \n\nHere's why this matters:",
+    "It breaks down complex AI concepts into simple explanations. \n\nMachine learning, neural networks, LLMs—all made easy.",
+    "The wild part? \n\nOpenAI explains how tools like ChatGPT work. No jargon. Just clear, concise info.",
+    "Let that sink in. \n\nThis could be the most important AI guide for beginners ever. Period.",
+    "Hot take: \n\nThis guide is a step towards global AI literacy. It's not just for techies anymore.",
+    "Full breakdown → https://ainformed.dev"
+  ],
+  "standaloneTweet": "OpenAI just released a beginner-friendly guide to AI. It's the best explainer on LLMs and how tools like ChatGPT work. A must-read! https://ainformed.dev/articles/understanding-ai-a-beginners-guide-to-artificial-intelligence"
+}

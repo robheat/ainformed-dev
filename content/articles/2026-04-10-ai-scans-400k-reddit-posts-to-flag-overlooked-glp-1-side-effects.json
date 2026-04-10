@@ -1,0 +1,28 @@
+{
+  "slug": "2026-04-10-ai-scans-400k-reddit-posts-to-flag-overlooked-glp-1-side-effects",
+  "title": "AI Scans 400k Reddit Posts to Flag Overlooked GLP-1 Side Effects",
+  "summary": "A new study leverages AI to analyze 400,000 Reddit posts, uncovering previously underreported side effects of GLP-1 weight loss drugs. This approach demonstrates how social media mining can accelerate pharmacovigilance beyond traditional clinical trials.",
+  "body": "Researchers have deployed advanced natural language processing models to scan over 400,000 user-generated posts on Reddit, successfully identifying patterns of side effects associated with GLP-1 receptor agonists that were not prominent in initial clinical data. By analyzing real-world patient narratives, the AI flagged specific adverse reactions related to gastrointestinal distress and potential metabolic shifts that often go unreported in controlled environments due to their rarity or delayed onset.\n\nThis development marks a significant shift in how pharmaceutical safety is monitored, moving from reactive reporting to proactive, data-driven discovery. Traditional clinical trials often lack the sample size and demographic diversity to catch rare or long-term side effects, whereas social media platforms offer a vast, unfiltered pool of patient experiences. This method allows for the detection of signals that might otherwise remain invisible until years after a drug reaches the market, potentially saving lives and reducing long-term health risks for millions of users.\n\nWhile the findings are promising, the medical community remains cautious about the reliability of self-reported data and the potential for algorithmic bias. Future studies will need to validate these AI-generated signals through rigorous clinical follow-ups to distinguish between genuine drug side effects and coincidental health issues. As these tools mature, they could fundamentally reshape the relationship between patients, regulators, and drug manufacturers, creating a more dynamic and responsive safety net for new therapies.",
+  "sourceUrl": "https://medicalxpress.com/news/2026-04-ai-scans-reddit-flag-overlooked.html",
+  "sourceName": "Hacker News AI",
+  "category": "general",
+  "tags": [
+    "pharmacovigilance",
+    "glp-1",
+    "social-media",
+    "ai-research",
+    "healthcare",
+    "safety"
+  ],
+  "publishedAt": "2026-04-10T11:02:40.918831+00:00",
+  "imageUrl": "/images/articles/2026-04-10-ai-scans-400k-reddit-posts-to-flag-overlooked-glp-1-side-effects.jpg",
+  "twitterThread": [
+    "🚨 AI just found GLP-1 side effects that clinical trials missed.\n\nIt scanned 400k Reddit posts.\n\nThe results are terrifyingly specific.\n\nHere's the breakdown 👇",
+    "The AI didn't just count keywords. It understood context.\n\nIt flagged rare GI issues and metabolic shifts that patients were whispering about online.\n\nThese signals were invisible in the original trials.",
+    "Why this matters:\n\nClinical trials have 1,000s of patients.\n\nReddit has millions.\n\nReal-world data > Controlled data for rare side effects.\n\nThis is the future of drug safety.",
+    "The wild part:\n\nThe AI caught patterns humans missed because they were too scattered.\n\nOne person posts about nausea.\n\n100k others post the same.\n\nThe signal emerges.",
+    "This changes everything for pharmacovigilance.\n\nWe won't wait years to know a drug is dangerous.\n\nWe'll know in months.\n\nOr weeks.",
+    "But can we trust it?\n\nSelf-reported data is noisy.\n\nValidation is key.\n\nThe industry is watching closely.\n\nFull breakdown → https://ainformed.dev"
+  ],
+  "standaloneTweet": "AI just scanned 400k Reddit posts and found GLP-1 side effects clinical trials completely missed. Real-world data is exposing what controlled environments hide. The future of drug safety is here. https://ainformed.dev/articles/ai-scans-400k-reddit-posts-to-flag-overlooked-glp-1-side-effects"
+}

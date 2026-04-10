@@ -1,0 +1,28 @@
+{
+  "slug": "2026-04-10-google-vids-adds-free-high-quality-video-generation-with-lyria-3-and-veo-31",
+  "title": "Google Vids Adds Free High-Quality Video Generation with Lyria 3 and Veo 3.1",
+  "summary": "Google Vids now integrates Lyria 3 and Veo 3.1 to enable users to create, edit, and share videos at no cost. This update marks a significant shift in making high-quality AI video generation accessible to all Workspace users.",
+  "body": "Google has announced a major update to Google Vids, introducing new AI capabilities powered by its latest models, Lyria 3 and Veo 3.1. The core of this update is the ability for users to generate high-quality videos entirely for free directly within the platform. This feature allows creators to produce, edit, and share video content without the typical financial barriers associated with premium video generation tools.\n\nThis move is significant because it democratizes access to advanced video synthesis. Previously, high-fidelity AI video generation was often restricted to paid tiers or enterprise plans due to the immense computational costs involved. By leveraging the efficiency and quality of Lyria 3 and Veo 3.1, Google is effectively lowering the entry barrier for businesses and individual creators. This positions Google Vids as a formidable competitor in the generative video space, potentially disrupting workflows that previously required expensive third-party software.\n\nThe immediate reaction focuses on the implications for content creation speed and cost. With video generation now free, teams can experiment with more ideas without budget constraints. The future outlook suggests a rapid increase in video content volume across the Google Workspace ecosystem. However, questions remain regarding long-term sustainability and whether the current free tier will evolve into a freemium model as demand grows. For now, the focus is on widespread adoption and the creative possibilities unlocked by these new tools.",
+  "sourceUrl": "https://blog.google/products-and-platforms/products/workspace/google-vids-updates-lyria-veo/",
+  "sourceName": "Google AI Blog",
+  "category": "models",
+  "tags": [
+    "google",
+    "video",
+    "free",
+    "lyria",
+    "veo",
+    "workspace"
+  ],
+  "publishedAt": "2026-04-10T11:02:23.382139+00:00",
+  "imageUrl": "/images/articles/2026-04-10-google-vids-adds-free-high-quality-video-generation-with-lyria-3-and-veo-31.jpg",
+  "twitterThread": [
+    "🚨 Google just dropped a massive bombshell. High-quality AI video generation is now FREE in Google Vids.",
+    "Powered by Lyria 3 and Veo 3.1, you can now create, edit, and share videos without paying a dime.",
+    "Here's why this matters: Previously, this tech was locked behind expensive enterprise tiers. Now it's in your Workspace.",
+    "The wild part? The quality is high enough to compete with dedicated video tools. No more budget excuses for creators.",
+    "This changes everything for content teams. Rapid prototyping just got infinitely cheaper and faster.",
+    "Full breakdown → https://ainformed.dev"
+  ],
+  "standaloneTweet": "Google just made high-quality AI video generation free for everyone. Powered by Lyria 3 and Veo 3.1, you can now create, edit, and share videos in Google Vids without paying a cent. This is a game-changer for content creators. Full breakdown → https://ainformed.dev/articles/create-edit-and-share-videos-at-no-cost-in-google-vids"
+}

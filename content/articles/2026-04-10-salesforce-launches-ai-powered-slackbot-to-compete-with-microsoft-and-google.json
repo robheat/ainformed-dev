@@ -1,0 +1,28 @@
+{
+  "slug": "2026-04-10-salesforce-launches-ai-powered-slackbot-to-compete-with-microsoft-and-google",
+  "title": "Salesforce Launches AI-Powered Slackbot to Compete with Microsoft and Google",
+  "summary": "Salesforce has unveiled a rebuilt Slackbot with advanced AI capabilities, positioning Slack as a central player in the agentic AI movement. The new Slackbot can search enterprise data, draft documents, and take actions on behalf of employees.",
+  "body": "Salesforce has launched a completely rebuilt version of Slackbot, transforming it from a simple notification tool into a powerful AI agent. The new Slackbot, now available to Business+ and Enterprise+ customers, can search enterprise data, draft documents, and perform actions on behalf of employees. This move is Salesforce's most aggressive push yet to position Slack at the forefront of the agentic AI movement, where software agents work alongside humans to complete complex tasks.\n\nThe launch comes as Salesforce battles Microsoft and Google in the workplace AI arena. With this upgrade, Slackbot can handle a wide range of tasks, from scheduling meetings to generating reports, making it a formidable competitor to Microsoft's Copilot and Google's Duet AI. The new Slackbot's ability to integrate seamlessly with Salesforce's ecosystem gives it an edge in enterprise environments.\n\nThe reaction to the new Slackbot has been largely positive, with industry experts praising its advanced capabilities. However, the long-term success of Slackbot will depend on its ability to outperform competitors like Microsoft and Google. Open questions remain about how quickly businesses will adopt this new AI agent and whether it can truly replace human tasks or merely augment them.",
+  "sourceUrl": "https://venturebeat.com/technology/salesforce-rolls-out-new-slackbot-ai-agent-as-it-battles-microsoft-and",
+  "sourceName": "VentureBeat AI",
+  "category": "industry",
+  "tags": [
+    "slackbot",
+    "agentic-ai",
+    "salesforce",
+    "workplace-ai",
+    "microsoft",
+    "google"
+  ],
+  "publishedAt": "2026-04-10T15:02:36.494014+00:00",
+  "imageUrl": "/images/articles/2026-04-10-salesforce-launches-ai-powered-slackbot-to-compete-with-microsoft-and-google.jpg",
+  "twitterThread": [
+    "🚀 Salesforce just dropped the AI hammer on Microsoft and Google. Their new Slackbot is a full-blown AI agent. Game changer.\n\nHere's why this matters:",
+    "Slackbot can now search enterprise data, draft docs, and take actions for you. Not just notifications. Full automation.\n\nThe wild part? It's already live for Business+ and Enterprise+ customers.",
+    "This changes everything for workplace AI. Microsoft's Copilot and Google's Duet AI just got serious competition.\n\nLet that sink in.",
+    "Salesforce is betting big on agentic AI. Software agents working alongside humans. The future of work is here.\n\nWhat's next?",
+    "Hot take: Slackbot could be the tipping point that makes Slack the default workplace AI platform.\n\nBut can it outperform Microsoft and Google?",
+    "Full breakdown → https://ainformed.dev"
+  ],
+  "standaloneTweet": "Salesforce's new Slackbot is an AI powerhouse. It searches data, drafts docs, and takes actions for you. Microsoft and Google, watch out. https://ainformed.dev/articles/salesforce-launches-ai-powered-slackbot-to-compete-with-microsoft-and-google"
+}

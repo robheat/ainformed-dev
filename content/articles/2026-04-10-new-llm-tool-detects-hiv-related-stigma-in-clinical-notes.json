@@ -1,0 +1,28 @@
+{
+  "slug": "2026-04-10-new-llm-tool-detects-hiv-related-stigma-in-clinical-notes",
+  "title": "New LLM Tool Detects HIV-Related Stigma in Clinical Notes",
+  "summary": "Researchers developed an LLM-based tool to identify HIV-related stigma in clinical narratives, addressing a critical gap in healthcare documentation. The tool could improve mental health outcomes and treatment adherence for people living with HIV.",
+  "body": "Researchers from the University of Florida have developed a large language model (LLM)-based tool designed to detect HIV-related stigma in clinical narratives. The study, published on arXiv, highlights the importance of addressing stigma as a psychosocial determinant of health for people living with HIV (PLWH). Stigma documented in clinical notes can influence mental health, engagement in care, and treatment outcomes, yet there are currently no off-the-shelf tools to extract and categorize these experiences.\n\nThis tool represents a significant advancement in healthcare technology, as it can help clinicians and researchers better understand the prevalence and impact of stigma on PLWH. By automating the detection of stigma-related language in clinical notes, the tool can provide valuable insights that might otherwise go unnoticed. This could lead to more targeted interventions and improved patient care, ultimately enhancing the overall health outcomes for PLWH.\n\nThe next steps for this research involve validating the tool in diverse clinical settings and refining its accuracy. Future applications could include integrating the tool into electronic health record systems to provide real-time feedback to healthcare providers. Additionally, the tool's effectiveness in different languages and cultural contexts will be explored to ensure its widespread applicability. This innovation has the potential to transform how stigma is addressed in clinical practice, making it a critical area for ongoing research and development.",
+  "sourceUrl": "https://arxiv.org/abs/2604.07717",
+  "sourceName": "ArXiv cs.CL",
+  "category": "research",
+  "tags": [
+    "hiv",
+    "stigma",
+    "llm",
+    "healthcare",
+    "clinical-notes",
+    "mental-health"
+  ],
+  "publishedAt": "2026-04-10T15:02:26.967325+00:00",
+  "imageUrl": "/images/articles/2026-04-10-new-llm-tool-detects-hiv-related-stigma-in-clinical-notes.jpg",
+  "twitterThread": [
+    "🚨 New AI tool detects HIV-related stigma in clinical notes. This is huge. \n\nStigma impacts mental health and treatment outcomes. But until now, we lacked tools to spot it in records.",
+    "Researchers at UF built an LLM to scan clinical narratives for stigma. \n\nHere's why this matters: Stigma is a silent killer in HIV care. It drives people away from treatment.",
+    "The wild part? This tool can automate what took hours of manual review. \n\nLet that sink in. AI is making stigma visible in real-time.",
+    "This changes everything for PLWH. Clinicians can now intervene faster. Treatment adherence could improve. Lives could be saved.",
+    "Hot take: If we can detect stigma in HIV care, what's next? Depression? Anxiety? AI could revolutionize mental health diagnostics.",
+    "Full breakdown → https://ainformed.dev"
+  ],
+  "standaloneTweet": "AI tool detects HIV-related stigma in clinical notes. Big step for mental health and treatment outcomes. https://ainformed.dev/articles/new-llm-tool-detects-hiv-related-stigma-in-clinical-notes"
+}

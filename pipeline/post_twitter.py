@@ -35,8 +35,8 @@ ACCESS_SECRET = os.environ.get("TWITTER_ACCESS_SECRET", "")
 
 DRY_RUN = os.environ.get("TWITTER_DRY_RUN", "false").lower() == "true"
 
-# Seconds between standalone tweets (default 3 minutes)
-TWEET_INTERVAL = int(os.environ.get("TWEET_INTERVAL_SECS", "180"))
+# Seconds between standalone tweets (default 5 minutes)
+TWEET_INTERVAL = int(os.environ.get("TWEET_INTERVAL_SECS", "300"))
 # Seconds between tweets within a thread (default 30s)
 THREAD_INTERVAL = int(os.environ.get("THREAD_INTERVAL_SECS", "30"))
 

@@ -1,0 +1,28 @@
+{
+  "slug": "2026-04-10-openai-supports-bill-limiting-liability-for-ai-caused-harm",
+  "title": "OpenAI Supports Bill Limiting Liability for AI-Caused Harm",
+  "summary": "OpenAI is backing a bill that would shield AI companies from lawsuits related to harm caused by their models. The move has sparked controversy over corporate accountability in AI development.",
+  "body": "OpenAI has publicly endorsed a proposed bill that would limit the liability of AI companies for harm caused by their models. The bill, currently under consideration in the U.S. Congress, aims to protect AI firms from lawsuits related to unintended consequences of their technologies. This includes scenarios where AI systems might contribute to mass casualties or significant societal harm.\n\nThe bill's supporters argue that such protections are necessary to foster innovation in the AI sector, which they claim could be stifled by the threat of costly litigation. Critics, however, contend that this would effectively grant AI companies a free pass for potential harms, undermining public safety and corporate accountability. The debate highlights the tension between rapid technological advancement and the need for regulatory oversight.\n\nThe reaction to OpenAI's support has been mixed. Some industry insiders see it as a pragmatic move to ensure the continued growth of AI research and development. Others, including consumer advocacy groups and legal experts, warn that the bill could set a dangerous precedent, potentially leading to more reckless behavior by AI firms. The outcome of this legislative battle could shape the future of AI regulation and liability for years to come.",
+  "sourceUrl": "https://www.wired.com/story/openai-backs-bill-exempt-ai-firms-model-harm-lawsuits/",
+  "sourceName": "Hacker News AI",
+  "category": "general",
+  "tags": [
+    "ai",
+    "policy",
+    "openai",
+    "liability",
+    "regulation",
+    "accountability"
+  ],
+  "publishedAt": "2026-04-10T14:01:24.203843+00:00",
+  "imageUrl": "/images/articles/2026-04-10-openai-supports-bill-limiting-liability-for-ai-caused-harm.jpg",
+  "twitterThread": [
+    "🚨 OpenAI is backing a bill that would shield AI companies from lawsuits for mass harm.\n\nThis is *insane*.\n\nHere's the deal:",
+    "The bill would limit liability for AI firms if their models cause unintended harm.\n\nThat includes mass casualties. Yes, you read that right.",
+    "Supporters say it's needed to protect innovation.\n\nCritics say it's a free pass for reckless AI behavior.\n\nLet that sink in.",
+    "This isn't just about OpenAI. It's about setting a precedent for the entire industry.\n\nThe wild part? Many AI firms are quietly backing this.",
+    "If this bill passes, AI companies could deploy models with *zero* fear of legal consequences.\n\nThis changes *everything* for AI safety and regulation.",
+    "Full breakdown → https://ainformed.dev"
+  ],
+  "standaloneTweet": "OpenAI is backing a bill to limit AI company liability for harm—including mass casualties. This is a *huge* shift in accountability. Full story → https://ainformed.dev/articles/openai-backs-bill-that-would-limit-liability-for-ai-enabled-mass-deaths"
+}

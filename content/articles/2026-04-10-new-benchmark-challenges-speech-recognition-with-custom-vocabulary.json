@@ -1,0 +1,28 @@
+{
+  "slug": "2026-04-10-new-benchmark-challenges-speech-recognition-with-custom-vocabulary",
+  "title": "New Benchmark Challenges Speech Recognition with Custom Vocabulary",
+  "summary": "Researchers introduce Contextual Earnings-22, a benchmark highlighting the gap between academic and real-world speech recognition performance. The study emphasizes the importance of contextual conditioning in high-stakes domains.",
+  "body": "Researchers have introduced Contextual Earnings-22, a new benchmark designed to test speech-to-text systems' ability to handle custom vocabulary in real-world scenarios. The benchmark aims to address the plateau in academic benchmarks, which often fail to capture the complexity of high-stakes domains where rare and context-defined terms are critical.\n\nThe study hypothesizes that the discrepancy between academic and industrial performance stems from the dominance of general vocabulary in academic benchmarks. These benchmarks are relatively easy to recognize compared to the custom vocabulary that significantly impacts the usability of speech transcripts in professional settings. This gap underscores the need for more robust contextual conditioning in speech recognition models.\n\nMoving forward, the introduction of Contextual Earnings-22 is expected to drive advancements in speech recognition technology, particularly in fields like healthcare and legal services where accuracy with custom terminology is paramount. The benchmark will likely spur further research into contextual conditioning, potentially leading to more reliable and versatile speech-to-text systems.",
+  "sourceUrl": "https://arxiv.org/abs/2604.07354",
+  "sourceName": "ArXiv cs.CL",
+  "category": "research",
+  "tags": [
+    "speech-recognition",
+    "benchmark",
+    "contextual-conditioning",
+    "ai-research",
+    "transcription",
+    "nlp"
+  ],
+  "publishedAt": "2026-04-10T17:02:53.109294+00:00",
+  "imageUrl": "/images/articles/2026-04-10-new-benchmark-challenges-speech-recognition-with-custom-vocabulary.jpg",
+  "twitterThread": [
+    "🚨 New benchmark exposes a HUGE gap in speech recognition.\n\nAcademic benchmarks? Easy. Real-world? Brutal.\n\nHere's why:",
+    "Researchers introduce Contextual Earnings-22. Tests custom vocabulary in high-stakes domains.\n\nWhy it matters: Current models struggle with rare, context-defined terms.",
+    "The wild part? Academic benchmarks focus on general vocabulary. Real-world? Custom terms dominate.\n\nThis changes everything for healthcare, legal, and more.",
+    "Let that sink in. Your speech-to-text might be failing where it counts most.\n\nTime for a wake-up call.",
+    "Hot take: Contextual conditioning is the next frontier in speech recognition. Models must adapt or fall behind.",
+    "Full breakdown → https://ainformed.dev"
+  ],
+  "standaloneTweet": "New benchmark reveals speech recognition models fail in real-world scenarios. Contextual Earnings-22 highlights the gap between academic and industrial performance. https://ainformed.dev/articles/new-benchmark-challenges-speech-recognition-with-custom-vocabulary"
+}

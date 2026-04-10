@@ -1,0 +1,28 @@
+{
+  "slug": "2026-04-10-openjdk-introduces-interim-policy-on-generative-ai-use",
+  "title": "OpenJDK Introduces Interim Policy on Generative AI Use",
+  "summary": "OpenJDK has released an interim policy on the use of generative AI in its projects. The policy aims to address concerns about AI-generated content in open-source contributions.",
+  "body": "OpenJDK has announced an interim policy regarding the use of generative AI tools in its projects. The policy, available on the OpenJDK legal page, outlines guidelines for contributors using AI to generate code, documentation, or other project materials. This move comes as the open-source community grapples with the ethical and practical implications of AI-generated content.\n\nThe policy is significant because it sets a precedent for other open-source projects. As AI tools become more prevalent, many communities are struggling to balance the benefits of AI-assisted development with the need for transparency and accountability. OpenJDK's approach could influence how other projects handle AI-generated contributions.\n\nThe interim policy is likely the first step in a broader conversation. OpenJDK has invited feedback from the community, indicating that the policy may evolve. Key questions remain about enforcement, the long-term impact on open-source culture, and how other projects will adapt similar guidelines.",
+  "sourceUrl": "https://openjdk.org/legal/ai",
+  "sourceName": "Hacker News AI",
+  "category": "general",
+  "tags": [
+    "open-source",
+    "ai-policy",
+    "generative-ai",
+    "openjdk",
+    "legal",
+    "community"
+  ],
+  "publishedAt": "2026-04-10T18:02:38.092097+00:00",
+  "imageUrl": "/images/articles/2026-04-10-openjdk-introduces-interim-policy-on-generative-ai-use.jpg",
+  "twitterThread": [
+    "🚨 OpenJDK just dropped an interim policy on generative AI. \n\nThis is a BIG deal.\n\nHere's why:",
+    "OpenJDK is setting the stage for how open-source projects handle AI-generated code. \n\nThis could be a blueprint for others.",
+    "The wild part? \n\nThey're inviting feedback. \n\nThis policy isn't set in stone. \n\nThe community gets a say.",
+    "Let that sink in. \n\nOpen-source is about collaboration. \n\nEven with AI, they're keeping it transparent.",
+    "Hot take: \n\nThis changes everything for open-source. \n\nExpect other projects to follow suit.",
+    "Full breakdown → https://ainformed.dev"
+  ],
+  "standaloneTweet": "OpenJDK just released an interim policy on generative AI in open-source. This could set the standard for the entire community. Full details → https://ainformed.dev/articles/openjdk-interim-policy-on-generative-ai"
+}

@@ -97,14 +97,15 @@ def upload_media(image_path: str) -> str | None:
 
     # media/upload uses form-encoded body, not JSON
     # OAuth signature must NOT include media_data (too large)
+    # but MUST include media_category in the signature
     form_params = {
         "media_data": b64_data,
         "media_category": "tweet_image",
     }
     form_body = urllib.parse.urlencode(form_params).encode("utf-8")
 
-    # OAuth spec: only include params < 2KB in signature base string
-    auth_header = _oauth_header("POST", MEDIA_UPLOAD_URL)
+    # Include media_category in OAuth signature (exclude media_data — too large)
+    auth_header = _oauth_header("POST", MEDIA_UPLOAD_URL, extra_params={"media_category": "tweet_image"})
 
     req = urllib.request.Request(
         MEDIA_UPLOAD_URL,

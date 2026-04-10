@@ -1,0 +1,28 @@
+{
+  "slug": "2026-04-10-linux-kernel-officially-allows-ai-assisted-contributions",
+  "title": "Linux Kernel Officially Allows AI-Assisted Contributions",
+  "summary": "The Linux kernel now permits the use of AI tools for contributions, with strict guidelines to ensure code quality. This marks a significant shift in open-source development practices.",
+  "body": "The Linux kernel, one of the most critical open-source projects, has officially updated its documentation to allow the use of AI-assisted coding tools. The change, documented in a new section titled \"Coding Assistants,\" outlines guidelines for contributors using AI to assist in their work. This move reflects the growing acceptance of AI tools in software development.\n\nThe decision to permit AI assistance comes with stringent conditions. Contributors must review and understand any AI-generated code, ensure it adheres to kernel coding standards, and take responsibility for its quality. This approach aims to balance the efficiency gains from AI tools with the need for maintainable and reliable code. The Linux kernel's maintainers emphasize that AI should be a tool for assistance, not a replacement for human expertise.\n\nThe reaction to this announcement has been mixed. Some developers appreciate the potential for AI to accelerate development and reduce repetitive tasks. Others express concerns about the long-term impact on code quality and the learning process for new contributors. The open-source community will be watching closely to see how this policy evolves and whether other major projects follow suit. The Linux kernel's stance on AI assistance could set a precedent for the broader software development industry.",
+  "sourceUrl": "https://github.com/torvalds/linux/blob/master/Documentation/process/coding-assistants.rst",
+  "sourceName": "Hacker News AI",
+  "category": "general",
+  "tags": [
+    "linux",
+    "open-source",
+    "ai-tools",
+    "coding",
+    "kernel",
+    "development"
+  ],
+  "publishedAt": "2026-04-10T19:01:27.698653+00:00",
+  "imageUrl": "/images/articles/2026-04-10-linux-kernel-officially-allows-ai-assisted-contributions.jpg",
+  "twitterThread": [
+    "🚀 The Linux kernel just said YES to AI-assisted contributions. But with strict rules. \n\nHere's the catch:",
+    "1️⃣ AI can help, but humans must review and understand every line. \n\n2️⃣ Code must still meet kernel standards. \n\n3️⃣ You're on the hook for any AI mistakes.",
+    "The wild part? This is a BIG deal for open-source. \n\nThe Linux kernel is the gold standard. If they're embracing AI (carefully), others will follow.",
+    "Let that sink in. \n\nAI just got a seat at the table in one of the most important software projects ever.",
+    "Hot take: This changes everything for how we think about AI in coding. \n\nThe future is human-AI collaboration, not replacement.",
+    "Full breakdown → https://ainformed.dev"
+  ],
+  "standaloneTweet": "The Linux kernel now allows AI-assisted contributions—but with strict rules. What does this mean for open-source? Full story: https://ainformed.dev/articles/linux-kernel-officially-allows-ai-assisted-contributions"
+}

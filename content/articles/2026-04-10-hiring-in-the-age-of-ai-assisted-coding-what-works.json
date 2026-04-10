@@ -1,0 +1,28 @@
+{
+  "slug": "2026-04-10-hiring-in-the-age-of-ai-assisted-coding-what-works",
+  "title": "Hiring in the Age of AI-Assisted Coding: What Works?",
+  "summary": "Hiring practices are evolving with AI tools, shifting focus from algorithmic puzzles to real-world tasks and AI fluency. Developers and recruiters are grappling with how to evaluate candidates effectively in this new landscape.",
+  "body": "The rise of AI-assisted coding tools has sparked a debate on Hacker News about how to evaluate software engineering candidates. Traditional hiring methods, which relied heavily on algorithmic puzzles and functional correctness, are being challenged. Companies are now considering real-world tasks, AI fluency, and orchestration skills as key metrics for assessment.\n\nThe shift towards AI-assisted coding changes the evaluation landscape significantly. Candidates can leverage AI tools to complete tasks more efficiently, but this also raises questions about how to measure true skill. The candidate experience is also evolving, with agentic IDEs replacing simple code editors. This transition requires recruiters to adapt their evaluation criteria and methods to stay relevant.\n\nThe discussion highlights a need for new hiring frameworks that account for AI tools. Some suggest focusing on problem-solving approaches and collaboration skills, while others advocate for practical projects that mimic real-world scenarios. The future of tech hiring will likely involve a blend of traditional and AI-assisted evaluation methods, with a strong emphasis on adaptability and innovation.",
+  "sourceUrl": "https://news.ycombinator.com/item?id=47722081",
+  "sourceName": "Hacker News AI",
+  "category": "general",
+  "tags": [
+    "hiring",
+    "ai-tools",
+    "coding",
+    "recruitment",
+    "software-engineering",
+    "tech-industry"
+  ],
+  "publishedAt": "2026-04-10T19:02:28.630642+00:00",
+  "imageUrl": "/images/articles/2026-04-10-hiring-in-the-age-of-ai-assisted-coding-what-works.jpg",
+  "twitterThread": [
+    "🚀 AI is changing how we hire developers. The old ways don’t cut it anymore.\n\nHere’s what’s happening:",
+    "Companies are ditching algorithmic puzzles. Real-world tasks and AI fluency are the new focus.\n\nWhy? Because AI tools are reshaping what it means to code.",
+    "The wild part? Candidates now use AI-assisted IDEs. How do you evaluate skill when AI helps?\n\nRecruiters are scrambling for answers.",
+    "Some say focus on problem-solving. Others push for practical projects. Either way, hiring is evolving fast.\n\nLet that sink in.",
+    "This changes everything for tech hiring. The future belongs to those who adapt.\n\nWho’s ready?",
+    "Full breakdown → https://ainformed.dev"
+  ],
+  "standaloneTweet": "AI is reshaping tech hiring. Real-world tasks and AI fluency are the new focus. How do you evaluate skill when AI helps? Full story: https://ainformed.dev/articles/hiring-in-the-age-of-ai-assisted-coding-what-works"
+}

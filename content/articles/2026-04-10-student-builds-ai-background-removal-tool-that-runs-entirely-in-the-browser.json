@@ -1,0 +1,28 @@
+{
+  "slug": "2026-04-10-student-builds-ai-background-removal-tool-that-runs-entirely-in-the-browser",
+  "title": "Student Builds AI Background Removal Tool That Runs Entirely in the Browser",
+  "summary": "A 19-year-old French student developed a client-side AI background remover using RMBG-1.4 and SAM. The tool processes images in ~2 seconds without needing a server or upload. The project is part of the Allplix.com platform.",
+  "body": "A 19-year-old student in France has developed an AI-powered background removal tool that operates entirely within the browser, eliminating the need for server uploads or processing. The tool, built using RMBG-1.4 and SAM models via ONNX Runtime WASM, processes images in approximately two seconds on a laptop and is functional on mobile devices. The student, who created this as part of the Allplix.com platform, highlights the privacy benefits of client-side processing.\n\nThis development is significant because it demonstrates the growing capability of running complex AI models directly in the browser. Traditional background removal tools often require server-side processing, which can raise privacy concerns. By leveraging WebAssembly (WASM) and ONNX Runtime, this project showcases a viable alternative that keeps user data local. The performance, while not as fast as server-side solutions, is impressive for a client-side application.\n\nThe project has garnered attention on Hacker News, with users praising its privacy-focused approach. The student is open to discussing the technical challenges and optimizations involved in running machine learning models within a browser tab. Future developments could focus on improving speed and expanding the tool's functionality, potentially integrating more advanced AI models. This innovation could set a new standard for privacy-conscious AI tools in the browser.",
+  "sourceUrl": "https://www.allplix.com/en/background-remover",
+  "sourceName": "Hacker News AI",
+  "category": "general",
+  "tags": [
+    "ai",
+    "browser",
+    "privacy",
+    "machine-learning",
+    "webassembly",
+    "open-source"
+  ],
+  "publishedAt": "2026-04-10T19:01:08.067987+00:00",
+  "imageUrl": "/images/articles/2026-04-10-student-builds-ai-background-removal-tool-that-runs-entirely-in-the-browser.jpg",
+  "twitterThread": [
+    "🚀 A 19yo French student just built an AI background remover that runs entirely in your browser. No uploads. No servers.\n\nHere's why this matters:",
+    "It uses RMBG-1.4 + SAM via ONNX Runtime WASM. Processes images in ~2s on a laptop. Mobile works too.\n\nYour image never leaves the browser.",
+    "The wild part? This is a solo project. Part of Allplix.com. No big tech backing. Just raw talent.",
+    "Let that sink in. We're at the point where complex AI models can run in a browser tab. Client-side ML is here.",
+    "This changes everything for privacy-conscious users. No more sending sensitive images to servers for processing.",
+    "Full breakdown → https://ainformed.dev"
+  ],
+  "standaloneTweet": "A 19yo built an AI background remover that runs entirely in your browser. No uploads. No servers. Client-side ML is here. https://ainformed.dev/articles/student-builds-ai-background-removal-tool-that-runs-entirely-in-the-browser"
+}

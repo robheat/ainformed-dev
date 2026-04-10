@@ -1,0 +1,28 @@
+{
+  "slug": "2026-04-10-tiis-falcon-perception-open-source-multimodal-model-breaks-new-ground",
+  "title": "TII's Falcon Perception: Open-Source Multimodal Model Breaks New Ground",
+  "summary": "TII has released Falcon Perception, a multimodal model combining text and vision capabilities. This open-source model sets a new standard for accessibility in AI.",
+  "body": "The Technology Innovation Institute (TII) has unveiled Falcon Perception, a groundbreaking multimodal model that integrates text and vision capabilities. This open-source release marks a significant milestone in the AI community, providing researchers and developers with a powerful tool for multimodal applications.\n\nFalcon Perception stands out due to its open-source nature, which democratizes access to advanced multimodal AI. Unlike many proprietary models, Falcon Perception allows for community-driven innovation and customization. This model is particularly notable for its performance on benchmarks, showcasing the potential of open-source solutions to compete with closed, commercial models.\n\nThe release of Falcon Perception has been met with enthusiasm from the AI community. Developers are already experimenting with its capabilities, exploring applications in areas such as image captioning, visual question answering, and more. The open-source nature of the model ensures continuous improvement through collaborative efforts, promising even more advanced features and optimizations in the future.",
+  "sourceUrl": "https://huggingface.co/blog/tiiuae/falcon-perception",
+  "sourceName": "Hugging Face Blog",
+  "category": "open-source",
+  "tags": [
+    "multimodal",
+    "open-source",
+    "ai",
+    "vision",
+    "text",
+    "tii"
+  ],
+  "publishedAt": "2026-04-10T19:01:53.628427+00:00",
+  "imageUrl": "/images/articles/2026-04-10-tiis-falcon-perception-open-source-multimodal-model-breaks-new-ground.jpg",
+  "twitterThread": [
+    "🚀 TII just dropped Falcon Perception, a game-changing open-source multimodal model.\n\nIt combines text + vision. For free.\n\nLet that sink in.\n\n",
+    "Here's why this matters:\n\nMost multimodal models are locked behind paywalls.\n\nFalcon Perception changes that.\n\n",
+    "The wild part?\n\nIt's not just open-source.\n\nIt's also competitive with closed, commercial models.\n\n",
+    "Developers are already building with it.\n\nImage captioning. Visual Q&A. And more.\n\nThis is just the beginning.\n\n",
+    "Hot take:\n\nOpen-source is winning.\n\nFalcon Perception proves that community-driven AI can outpace proprietary solutions.\n\n",
+    "Full breakdown → https://ainformed.dev"
+  ],
+  "standaloneTweet": "TII's Falcon Perception is a game-changer: an open-source multimodal model that combines text and vision. This is a big deal for AI accessibility. https://ainformed.dev/articles/falcon-perception-open-source-multimodal-model-breaks-new-ground"
+}

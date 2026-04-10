@@ -1,0 +1,28 @@
+{
+  "slug": "2026-04-10-google-gemini-now-generates-interactive-3d-models-and-simulations",
+  "title": "Google Gemini Now Generates Interactive 3D Models and Simulations",
+  "summary": "Google has upgraded Gemini to generate interactive 3D models and simulations directly within chat responses. Users can now rotate, adjust parameters, and run real-time simulations based on their queries.",
+  "body": "Google has rolled out a significant upgrade to its Gemini AI chatbot, enabling it to generate interactive 3D models and simulations in response to user questions. This new capability allows the AI to not just describe concepts but to render them as manipulatable objects. Users can expect to see options to rotate the generated models, manually adjust sliders to tweak variables, and input different values to observe how simulations change in real-time, transforming static text responses into dynamic, interactive experiences.\n\nThis development marks a pivotal shift in how users interact with AI, moving beyond text and static images to immersive, functional outputs. By enabling real-time manipulation of AI-generated content, Gemini bridges the gap between theoretical understanding and practical application, particularly in fields like engineering, education, and data visualization. Unlike previous iterations that relied on static diagrams or pre-existing assets, this feature allows the AI to construct and simulate scenarios on the fly, offering a level of interactivity previously reserved for specialized software.\n\nThe immediate reaction from the tech community highlights the potential for this tool to democratize access to complex simulations. While the full scope of supported domains remains to be seen, the ability to generate and interact with 3D models directly from a chat interface suggests a future where AI acts as a co-pilot for design and analysis. As Google refines the underlying technology, the focus will likely shift to the accuracy of simulations and the breadth of scenarios the model can handle, raising questions about how this will impact existing 3D modeling tools and educational platforms.",
+  "sourceUrl": "https://www.theverge.com/tech/909391/google-gemini-ai-3d-models-simulations",
+  "sourceName": "The Verge AI",
+  "category": "industry",
+  "tags": [
+    "google",
+    "gemini",
+    "3d-models",
+    "simulations",
+    "ai-features",
+    "interactive"
+  ],
+  "publishedAt": "2026-04-10T12:02:55.731009+00:00",
+  "imageUrl": "/images/articles/2026-04-10-google-gemini-now-generates-interactive-3d-models-and-simulations.jpg",
+  "twitterThread": [
+    "🚨 Google just dropped a bombshell. Gemini AI can now generate interactive 3D models and simulations right in the chat.\n\nNo more static images. You can rotate, tweak sliders, and run real-time simulations based on your questions.",
+    "Here's how it works: Ask Gemini for a model, and it generates something you can actually manipulate.\n\nRotate the object? Yes.\n\nAdjust parameters with sliders? Yes.\n\nSee the simulation change instantly? Absolutely.",
+    "The wild part: This isn't just a visual trick. It's functional interactivity.\n\nImagine asking for a physics simulation or an architectural model and having the AI build it live, then letting you test variables on the fly.",
+    "This changes everything for education and engineering.\n\nStudents can finally interact with complex concepts instead of just reading about them.\n\nEngineers can prototype ideas without opening CAD software.\n\nLet that sink in.",
+    "We are moving from text-based AI to spatial, interactive AI.\n\nIf Gemini can do this, what happens when other models catch up?\n\nThe era of static AI responses is over. The future is interactive.",
+    "Full breakdown → https://ainformed.dev"
+  ],
+  "standaloneTweet": "Google just made AI interactive. Gemini can now generate 3D models and simulations you can rotate, tweak, and test in real-time. No more static text. The future of learning and engineering is here. 🧊🚀\n\nRead more: https://ainformed.dev/articles/google-gemini-now-generates-interactive-3d-models-and-simulations"
+}

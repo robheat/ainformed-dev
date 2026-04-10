@@ -1,0 +1,28 @@
+{
+  "slug": "2026-04-10-openai-launches-100month-chatgpt-pro-tier-for-heavy-codex-users",
+  "title": "OpenAI Launches $100/Month ChatGPT Pro Tier for Heavy Codex Users",
+  "summary": "OpenAI has introduced a $100 monthly ChatGPT Pro subscription, offering five times the usage of its Codex coding tool compared to the Plus tier. This new tier is explicitly designed for professionals requiring extended, high-effort coding sessions.",
+  "body": "OpenAI has officially unveiled a new premium tier for its ChatGPT platform, priced at $100 per month. This new ChatGPT Pro subscription is positioned as a specialized tool for developers and technical professionals, primarily distinguished by its generous allocation of the Codex coding tool. According to the company, this tier provides five times the usage limits of the existing $20 per month Plus subscription, catering specifically to users who need to run longer, more complex coding tasks without interruption.\n\nThe strategic move signals a clear shift in OpenAI's monetization strategy, moving beyond a one-size-fits-all model to target high-value enterprise and prosumer segments. By isolating the Codex tool into a higher-priced tier, OpenAI acknowledges the immense computational cost and demand associated with advanced code generation. This pricing structure mirrors the tiered approaches seen in other cloud and software services, where heavy compute usage commands a premium, effectively separating casual users from those treating AI as a core production engine.\n\nWhile the immediate reaction focuses on the steep price point, the industry will be watching to see if this tier drives adoption among professional development teams. OpenAI has not yet detailed specific limits on other features or how this interacts with enterprise API pricing. The success of this model will depend on whether the value of uninterrupted, high-volume coding sessions justifies the fivefold cost increase over the standard Plus plan for the average developer.\n",
+  "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/909599/chatgpt-pro-subscription-new",
+  "sourceName": "The Verge AI",
+  "category": "industry",
+  "tags": [
+    "openai",
+    "chatgpt",
+    "codex",
+    "subscription",
+    "pricing",
+    "ai-tools"
+  ],
+  "publishedAt": "2026-04-10T12:04:25.062079+00:00",
+  "imageUrl": "/images/articles/2026-04-10-openai-launches-100month-chatgpt-pro-tier-for-heavy-codex-users.jpg",
+  "twitterThread": [
+    "🚨 OpenAI just dropped a $100/mo ChatGPT Pro tier. \n\nYes, you read that right. \n\nThe biggest change? 5x more Codex usage than the $20 Plus plan. \n\nLet that sink in.",
+    "Here's the deal: \n\nNew Pro tier = $100/month. \n\nOld Plus tier = $20/month. \n\nThe Pro tier is explicitly built for \"longer, high-effort Codex sessions.\" \n\nOpenAI is betting big on heavy-duty coding workflows.",
+    "The wild part: \n\nThey aren't just charging for \"more tokens.\" \n\nThey are charging for uninterrupted, deep-work coding sessions. \n\nThis is a direct play for professional developers who treat AI as a primary production engine.",
+    "Why this matters: \n\nOpenAI is finally segmenting its pricing by compute intensity. \n\nCasual users stay on Plus. \n\nPro coders pay up. \n\nIt's a clear signal that high-volume AI usage is now a premium enterprise-grade resource.",
+    "This changes everything for indie devs and small teams. \n\nIf you rely on Codex for full-stack generation, the ROI math just got a lot tighter. \n\nExpect more specialized tiers to follow for other heavy compute tasks.",
+    "Full breakdown → https://ainformed.dev"
+  ],
+  "standaloneTweet": "OpenAI just launched a $100/mo ChatGPT Pro tier. \n\nWhy? 5x more Codex usage than the $20 plan. \n\nThey are explicitly pricing for \"high-effort coding sessions.\" \n\nThe era of cheap, unlimited AI coding is over. \n\nhttps://ainformed.dev/articles/chatgpt-has-a-new-100-per-month-pro-subscription"
+}

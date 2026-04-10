@@ -1,0 +1,28 @@
+{
+  "slug": "2026-04-10-medgemma-15-unveiled-multimodal-medical-ai-with-3d-imaging-and-ehr-understanding",
+  "title": "MedGemma 1.5 Unveiled: Multimodal Medical AI with 3D Imaging and EHR Understanding",
+  "summary": "Google's MedGemma 1.5 4B model now integrates high-dimensional medical imaging, anatomical localization, and multi-timepoint analysis within a single architecture. This update significantly expands capabilities to include CT/MRI volumes, histopathology, and complex EHR document understanding.",
+  "body": "Google has released the technical report for MedGemma 1.5, the latest iteration of its specialized medical AI model. The 4B parameter model builds upon its predecessor by introducing a unified architecture capable of processing high-dimensional medical imaging, including CT and MRI volumes as well as histopathology whole slide images. Beyond static images, the model now supports anatomical localization via bounding boxes, multi-timepoint chest X-ray analysis, and a deeper understanding of medical documents like lab reports and electronic health records.\n\nThis advancement is significant because it consolidates diverse modalities into a single model, eliminating the need for separate systems for imaging and text analysis. The integration of long-context 3D volume processing alongside structured medical data represents a major step toward holistic clinical decision support. By handling temporal changes in chest X-rays and precise anatomical localization, MedGemma 1.5 moves closer to mimicking the comprehensive diagnostic workflow of a radiologist, offering a more cohesive tool for medical professionals.\n\nThe release of the technical report on arXiv invites scrutiny from the research community regarding the specific training data and architectural innovations that enabled these multimodal capabilities. As the model enters the public domain, the focus will shift to how effectively it performs in real-world clinical settings and whether it can maintain accuracy across such a diverse range of inputs. The industry now watches to see if this unified approach sets a new standard for medical foundation models.\n",
+  "sourceUrl": "https://arxiv.org/abs/2604.05081",
+  "sourceName": "ArXiv cs.AI",
+  "category": "research",
+  "tags": [
+    "medgemma",
+    "medical-ai",
+    "multimodal",
+    "imaging",
+    "arxiv",
+    "google"
+  ],
+  "publishedAt": "2026-04-10T01:03:23.733151+00:00",
+  "imageUrl": "/images/articles/2026-04-10-medgemma-15-unveiled-multimodal-medical-ai-with-3d-imaging-and-ehr-understanding.jpg",
+  "twitterThread": [
+    "🚨 MedGemma 1.5 just dropped and it's rewriting the rules for medical AI. Google isn't just doing text anymore. They're doing 3D volumes, histopathology, and EHRs all in one 4B model. Let that sink in.",
+    "Here's the breakdown: MedGemma 1.5 now handles CT/MRI volumes and whole slide images alongside bounding box localization. It even tracks multi-timepoint changes in chest X-rays. The architecture is finally catching up to clinical reality.",
+    "The wild part? It understands lab reports and EHRs with the same model that reads MRI scans. No more siloed tools. One unified system for imaging + text. This is the first time we've seen true multimodal medical reasoning at this scale.",
+    "Why does this matter? Radiologists and pathologists usually juggle 5 different software suites. MedGemma 1.5 consolidates that workflow. If the accuracy holds, this could replace a massive chunk of the current diagnostic tech stack.",
+    "This changes everything for medical AI research. The barrier to entry for building specialized multimodal models just got lower. We are moving from single-task bots to generalist medical assistants.",
+    "Full breakdown → https://ainformed.dev"
+  ],
+  "standaloneTweet": "MedGemma 1.5 just changed the game. A single 4B model now reads CTs, MRI volumes, histopathology slides, AND EHRs with anatomical localization. No more siloed tools. This is the first true multimodal medical assistant. https://ainformed.dev/articles/medgemma-1-5-unveiled-multimodal-medical-ai-with-3d-imaging-and-ehr-understanding"
+}

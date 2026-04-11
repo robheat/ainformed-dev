@@ -1,0 +1,28 @@
+{
+  "slug": "2026-04-11-microsoft-begins-removing-copilot-buttons-from-windows-11-apps",
+  "title": "Microsoft Begins Removing Copilot Buttons from Windows 11 Apps",
+  "summary": "Microsoft is removing Copilot buttons from Windows 11 apps, starting with Notepad and Snipping Tool. This shift suggests a strategic pivot away from overt AI integration in favor of more subtle features.",
+  "body": "Microsoft has started removing Copilot buttons from its Windows 11 applications, beginning with the latest version of Notepad for Windows Insiders. The Copilot button has been replaced with a \"writing tools\" menu, indicating a move towards more integrated, less prominent AI features. Similarly, the Snipping Tool app no longer displays the Copilot button when users select an area.\n\nThis change marks a significant shift in Microsoft's approach to AI integration in its operating system. After heavily promoting Copilot as a central feature, the company appears to be backing away from overt AI buttons in favor of more seamless, behind-the-scenes functionality. It suggests that Microsoft may be rethinking the best way to present AI tools to users, potentially in response to feedback or changing market dynamics.\n\nThe removal of Copilot buttons raises questions about the future of AI integration in Windows 11. Will other apps follow suit, or is this a temporary adjustment? How will users react to the diminished visibility of AI tools? Microsoft's next moves will be critical in shaping the trajectory of AI in consumer operating systems.",
+  "sourceUrl": "https://www.theverge.com/news/909640/microsoft-removing-copilot-windows-11-buttons",
+  "sourceName": "The Verge AI",
+  "category": "industry",
+  "tags": [
+    "microsoft",
+    "windows-11",
+    "ai-integration",
+    "copilot",
+    "software-design",
+    "user-experience"
+  ],
+  "publishedAt": "2026-04-11T11:01:30.287748+00:00",
+  "imageUrl": "/images/articles/2026-04-11-microsoft-begins-removing-copilot-buttons-from-windows-11-apps.jpg",
+  "twitterThread": [
+    "🚨 Microsoft is quietly removing Copilot buttons from Windows 11 apps.\n\nThe writing is on the wall for overt AI integration.\n\n#Microsoft #Windows11",
+    "First up: Notepad and Snipping Tool.\n\nThe Copilot button is gone. Replaced with \"writing tools\" and a more subtle approach.\n\nHere's why this matters:",
+    "Microsoft is pivoting away from loud AI buttons.\n\nThe wild part? This is happening *after* they hyped Copilot as the future.\n\nLet that sink in.",
+    "Is this a temporary tweak or the start of a bigger trend?\n\nOther apps could follow. Or this could be a one-off.\n\nEither way, it changes everything for AI in consumer OS.",
+    "Hot take: Microsoft is realizing users don't want AI shoved in their face.\n\nThe future of AI is subtle, seamless, and optional.\n\n#AI #TechTrends",
+    "Full breakdown → https://ainformed.dev"
+  ],
+  "standaloneTweet": "Microsoft is removing Copilot buttons from Windows 11 apps, starting with Notepad and Snipping Tool. Is this the end of overt AI integration? https://ainformed.dev/articles/microsoft-removing-copilot-windows-11-buttons"
+}

@@ -1,0 +1,28 @@
+{
+  "slug": "2026-04-11-openai-rotates-certificates-after-axios-developer-tool-compromise",
+  "title": "OpenAI Rotates Certificates After Axios Developer Tool Compromise",
+  "summary": "OpenAI has responded to a supply chain attack on Axios by rotating macOS code signing certificates and updating its apps. The company confirmed that no user data was compromised in the incident.",
+  "body": "OpenAI has taken swift action following a supply chain attack on the popular developer tool Axios. The company rotated its macOS code signing certificates and updated its apps to mitigate the risk. In a blog post, OpenAI confirmed that no user data was compromised as a result of the incident.\n\nThis response underscores the growing threat of supply chain attacks in the software development ecosystem. Such attacks can compromise the integrity of widely used tools, potentially affecting countless downstream users. OpenAI's proactive measures highlight the importance of robust security practices in the face of evolving cyber threats.\n\nMoving forward, the incident raises questions about the broader implications for developer tools and the security measures in place to protect them. OpenAI's confirmation that no user data was compromised is a relief, but the episode serves as a stark reminder of the vulnerabilities inherent in the software supply chain. The tech community will likely scrutinize the incident and its handling closely.",
+  "sourceUrl": "https://openai.com/index/axios-developer-tool-compromise",
+  "sourceName": "OpenAI Blog",
+  "category": "models",
+  "tags": [
+    "supply-chain",
+    "security",
+    "openai",
+    "developer-tools",
+    "cybersecurity",
+    "axios"
+  ],
+  "publishedAt": "2026-04-11T21:01:19.610648+00:00",
+  "imageUrl": "/images/articles/2026-04-11-openai-rotates-certificates-after-axios-developer-tool-compromise.jpg",
+  "twitterThread": [
+    "🚨 OpenAI just rotated its macOS code signing certificates after a supply chain attack on Axios. Here's why this matters:\n\n",
+    "The attack targeted a widely used developer tool, showing how supply chain vulnerabilities can ripple through the tech ecosystem. OpenAI acted fast to mitigate the risk.",
+    "Here's the wild part: OpenAI confirmed no user data was compromised. That's a win, but the incident exposes a critical weak point in software security.",
+    "Let that sink in. A single compromised tool can put countless users at risk. This changes everything for how we think about developer tool security.",
+    "Hot take: This incident will push the industry to adopt even stricter security measures for developer tools. The days of lax security are over.",
+    "Full breakdown → https://ainformed.dev"
+  ],
+  "standaloneTweet": "OpenAI rotated its macOS code signing certificates after a supply chain attack on Axios. No user data was compromised, but the incident highlights critical vulnerabilities in developer tools. https://ainformed.dev/articles/openai-rotates-certificates-after-axios-compromise"
+}

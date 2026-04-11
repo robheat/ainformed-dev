@@ -14,7 +14,21 @@ export const metadata: Metadata = {
     description:
       "The latest AI news, research, and breakthroughs — curated and summarized daily by AI.",
     url: "https://ainformed.dev",
-    images: [{ url: "/api/og?title=AInformed+Daily+AI+News" }],
+    images: [
+      {
+        url: "/api/og?title=AInformed+%E2%80%94+Daily+AI+News",
+        width: 1200,
+        height: 630,
+        alt: "AInformed — Daily AI News",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "AInformed — Daily AI News",
+    description:
+      "The latest AI news, research, and breakthroughs — curated and summarized daily by AI.",
+    images: ["/api/og?title=AInformed+%E2%80%94+Daily+AI+News"],
   },
 };
 

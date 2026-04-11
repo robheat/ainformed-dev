@@ -1,4 +1,4 @@
-import { ImageResponse } from "@vercel/og";
+import { ImageResponse } from "next/og";
 import { NextRequest } from "next/server";
 
 export const runtime = "edge";
@@ -7,7 +7,8 @@ export async function GET(request: NextRequest) {
   const { searchParams } = new URL(request.url);
   const title = searchParams.get("title") ?? "AInformed — Daily AI News";
   const category = searchParams.get("category") ?? "";
-  const date = searchParams.get("date") ?? new Date().toISOString().slice(0, 10);
+  const date =
+    searchParams.get("date") ?? new Date().toISOString().slice(0, 10);
 
   return new ImageResponse(
     (
@@ -16,29 +17,44 @@ export async function GET(request: NextRequest) {
           display: "flex",
           flexDirection: "column",
           justifyContent: "space-between",
-          width: "1200px",
-          height: "630px",
+          width: "100%",
+          height: "100%",
           background: "linear-gradient(135deg, #0a0a0a 0%, #111827 100%)",
           padding: "60px",
           fontFamily: "sans-serif",
-          border: "1px solid #1f2937",
         }}
       >
-        {/* Top bar */}
-        <div style={{ display: "flex", alignItems: "center", gap: "12px" }}>
-          <div
+        <div style={{ display: "flex", alignItems: "center" }}>
+          <span
             style={{
-              color: "#fff",
+              color: "#ffffff",
               fontSize: "28px",
               fontWeight: 700,
               letterSpacing: "-0.5px",
             }}
           >
-            AI<span style={{ color: "#a78bfa" }}>nformed</span>
-            <span style={{ color: "#6b7280", fontSize: "18px" }}>.dev</span>
-          </div>
-          {category && (
-            <div
+            AI
+          </span>
+          <span
+            style={{
+              color: "#a78bfa",
+              fontSize: "28px",
+              fontWeight: 700,
+            }}
+          >
+            nformed
+          </span>
+          <span
+            style={{
+              color: "#6b7280",
+              fontSize: "18px",
+              marginLeft: "2px",
+            }}
+          >
+            .dev
+          </span>
+          {category ? (
+            <span
               style={{
                 background: "rgba(167,139,250,0.15)",
                 border: "1px solid rgba(167,139,250,0.4)",
@@ -49,18 +65,19 @@ export async function GET(request: NextRequest) {
                 letterSpacing: "1px",
                 padding: "4px 12px",
                 borderRadius: "999px",
+                marginLeft: "16px",
               }}
             >
               {category}
-            </div>
-          )}
+            </span>
+          ) : null}
         </div>
 
-        {/* Title */}
         <div
           style={{
+            display: "flex",
             color: "#f9fafb",
-            fontSize: title.length > 70 ? "36px" : "44px",
+            fontSize: title.length > 70 ? 36 : 44,
             fontWeight: 800,
             lineHeight: 1.2,
             letterSpacing: "-1px",
@@ -70,14 +87,13 @@ export async function GET(request: NextRequest) {
           {title}
         </div>
 
-        {/* Bottom */}
         <div
           style={{
             display: "flex",
-            alignItems: "center",
             justifyContent: "space-between",
             color: "#6b7280",
             fontSize: "15px",
+            width: "100%",
           }}
         >
           <span>{date}</span>

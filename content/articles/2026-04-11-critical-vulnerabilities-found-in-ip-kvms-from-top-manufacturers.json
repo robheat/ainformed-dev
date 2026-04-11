@@ -1,0 +1,28 @@
+{
+  "slug": "2026-04-11-critical-vulnerabilities-found-in-ip-kvms-from-top-manufacturers",
+  "title": "Critical Vulnerabilities Found in IP KVMs from Top Manufacturers",
+  "summary": "Researchers have uncovered severe security flaws in internet-exposed KVM devices from four major manufacturers. These vulnerabilities could allow attackers to gain BIOS-level access to systems. The findings highlight significant risks for enterprises relying on these devices for remote management.",
+  "body": "Researchers have disclosed critical vulnerabilities in IP-based Keyboard, Video, and Mouse (KVM) devices from four leading manufacturers. These devices, which provide BIOS-level access to systems, were found to have significant security flaws that could allow attackers to take control of connected systems remotely. The vulnerabilities were uncovered during a comprehensive security review of internet-exposed KVM devices, revealing potential risks for enterprises that rely on these tools for remote management.\n\nThe implications of these vulnerabilities are severe. KVM devices are often used in data centers and enterprise environments to manage multiple systems from a single interface. The ability to gain BIOS-level access means attackers could potentially bypass security measures and take control of entire networks. This highlights the importance of securing all internet-facing devices, especially those that provide administrative access to critical systems. The findings also underscore the need for manufacturers to prioritize security in the design and deployment of such devices.\n\nThe affected manufacturers have been notified and are reportedly working on patches to address the vulnerabilities. However, the disclosure of these flaws serves as a wake-up call for organizations to review their use of IP KVMs and ensure they are properly secured. The researchers have advised enterprises to disable internet exposure of these devices and implement additional security measures until patches are available. The incident also raises questions about the broader security of remote management tools and the need for more rigorous security standards in the industry.",
+  "sourceUrl": "https://arstechnica.com/security/2026/03/researchers-disclose-vulnerabilities-in-ip-kvms-from-4-manufacturers/",
+  "sourceName": "Ars Technica AI",
+  "category": "industry",
+  "tags": [
+    "cybersecurity",
+    "kvm",
+    "vulnerabilities",
+    "enterprise",
+    "remote-management",
+    "bios"
+  ],
+  "publishedAt": "2026-04-11T16:03:05.978111+00:00",
+  "imageUrl": "/images/articles/2026-04-11-critical-vulnerabilities-found-in-ip-kvms-from-top-manufacturers.jpg",
+  "twitterThread": [
+    "🚨 Critical flaws found in IP KVMs from 4 major manufacturers. BIOS-level access at risk.\n\nHere's why this matters:",
+    "These KVMs are used in data centers & enterprises. Attackers could bypass security & take control of entire networks.\n\nLet that sink in.",
+    "The vulnerabilities were found in internet-exposed devices. Many orgs leave these unsecured. A massive risk.",
+    "Manufacturers are working on patches. But enterprises must act now: disable internet exposure & add security layers.",
+    "This is a wake-up call. Remote management tools need stricter security standards. The industry must prioritize this.",
+    "Full breakdown → https://ainformed.dev"
+  ],
+  "standaloneTweet": "Critical vulnerabilities in IP KVMs from 4 manufacturers could allow BIOS-level attacks. Enterprises must act now. Full details: https://ainformed.dev/articles/critical-vulnerabilities-found-in-ip-kvms-from-top-manufacturers"
+}

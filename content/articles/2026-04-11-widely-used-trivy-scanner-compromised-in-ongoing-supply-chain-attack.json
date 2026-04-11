@@ -1,0 +1,28 @@
+{
+  "slug": "2026-04-11-widely-used-trivy-scanner-compromised-in-ongoing-supply-chain-attack",
+  "title": "Widely Used Trivy Scanner Compromised in Ongoing Supply-Chain Attack",
+  "summary": "The Trivy vulnerability scanner has been compromised in a supply-chain attack, potentially exposing sensitive data. Admins are urged to rotate their secrets immediately.",
+  "body": "The Trivy vulnerability scanner, a widely used tool for identifying security issues in container images and file systems, has been compromised in an ongoing supply-chain attack. The breach was discovered after suspicious activities were detected in the tool's infrastructure. Admins are being advised to rotate their secrets as a precautionary measure to prevent further exploitation.\n\nThis incident highlights the critical vulnerabilities in the software supply chain, where a single compromised tool can have far-reaching consequences. Trivy is particularly popular due to its integration with DevOps pipelines, making this breach especially concerning. The attack underscores the need for robust security practices and continuous monitoring of open-source tools.\n\nThe full extent of the compromise is still under investigation, but initial reports suggest that the attackers may have gained access to sensitive data. Security experts are advising organizations to review their logs for any unusual activities and to implement additional security measures. The incident serves as a stark reminder of the importance of proactive security management in an increasingly interconnected digital landscape.",
+  "sourceUrl": "https://arstechnica.com/security/2026/03/widely-used-trivy-scanner-compromised-in-ongoing-supply-chain-attack/",
+  "sourceName": "Ars Technica AI",
+  "category": "industry",
+  "tags": [
+    "supply-chain",
+    "cybersecurity",
+    "trivy",
+    "vulnerability",
+    "devops",
+    "compromise"
+  ],
+  "publishedAt": "2026-04-11T16:01:53.371450+00:00",
+  "imageUrl": "/images/articles/2026-04-11-widely-used-trivy-scanner-compromised-in-ongoing-supply-chain-attack.jpg",
+  "twitterThread": [
+    "🚨 Trivy, a widely used vulnerability scanner, has been compromised in a supply-chain attack. Rotate your secrets NOW. \n\nHere's why this matters:",
+    "Trivy is embedded in many DevOps pipelines. A breach here = a breach everywhere. \n\nThe wild part? Attackers may have accessed sensitive data. \n\nLet that sink in.",
+    "This changes everything for organizations relying on open-source security tools. \n\nNo tool is 100% safe. Proactive monitoring is a must.",
+    "Security experts are advising immediate secret rotation and log reviews. \n\nThe full extent of the damage is still unknown. \n\nStay vigilant.",
+    "Hot take: This incident will accelerate the adoption of more robust security practices in the DevOps space. \n\nThe days of trusting any single tool blindly are over.",
+    "Full breakdown → https://ainformed.dev"
+  ],
+  "standaloneTweet": "Trivy, a widely used vulnerability scanner, has been compromised in a supply-chain attack. Admins: rotate your secrets immediately. https://ainformed.dev/articles/widely-used-trivy-scanner-compromised-in-ongoing-supply-chain-attack"
+}

@@ -21,7 +21,7 @@ export default function NewsletterSignup({ compact = false }: { compact?: boolea
 
       if (res.ok) {
         setStatus("success");
-        setMessage("You're in! Check your inbox for a welcome email.");
+        setMessage("You're in! We sent a welcome email — check your inbox.");
         setEmail("");
       } else {
         setStatus("error");

@@ -1,0 +1,77 @@
+name: Bookmark Articles Pipeline
+
+on:
+  schedule:
+    - cron: "30 */4 * * *" # Every 4 hours at :30
+  workflow_dispatch: # Manual trigger
+
+permissions:
+  contents: write
+
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
+jobs:
+  process-bookmarks:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v5
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Fetch bookmarks from X
+        working-directory: pipeline
+        env:
+          TWITTER_CLIENT_ID: ${{ secrets.TWITTER_CLIENT_ID }}
+          TWITTER_CLIENT_SECRET: ${{ secrets.TWITTER_CLIENT_SECRET }}
+          TWITTER_REFRESH_TOKEN: ${{ secrets.TWITTER_REFRESH_TOKEN }}
+        run: python fetch_bookmarks.py
+
+      - name: Save rotated refresh token
+        if: always()
+        working-directory: pipeline
+        run: |
+          if [ -f cache/.twitter_oauth2_token.json ]; then
+            echo "Refresh token was rotated — update the secret manually if needed."
+            cat cache/.twitter_oauth2_token.json | python -c "import sys,json; d=json.load(sys.stdin); print(f'New refresh token updated at: {d[\"updated_at\"]}')"
+          fi
+
+      - name: Generate articles from bookmarks (Venice AI)
+        working-directory: pipeline
+        env:
+          VENICE_AI_API_KEY: ${{ secrets.VENICE_AI_API_KEY }}
+        run: python process_bookmarks.py
+
+      - name: Commit new articles and images
+        run: |
+          git config user.name "AInformed Bot"
+          git config user.email "bot@ainformed.dev"
+          git add content/articles/ public/images/articles/
+          git add content/.tweeted.json 2>/dev/null || true
+          git diff --cached --quiet || git commit -m "📌 Bookmark articles: $(date -u +%Y-%m-%d)"
+          git push
+
+      - name: Post to Twitter/X
+        if: success()
+        working-directory: pipeline
+        env:
+          TWITTER_API_KEY: ${{ secrets.TWITTER_API_KEY }}
+          TWITTER_API_SECRET: ${{ secrets.TWITTER_API_SECRET }}
+          TWITTER_ACCESS_TOKEN: ${{ secrets.TWITTER_ACCESS_TOKEN }}
+          TWITTER_ACCESS_SECRET: ${{ secrets.TWITTER_ACCESS_SECRET }}
+        run: python post_twitter.py
+      
+      - name: Commit tweeted tracking file
+        if: always()
+        run: |
+          git add content/.tweeted.json 2>/dev/null || true
+          git diff --cached --quiet || git commit -m "🐦 Update tweeted tracking (bookmarks)"
+          git push

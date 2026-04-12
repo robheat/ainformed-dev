@@ -1,6 +1,7 @@
 import { Metadata } from "next";
 import { getLatestArticles, getTodaysDigest } from "@/lib/content";
 import ArticleCard from "@/components/ArticleCard";
+import NewsletterSignup from "@/components/NewsletterSignup";
 import { formatDate } from "@/lib/utils";
 
 export const revalidate = 3600; // ISR: revalidate every hour
@@ -90,24 +91,9 @@ export default function HomePage() {
         </div>
       )}
 
-      {/* CTA */}
-      <div className="border border-neutral-800 rounded-xl p-6 bg-neutral-900 text-center mt-4">
-        <p className="text-neutral-400 text-sm mb-1">Stay in the loop</p>
-        <h3 className="text-lg font-semibold mb-3">
-          Follow{" "}
-          <a
-            href="https://twitter.com/AInformedDev"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-violet-400 hover:text-violet-300"
-          >
-            @AInformedDev
-          </a>{" "}
-          on X
-        </h3>
-        <p className="text-xs text-neutral-600">
-          Daily AI news threads posted automatically every morning.
-        </p>
+      {/* Newsletter CTA */}
+      <div className="mt-4">
+        <NewsletterSignup />
       </div>
     </div>
   );

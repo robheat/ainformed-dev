@@ -16,6 +16,12 @@ export default function Footer() {
             RSS Feed
           </Link>
           <Link
+            href="/newsletter"
+            className="text-xs text-neutral-500 hover:text-violet-400 transition-colors"
+          >
+            Newsletter
+          </Link>
+          <Link
             href="/sitemap.xml"
             className="text-xs text-neutral-500 hover:text-neutral-300 transition-colors"
           >

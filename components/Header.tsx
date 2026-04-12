@@ -27,6 +27,12 @@ export default function Header() {
 
           <div className="flex items-center gap-3">
             <Link
+              href="/newsletter"
+              className="text-xs bg-violet-600 hover:bg-violet-500 text-white font-medium px-3 py-1 rounded-md transition-colors"
+            >
+              Newsletter
+            </Link>
+            <Link
               href="/feed.xml"
               className="text-xs text-neutral-500 hover:text-orange-400 transition-colors font-mono"
               title="RSS Feed"

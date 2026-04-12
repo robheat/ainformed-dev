@@ -1,0 +1,27 @@
+{
+  "slug": "2026-04-12-open-source-ai-tool-tests-your-cv-against-any-job-description",
+  "title": "Open-source AI tool tests your CV against any job description",
+  "summary": "CV-Praetorian-Guard is a free, open-source tool that uses AI to compare your CV against job descriptions. It helps identify gaps and improve resume relevance.",
+  "body": "A new open-source tool called CV-Praetorian-Guard allows users to test their CV against any job description. The tool uses AI to analyze and compare the content of a CV with the requirements listed in a job posting, highlighting gaps and suggesting improvements. This can help job seekers tailor their resumes to better match the roles they are applying for.\n\nThe tool is particularly useful in a competitive job market where resumes often need to stand out. By providing a detailed analysis, CV-Praetorian-Guard can help users understand what skills and experiences they need to emphasize or develop. It also saves time by automating the process of matching CVs to job descriptions, which can be tedious and error-prone when done manually.\n\nThe project is available on GitHub, and users can contribute to its development or use it for free. As AI continues to play a larger role in hiring processes, tools like CV-Praetorian-Guard could become essential for job seekers looking to optimize their applications. The future of this tool may include more advanced features, such as personalized recommendations based on industry trends or the ability to simulate different hiring scenarios.",
+  "sourceUrl": "https://github.com/simonesan-afk/CV-Praetorian-Guard",
+  "sourceName": "Hacker News AI",
+  "category": "general",
+  "tags": [
+    "ai",
+    "resume",
+    "open-source",
+    "job-search",
+    "career-tools"
+  ],
+  "publishedAt": "2026-04-12T16:02:26.822306+00:00",
+  "imageUrl": "/images/articles/2026-04-12-open-source-ai-tool-tests-your-cv-against-any-job-description.jpg",
+  "twitterThread": [
+    "🚀 A free, open-source AI tool to test your CV against any job description. #AI #JobSearch\n\n",
+    "Meet CV-Praetorian-Guard. It compares your CV to job postings, highlighting gaps and suggesting improvements.\n\n",
+    "Here's why this matters: Job seekers often struggle to tailor resumes. This tool automates the process, saving time and increasing relevance.\n\n",
+    "The wild part: It's open-source! Developers can contribute, and users can access it for free. Let that sink in.\n\n",
+    "This changes everything for job seekers. As AI hiring tools grow, CV-Praetorian-Guard helps level the playing field.\n\n",
+    "Full breakdown → https://ainformed.dev"
+  ],
+  "standaloneTweet": "Test your CV against any job description with this free, open-source AI tool. Optimize your job search today! https://ainformed.dev/articles/test-your-cv-against-any-job-description-free-open-source-ai-powered"
+}

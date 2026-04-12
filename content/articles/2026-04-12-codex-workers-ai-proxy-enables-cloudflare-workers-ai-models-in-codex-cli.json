@@ -1,0 +1,27 @@
+{
+  "slug": "2026-04-12-codex-workers-ai-proxy-enables-cloudflare-workers-ai-models-in-codex-cli",
+  "title": "Codex Workers AI Proxy Enables Cloudflare Workers AI Models in Codex CLI",
+  "summary": "A new proxy tool allows users to leverage Cloudflare Workers AI models within the Codex CLI. This development bridges two powerful AI ecosystems for developers.",
+  "body": "A new tool called Codex Workers AI Proxy has been developed to enable the use of Cloudflare Workers AI models within the Codex CLI. This proxy acts as a bridge, allowing developers to access Cloudflare's AI capabilities directly from their local development environment. The tool is open-source and available on GitHub, providing a seamless integration for those familiar with both platforms.\n\nThis development is significant because it combines the robustness of Cloudflare's AI models with the flexibility of the Codex CLI. Cloudflare Workers AI models are known for their performance and scalability, while Codex CLI offers a powerful command-line interface for AI model interactions. By integrating these two, developers can streamline their workflows and access advanced AI capabilities more efficiently.\n\nThe future of this tool depends on community adoption and further development. As more developers start using the Codex Workers AI Proxy, we can expect feedback and contributions that will enhance its functionality. The open-source nature of the project means that it has the potential to evolve rapidly, with new features and improvements being added over time. The main question is whether this tool will gain enough traction to become a standard in the developer community.",
+  "sourceUrl": "https://github.com/pitzcarraldo/codex-workers-ai-proxy",
+  "sourceName": "Hacker News AI",
+  "category": "general",
+  "tags": [
+    "ai",
+    "developers",
+    "cloudflare",
+    "codex",
+    "open-source",
+    "proxy"
+  ],
+  "publishedAt": "2026-04-12T16:02:43.651309+00:00",
+  "imageUrl": "/images/articles/2026-04-12-codex-workers-ai-proxy-enables-cloudflare-workers-ai-models-in-codex-cli.jpg",
+  "twitterThread": [
+    "🚀 A game-changer for AI developers!\n\nYou can now use Cloudflare Workers AI models in Codex CLI. Here's how:\n\n1. Install the Codex Workers AI Proxy\n2. Connect to Cloudflare's AI models\n3. Run commands in your local environment\n\nThis is a big deal. #AI #Developers",
+    "Here's why this matters:\n\n- Cloudflare's AI models are known for performance and scalability\n- Codex CLI offers a powerful command-line interface\n- Combining them streamlines workflows for developers\n\nLet that sink in.",
+    "The wild part?\n\nThis tool is open-source and available on GitHub\n\nDevelopers can now contribute and enhance its functionality\n\nThe potential for rapid evolution is huge\n\nThis changes everything for AI development.",
+    "What's next?\n\nCommunity adoption and further development will shape its future\n\nExpect feedback and contributions to enhance functionality\n\nThe main question: Will it become a standard in the developer community?\n\nTime will tell.",
+    "Hot take:\n\nThis integration could set a new standard for AI development tools\n\nBy bridging powerful ecosystems, it opens up new possibilities for developers\n\nThe future of AI development just got more exciting\n\nWhat do you think?"
+  ],
+  "standaloneTweet": "🚀 Use Cloudflare Workers AI models in Codex CLI with this new proxy tool. A game-changer for developers! https://ainformed.dev/articles/codex-workers-ai-proxy-enables-cloudflare-workers-ai-models-in-codex-cli"
+}

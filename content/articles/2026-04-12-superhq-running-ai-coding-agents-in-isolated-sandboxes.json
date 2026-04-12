@@ -1,0 +1,28 @@
+{
+  "slug": "2026-04-12-superhq-running-ai-coding-agents-in-isolated-sandboxes",
+  "title": "SuperHQ: Running AI Coding Agents in Isolated Sandboxes",
+  "summary": "SuperHQ introduces a new way to run AI coding agents in isolated microVMs, ensuring system safety and clean workflows. The tool provides a unified diff view for managing changes without affecting the host environment.",
+  "body": "A new tool called SuperHQ has been introduced, allowing users to run AI coding agents in isolated sandboxes powered by Shuru. Unlike traditional methods that rely on Git worktrees, SuperHQ provides a secure environment where each agent operates within its own microVM. This setup ensures that any changes made by the agents are contained and do not affect the host system.\n\nThe significance of SuperHQ lies in its ability to provide a clean and safe workspace for AI coding agents. By mounting projects into the sandbox and using a tmpfs overlay for writes, the tool ensures that the host environment remains untouched. This is particularly useful for developers who need to run multiple agents in parallel without the risk of system contamination. The unified diff view further simplifies the process of accepting or discarding changes.\n\nSuperHQ is expected to gain traction among developers who frequently use AI coding agents. The tool's ability to isolate agents in microVMs and provide a clean workspace could revolutionize the way developers interact with AI assistants. As more developers adopt this tool, it may set a new standard for running AI coding agents in a safe and efficient manner.",
+  "sourceUrl": "https://superhq.ai/",
+  "sourceName": "Hacker News AI",
+  "category": "general",
+  "tags": [
+    "ai",
+    "coding",
+    "sandbox",
+    "development",
+    "tools",
+    "security"
+  ],
+  "publishedAt": "2026-04-12T16:01:25.223346+00:00",
+  "imageUrl": "/images/articles/2026-04-12-superhq-running-ai-coding-agents-in-isolated-sandboxes.jpg",
+  "twitterThread": [
+    "🚀 A game-changer for AI coding agents: SuperHQ lets you run them in isolated microVMs.\n\nNo more worrying about breaking your system. \n\nHere's why this matters:",
+    "SuperHQ uses Shuru to create secure sandboxes. Each agent runs in its own microVM, keeping your host environment safe. \n\nProjects are mounted in, and changes go to a tmpfs overlay. \n\nNo host system is ever touched.",
+    "The unified diff view is a standout feature. It lets you accept or discard changes with ease. \n\nPerfect for running multiple agents in parallel. \n\nLet that sink in.",
+    "API keys never enter the sandbox, adding an extra layer of security. \n\nThis changes everything for developers using AI coding agents. \n\nThe future of AI-assisted coding is here.",
+    "SuperHQ could set a new standard for running AI coding agents. \n\nExpect more developers to adopt this tool for its safety and efficiency. \n\nThe AI coding landscape is evolving.",
+    "Full breakdown → https://ainformed.dev"
+  ],
+  "standaloneTweet": "🚀 SuperHQ lets you run AI coding agents in isolated microVMs, keeping your system safe. Unified diff view makes managing changes a breeze. https://ainformed.dev/articles/superhq-running-ai-coding-agents-in-isolated-sandboxes"
+}

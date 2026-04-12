@@ -55,7 +55,7 @@ class CallbackHandler(http.server.BaseHTTPRequestHandler):
         if params.get("state", [None])[0] != state:
             self.send_response(400)
             self.end_headers()
-            self.wfile.write(b"State mismatch — possible CSRF. Try again.")
+            self.wfile.write(b"State mismatch - possible CSRF. Try again.")
             return
 
         if "error" in params:

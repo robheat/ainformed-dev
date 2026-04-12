@@ -1,0 +1,28 @@
+{
+  "slug": "2026-04-12-walnut-a-cli-error-tracker-built-for-ai-agents",
+  "title": "Walnut: A CLI Error Tracker Built for AI Agents",
+  "summary": "Walnut is a new error tracking tool designed specifically for AI agents, not humans. It's fully compatible with Sentry and operates entirely through a command-line interface.",
+  "body": "A new error tracking tool called Walnut has been introduced, specifically designed for AI agents rather than human developers. Unlike traditional error trackers, Walnut operates entirely through a command-line interface (CLI) and has no dashboard. This makes it ideal for AI agents that need to manage and monitor errors without human intervention.\n\nWalnut is fully compatible with Sentry, the popular error tracking platform. By changing the Data Source Name (DSN), users can integrate Walnut with their existing Sentry setups seamlessly. This compatibility ensures that users can leverage their current error tracking infrastructure while benefiting from Walnut's agent-focused features.\n\nThe tool is already generating interest, with users being encouraged to try it out by pasting a simple setup prompt into their coding agents. This includes installing the CLI and using commands like `walnut docs list` and `walnut docs read` to learn more. The simplicity and agent-centric design of Walnut could make it a valuable tool in the growing ecosystem of AI agent development.",
+  "sourceUrl": "https://github.com/bilalg1/walnut",
+  "sourceName": "Hacker News AI",
+  "category": "general",
+  "tags": [
+    "ai-agents",
+    "error-tracking",
+    "cli",
+    "sentry",
+    "developer-tools",
+    "uncensored"
+  ],
+  "publishedAt": "2026-04-12T21:01:48.189172+00:00",
+  "imageUrl": "/images/articles/2026-04-12-walnut-a-cli-error-tracker-built-for-ai-agents.jpg",
+  "twitterThread": [
+    "🚨 Walnut just dropped. An error tracker built for AI agents, not humans. No dashboard. Just CLI. \n\nHere's why this matters:",
+    "Most error trackers are designed for humans. Walnut flips the script. Agents handle everything. \n\nThe wild part? It's fully Sentry-compatible. Just change the DSN.",
+    "To try it, paste this into your coding agent: \n\n`curl -fsSL https://walnut.sh | bash` \n\nThen use `walnut docs list` and `walnut docs read`.",
+    "This changes everything for AI agent development. No more human-in-the-loop for error tracking. \n\nLet that sink in.",
+    "Hot take: Walnut could be the standard for AI agent error tracking. If it gains traction, expect competitors to follow.",
+    "Full breakdown → https://ainformed.dev"
+  ],
+  "standaloneTweet": "Walnut is an error tracker built for AI agents, not humans. No dashboard. Just CLI. Fully Sentry-compatible. Try it today: https://ainformed.dev/articles/walnut-a-cli-error-tracker-built-for-ai-agents"
+}

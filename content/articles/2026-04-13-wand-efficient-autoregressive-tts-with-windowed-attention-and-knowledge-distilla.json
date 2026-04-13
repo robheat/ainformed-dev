@@ -1,0 +1,28 @@
+{
+  "slug": "2026-04-13-wand-efficient-autoregressive-tts-with-windowed-attention-and-knowledge-distilla",
+  "title": "WAND: Efficient Autoregressive TTS with Windowed Attention and Knowledge Distillation",
+  "summary": "Researchers introduce WAND, a framework that reduces the computational and memory costs of autoregressive text-to-speech models by using windowed attention and knowledge distillation. This approach maintains high-fidelity speech output while making the models more scalable.",
+  "body": "Researchers have developed WAND, a new framework designed to make autoregressive text-to-speech (AR-TTS) models more efficient. The method addresses the quadratic scaling of memory and compute costs associated with full self-attention by introducing windowed attention and knowledge distillation. WAND separates the attention mechanism into persistent global attention for conditioning tokens and local sliding-window attention for generated tokens, significantly reducing resource requirements.\n\nThe innovation is crucial for scaling AR-TTS models, which have traditionally been limited by their high computational demands. By maintaining high-fidelity speech output while reducing costs to constant complexity, WAND opens up new possibilities for real-time and large-scale applications. This advancement could make high-quality text-to-speech technology more accessible and practical for a wider range of uses.\n\nThe research community is likely to explore WAND's potential further, particularly in applications requiring real-time processing or deployment on edge devices. Future work may focus on optimizing the windowed attention mechanism and integrating WAND with other state-of-the-art TTS models. The open questions revolve around the trade-offs between computational efficiency and speech quality, as well as the adaptability of WAND to different types of TTS models.",
+  "sourceUrl": "https://arxiv.org/abs/2604.08558",
+  "sourceName": "ArXiv cs.CL",
+  "category": "research",
+  "tags": [
+    "tts",
+    "attention",
+    "efficiency",
+    "knowledge-distillation",
+    "arxiv",
+    "ai-research"
+  ],
+  "publishedAt": "2026-04-13T21:02:50.633542+00:00",
+  "imageUrl": "/images/articles/2026-04-13-wand-efficient-autoregressive-tts-with-windowed-attention-and-knowledge-distilla.jpg",
+  "twitterThread": [
+    "🚀 Breakthrough in TTS efficiency!\n\nAR-TTS models just got a major upgrade with WAND. Here's why it's a game-changer:\n\n1. Constant compute & memory complexity\n2. High-fidelity speech preserved\n3. Windowed attention + knowledge distillation\n\nThis changes everything for real-time TTS.",
+    "The problem: Full self-attention in AR-TTS scales quadratically. That's expensive. WAND fixes it with windowed attention. Global for conditioning. Local for generated tokens. Genius.",
+    "Here's why this matters:\n\n- Real-time TTS on edge devices? Now possible.\n- Large-scale deployment just got cheaper.\n- High-fidelity speech without the quadratic cost.\n\nLet that sink in.",
+    "The wild part? WAND doesn't sacrifice quality. It maintains high-fidelity speech while slashing compute costs. This is the holy grail of TTS efficiency.",
+    "Hot take: WAND could make AR-TTS the default for all real-time applications. No more compromising on quality or cost. The future of TTS is here.",
+    "Full breakdown → https://ainformed.dev"
+  ],
+  "standaloneTweet": "WAND just revolutionized TTS efficiency. Constant compute cost, high-fidelity speech, and windowed attention. The future of real-time text-to-speech is here. https://ainformed.dev/articles/wand-efficient-autoregressive-tts-with-windowed-attention-and-knowledge-distillation"
+}

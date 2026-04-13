@@ -1,0 +1,28 @@
+{
+  "slug": "2026-04-13-cloudflare-and-openai-partner-to-bring-gpt-54-to-agent-cloud",
+  "title": "Cloudflare and OpenAI Partner to Bring GPT-5.4 to Agent Cloud",
+  "summary": "Cloudflare has integrated OpenAI's GPT-5.4 and Codex into its Agent Cloud, enabling enterprises to build and deploy AI agents securely. This partnership aims to streamline AI workflows for real-world applications.",
+  "body": "Cloudflare has announced a strategic partnership with OpenAI to bring GPT-5.4 and Codex to its Agent Cloud platform. This integration allows enterprises to build, deploy, and scale AI agents for a variety of real-world tasks with enhanced speed and security. The collaboration is designed to empower businesses to leverage advanced AI capabilities seamlessly within their existing workflows.\n\nThe integration of GPT-5.4 and Codex into Agent Cloud is significant as it provides enterprises with robust tools to automate complex tasks, improve decision-making, and enhance productivity. This partnership is particularly noteworthy given the increasing demand for AI-driven solutions in various industries, from healthcare to finance. The combination of Cloudflare's security infrastructure and OpenAI's cutting-edge models offers a unique advantage for businesses looking to implement AI agents securely.\n\nLooking ahead, this partnership is expected to drive further innovation in the AI agent space. Enterprises can now explore new applications for AI agents, such as customer service automation, data analysis, and process optimization. The collaboration between Cloudflare and OpenAI sets a new standard for secure and scalable AI deployment, paving the way for more advanced AI solutions in the future.",
+  "sourceUrl": "https://openai.com/index/cloudflare-openai-agent-cloud",
+  "sourceName": "OpenAI Blog",
+  "category": "models",
+  "tags": [
+    "openai",
+    "cloudflare",
+    "ai-agents",
+    "gpt-5.4",
+    "agent-cloud",
+    "enterprise-ai"
+  ],
+  "publishedAt": "2026-04-13T16:01:07.965407+00:00",
+  "imageUrl": "/images/articles/2026-04-13-cloudflare-and-openai-partner-to-bring-gpt-54-to-agent-cloud.jpg",
+  "twitterThread": [
+    "🚀 Cloudflare just brought OpenAI's GPT-5.4 to Agent Cloud. Game changer for enterprises.\n\nHere's why this matters:",
+    "Enterprises can now build, deploy, and scale AI agents with speed and security. No more compromising on performance or safety.",
+    "The wild part? They're also integrating Codex. That means AI agents can understand and generate code. Imagine the possibilities.",
+    "Let that sink in. GPT-5.4 + Cloudflare's security = AI agents that are both powerful and secure. This changes everything for enterprises.",
+    "Hot take: This isn't just about automation. It's about redefining how businesses operate. AI agents will soon be as common as cloud computing.",
+    "Full breakdown → https://ainformed.dev"
+  ],
+  "standaloneTweet": "Cloudflare just integrated OpenAI's GPT-5.4 into Agent Cloud. Enterprises can now build secure, scalable AI agents faster than ever. https://ainformed.dev/articles/cloudflare-and-openai-partner-to-bring-gpt-5.4-to-agent-cloud"
+}

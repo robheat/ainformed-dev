@@ -1,0 +1,28 @@
+{
+  "slug": "2026-04-13-openclaw-2026412-stability-audio-and-memory-fixes",
+  "title": "OpenClaw 2026.4.12: Stability, Audio, and Memory Fixes",
+  "summary": "OpenClaw's latest update focuses on stability, audio transcription, and memory improvements. The release also includes fixes for Telegram approval deadlocks and timezone issues in dreaming.",
+  "body": "OpenClaw has released version 2026.4.12, packed with stability and reliability improvements. The update addresses audio transcription issues and enhances chat, TTS, and WhatsApp functionalities. Memory, QMD, plugin, cron, and subagent systems have also been fine-tuned.\n\nThis release is significant for users who rely on OpenClaw for seamless AI interactions. The fixes for Telegram approval deadlocks and timezone issues in dreaming highlight the project's commitment to a smooth user experience. Compared to previous versions, this update emphasizes robustness and cross-platform consistency.\n\nThe community's reaction to this update is expected to be positive, especially among users who faced issues with audio transcription and Telegram integration. Future updates may focus on expanding plugin capabilities and further refining memory management. The open-source nature of OpenClaw ensures continuous improvements driven by community feedback.",
+  "sourceUrl": "https://github.com/openclaw/openclaw/releases/tag/v2026.4.12",
+  "sourceName": "@vincent_koc on X",
+  "category": "general",
+  "tags": [
+    "openclaw",
+    "ai-assistant",
+    "stability",
+    "audio-transcription",
+    "memory",
+    "updates"
+  ],
+  "publishedAt": "2026-04-13T23:21:28.640726+00:00",
+  "imageUrl": "/images/articles/2026-04-13-openclaw-2026412-stability-audio-and-memory-fixes.jpg",
+  "twitterThread": [
+    "🦞 OpenClaw just dropped a MASSIVE update. Here's what's inside:\n\n✨ Stability & reliability improvements\n🎙️ Audio transcription fixes\n💬 Better chat / TTS / WhatsApp\n🧠 Memory / QMD / plugin / cron / subagent fixes\n🔧 Telegram approval deadlock fix\n🧵 Dreaming timezone\n\n#LobsterLife",
+    "Here's why this matters:\n\nAudio transcription was a pain point. Fixed.\nTelegram deadlocks? Gone.\nMemory issues? Improved.\n\nLet that sink in.",
+    "The wild part?\n\nThey didn't just fix bugs. They made everything smoother.\n\nChat, TTS, WhatsApp? All better.\n\nThis changes everything for OpenClaw users.",
+    "Open-source projects like OpenClaw are why we love AI.\n\nCommunity-driven. Transparent. Reliable.\n\nHappy lobster, happy life.",
+    "Hot take:\n\nThis update is a game-changer for personal AI assistants.\n\nIf you're not using OpenClaw, you're missing out.",
+    "Full breakdown → https://ainformed.dev"
+  ],
+  "standaloneTweet": "OpenClaw 2026.4.12 just dropped with stability, audio, and memory fixes. Telegram deadlocks? Gone. Dreaming timezone? Fixed. 🦞 Happy lobster, happy life. Full details → https://ainformed.dev/articles/openclaw-2026-4-12-stability-audio-and-memory-fixes"
+}

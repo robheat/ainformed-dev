@@ -7,6 +7,7 @@ on:
 
 permissions:
   contents: write
+  secrets: write
 
 env:
   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
@@ -35,13 +36,16 @@ jobs:
           TWITTER_REFRESH_TOKEN: ${{ secrets.TWITTER_REFRESH_TOKEN }}
         run: python fetch_bookmarks.py
 
-      - name: Save rotated refresh token
+      - name: Update rotated refresh token
         if: always()
+        env:
+          GH_TOKEN: ${{ secrets.PAT_TOKEN }}
         working-directory: pipeline
         run: |
           if [ -f cache/.twitter_oauth2_token.json ]; then
-            echo "Refresh token was rotated — update the secret manually if needed."
-            cat cache/.twitter_oauth2_token.json | python -c "import sys,json; d=json.load(sys.stdin); print(f'New refresh token updated at: {d[\"updated_at\"]}')"
+            NEW_TOKEN=$(python -c "import json; print(json.load(open('cache/.twitter_oauth2_token.json'))['refresh_token'])")
+            gh secret set TWITTER_REFRESH_TOKEN --body "$NEW_TOKEN" --repo ${{ github.repository }}
+            echo "✓ Refresh token updated"
           fi
 
       - name: Generate articles from bookmarks (Venice AI)

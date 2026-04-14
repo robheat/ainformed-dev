@@ -1,0 +1,28 @@
+{
+  "slug": "2026-04-14-soulmd-open-format-for-ai-agent-identity",
+  "title": "Soul.md: Open Format for AI Agent Identity",
+  "summary": "Soul.md is a new open format designed to give AI agents persistent identities. It aims to standardize how AI agents are identified and remembered across different platforms.",
+  "body": "A new open format called Soul.md has been introduced to provide AI agents with persistent identities. This format allows AI agents to maintain a consistent identity across various platforms and interactions. Soul.md is designed to be simple and flexible, making it easy for developers to implement.\n\nThe significance of Soul.md lies in its potential to standardize AI agent identities. Currently, AI agents often lack a consistent identity, making it difficult for users to recognize and interact with them across different applications. Soul.md aims to solve this problem by providing a unified format for identifying AI agents.\n\nThe future of Soul.md depends on its adoption by the developer community. If widely adopted, it could become the standard for AI agent identities, making interactions with AI agents more seamless and consistent. However, its success will depend on the willingness of developers to embrace this new format.",
+  "sourceUrl": "https://github.com/AntonioTF5/soul-spec",
+  "sourceName": "Hacker News AI",
+  "category": "general",
+  "tags": [
+    "ai",
+    "identity",
+    "open-format",
+    "agents",
+    "standardization",
+    "developer-tools"
+  ],
+  "publishedAt": "2026-04-14T16:01:51.216314+00:00",
+  "imageUrl": null,
+  "twitterThread": [
+    "🚀 Soul.md is here to give AI agents a persistent identity. No more anonymous bots!\n\nHere's how it works:\n\n1. Simple format for AI identities\n2. Works across platforms\n3. Open for everyone to use",
+    "The problem? AI agents often lack consistent identities. Soul.md fixes that.\n\nImagine chatting with the same AI across apps. No more confusion. Just seamless interactions.",
+    "The wild part? It's open-source. Anyone can contribute. This could be the standard we've been waiting for.",
+    "Developers, take note. Soul.md is easy to implement. No complex setups. Just plug and play.",
+    "This changes everything for AI interactions. Consistent identities mean better user experiences. The future is here.",
+    "Full breakdown → https://ainformed.dev"
+  ],
+  "standaloneTweet": "Soul.md is an open format for giving AI agents persistent identities. No more anonymous bots! https://ainformed.dev/articles/soul-md-open-format-for-ai-agent-identity"
+}

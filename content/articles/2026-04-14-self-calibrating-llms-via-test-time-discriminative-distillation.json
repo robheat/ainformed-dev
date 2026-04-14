@@ -1,0 +1,27 @@
+{
+  "slug": "2026-04-14-self-calibrating-llms-via-test-time-discriminative-distillation",
+  "title": "Self-Calibrating LLMs via Test-Time Discriminative Distillation",
+  "summary": "Researchers propose a method to improve the calibration of large language models (LLMs) without labeled data. The technique leverages the models' internal signals to reduce overconfidence in answers.",
+  "body": "Researchers have introduced a novel approach to enhance the calibration of large language models (LLMs) during inference. The method, termed test-time discriminative distillation, addresses the persistent issue of LLMs being overconfident in their responses, often expressing high certainty in incorrect answers. Unlike existing methods that require labeled validation data or incur significant inference costs, this technique operates without the need for additional labeled data, making it more practical for real-world applications.\n\nThe key insight is that LLMs already contain a better-calibrated signal than the one they verbalize. Specifically, the token probability of \"True\" when the model is asked \"Is this answer correct?\" ($P(\\text{True})$) consistently outperforms their stated confidence. This gap highlights the potential for self-calibration using the models' internal mechanisms. The proposed method leverages this signal to adjust the model's confidence levels dynamically, reducing overconfidence and improving reliability.\n\nThe implications of this research are significant for applications requiring high accuracy and reliability, such as medical diagnosis, legal advice, and financial forecasting. By improving calibration, the method can enhance user trust and the overall effectiveness of LLM-based systems. Future work may explore integrating this approach with other calibration techniques to further refine model performance. The open questions revolve around the scalability of the method and its effectiveness across different types of distribution shifts.",
+  "sourceUrl": "https://arxiv.org/abs/2604.09624",
+  "sourceName": "ArXiv cs.CL",
+  "category": "research",
+  "tags": [
+    "llms",
+    "calibration",
+    "machine-learning",
+    "research",
+    "ai-reliability",
+    "inference"
+  ],
+  "publishedAt": "2026-04-14T21:01:30.053386+00:00",
+  "imageUrl": "/images/articles/2026-04-14-self-calibrating-llms-via-test-time-discriminative-distillation.jpg",
+  "twitterThread": [
+    "🚀 New research shows how to fix LLMs' overconfidence problem—without labeled data. Here's the game-changer:\n\nLLMs already know they're wrong.\nThey just don't admit it.\n\n#AI #MachineLearning",
+    "The trick? Ask the model: \"Is this answer correct?\" The probability of 'True' ($P(\\text{True})$) is a better signal than their stated confidence.\n\nLet that sink in.",
+    "This method, called test-time discriminative distillation, adjusts confidence levels on the fly. No extra labeled data needed.\n\nHere's why this matters:",
+    "Overconfident LLMs can mislead users in critical applications like healthcare and finance. Better calibration means more trustworthy AI.\n\nThe wild part?",
+    "This could work alongside other calibration techniques for even better results. The future of reliable AI just got brighter.\n\nFull breakdown → https://ainformed.dev"
+  ],
+  "standaloneTweet": "LLMs are overconfident. New research shows how to fix it—without labeled data. The secret? They already know when they're wrong. https://ainformed.dev/articles/self-calibrating-language-models-via-test-time-discriminative-distillation"
+}

@@ -1,0 +1,28 @@
+{
+  "slug": "2026-04-14-costom-steering-llms-toward-intrinsic-theory-of-mind-alignment",
+  "title": "CoSToM: Steering LLMs Toward Intrinsic Theory-of-Mind Alignment",
+  "summary": "Researchers introduce CoSToM, a method to improve LLMs' intrinsic Theory-of-Mind capabilities. The study highlights gaps in current models' ability to generalize social reasoning beyond prompt scaffolding.",
+  "body": "A new paper from arXiv introduces CoSToM (Causal-oriented Steering for Intrinsic Theory-of-Mind Alignment), a framework designed to enhance large language models' (LLMs) ability to attribute mental states to others—a key aspect of social intelligence. The researchers argue that while LLMs perform well on standard Theory-of-Mind (ToM) benchmarks, they often struggle with complex, real-world scenarios, relying heavily on carefully crafted prompts to simulate reasoning.\n\nThe critical issue, according to the authors, is the misalignment between the internal knowledge of LLMs and their external behavior. This raises questions about whether these models truly possess intrinsic cognition or merely mimic reasoning through external scaffolding. CoSToM aims to bridge this gap by steering models toward more intrinsic ToM capabilities, potentially improving their performance in socially complex tasks.\n\nThe implications of this research are significant for fields like human-AI interaction, education, and mental health, where understanding and responding to human mental states is crucial. Future work will likely explore how CoSToM can be integrated into existing models and whether it can generalize across diverse social contexts. The paper also opens up broader questions about the nature of cognition in AI and how to measure it.",
+  "sourceUrl": "https://arxiv.org/abs/2604.10031",
+  "sourceName": "ArXiv cs.CL",
+  "category": "research",
+  "tags": [
+    "theory-of-mind",
+    "llms",
+    "alignment",
+    "social-intelligence",
+    "ai-cognition",
+    "arxiv"
+  ],
+  "publishedAt": "2026-04-14T11:02:14.682973+00:00",
+  "imageUrl": "/images/articles/2026-04-14-costom-steering-llms-toward-intrinsic-theory-of-mind-alignment.jpg",
+  "twitterThread": [
+    "🚨 New research drops on Theory-of-Mind in LLMs. \n\nThe big reveal: They don't actually *get* social reasoning. Just mimicking.\n\nHere's the twist: CoSToM might fix that.",
+    "Current LLMs ace ToM benchmarks. \n\nBut throw them into real-world social scenarios? \n\nThey crumble. \n\nWhy? They rely on prompts. Not real understanding.",
+    "The wild part: CoSToM aims to make LLMs *truly* understand mental states. \n\nNot just fake it. \n\nThis changes everything for human-AI interaction.",
+    "Imagine AI tutors that *actually* get your frustration. \n\nOr mental health bots that *truly* empathize. \n\nCoSToM could make that possible.",
+    "Hot take: If CoSToM works, we're not just improving AI. \n\nWe're redefining what cognition means in machines.",
+    "Full breakdown → https://ainformed.dev"
+  ],
+  "standaloneTweet": "LLMs fake social intelligence. \n\nNew research introduces CoSToM to make them *actually* understand Theory-of-Mind. \n\nThis could revolutionize human-AI interaction. \n\nhttps://ainformed.dev/articles/costom-steering-llms-toward-intrinsic-theory-of-mind-alignment"
+}

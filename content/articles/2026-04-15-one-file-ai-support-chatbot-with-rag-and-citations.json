@@ -1,0 +1,28 @@
+{
+  "slug": "2026-04-15-one-file-ai-support-chatbot-with-rag-and-citations",
+  "title": "One-File AI Support Chatbot with RAG and Citations",
+  "summary": "A new AI support chatbot allows users to upload markdown docs and get cited answers. The entire backend is a single JavaScript file, requiring no infrastructure. It uses Next.js, OnCell, and OpenRouter.",
+  "body": "A new AI support chatbot has been developed that requires only a single JavaScript file for the backend, eliminating the need for complex infrastructure. Users can upload markdown documents and receive answers with citations, thanks to the integration of RAG (Retrieval-Augmented Generation) technology. The demo showcases the simplicity and effectiveness of this approach, making it accessible even for those with minimal technical expertise.\n\nThis innovation is significant because it democratizes AI support tools, making them more accessible to small businesses and individual developers. The use of Next.js for the frontend and OnCell and OpenRouter for the backend ensures a seamless and efficient user experience. The ability to handle storage, search, and conversation history within a single file is a game-changer, reducing the barriers to entry for AI implementation.\n\nThe future of this technology looks promising, with potential applications ranging from customer service to educational tools. As more developers adopt this approach, we can expect to see a proliferation of AI-powered support systems that are both powerful and easy to implement. The open-source nature of the project encourages community contributions, which could lead to rapid advancements and new features.",
+  "sourceUrl": "https://github.com/oncellai/oncell-support-agent",
+  "sourceName": "Hacker News AI",
+  "category": "general",
+  "tags": [
+    "ai",
+    "support-chatbot",
+    "rag",
+    "open-source",
+    "nextjs",
+    "oncell"
+  ],
+  "publishedAt": "2026-04-15T21:01:04.438697+00:00",
+  "imageUrl": "/images/articles/2026-04-15-one-file-ai-support-chatbot-with-rag-and-citations.jpg",
+  "twitterThread": [
+    "🚀 A single-file AI support chatbot with RAG and citations. No infra needed.\n\nHere's why this matters:",
+    "1. Upload markdown docs. Get cited answers. All in one JS file.\n2. Stack: Next.js + OnCell + OpenRouter.\n3. Demo: https://youtu.be/rWIU43pOH5Y\n\nLet that sink in.",
+    "The wild part? Storage, search, and conversation history are handled by the runtime. No servers. No complexity.\n\nThis changes everything for small businesses and devs.",
+    "Why? Because AI support tools just got 10x more accessible. No need for a team of engineers.\n\nThe future of AI is simple, powerful, and open.",
+    "Hot take: This could be the start of a new wave of AI tools that prioritize ease of use over complexity.\n\nWatch this space.",
+    "Full breakdown → https://ainformed.dev"
+  ],
+  "standaloneTweet": "A single-file AI support chatbot with RAG and citations. No infrastructure needed. Upload markdown docs, get cited answers. https://ainformed.dev/articles/one-file-ai-support-chatbot-with-rag-and-citations"
+}

@@ -1,0 +1,28 @@
+{
+  "slug": "2026-04-15-trump-administration-pushes-banks-to-test-anthropics-mythos-despite-dod-concerns",
+  "title": "Trump Administration Pushes Banks to Test Anthropic’s Mythos Despite DoD Concerns",
+  "summary": "Reports suggest Trump officials are encouraging banks to test Anthropic's Mythos model, despite the Department of Defense labeling the company a supply-chain risk. This move highlights the ongoing tension between political and military AI stances.",
+  "body": "Senior officials within the Trump administration are reportedly urging major banks to evaluate Anthropic's latest AI model, Mythos, for potential integration into their operations. This development comes just weeks after the Department of Defense (DoD) classified Anthropic as a supply-chain risk, citing concerns over data security and national interests.\n\nThe push for banks to test Mythos underscores the divergent views on AI within the U.S. government. While the DoD has taken a cautious approach, emphasizing the risks of relying on AI models from companies with potential foreign ties, the Trump administration appears to prioritize fostering domestic AI innovation and competition. This split could lead to regulatory inconsistencies and confusion among private sector stakeholders.\n\nMoving forward, the banking industry will likely proceed with caution, balancing the potential benefits of advanced AI models like Mythos against the geopolitical and security risks highlighted by the DoD. The situation may also prompt further debate on the need for unified AI policies that align the objectives of different government agencies.",
+  "sourceUrl": "https://techcrunch.com/2026/04/12/trump-officials-may-be-encouraging-banks-to-test-anthropics-mythos-model/",
+  "sourceName": "TechCrunch AI",
+  "category": "industry",
+  "tags": [
+    "ai",
+    "anthropic",
+    "mythos",
+    "banks",
+    "trump",
+    "dod"
+  ],
+  "publishedAt": "2026-04-15T11:01:59.249656+00:00",
+  "imageUrl": "/images/articles/2026-04-15-trump-administration-pushes-banks-to-test-anthropics-mythos-despite-dod-concerns.jpg",
+  "twitterThread": [
+    "🚨 Trump officials are pushing banks to test Anthropic's Mythos model—despite the DoD calling it a supply-chain risk. What's going on?\n\nHere's the wild part: The DoD just labeled Anthropic a risk. But the White House is saying 'go for it.'",
+    "The Trump administration is reportedly encouraging major banks to evaluate Mythos for financial applications. Why? They see it as a way to boost domestic AI competition.",
+    "Meanwhile, the DoD is warning about data security risks. They cite Anthropic's ties to foreign entities as a national security concern. Let that sink in.",
+    "This split highlights the chaos in U.S. AI policy. One arm of the government says 'no,' another says 'yes.' Banks are caught in the middle.",
+    "Hot take: This isn't just about AI. It's a power play. The Trump team wants to show they're pro-business and tech-friendly, even if it clashes with defense priorities.",
+    "Full breakdown → https://ainformed.dev"
+  ],
+  "standaloneTweet": "Trump officials are pushing banks to test Anthropic's Mythos model—even though the DoD says it's a supply-chain risk. The U.S. AI policy is a mess. https://ainformed.dev/articles/trump-officials-may-be-encouraging-banks-to-test-anthropics-mythos-model"
+}

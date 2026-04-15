@@ -1,0 +1,28 @@
+{
+  "slug": "2026-04-15-keplers-40-gpu-orbital-cluster-now-operational-serving-first-customer",
+  "title": "Kepler's 40-GPU Orbital Cluster Now Operational, Serving First Customer",
+  "summary": "Kepler Communications has launched the largest orbital compute cluster with 40 GPUs, and Sophia Space is its first customer. This marks a significant milestone in space-based AI infrastructure.",
+  "body": "Kepler Communications has officially opened its 40-GPU orbital compute cluster for business, marking a major leap in space-based AI infrastructure. The cluster, now operational, is the largest of its kind and has secured its first customer, Sophia Space. This development underscores the growing demand for high-performance computing capabilities in orbit.\n\nThe deployment of such a powerful compute cluster in Earth's orbit represents a significant advancement in the field of space-based AI. By leveraging GPUs in orbit, Kepler aims to provide low-latency, high-performance computing solutions for a variety of applications, including real-time data processing, satellite communications, and scientific research. This could revolutionize industries that rely on rapid data analysis and decision-making.\n\nAs Kepler's orbital cluster becomes operational, the next steps involve scaling its capabilities and attracting more customers. The success of this initiative could pave the way for more extensive use of AI and machine learning in space. However, challenges such as power consumption, data transmission, and the harsh conditions of space will need to be addressed to ensure long-term viability.",
+  "sourceUrl": "https://techcrunch.com/2026/04/13/the-largest-orbital-compute-cluster-is-open-for-business/",
+  "sourceName": "TechCrunch AI",
+  "category": "industry",
+  "tags": [
+    "kepler",
+    "gpu",
+    "orbital",
+    "ai",
+    "space",
+    "computing"
+  ],
+  "publishedAt": "2026-04-15T11:01:50.358727+00:00",
+  "imageUrl": "/images/articles/2026-04-15-keplers-40-gpu-orbital-cluster-now-operational-serving-first-customer.jpg",
+  "twitterThread": [
+    "🚀 Kepler just launched the largest orbital compute cluster ever—40 GPUs in space! \n\nThe first customer? Sophia Space. \n\nThis changes everything for space-based AI. #SpaceTech",
+    "Here's why this matters: \n\nKepler's cluster offers low-latency, high-performance computing in orbit. \n\nImagine real-time data processing from satellites. \n\nThis is a game-changer.",
+    "The wild part? \n\nThese GPUs are designed to operate in the harsh conditions of space. \n\nThat's no easy feat. \n\nLet that sink in.",
+    "This changes everything for industries relying on rapid data analysis. \n\nFrom satellite communications to scientific research, the possibilities are endless.",
+    "Hot take: \n\nThis is just the beginning. \n\nExpect more AI and machine learning in space. \n\nThe future of computing is orbital.",
+    "Full breakdown → https://ainformed.dev"
+  ],
+  "standaloneTweet": "Kepler's 40-GPU orbital cluster is now operational, serving its first customer, Sophia Space. This is a huge leap for space-based AI. https://ainformed.dev/articles/keplers-40-gpu-orbital-cluster-now-operational-serving-its-first-customer-sophia-space"
+}

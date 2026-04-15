@@ -1,0 +1,27 @@
+{
+  "slug": "2026-04-15-arcdeck-ai-framework-transforms-research-papers-into-structured-slides",
+  "title": "ArcDeck: AI Framework Transforms Research Papers into Structured Slides",
+  "summary": "Researchers introduce ArcDeck, a multi-agent system that converts academic papers into slides by reconstructing their narrative flow. Unlike direct summarization tools, it preserves logical structure through discourse trees and iterative refinement.",
+  "body": "Researchers have developed ArcDeck, a novel multi-agent framework that transforms academic papers into presentation slides by reconstructing their narrative structure. Instead of directly summarizing raw text, ArcDeck first parses the input to construct a discourse tree and a global commitment document, ensuring the paper's high-level intent is preserved. This structured approach guides an iterative refinement process where specialized agents critique and revise the content.\n\nArcDeck stands out from existing tools by explicitly modeling the logical flow of research papers. Most current solutions focus on extracting key points, often losing the paper's coherence and intent. By maintaining structural priors and employing multi-agent collaboration, ArcDeck aims to produce more accurate and contextually relevant slides, potentially revolutionizing how researchers prepare presentations.\n\nThe framework's effectiveness will depend on real-world testing and adoption by academic and industry researchers. If successful, ArcDeck could become a standard tool for converting complex research into digestible formats, streamlining knowledge sharing. Future developments may include integration with popular presentation software and expansion to other document types beyond academic papers.",
+  "sourceUrl": "https://arxiv.org/abs/2604.11969",
+  "sourceName": "ArXiv cs.AI",
+  "category": "research",
+  "tags": [
+    "ai-research",
+    "academic-tools",
+    "multi-agent-systems",
+    "nlp",
+    "presentation-tools"
+  ],
+  "publishedAt": "2026-04-15T11:02:31.002943+00:00",
+  "imageUrl": "/images/articles/2026-04-15-arcdeck-ai-framework-transforms-research-papers-into-structured-slides.jpg",
+  "twitterThread": [
+    "🚀 A game-changer for researchers: ArcDeck turns papers into slides while keeping the logic intact. \n\nHere's how it works:",
+    "1️⃣ It parses the paper to build a discourse tree. \n2️⃣ Creates a global commitment document. \n3️⃣ Uses multi-agent refinement to perfect the slides.\n\nThis isn't just summarization. It's narrative reconstruction.",
+    "Most tools just extract key points. ArcDeck preserves the paper's flow. \n\nThe wild part? It uses specialized agents to critique and revise iteratively. \n\nLet that sink in.",
+    "Why this matters: Researchers waste hours turning papers into slides. \n\nArcDeck could automate this while keeping the essence intact. \n\nThis changes everything for academic presentations.",
+    "Hot take: If ArcDeck scales, we'll see fewer poorly summarized slides at conferences. \n\nBetter presentations = better knowledge sharing. \n\nWin-win.",
+    "Full breakdown → https://ainformed.dev"
+  ],
+  "standaloneTweet": "ArcDeck AI turns research papers into structured slides by reconstructing their narrative flow. No more losing the paper's logic in presentations! https://ainformed.dev/articles/arcdeck-ai-framework-transforms-research-papers-into-structured-slides"
+}

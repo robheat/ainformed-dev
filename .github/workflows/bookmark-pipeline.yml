@@ -59,8 +59,11 @@ jobs:
           git config user.email "bot@ainformed.dev"
           git add content/articles/ public/images/articles/
           git add content/.tweeted.json 2>/dev/null || true
-          git diff --cached --quiet || git commit -m "📌 Bookmark articles: $(date -u +%Y-%m-%d)"
-          git push
+          if ! git diff --cached --quiet; then
+            git commit -m "📌 Bookmark articles: $(date -u +%Y-%m-%d)"
+            git pull --rebase origin master
+            git push origin master
+          fi
 
       - name: Post to Twitter/X
         if: success()
@@ -76,5 +79,8 @@ jobs:
         if: always()
         run: |
           git add content/.tweeted.json 2>/dev/null || true
-          git diff --cached --quiet || git commit -m "🐦 Update tweeted tracking (bookmarks)"
-          git push
+          if ! git diff --cached --quiet; then
+            git commit -m "🐦 Update tweeted tracking (bookmarks)"
+            git pull --rebase origin master
+            git push origin master
+          fi

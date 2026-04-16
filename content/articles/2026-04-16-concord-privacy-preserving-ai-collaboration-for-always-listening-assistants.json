@@ -1,0 +1,28 @@
+{
+  "slug": "2026-04-16-concord-privacy-preserving-ai-collaboration-for-always-listening-assistants",
+  "title": "CONCORD: Privacy-Preserving AI Collaboration for Always-Listening Assistants",
+  "summary": "Researchers introduce CONCORD, a framework for privacy-aware AI collaboration. It enables assistants to work together while only capturing the owner's speech, addressing key privacy concerns.",
+  "body": "Researchers have developed CONCORD, a novel framework designed to enable privacy-aware collaboration between always-listening AI assistants. As AI agents transition from reactive to proactive modes, capturing unintended speech poses significant privacy risks. CONCORD addresses this by implementing real-time speaker verification, ensuring only the owner's speech is transcribed. This one-sided approach preserves privacy while allowing assistants to work together asynchronously.\n\nThe significance of CONCORD lies in its ability to balance functionality and privacy. By leveraging speaker verification, it mitigates the risk of capturing non-consenting speakers' voices, a critical concern for social deployment. This framework is particularly relevant as AI assistants become more integrated into daily life, requiring robust privacy measures. CONCORD demonstrates that privacy and collaboration can coexist, setting a new standard for future AI assistant development.\n\nThe introduction of CONCORD opens new avenues for AI collaboration while addressing ethical concerns. Future developments may focus on refining speaker verification accuracy and expanding the framework's applicability across different AI assistant platforms. The research also raises questions about the broader implications of always-listening AI, sparking discussions on privacy policies and user consent in the evolving AI landscape.",
+  "sourceUrl": "https://arxiv.org/abs/2604.13348",
+  "sourceName": "ArXiv cs.AI",
+  "category": "research",
+  "tags": [
+    "ai",
+    "privacy",
+    "assistants",
+    "collaboration",
+    "speaker-verification",
+    "concord"
+  ],
+  "publishedAt": "2026-04-16T11:02:31.833246+00:00",
+  "imageUrl": "/images/articles/2026-04-16-concord-privacy-preserving-ai-collaboration-for-always-listening-assistants.jpg",
+  "twitterThread": [
+    "🎙️ Always-listening AI assistants just got a privacy upgrade. Meet CONCORD. 🔒\n\nThe problem? They capture *everyone's* speech. The solution? Only the owner's voice gets transcribed. Here's how it works:",
+    "CONCORD uses real-time speaker verification to ensure privacy. Only the owner's speech is captured, creating a one-sided transcript. Missing context? Yes. Privacy preserved? Absolutely.",
+    "Here's why this matters: As AI assistants become more proactive, privacy risks skyrocket. CONCORD balances functionality and privacy, setting a new standard for ethical AI.",
+    "The wild part? CONCORD enables asynchronous assistant-to-assistant (A2A) collaboration. Your AI can work with others while keeping your conversations private. Let that sink in.",
+    "This changes everything for always-listening AI. No more fear of unintended voice capture. Privacy-aware collaboration is the future.",
+    "Full breakdown → https://ainformed.dev"
+  ],
+  "standaloneTweet": "Privacy-aware AI collaboration is here. CONCORD ensures only your voice is transcribed, enabling secure assistant-to-assistant teamwork. The future of AI just got safer. https://ainformed.dev/articles/listening-alone-understanding-together-collaborative-context-recovery-for-privacy-aware-ai"
+}

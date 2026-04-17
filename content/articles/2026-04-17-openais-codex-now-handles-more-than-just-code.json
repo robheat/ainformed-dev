@@ -1,0 +1,28 @@
+{
+  "slug": "2026-04-17-openais-codex-now-handles-more-than-just-code",
+  "title": "OpenAI's Codex Now Handles More Than Just Code",
+  "summary": "OpenAI has expanded Codex's capabilities beyond coding to include general computer use, in-app browsing, and image generation. This update aims to accelerate developer workflows with new memory and plugin features.",
+  "body": "OpenAI has unveiled a significant update to its Codex app for macOS and Windows, transforming it from a coding assistant into a versatile tool for general computer use. The new features include in-app browsing, image generation, memory capabilities, and plugins, all designed to streamline developer workflows. This expansion marks a shift from Codex's original focus on code completion and debugging to a more comprehensive assistant role.\n\nThe addition of in-app browsing and memory functions allows Codex to retain context across tasks, making it more efficient for complex workflows. The image generation feature, combined with plugins, enables developers to integrate visual elements and third-party tools directly within their projects. This update positions Codex as a direct competitor to other AI-powered productivity tools, potentially changing how developers interact with their machines.\n\nReactions to the update have been largely positive, with developers praising the increased functionality and integration capabilities. However, some have raised concerns about privacy and the learning curve associated with the new features. OpenAI has stated that it will continue to refine Codex based on user feedback, suggesting further enhancements are on the horizon. The long-term impact of these changes remains to be seen, but they undoubtedly set a new standard for AI-assisted development tools.",
+  "sourceUrl": "https://openai.com/index/codex-for-almost-everything",
+  "sourceName": "OpenAI Blog",
+  "category": "models",
+  "tags": [
+    "openai",
+    "codex",
+    "ai-tools",
+    "developer-tools",
+    "productivity",
+    "plugins"
+  ],
+  "publishedAt": "2026-04-17T11:02:04.693272+00:00",
+  "imageUrl": "/images/articles/2026-04-17-openais-codex-now-handles-more-than-just-code.jpg",
+  "twitterThread": [
+    "🚀 OpenAI's Codex just got a MASSIVE upgrade. It's not just for code anymore. \n\nHere's what's new:",
+    "1. General computer use. \n2. In-app browsing. \n3. Image generation. \n4. Memory. \n5. Plugins. \n\nThis changes everything for developers.",
+    "The wild part? Codex can now remember context across tasks. No more switching tools or losing track of what you're doing.",
+    "Developers are already loving the new plugins. Imagine integrating third-party tools directly into your workflow. Game-changer.",
+    "But here's the hot take: This isn't just about coding. It's about AI-assisted productivity. Get ready for a wave of similar tools.",
+    "Full breakdown → https://ainformed.dev"
+  ],
+  "standaloneTweet": "OpenAI's Codex just became a powerhouse for developers. General computer use, image generation, and plugins? This is next-level. https://ainformed.dev/articles/openais-codex-now-handles-more-than-just-code"
+}

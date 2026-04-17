@@ -1,0 +1,27 @@
+{
+  "slug": "2026-04-17-gft-bridging-imitation-and-reward-fine-tuning-for-better-llms",
+  "title": "GFT: Bridging Imitation and Reward Fine-Tuning for Better LLMs",
+  "summary": "Researchers propose Group Fine-Tuning (GFT), a method that combines imitation and reward learning to improve LLM training. GFT addresses key challenges like single-path dependency and gradient instability.",
+  "body": "Researchers have introduced Group Fine-Tuning (GFT), a novel approach to large language model (LLM) post-training that unifies imitation learning and reward-based optimization. The method aims to overcome the limitations of traditional supervised fine-tuning (SFT) and reinforcement learning (RL) techniques, which often struggle with knowledge injection and generalization.\n\nThe study highlights that SFT can be seen as a form of policy gradient optimization with sparse rewards and unstable weighting, leading to issues like single-path dependency and entropy collapse. GFT addresses these problems by incorporating group-based advantages and dynamic coefficient rectification, resulting in more stable and efficient training dynamics. This could lead to more robust and versatile LLMs.\n\nThe implications of GFT are significant for the future of LLM development. By providing a more stable and efficient training framework, GFT could accelerate advancements in AI capabilities. The research community will likely explore GFT's potential applications in various domains, from natural language processing to decision-making systems. Future work may focus on refining GFT's parameters and testing its efficacy across different model architectures.",
+  "sourceUrl": "https://arxiv.org/abs/2604.14258",
+  "sourceName": "ArXiv cs.AI",
+  "category": "research",
+  "tags": [
+    "llm",
+    "training",
+    "fine-tuning",
+    "ai-research",
+    "machine-learning",
+    "arxiv"
+  ],
+  "publishedAt": "2026-04-17T11:02:51.153515+00:00",
+  "imageUrl": "/images/articles/2026-04-17-gft-bridging-imitation-and-reward-fine-tuning-for-better-llms.jpg",
+  "twitterThread": [
+    "🚀 New research flips the script on LLM training. GFT (Group Fine-Tuning) is here to change the game.\n\nHere's why it matters:",
+    "Traditional methods like SFT and RL have big flaws: sparse rewards, unstable gradients, and entropy collapse. GFT fixes them.\n\nThe wild part?",
+    "GFT uses group advantages and dynamic coefficient rectification for smoother, more efficient training. Let that sink in.\n\nThis changes everything for...",
+    "Future LLMs. More robust. More versatile. Faster to train. The implications are HUGE.\n\nWhat's next?",
+    "Expect GFT to accelerate AI advancements across the board. From NLP to decision systems, this is a game-changer.\n\nFull breakdown → https://ainformed.dev"
+  ],
+  "standaloneTweet": "GFT (Group Fine-Tuning) is revolutionizing LLM training by combining imitation and reward learning. Stable, efficient, and powerful. https://ainformed.dev/articles/gft-bridging-imitation-to-reward-fine-tuning-for-better-llms"
+}

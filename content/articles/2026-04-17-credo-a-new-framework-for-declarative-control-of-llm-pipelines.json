@@ -1,0 +1,28 @@
+{
+  "slug": "2026-04-17-credo-a-new-framework-for-declarative-control-of-llm-pipelines",
+  "title": "Credo: A New Framework for Declarative Control of LLM Pipelines",
+  "summary": "Researchers introduce Credo, a framework for declarative control of LLM pipelines using beliefs and policies. It aims to make agent behavior more transparent and adaptable than current imperative approaches.",
+  "body": "Researchers have introduced Credo, a novel framework designed to enhance the control of LLM pipelines through declarative methods. Unlike existing systems that rely on imperative control loops and ephemeral memory, Credo uses beliefs and policies to manage semantic state, making agent behavior more transparent and adaptable. This approach addresses the challenges of opacity and brittleness in current agentic AI systems.\n\nThe significance of Credo lies in its ability to handle long-lived, stateful decision-making in continuously evolving conditions. By representing semantic state as beliefs and policies, it allows for better adaptation to new evidence and revision of prior conclusions. This declarative control method is expected to make agent behavior more verifiable and easier to debug compared to traditional imperative frameworks.\n\nThe future outlook for Credo includes potential applications in various domains requiring robust, adaptable AI systems. Researchers and developers will be watching closely to see how this framework performs in real-world scenarios and whether it can indeed provide the transparency and adaptability needed for complex decision-making tasks. Open questions remain about its scalability and integration with existing AI infrastructures.",
+  "sourceUrl": "https://arxiv.org/abs/2604.14401",
+  "sourceName": "ArXiv cs.AI",
+  "category": "research",
+  "tags": [
+    "llms",
+    "ai-agents",
+    "declarative-control",
+    "research",
+    "policies",
+    "beliefs"
+  ],
+  "publishedAt": "2026-04-17T16:01:37.797154+00:00",
+  "imageUrl": "/images/articles/2026-04-17-credo-a-new-framework-for-declarative-control-of-llm-pipelines.jpg",
+  "twitterThread": [
+    "🚀 A game-changer in AI agent control: Meet Credo. 🧵\n\nExisting frameworks are brittle. Credo changes that.",
+    "Here's the problem: Current LLM pipelines rely on imperative control loops. They're opaque and hard to verify.",
+    "Credo's solution? Declarative control via beliefs and policies. It makes agent behavior transparent and adaptable.",
+    "The wild part? It handles long-lived, stateful decision-making in evolving conditions. No more brittle systems.",
+    "This changes everything for AI agents. Imagine verifiable, debuggable systems. The future is here.",
+    "Full breakdown → https://ainformed.dev"
+  ],
+  "standaloneTweet": "New research introduces Credo, a framework for declarative control of LLM pipelines. It uses beliefs and policies to make agent behavior transparent and adaptable. https://ainformed.dev/articles/credo-a-new-framework-for-declarative-control-of-llm-pipelines"
+}

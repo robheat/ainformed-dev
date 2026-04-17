@@ -1,0 +1,28 @@
+{
+  "slug": "2026-04-17-new-survey-explores-explainable-ai-for-surrogate-modeling-in-simulations",
+  "title": "New Survey Explores Explainable AI for Surrogate Modeling in Simulations",
+  "summary": "A comprehensive survey reviews the use of Explainable AI (XAI) to make surrogate models more interpretable. The study highlights the need for transparency in complex simulations across scientific and engineering fields. This work offers a roadmap for integrating XAI into decision-making processes.",
+  "body": "A new survey published on arXiv delves into the intersection of surrogate modeling and Explainable Artificial Intelligence (XAI). The paper, titled \"Interpretable and Explainable Surrogate Modeling for Simulations: A State-of-the-Art Survey and Perspectives on Explainable AI for Decision-Making,\" examines how XAI can enhance the interpretability of surrogate models used in complex simulations. These models, while crucial for reducing computational costs, often remain opaque, obscuring the relationship between input variables and physical responses.\n\nThe survey underscores the importance of transparency in simulations across various scientific and engineering domains. By leveraging XAI tools, researchers can unpack the decision-making processes of surrogate models, making them more accessible and trustworthy. This integration is particularly vital for fields where understanding the underlying mechanisms is as important as the predictions themselves, such as climate modeling, healthcare, and material science.\n\nLooking ahead, the authors provide a roadmap for future research, emphasizing the need for standardized XAI methodologies tailored to surrogate modeling. They also highlight the potential for XAI to facilitate better decision-making in critical applications. As simulations become more complex, the demand for interpretable models will only grow, making this survey a timely and essential resource for the AI community.",
+  "sourceUrl": "https://arxiv.org/abs/2604.14240",
+  "sourceName": "ArXiv cs.AI",
+  "category": "research",
+  "tags": [
+    "explainable-ai",
+    "surrogate-modeling",
+    "simulations",
+    "xai",
+    "transparency",
+    "decision-making"
+  ],
+  "publishedAt": "2026-04-17T21:01:33.473519+00:00",
+  "imageUrl": "/images/articles/2026-04-17-new-survey-explores-explainable-ai-for-surrogate-modeling-in-simulations.jpg",
+  "twitterThread": [
+    "🚀 A new survey drops the mic on Explainable AI for surrogate modeling. Here's why it's a game-changer:\n\n1. Surrogate models are black boxes.\n2. XAI can crack them open.\n3. This changes everything for simulations.\n\nLet's dive in. 🧵",
+    "Surrogate models cut computational costs but obscure how inputs drive outputs. A new survey on arXiv shows how XAI can make them transparent. Here's why this matters:",
+    "XAI tools can unpack surrogate models, revealing the relationship between variables and physical responses. This is huge for fields like climate science and healthcare.",
+    "The wild part? The survey provides a roadmap for integrating XAI into decision-making processes. Standardized methods are on the horizon.",
+    "This isn't just academic. Transparent models mean better decisions in critical applications. The future of simulations just got a lot clearer.",
+    "Full breakdown → https://ainformed.dev"
+  ],
+  "standaloneTweet": "New survey explores how Explainable AI (XAI) can make surrogate models more interpretable. A must-read for anyone in simulations and decision-making. https://ainformed.dev/articles/new-survey-explores-explainable-ai-for-surrogate-modeling"
+}

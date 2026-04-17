@@ -1,0 +1,28 @@
+{
+  "slug": "2026-04-17-geometric-routing-unlocks-causal-control-in-mixture-of-experts-models",
+  "title": "Geometric Routing Unlocks Causal Control in Mixture of Experts Models",
+  "summary": "Researchers demonstrate that individual experts in sparse Mixture-of-Experts (MoE) models have causally meaningful identities. This discovery enables more precise control over model behavior through geometric routing techniques.",
+  "body": "A new study published on arXiv reveals that individual experts in sparse Mixture-of-Experts (MoE) models possess causally meaningful identities. The research builds on previous work showing that routing topology does not affect model quality, but now shows that expert identity can be controlled through geometric routing in a low-dimensional metric space. This discovery opens new avenues for fine-tuning and controlling the behavior of large language models.\n\nThe findings are significant because they provide a way to understand and manipulate the specialized roles of individual experts within MoE models. Previous research had shown that different routing configurations could yield statistically equivalent language modeling quality, but this new work demonstrates that expert identity is not just a matter of chance. By using cosine-similarity routing, researchers can now map the specialization of experts in a low-dimensional space, making it easier to control and interpret model behavior.\n\nThe implications of this research are far-reaching. It could lead to more efficient and interpretable large language models, as well as new techniques for fine-tuning models for specific tasks. The study also raises questions about the potential for more transparent and controllable AI systems in the future. As researchers continue to explore the causal relationships within MoE models, we may see significant advancements in the field of AI interpretability and control.",
+  "sourceUrl": "https://arxiv.org/abs/2604.14434",
+  "sourceName": "ArXiv cs.AI",
+  "category": "research",
+  "tags": [
+    "mixture-of-experts",
+    "causal-control",
+    "geometric-routing",
+    "ai-interpretability",
+    "language-models",
+    "sparse-models"
+  ],
+  "publishedAt": "2026-04-17T21:01:49.165918+00:00",
+  "imageUrl": "/images/articles/2026-04-17-geometric-routing-unlocks-causal-control-in-mixture-of-experts-models.jpg",
+  "twitterThread": [
+    "🚀 Breakthrough in MoE models! Researchers show individual experts have causally meaningful identities. Here's why this matters:\n\n1. It's not just about scaling parameters anymore.\n\n2. We can now control expert behavior through geometric routing.\n\n3. This could revolutionize AI interpretability.",
+    "The wild part? Previous work showed routing topology was quality-neutral. But now we know expert identity is causally meaningful. That's a game-changer.",
+    "Cosine-similarity routing in low-dimensional space maps expert specialization. This means we can fine-tune models more precisely than ever before.",
+    "Let that sink in. We're talking about more efficient, interpretable, and controllable AI systems. This changes everything for large language models.",
+    "Hot take: This research could be the key to unlocking truly transparent and controllable AI. The future of AI interpretability just got a lot brighter.",
+    "Full breakdown → https://ainformed.dev"
+  ],
+  "standaloneTweet": "Researchers discover individual experts in MoE models have causally meaningful identities. This could revolutionize AI interpretability and control. Full story: https://ainformed.dev/articles/geometric-routing-unlocks-causal-control-in-mixture-of-experts-models"
+}

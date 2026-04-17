@@ -1,0 +1,27 @@
+{
+  "slug": "2026-04-17-physical-intelligence-unveils-robot-brain-that-learns-unseen-tasks",
+  "title": "Physical Intelligence Unveils Robot Brain That Learns Unseen Tasks",
+  "summary": "Physical Intelligence's new π0.7 model can perform tasks it wasn't explicitly trained for, marking progress toward general-purpose robotics. This breakthrough could revolutionize automation and robotics applications.",
+  "body": "Physical Intelligence, a leading robotics startup, has announced π0.7, a new robot brain capable of figuring out tasks it was never explicitly taught. The company describes this as a significant step toward achieving a general-purpose robot brain, a long-sought goal in the field of robotics. π0.7 demonstrates the ability to adapt to new tasks, showcasing advanced learning capabilities beyond traditional robotic systems.\n\nThis development is a major milestone in robotics, as most current robots are limited to performing tasks they have been specifically programmed for. The ability to learn and adapt to new tasks without explicit training could revolutionize industries ranging from manufacturing to healthcare. This breakthrough could also accelerate the development of more versatile and autonomous robotic systems, making them more useful in dynamic and unpredictable environments.\n\nThe reaction to π0.7 has been overwhelmingly positive, with experts praising its potential to transform the robotics industry. Physical Intelligence plans to further refine the model, aiming to enhance its learning capabilities and expand its applications. The company is also exploring partnerships with other tech firms to integrate π0.7 into various industries. As the technology advances, it will be crucial to address ethical considerations and ensure that these systems are used responsibly.",
+  "sourceUrl": "https://techcrunch.com/2026/04/16/physical-intelligence-a-hot-robotics-startup-says-its-new-robot-brain-can-figure-out-tasks-it-was-never-taught/",
+  "sourceName": "TechCrunch AI",
+  "category": "industry",
+  "tags": [
+    "robotics",
+    "ai",
+    "automation",
+    "general-purpose",
+    "physical-intelligence",
+    "innovation"
+  ],
+  "publishedAt": "2026-04-17T21:01:02.070514+00:00",
+  "imageUrl": "/images/articles/2026-04-17-physical-intelligence-unveils-robot-brain-that-learns-unseen-tasks.jpg",
+  "twitterThread": [
+    "🤖 Physical Intelligence just dropped a robot brain that learns tasks it was never taught. Game changer. \n\nHere's why this matters:",
+    "π0.7 can adapt to new tasks without explicit training. Most robots today? Stuck doing what they're programmed to do. \n\nThis is a HUGE leap.",
+    "The wild part? It's an early step toward a general-purpose robot brain. Imagine robots that can handle anything. Anything. \n\nLet that sink in.",
+    "This changes everything for industries like manufacturing, healthcare, and logistics. Automation just got a major upgrade. \n\nBuckle up.",
+    "Hot take: We're on the cusp of a robotics revolution. π0.7 is just the beginning. \n\nFull breakdown → https://ainformed.dev"
+  ],
+  "standaloneTweet": "Physical Intelligence's new robot brain can learn tasks it was never taught. This is a massive leap toward general-purpose robotics. https://ainformed.dev/articles/physical-intelligence-unveils-robot-brain-that-learns-unseen-tasks"
+}

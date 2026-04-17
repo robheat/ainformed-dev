@@ -1,0 +1,27 @@
+{
+  "slug": "2026-04-17-machine-generated-code-deserves-machine-checked-proofs",
+  "title": "Machine-Generated Code Deserves Machine-Checked Proofs",
+  "summary": "As AI-generated code becomes more prevalent, formal verification is crucial to ensure reliability and security. This shift requires new tools and methodologies to validate machine-written software.",
+  "body": "A recent blog post argues that the increasing reliance on AI-generated code necessitates the adoption of machine-checked proofs. As AI models like GitHub Copilot and others produce more code, the need for formal verification becomes critical to ensure the reliability and security of these outputs.\n\nThe post highlights that traditional code reviews and testing are insufficient for AI-generated code, which can introduce subtle bugs and vulnerabilities. Machine-checked proofs, which mathematically verify the correctness of code, offer a robust solution to this problem. This approach is already used in high-stakes industries like aerospace and finance, but its adoption in the broader software development ecosystem is still lagging.\n\nThe future of AI-generated code lies in integrating formal verification tools into the development pipeline. As AI models continue to evolve, the demand for such tools will grow, potentially leading to new standards and best practices for AI-assisted software development. The post calls for greater collaboration between AI researchers and formal verification experts to address these challenges head-on.",
+  "sourceUrl": "https://zoep.github.io/blog/2026/04/17/machine-generated-code-machine-checked-proofs/",
+  "sourceName": "Hacker News AI",
+  "category": "general",
+  "tags": [
+    "ai-generated",
+    "code",
+    "verification",
+    "security",
+    "formal-proofs",
+    "software-development"
+  ],
+  "publishedAt": "2026-04-17T21:01:17.252526+00:00",
+  "imageUrl": "/images/articles/2026-04-17-machine-generated-code-deserves-machine-checked-proofs.jpg",
+  "twitterThread": [
+    "🚨 AI-generated code is everywhere. But who's checking it?\n\nThe answer: machines should be.\n\nHere's why this is a BIG deal:",
+    "Traditional code reviews miss subtle bugs in AI-generated code. Machine-checked proofs catch them all.\n\nLet that sink in.",
+    "Formal verification is already used in aerospace and finance. Now it's time for software development to catch up.\n\nThe wild part? AI models are getting better at generating code faster than we can verify it.",
+    "This changes everything for open-source projects relying on AI-generated code. Without verification, security risks skyrocket.",
+    "Hot take: The future of AI-assisted coding isn't just about generating code. It's about generating PROVEN code.\n\nFull breakdown → https://ainformed.dev"
+  ],
+  "standaloneTweet": "AI-generated code is everywhere, but who's checking it? The answer: machines should be. Here's why this is a BIG deal: https://ainformed.dev/articles/machine-generated-code-deserves-machine-checked-proofs"
+}

@@ -1,0 +1,28 @@
+{
+  "slug": "2026-04-18-6-month-lessons-from-running-14-ai-agents-in-production",
+  "title": "6-Month Lessons from Running 14 AI Agents in Production",
+  "summary": "Operating 14 AI agents for half a year revealed critical insights on scalability, cost, and reliability. The experience highlights the need for robust infrastructure and continuous monitoring.",
+  "body": "A team running 14 AI agents in production for six months has shared valuable lessons learned. The deployment focused on scalability, cost management, and reliability. Key challenges included managing agent interactions, optimizing resource usage, and ensuring consistent performance.\n\nThe experience underscores the importance of robust infrastructure for AI agents. Effective monitoring and quick response to issues were crucial for maintaining stability. The team also emphasized the need for continuous improvement in agent design and deployment strategies.\n\nLooking ahead, the insights gained will inform future AI agent deployments. The team plans to refine their approach based on these findings, focusing on cost efficiency and reliability. Open questions remain about the long-term scalability of such systems and the best practices for managing large-scale AI agent ecosystems.",
+  "sourceUrl": "https://orgtp.com/blog/the-weight-is-wrong-without-it",
+  "sourceName": "Hacker News AI",
+  "category": "general",
+  "tags": [
+    "ai-agents",
+    "production",
+    "scalability",
+    "cost-management",
+    "reliability",
+    "monitoring"
+  ],
+  "publishedAt": "2026-04-18T21:01:37.285183+00:00",
+  "imageUrl": "/images/articles/2026-04-18-6-month-lessons-from-running-14-ai-agents-in-production.jpg",
+  "twitterThread": [
+    "🚀 Running 14 AI agents in production for 6 months. What they learned will shock you.\n\nHere's the wild part:",
+    "Scalability was a nightmare. They had to constantly tweak resource allocation to keep things running smoothly.",
+    "Cost management was another huge challenge. Some agents were way more expensive than expected.",
+    "The biggest lesson? Robust monitoring is non-negotiable. Without it, things fall apart fast.",
+    "This changes everything for teams deploying AI agents at scale. The infrastructure game is just as important as the models.",
+    "Full breakdown → https://ainformed.dev"
+  ],
+  "standaloneTweet": "Running 14 AI agents in production for 6 months? The lessons learned are eye-opening. https://ainformed.dev/articles/6-month-lessons-from-running-14-ai-agents-in-production"
+}

@@ -1,0 +1,28 @@
+{
+  "slug": "2026-04-18-googles-ai-mode-update-lets-you-open-links-without-leaving-the-chat",
+  "title": "Google’s AI Mode update lets you open links without leaving the chat",
+  "summary": "Google is enhancing Chrome’s AI Mode to let users open links side by side with the chat. This update allows for seamless browsing and follow-up questions without leaving the conversation. The feature is currently rolling out to Chrome Canary users.",
+  "body": "Google is upgrading its AI Mode in Chrome with a new feature that allows users to open links to sources alongside their chat. Instead of automatically opening a new tab, clicking a source will now display the website side by side with AI Mode. This enables users to ask follow-up questions about the content on the page without interrupting the flow of the conversation. The update is part of Google’s ongoing efforts to integrate AI more deeply into its browser experience.\n\nThis enhancement addresses a common frustration with AI chat interfaces, where opening a source link often breaks the context of the conversation. By keeping the chat and the source material in view simultaneously, users can verify information and explore related topics more efficiently. The feature is particularly useful for research and fact-checking, making AI Mode a more powerful tool for productivity and learning.\n\nThe new feature is currently rolling out to Chrome Canary users, with a broader release expected in the coming months. Google’s move highlights the growing importance of seamless integration between AI assistants and traditional browsing activities. As AI Mode continues to evolve, we can expect more features that blur the line between chat and web browsing, potentially setting a new standard for how users interact with online content.",
+  "sourceUrl": "https://www.theverge.com/tech/913109/google-ai-mode-tabs-sources",
+  "sourceName": "The Verge AI",
+  "category": "industry",
+  "tags": [
+    "google",
+    "chrome",
+    "ai-mode",
+    "browsing",
+    "productivity",
+    "ai-integration"
+  ],
+  "publishedAt": "2026-04-18T16:02:49.023789+00:00",
+  "imageUrl": "/images/articles/2026-04-18-googles-ai-mode-update-lets-you-open-links-without-leaving-the-chat.jpg",
+  "twitterThread": [
+    "🚀 Google’s AI Mode just got a game-changer. \n\nYou can now open links SIDE BY SIDE with your chat. No more tab chaos.\n\nHere’s why this matters:",
+    "Before, clicking a source link would break your flow. Now? Seamless browsing + AI assistance. \n\nThe future of research just got faster.",
+    "The wild part? You can ask follow-up questions about the page *while* you’re reading it. No context-switching. Just pure efficiency.",
+    "Let that sink in. \n\nThis changes everything for students, researchers, and anyone who uses AI for fact-checking.",
+    "Google’s move is a clear shot across the bow at competitors. If they nail this, AI Mode could become the default way to browse.",
+    "Full breakdown → https://ainformed.dev"
+  ],
+  "standaloneTweet": "Google’s AI Mode now lets you open links side by side with your chat. No more tab-hopping! 🚀 Read more: https://ainformed.dev/articles/google-ai-mode-update-lets-you-open-links-without-leaving-the-chat"
+}

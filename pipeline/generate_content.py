@@ -139,7 +139,9 @@ def generate_article(story: dict) -> dict | None:
 IMAGE_PROMPT_SYSTEM = """\
 You are a visual prompt engineer. Given an article title and summary about AI/tech news,
 write a concise DALL-E / Stable Diffusion style image prompt (max 200 chars) for a
-compelling hero image. The image should be abstract, futuristic, and tech-themed.
+compelling hero image. Since every article is about AI, always incorporate AI-themed
+visual concepts such as neural networks, glowing circuits, data streams, digital brains,
+or machine learning nodes. The image should be abstract, futuristic, and tech-themed.
 Do NOT include any text or letters in the image. No people's faces. No logos.
 Respond with ONLY the image prompt text, nothing else."""
 

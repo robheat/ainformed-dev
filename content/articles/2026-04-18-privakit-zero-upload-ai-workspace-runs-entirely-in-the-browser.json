@@ -1,0 +1,27 @@
+{
+  "slug": "2026-04-18-privakit-zero-upload-ai-workspace-runs-entirely-in-the-browser",
+  "title": "PrivaKit: Zero-Upload AI Workspace Runs Entirely in the Browser",
+  "summary": "PrivaKit is a new browser-based AI workspace that processes sensitive data entirely on the client side using WebGPU. It eliminates the need for cloud uploads, addressing major privacy concerns in AI workflows.",
+  "body": "A developer has launched PrivaKit, a browser-based AI workspace that runs transformers.js, Whisper, and other models entirely on the client side using WebGPU. The tool is designed for sensitive workflows like transcribing board meetings or processing employment contracts, where data privacy is paramount. Once the models are loaded, users can even enable Airplane Mode and continue working without any data leaving their device.\n\nThe solution addresses a critical gap in AI privacy, where cloud-based APIs often require uploading sensitive information. PrivaKit's approach ensures that data never leaves the user's device, making it ideal for confidential tasks. The developer has also published a technical audit detailing how data flows (or rather, doesn't flow) within the system, reinforcing its privacy commitments. The only backend is a minimal 2-core node in Singapore running self-hosted Plausible for analytics.\n\nThe project has garnered attention for its innovative use of WebGPU to enable complex AI tasks in the browser. While the current implementation focuses on transcription and OCR, the developer hints at expanding the tool's capabilities. The open-source nature of the project invites collaboration and further development, potentially setting a new standard for privacy-focused AI tools.",
+  "sourceUrl": "https://news.ycombinator.com/item?id=47813703",
+  "sourceName": "Hacker News AI",
+  "category": "general",
+  "tags": [
+    "privacy",
+    "webgpu",
+    "ai-workspace",
+    "client-side",
+    "open-source",
+    "browser-ai"
+  ],
+  "publishedAt": "2026-04-18T11:01:06.435600+00:00",
+  "imageUrl": "/images/articles/2026-04-18-privakit-zero-upload-ai-workspace-runs-entirely-in-the-browser.jpg",
+  "twitterThread": [
+    "🚀 A browser-based AI workspace that NEVER uploads your data. Yes, really. \n\nPrivaKit runs everything locally via WebGPU. Even in Airplane Mode. \n\nHere's why this matters:",
+    "Most AI tools require cloud uploads. Sensitive workflows? Forget it. \n\nPrivaKit changes the game for board meetings, contracts, ID photos—anything private. \n\nThe wild part:",
+    "It uses transformers.js and Whisper. All processing happens on your device. \n\nThe developer even published a technical audit proving zero data leaves your browser. \n\nLet that sink in.",
+    "The only backend? A tiny 2-core node in Singapore for analytics. \n\nThis changes everything for privacy-conscious AI users. \n\nWhat's next?",
+    "The project is open-source. Expect more capabilities soon. \n\nBrowser-based AI just got a major upgrade. \n\nFull breakdown → https://ainformed.dev"
+  ],
+  "standaloneTweet": "PrivaKit: An AI workspace that runs entirely in your browser—no uploads, no cloud. Perfect for sensitive data. https://ainformed.dev/articles/privakit-zero-upload-ai-workspace-runs-entirely-in-the-browser"
+}

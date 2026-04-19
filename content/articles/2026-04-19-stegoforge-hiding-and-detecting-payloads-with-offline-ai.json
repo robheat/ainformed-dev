@@ -1,0 +1,28 @@
+{
+  "slug": "2026-04-19-stegoforge-hiding-and-detecting-payloads-with-offline-ai",
+  "title": "StegoForge: Hiding and Detecting Payloads with Offline AI",
+  "summary": "StegoForge is a new tool that embeds and detects hidden data in files using offline AI. It offers a novel approach to steganography with potential applications in cybersecurity and privacy.",
+  "body": "StegoForge, a new open-source tool, allows users to hide payloads within files and detect them using offline AI. Developed by Nour833, the tool leverages steganography techniques to embed data in various file types, making it useful for secure communication and data hiding.\n\nThe tool's offline capability is particularly notable, as it enables the use of AI for steganography without requiring an internet connection. This feature is crucial for scenarios where connectivity is limited or unreliable. StegoForge's ability to hide and detect payloads efficiently makes it a valuable asset for cybersecurity professionals and privacy advocates.\n\nAs StegoForge gains traction, it will be interesting to see how it is adopted in real-world applications. The tool's open-source nature encourages community contributions and improvements, potentially leading to enhanced features and broader use cases. Future developments may include support for more file types and advanced detection algorithms.",
+  "sourceUrl": "https://github.com/Nour833/StegoForge",
+  "sourceName": "Hacker News AI",
+  "category": "general",
+  "tags": [
+    "steganography",
+    "offline-ai",
+    "cybersecurity",
+    "privacy",
+    "open-source",
+    "data-hiding"
+  ],
+  "publishedAt": "2026-04-19T16:02:12.233831+00:00",
+  "imageUrl": "/images/articles/2026-04-19-stegoforge-hiding-and-detecting-payloads-with-offline-ai.jpg",
+  "twitterThread": [
+    "🔍 StegoForge just dropped. Hide data in files. Detect it offline. No internet needed. 🤯\n\nHere's why this matters:",
+    "Steganography meets offline AI. Embed payloads in images, docs, anything. Detect them later. No cloud. No tracking.",
+    "The wild part? It's open-source. Community can tweak, improve, break it. Cybersecurity just got more creative.",
+    "Let that sink in. No more relying on shady cloud services. Your data stays yours. Full control.",
+    "Hot take: This changes everything for journalists, activists, and anyone needing secure comms. No more excuses.",
+    "Full breakdown → https://ainformed.dev"
+  ],
+  "standaloneTweet": "StegoForge lets you hide and detect data in files using offline AI. No internet needed. A game-changer for secure communication. https://ainformed.dev/articles/StegoForge-Hiding-and-Detecting-Payloads-with-Offline-AI"
+}

@@ -1,0 +1,27 @@
+{
+  "slug": "2026-04-19-dialtoneapp-free-tool-scans-domains-for-ai-seo-readiness",
+  "title": "DialtoneApp: Free Tool Scans Domains for AI SEO Readiness",
+  "summary": "DialtoneApp is a new free tool that scans websites for AI SEO compliance, focusing on emerging standards like llms.txt and markdown versions of HTML pages. It highlights the top 300 sites in terms of AI optimization readiness.",
+  "body": "A new free tool called DialtoneApp has been launched to help website owners assess their sites' readiness for AI-driven search engine optimization (SEO). The tool scans domains for compliance with emerging AI SEO standards, such as the inclusion of llms.txt files and markdown versions of HTML pages. These standards are part of a broader shift towards Answer Engine Optimization (AEO) and Generative Engine Optimization (GEO), which aim to make content more accessible and understandable for AI systems.\n\nThe importance of AI SEO is growing as search engines increasingly rely on AI to understand and rank content. DialtoneApp's scans can help website owners identify areas where their sites may be falling behind in this new landscape. The tool also lists the top 300 sites in terms of AI optimization readiness, providing a benchmark for comparison. This is particularly relevant as the industry moves towards more sophisticated AI interactions, including the use of agents.json files and bot-to-bot (b2b) commerce.\n\nThe future of AI SEO is still evolving, with new standards and best practices emerging rapidly. DialtoneApp's tool is a step towards helping website owners stay ahead of these changes. However, the tool's effectiveness will depend on how widely these standards are adopted and how quickly search engines integrate AI into their ranking algorithms. Website owners should keep an eye on these developments and use tools like DialtoneApp to ensure their sites remain competitive.",
+  "sourceUrl": "https://news.ycombinator.com/item?id=47823995",
+  "sourceName": "Hacker News AI",
+  "category": "general",
+  "tags": [
+    "ai-seo",
+    "dialtoneapp",
+    "aeo",
+    "geo",
+    "llms.txt",
+    "web-tools"
+  ],
+  "publishedAt": "2026-04-19T16:03:08.910849+00:00",
+  "imageUrl": "/images/articles/2026-04-19-dialtoneapp-free-tool-scans-domains-for-ai-seo-readiness.jpg",
+  "twitterThread": [
+    "🚀 A new free tool is shaking up AI SEO: DialtoneApp.\n\nHere's why it matters:\n\n1. It scans domains for AI SEO compliance.\n2. It focuses on emerging standards like llms.txt.\n3. It lists the top 300 sites in terms of AI optimization readiness.",
+    "The tool is part of a broader shift towards Answer Engine Optimization (AEO) and Generative Engine Optimization (GEO).\n\nThese standards aim to make content more accessible for AI systems.\n\nLet that sink in.",
+    "The importance of AI SEO is growing as search engines rely more on AI for ranking.\n\nDialtoneApp helps website owners identify areas where their sites may be falling behind.\n\nThis changes everything for web developers.",
+    "The future of AI SEO is still evolving, with new standards and best practices emerging rapidly.\n\nDialtoneApp is a step towards helping website owners stay ahead of these changes.\n\nBut will these standards be widely adopted?",
+    "This tool is a game-changer for anyone serious about AI SEO.\n\nFull breakdown → https://ainformed.dev"
+  ],
+  "standaloneTweet": "🚀 A new free tool is shaking up AI SEO: DialtoneApp. It scans domains for AI SEO compliance and lists the top 300 sites in terms of AI optimization readiness. https://ainformed.dev/articles/dialtoneapp-free-tool-scans-domains-for-ai-seo-readiness"
+}

@@ -1,0 +1,28 @@
+{
+  "slug": "2026-04-19-lmcli-v050-a-minimalists-tool-for-llm-work",
+  "title": "Lmcli v0.5.0: A Minimalist's Tool for LLM Work",
+  "summary": "Lmcli v0.5.0 is a lightweight, Go-based CLI tool for LLM interactions, focusing on minimal abstraction. It supports fundamental use cases like agentic tool-calling loops without built-in agents.",
+  "body": "A new version of `lmcli`, a command-line tool for working with large language models (LLMs), has been released. Written in Go, `lmcli` v0.5.0 emphasizes performance and a lean codebase, providing a direct interface between users and LLM models. The tool is designed for minimalists who prefer fewer layers of abstraction, making it ideal for developers and researchers who want more control over their LLM interactions.\n\nWhat sets `lmcli` apart is its focus on fundamental use cases. Instead of bundling a built-in agent, the tool allows users to configure agents using system prompts and available tools. This approach ensures that only essential features are included, keeping the tool lightweight and efficient. The latest version includes support for agentic tool-calling loops, demonstrating its adaptability to evolving LLM workflows.\n\nThe future of `lmcli` looks promising, with its developer committed to adding more use cases as they become fundamental to LLM usage. The tool's modular design and performance-oriented approach make it a strong contender for those seeking a minimalist yet powerful LLM interface. As the LLM landscape continues to evolve, `lmcli` could become a go-to tool for developers who value simplicity and direct control.",
+  "sourceUrl": "https://codeberg.org/mlow/lmcli",
+  "sourceName": "Hacker News AI",
+  "category": "general",
+  "tags": [
+    "llms",
+    "cli",
+    "go",
+    "minimalism",
+    "developer-tools",
+    "agentic"
+  ],
+  "publishedAt": "2026-04-19T21:01:54.908101+00:00",
+  "imageUrl": "/images/articles/2026-04-19-lmcli-v050-a-minimalists-tool-for-llm-work.jpg",
+  "twitterThread": [
+    "🚀 Meet `lmcli` v0.5.0 – the minimalist's dream for LLM work.\n\nWritten in Go. No fluff. Just performance.\n\nHere's why this matters:",
+    "Most LLM tools add layers of abstraction. `lmcli` strips it all back.\n\nYou configure agents with prompts and tools. No built-in agents. Just you and the model.",
+    "The wild part? It supports agentic tool-calling loops.\n\nOnly fundamental features make the cut. Let that sink in.",
+    "This changes everything for developers who want direct control over their LLM workflows.\n\nNo bloat. No unnecessary complexity.",
+    "Hot take: `lmcli` could become the go-to tool for LLM minimalists.\n\nAs the LLM landscape evolves, simplicity will win.",
+    "Full breakdown → https://ainformed.dev"
+  ],
+  "standaloneTweet": "🚀 `lmcli` v0.5.0 is here – a minimalist's tool for LLM work. Written in Go, it strips away abstraction and puts you in direct control. https://ainformed.dev/articles/lmcli-v0.5.0-a-minimalists-tool-for-llm-work"
+}

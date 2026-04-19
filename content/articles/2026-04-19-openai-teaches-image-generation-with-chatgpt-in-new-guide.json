@@ -1,0 +1,28 @@
+{
+  "slug": "2026-04-19-openai-teaches-image-generation-with-chatgpt-in-new-guide",
+  "title": "OpenAI Teaches Image Generation with ChatGPT in New Guide",
+  "summary": "OpenAI has released a guide on using ChatGPT to create and refine images through clear prompts. The guide highlights the efficiency and creative potential of AI-driven visual content generation.",
+  "body": "OpenAI has published a comprehensive guide on leveraging ChatGPT for image generation. The guide, available on the OpenAI Academy, walks users through the process of crafting detailed prompts to produce high-quality visuals. It emphasizes the importance of clear, specific instructions to achieve desired outcomes, making it accessible even for those without design experience.\n\nThis development underscores the growing versatility of large language models in creative tasks. By integrating image generation capabilities, ChatGPT expands its utility beyond text, offering a seamless way to iterate on designs quickly. This could democratize visual content creation, making it more accessible to a broader audience, including marketers, educators, and hobbyists.\n\nThe guide also touches on the iterative nature of AI-driven design, encouraging users to refine prompts based on initial outputs. As AI tools continue to evolve, the line between text and visual generation blurs, potentially reshaping industries reliant on digital content. Future updates may include more advanced features, such as style transfer and complex scene composition, further enhancing the creative possibilities.",
+  "sourceUrl": "https://openai.com/academy/image-generation",
+  "sourceName": "OpenAI Blog",
+  "category": "models",
+  "tags": [
+    "image-generation",
+    "chatgpt",
+    "ai-tools",
+    "creative-ai",
+    "openai",
+    "prompt-engineering"
+  ],
+  "publishedAt": "2026-04-19T21:02:14.761499+00:00",
+  "imageUrl": "/images/articles/2026-04-19-openai-teaches-image-generation-with-chatgpt-in-new-guide.jpg",
+  "twitterThread": [
+    "🚀 OpenAI just dropped a guide on creating images with ChatGPT. Yes, really.\n\nHere's why this is a big deal:",
+    "You can now generate high-quality visuals with just text prompts. No design skills needed.\n\nThe wild part? It takes minutes.",
+    "Here's why this matters: It democratizes visual content creation. Marketers, educators, anyone can use it.",
+    "Let that sink in. AI is blurring the line between text and visuals. This changes everything for digital content.",
+    "Hot take: This is just the beginning. Imagine style transfer, complex scenes, and more. The future of AI creativity is here.",
+    "Full breakdown → https://ainformed.dev"
+  ],
+  "standaloneTweet": "OpenAI's new guide shows how to create images with ChatGPT. No design skills needed. The future of AI creativity is here. https://ainformed.dev/articles/creating-images-with-chatgpt"
+}

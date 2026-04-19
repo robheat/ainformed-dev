@@ -1,0 +1,28 @@
+{
+  "slug": "2026-04-19-rigor-open-source-proxy-to-combat-ai-enshittification",
+  "title": "Rigor: Open-Source Proxy to Combat AI 'Enshittification'",
+  "summary": "A new open-source project called Rigor aims to prevent AI services from degrading over time. It acts as a proxy for OpenCode and Claude Code, grounding projects in an epistemic graph with LLM-based evaluation.",
+  "body": "A developer has created Rigor, an anti-enshittification proxy designed to maintain the quality of AI agent subscriptions. The tool grounds projects in an epistemic graph and uses LLMs as judges to evaluate outputs, ensuring consistent performance without relying on expensive subscriptions. The project was developed during the GrowthX OpenCode hackathon and is currently in a waitlist phase before being open-sourced.\n\nRigor addresses a growing concern in the AI community about the degradation of services over time, often referred to as 'enshittification.' By providing a transparent and evaluative framework, Rigor aims to keep AI agents reliable and effective. This is particularly relevant as more users rely on AI for critical tasks and projects, making the stability of these services paramount.\n\nThe project is set to be open-sourced once a waitlist is established, indicating a community-driven approach to combating AI service degradation. The developer plans to reach out via email once the core is ready. This initiative could set a precedent for other open-source projects focused on maintaining the integrity of AI tools, potentially leading to broader industry standards for quality and transparency.",
+  "sourceUrl": "https://rigorcloud.com/",
+  "sourceName": "Hacker News AI",
+  "category": "general",
+  "tags": [
+    "ai",
+    "open-source",
+    "proxy",
+    "enshittification",
+    "agents",
+    "epistemic-graph"
+  ],
+  "publishedAt": "2026-04-19T11:01:48.872329+00:00",
+  "imageUrl": "/images/articles/2026-04-19-rigor-open-source-proxy-to-combat-ai-enshittification.jpg",
+  "twitterThread": [
+    "🚨 A new open-source project is fighting back against AI 'enshittification'.\n\nRigor acts as a proxy for OpenCode and Claude Code, grounding projects in an epistemic graph with LLM-based evaluation. No more questioning your $200 Agent subscription.",
+    "Here's why this matters:\n\nAI services often degrade over time. Rigor aims to keep them reliable and effective. Developed during the GrowthX OpenCode hackathon, it's a community-driven solution.",
+    "The wild part?\n\nRigor uses LLMs as judges to evaluate outputs. This ensures consistent performance without relying on expensive subscriptions. A game-changer for AI agent users.",
+    "Let that sink in.\n\nAn open-source tool could set a new standard for AI service quality. This changes everything for developers and businesses relying on stable AI agents.",
+    "Hot take:\n\nIf Rigor gains traction, we might see a shift towards more transparent and evaluative frameworks in the AI industry. The future of AI could be more reliable and user-driven.",
+    "Full breakdown → https://ainformed.dev"
+  ],
+  "standaloneTweet": "A new open-source project called Rigor is fighting back against AI 'enshittification'. It acts as a proxy for OpenCode and Claude Code, grounding projects in an epistemic graph with LLM-based evaluation. https://ainformed.dev/articles/rigor-open-source-proxy-to-combat-ai-enshittification"
+}

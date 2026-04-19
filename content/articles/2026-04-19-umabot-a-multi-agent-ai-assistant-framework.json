@@ -1,0 +1,28 @@
+{
+  "slug": "2026-04-19-umabot-a-multi-agent-ai-assistant-framework",
+  "title": "UmaBot: A Multi-Agent AI Assistant Framework",
+  "summary": "UmaBot is an open-source framework for building multi-agent AI assistants. It leverages LangChain and other tools to enable complex, collaborative AI workflows.",
+  "body": "UmaBot is a new open-source framework designed to build sophisticated AI assistants that can collaborate as a team. Developed by Shaktsin, the project leverages LangChain and other tools to create multi-agent systems capable of handling complex tasks through coordinated efforts.\n\nThe framework stands out by enabling AI agents to work together, each specializing in different tasks. This approach mimics human teamwork, allowing for more efficient and nuanced problem-solving. UmaBot's modular design makes it accessible for developers to customize and extend, fostering a community-driven ecosystem.\n\nAs interest in multi-agent systems grows, UmaBot could become a significant player in the AI assistant space. Its open-source nature encourages innovation, and the potential for real-world applications in customer service, automation, and more is substantial. However, the long-term success will depend on community adoption and continuous updates.",
+  "sourceUrl": "https://github.com/shaktsin/umaBot",
+  "sourceName": "Hacker News AI",
+  "category": "general",
+  "tags": [
+    "ai-assistants",
+    "multi-agent",
+    "open-source",
+    "langchain",
+    "automation",
+    "collaboration"
+  ],
+  "publishedAt": "2026-04-19T11:02:28.240338+00:00",
+  "imageUrl": "/images/articles/2026-04-19-umabot-a-multi-agent-ai-assistant-framework.jpg",
+  "twitterThread": [
+    "🤖 UmaBot is here. A multi-agent AI assistant framework that's open-source. \n\nYes, you read that right. \n\nHere's the kicker: It's built on LangChain. 🚀",
+    "UmaBot lets AI agents work together like a team. Each agent specializes in different tasks. \n\nImagine a group of AI experts collaborating in real-time. \n\nThis changes everything for complex problem-solving.",
+    "The wild part? It's modular. Developers can customize and extend it easily. \n\nCommunity-driven innovation is about to explode. \n\nLet that sink in.",
+    "Why does this matter? Multi-agent systems are the future. \n\nUmaBot could be the go-to framework for AI assistants. \n\nCustomer service, automation, and more. \n\nThe possibilities are endless.",
+    "Hot take: UmaBot has the potential to dominate the AI assistant space. \n\nBut only if the community adopts it and keeps it updated. \n\nGame on.",
+    "Full breakdown → https://ainformed.dev"
+  ],
+  "standaloneTweet": "UmaBot is an open-source multi-agent AI assistant framework built on LangChain. It's modular, customizable, and could change the game for complex AI workflows. https://ainformed.dev/articles/umabot-a-multi-agent-ai-assistant-framework"
+}

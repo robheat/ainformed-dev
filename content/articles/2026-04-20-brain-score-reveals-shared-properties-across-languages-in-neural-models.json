@@ -1,0 +1,27 @@
+{
+  "slug": "2026-04-20-brain-score-reveals-shared-properties-across-languages-in-neural-models",
+  "title": "Brain Score Reveals Shared Properties Across Languages in Neural Models",
+  "summary": "Researchers used Brain Score to evaluate language models trained on diverse languages and structured sequences, finding shared processing properties. The study suggests neural models capture universal linguistic features beyond specific language structures.",
+  "body": "Researchers have used the Brain Score framework to assess how well language models (LMs) trained on various natural languages and structured sequences align with human brain activity during reading. The study, published on arXiv, found that models trained on different languages and even structured sequences like DNA or formal languages exhibited similar processing properties when evaluated using Brain Score.\n\nThe findings imply that neural language models capture universal linguistic features that transcend specific language structures. This challenges the notion that models trained on one language can only understand that language, suggesting instead that they learn fundamental aspects of language processing applicable across languages. The study highlights the potential of Brain Score as a tool for understanding the similarities between human and machine language processing.\n\nThe research raises questions about the extent to which language models can generalize across languages and structured sequences. Future work could explore how these shared properties influence model performance on multilingual tasks and whether they can be leveraged to improve cross-lingual transfer learning. The study also opens avenues for further investigation into the cognitive mechanisms underlying language processing in both humans and machines.",
+  "sourceUrl": "https://arxiv.org/abs/2604.15503",
+  "sourceName": "ArXiv cs.CL",
+  "category": "research",
+  "tags": [
+    "brain-score",
+    "language-models",
+    "multilingual",
+    "neuroscience",
+    "ai-research"
+  ],
+  "publishedAt": "2026-04-20T21:01:23.104476+00:00",
+  "imageUrl": "/images/articles/2026-04-20-brain-score-reveals-shared-properties-across-languages-in-neural-models.jpg",
+  "twitterThread": [
+    "🧠 New research drops a bombshell: Language models trained on different languages (and even DNA sequences!) show similar brain-like processing. Here's why this matters:\n\n",
+    "Scientists used Brain Score to compare LMs trained on diverse languages. The wild part? Models trained on structured sequences (like DNA) also aligned with human brain activity during reading.\n\n",
+    "This suggests neural models capture universal linguistic features beyond specific language structures. Let that sink in.\n\n",
+    "The implications are huge. It challenges the idea that LMs are just 'parrots' of their training data. They're learning fundamental aspects of language processing.\n\n",
+    "This changes everything for multilingual AI. If models can generalize across languages, we're closer to true cross-lingual understanding.\n\n",
+    "Full breakdown → https://ainformed.dev"
+  ],
+  "standaloneTweet": "Language models trained on different languages (and even DNA sequences!) show similar brain-like processing. The implications for multilingual AI are massive. https://ainformed.dev/articles/brain-score-reveals-shared-properties-across-languages-in-neural-models"
+}

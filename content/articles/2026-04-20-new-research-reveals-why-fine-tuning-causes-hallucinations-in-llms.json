@@ -1,0 +1,28 @@
+{
+  "slug": "2026-04-20-new-research-reveals-why-fine-tuning-causes-hallucinations-in-llms",
+  "title": "New Research Reveals Why Fine-Tuning Causes Hallucinations in LLMs",
+  "summary": "Fine-tuning large language models can increase hallucinations by degrading pre-trained knowledge. Researchers propose a self-distillation method to mitigate this issue. This could reshape how we approach model training.",
+  "body": "A new study published on arXiv (2604.15574v1) reveals that supervised fine-tuning (SFT) of large language models (LLMs) often leads to increased hallucinations. The research shows that exposure to new factual information during SFT can degrade the model's pre-trained knowledge, making it more prone to generating factually incorrect statements.\n\nThe findings are significant because they challenge the common practice of fine-tuning models to adapt them to specific tasks. By using tools from the continual learning literature, the researchers propose a self-distillation-based SFT method that aims to preserve the model's original knowledge while incorporating new information. This approach could be a game-changer for developers looking to optimize their models.\n\nThe research team suggests that this method could be widely adopted in the industry, potentially leading to more reliable and accurate LLMs. However, further testing and validation will be necessary to determine its effectiveness across different types of models and tasks. The study opens up new avenues for improving model training practices and reducing hallucinations in AI-generated content.",
+  "sourceUrl": "https://arxiv.org/abs/2604.15574",
+  "sourceName": "ArXiv cs.CL",
+  "category": "research",
+  "tags": [
+    "hallucinations",
+    "fine-tuning",
+    "llms",
+    "research",
+    "self-distillation",
+    "continual-learning"
+  ],
+  "publishedAt": "2026-04-20T21:01:57.975660+00:00",
+  "imageUrl": "/images/articles/2026-04-20-new-research-reveals-why-fine-tuning-causes-hallucinations-in-llms.jpg",
+  "twitterThread": [
+    "🚨 New research drops a bombshell: fine-tuning LLMs actually INCREASES hallucinations. \n\nWhy? It degrades pre-trained knowledge. \n\nThis changes everything for model training.",
+    "Here's the kicker: The more you fine-tune, the more the model forgets its original knowledge. \n\nResearchers call this 'knowledge degradation.'",
+    "The wild part? They propose a fix using self-distillation. \n\nIt's like teaching the model to remember what it already knew while learning new stuff.",
+    "Let that sink in. \n\nFine-tuning could be making your LLM LESS accurate, not more. \n\nThis is a HUGE deal for developers.",
+    "Hot take: This research could lead to a complete overhaul of how we train models. \n\nSay goodbye to the old way of fine-tuning.",
+    "Full breakdown → https://ainformed.dev"
+  ],
+  "standaloneTweet": "New research reveals fine-tuning LLMs increases hallucinations by degrading pre-trained knowledge. The fix? Self-distillation. This could change everything for model training. https://ainformed.dev/articles/why-fine-tuning-encourages-hallucinations-and-how-to-fix-it"
+}

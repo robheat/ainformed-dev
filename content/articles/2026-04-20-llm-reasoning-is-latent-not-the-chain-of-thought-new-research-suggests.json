@@ -1,0 +1,28 @@
+{
+  "slug": "2026-04-20-llm-reasoning-is-latent-not-the-chain-of-thought-new-research-suggests",
+  "title": "LLM Reasoning Is Latent, Not the Chain of Thought, New Research Suggests",
+  "summary": "A new position paper challenges the prevailing view of LLM reasoning as a chain of thought, proposing instead that it should be studied as latent-state trajectory formation. This shift could redefine how we evaluate and interpret AI reasoning.",
+  "body": "A new position paper published on arXiv argues that large language model (LLM) reasoning should be understood as latent-state trajectory formation rather than as a faithful surface chain of thought (CoT). The paper, titled \"LLM Reasoning Is Latent, Not the Chain of Thought,\" suggests that this distinction is critical for claims about faithfulness, interpretability, reasoning benchmarks, and inference-time intervention.\n\nThe authors contend that the field has often confounded three key factors in LLM reasoning, leading to a misalignment between surface-level outputs and the underlying processes. By formalizing three competing hypotheses, they propose that reasoning is primarily mediated by latent states, which are not directly observable but shape the model's outputs. This perspective could significantly impact how researchers design and evaluate reasoning tasks in LLMs.\n\nThe implications of this research are far-reaching. If reasoning is indeed a latent-state trajectory, it suggests that current methods for interpreting and intervening in LLM reasoning may be incomplete. Future work could focus on developing new techniques to uncover and manipulate these latent states, potentially leading to more robust and interpretable AI systems. The paper also raises questions about the validity of existing reasoning benchmarks, which may need to be revisited in light of this new framework.",
+  "sourceUrl": "https://arxiv.org/abs/2604.15726",
+  "sourceName": "ArXiv cs.AI",
+  "category": "research",
+  "tags": [
+    "llm",
+    "reasoning",
+    "latent-state",
+    "chain-of-thought",
+    "ai",
+    "interpretability"
+  ],
+  "publishedAt": "2026-04-20T16:01:25.985836+00:00",
+  "imageUrl": "/images/articles/2026-04-20-llm-reasoning-is-latent-not-the-chain-of-thought-new-research-suggests.jpg",
+  "twitterThread": [
+    "🚨 New research flips the script on LLM reasoning. It's not about the chain of thought. It's latent. \n\nThe field has been looking in the wrong place. #AI",
+    "The paper argues that reasoning in LLMs is mediated by latent states, not surface-level CoT. \n\nThis changes everything for interpretability and benchmarks.",
+    "Here's why this matters: Current methods for understanding LLM reasoning may be missing the real action. \n\nLatent states are the hidden drivers.",
+    "The wild part: If reasoning is latent, we've been evaluating LLMs the wrong way. \n\nExisting benchmarks may need a complete overhaul.",
+    "This could be the breakthrough we need to make AI reasoning more robust and interpretable. \n\nThe future of AI evaluation just got a lot more interesting.",
+    "Full breakdown → https://ainformed.dev"
+  ],
+  "standaloneTweet": "New research suggests LLM reasoning is latent, not chain of thought. This could redefine how we evaluate and interpret AI reasoning. Full details → https://ainformed.dev/articles/llm-reasoning-is-latent-not-the-chain-of-thought"
+}

@@ -1,0 +1,28 @@
+{
+  "slug": "2026-04-20-canadas-ai-register-a-tool-of-transparency-or-control",
+  "title": "Canada's AI Register: A Tool of Transparency or Control?",
+  "summary": "Canada's Federal AI Register, launched in 2025, is more than a transparency tool—it actively shapes accountability. A new study reveals its limitations and biases in tracking AI systems. The register omits key details, raising questions about its effectiveness.",
+  "body": "Canada's Federal AI Register, operationalized in November 2025, was intended to be a landmark in government transparency. The register lists 409 AI systems used by federal agencies, but a new study from arXiv argues that it does more than just reflect government activity—it actively shapes what is considered accountable. Researchers used the Algorithmic Decision-Making Adapted for the Public Sector (ADMAPS) framework to analyze the register, revealing significant gaps and biases.\n\nThe study highlights that the register obscures as much as it reveals. While it provides a quantitative map of AI systems, it lacks detailed qualitative information about how these systems make decisions or their impact on citizens. This omission means the register may not fulfill its intended purpose of holding the government accountable. The researchers argue that such registers are not neutral but are tools of 'ontological design,' shaping what is considered important in AI governance.\n\nThe findings raise critical questions about the future of AI transparency in government. If registers like Canada's are to be effective, they must include more detailed information about AI systems' decision-making processes. The study suggests that without such improvements, these registers risk becoming mere formalities rather than tools for genuine accountability. The next steps will likely involve calls for reform to ensure that AI registers provide meaningful transparency.",
+  "sourceUrl": "https://arxiv.org/abs/2604.15514",
+  "sourceName": "ArXiv cs.AI",
+  "category": "research",
+  "tags": [
+    "ai",
+    "governance",
+    "transparency",
+    "canada",
+    "accountability",
+    "algorithms"
+  ],
+  "publishedAt": "2026-04-20T16:02:44.730168+00:00",
+  "imageUrl": "/images/articles/2026-04-20-canadas-ai-register-a-tool-of-transparency-or-control.jpg",
+  "twitterThread": [
+    "🚨 Canada's AI Register isn't the transparency tool you think it is.\n\nIt's actually shaping what we consider 'accountable' in AI. Here's why this matters:",
+    "The register lists 409 AI systems. But a new study reveals it's missing key details.\n\nLike how these systems make decisions. Or their impact on citizens.",
+    "The wild part?\n\nThe register isn't neutral. It's a tool of 'ontological design,' actively configuring accountability boundaries.",
+    "Let that sink in.\n\nA transparency tool that obscures as much as it reveals. This changes everything for AI governance.",
+    "Hot take: If we don't fix this, AI registers will be empty formalities. Not tools for real accountability.",
+    "Full breakdown → https://ainformed.dev"
+  ],
+  "standaloneTweet": "Canada's AI Register is more than just a list of systems—it's shaping what we consider 'accountable' in AI. A new study reveals its limitations. https://ainformed.dev/articles/canadas-ai-register-a-tool-of-transparency-or-control"
+}

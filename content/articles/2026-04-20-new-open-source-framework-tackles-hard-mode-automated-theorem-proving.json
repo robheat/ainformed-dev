@@ -1,0 +1,28 @@
+{
+  "slug": "2026-04-20-new-open-source-framework-tackles-hard-mode-automated-theorem-proving",
+  "title": "New Open-Source Framework Tackles 'Hard Mode' Automated Theorem Proving",
+  "summary": "Researchers introduce a framework for 'Hard Mode' theorem proving, where AI must discover answers independently. They release two expert-annotated benchmarks to advance this challenging research area.",
+  "body": "Researchers have developed an open-source framework designed to push the boundaries of automated theorem proving (ATP) in Lean 4. The framework introduces 'Hard Mode,' a stricter setting where AI systems must independently discover the answer before constructing a formal proof. This contrasts with the more common 'Easy Mode,' where the answer is embedded in the problem statement.\n\nThe significance of this work lies in its potential to provide a more realistic assessment of AI capabilities in theorem proving. Current benchmarks often simplify the task, leading to overly optimistic estimates of model performance. By releasing two expert-annotated Hard Mode variants of widely-used ATP benchmarks, MiniF2F-Hard and FIMO-Hard, the researchers aim to foster more rigorous and practical research in the field.\n\nThe release of these benchmarks is expected to spur further innovation in AI-driven theorem proving. Researchers and developers can now test and refine their models in a more challenging and realistic environment. The open-source nature of the framework ensures that the community can collaborate and build upon this work, potentially leading to breakthroughs in automated reasoning and formal verification.",
+  "sourceUrl": "https://arxiv.org/abs/2604.15839",
+  "sourceName": "ArXiv cs.AI",
+  "category": "research",
+  "tags": [
+    "automated theorem proving",
+    "lean 4",
+    "ai research",
+    "open source",
+    "hard mode",
+    "formal verification"
+  ],
+  "publishedAt": "2026-04-20T16:02:09.346523+00:00",
+  "imageUrl": "/images/articles/2026-04-20-new-open-source-framework-tackles-hard-mode-automated-theorem-proving.jpg",
+  "twitterThread": [
+    "🚀 AI just got a tougher challenge: 'Hard Mode' theorem proving! 🧵\n\nMost benchmarks make it too easy. This changes everything.\n\nHere's why this matters:",
+    "Current 'Easy Mode' embeds the answer in the problem. 'Hard Mode' forces AI to discover it first. A game-changer for real-world applications.",
+    "Researchers released MiniF2F-Hard & FIMO-Hard: expert-annotated benchmarks for 'Hard Mode.' These are the first of their kind.",
+    "The wild part? This could lead to more accurate assessments of AI capabilities. No more inflated performance claims.",
+    "This changes everything for formal verification and automated reasoning. Get ready for a new era of AI research.",
+    "Full breakdown → https://ainformed.dev"
+  ],
+  "standaloneTweet": "AI theorem proving just got real. 'Hard Mode' benchmarks released! No more easy answers. Discover the impact → https://ainformed.dev/articles/new-open-source-framework-tackles-hard-mode-automated-theorem-proving"
+}

@@ -1,0 +1,28 @@
+{
+  "slug": "2026-04-20-kimi-k26-open-source-coding-model-achieves-new-benchmarks",
+  "title": "Kimi K2.6: Open-Source Coding Model Achieves New Benchmarks",
+  "summary": "Kimi K2.6 sets new standards in open-source coding with top-tier performance across multiple benchmarks. The model excels in long-horizon coding tasks, handling up to 4,000 tokens.",
+  "body": "Kimi.ai has released Kimi K2.6, an open-source coding model that achieves state-of-the-art (SOTA) performance across several benchmarks. The model scores 54.0 on HLE with tools, 58.6 on SWE-Bench Pro, 76.7 on SWE-bench Multilingual, 83.2 on BrowseComp, 50.0 on Toolathlon, 86.7 on Charxiv with Python, and 93.2 on Math Vision with Python. Notably, Kimi K2.6 excels in long-horizon coding tasks, handling sequences of up to 4,000 tokens.\n\nThis release underscores the growing capabilities of open-source models in specialized coding tasks. Kimi K2.6's performance rivals and, in some cases, surpasses proprietary models, making it a significant milestone for open-source AI development. The model's ability to handle extensive coding sequences positions it as a valuable tool for developers working on complex projects.\n\nThe response to Kimi K2.6 has been overwhelmingly positive, with developers praising its efficiency and versatility. As open-source models continue to advance, the gap between proprietary and open-source solutions narrows. Future updates to Kimi K2.6 are expected to further enhance its capabilities, potentially setting new benchmarks in the field of AI-assisted coding.",
+  "sourceUrl": "https://x.com/Kimi_Moonshot/status/2046249571882500354",
+  "sourceName": "@Kimi_Moonshot on X",
+  "category": "general",
+  "tags": [
+    "open-source",
+    "coding",
+    "ai-models",
+    "benchmarks",
+    "kimi-ai",
+    "long-horizon"
+  ],
+  "publishedAt": "2026-04-20T23:06:25.377030+00:00",
+  "imageUrl": "/images/articles/2026-04-20-kimi-k26-open-source-coding-model-achieves-new-benchmarks.jpg",
+  "twitterThread": [
+    "🚀 Kimi K2.6 just dropped. Open-source coding just got a MAJOR upgrade. \n\nHere's why this matters:",
+    "Scores 54.0 on HLE with tools. 58.6 on SWE-Bench Pro. 76.7 on SWE-bench Multilingual. 83.2 on BrowseComp. 50.0 on Toolathlon. 86.7 on Charxiv with Python. 93.2 on Math Vision with Python.\n\nLet that sink in.",
+    "But the wild part? It handles long-horizon coding tasks up to 4,000 tokens. \n\nThis changes everything for complex coding projects.",
+    "Open-source is catching up FAST. Kimi K2.6 proves that proprietary models no longer have a monopoly on top-tier performance.",
+    "The future of coding is open. And it's looking bright.",
+    "Full breakdown → https://ainformed.dev"
+  ],
+  "standaloneTweet": "Kimi K2.6 just dropped. Open-source coding just got a MAJOR upgrade. Scores 54.0 on HLE with tools, 93.2 on Math Vision with Python. Handles 4,000+ token sequences. Full breakdown → https://ainformed.dev/articles/kimi-k2-6-open-source-coding-model-achieves-new-benchmarks"
+}

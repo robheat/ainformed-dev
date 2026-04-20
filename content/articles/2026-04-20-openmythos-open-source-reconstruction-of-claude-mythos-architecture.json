@@ -1,0 +1,28 @@
+{
+  "slug": "2026-04-20-openmythos-open-source-reconstruction-of-claude-mythos-architecture",
+  "title": "OpenMythos: Open-Source Reconstruction of Claude Mythos Architecture",
+  "summary": "OpenMythos is an open-source implementation of Claude Mythos, using a looped transformer with Mixture-of-Experts routing. This project aims to advance theoretical AI research by providing a transparent, modular framework.",
+  "body": "Researchers have unveiled OpenMythos, an open-source reconstruction of the Claude Mythos architecture. Built in PyTorch, this project implements a looped transformer with a Mixture-of-Experts (MoE) routing mechanism. The architecture leverages weight sharing to enable iterative depth, offering a novel approach to AI model design.\n\nOpenMythos stands out for its transparency and modularity, providing researchers with a flexible framework to explore advanced AI architectures. By open-sourcing the project, the developers aim to foster collaboration and accelerate theoretical advancements in AI. This initiative could democratize access to cutting-edge AI models, potentially leveling the playing field for smaller research teams and independent developers.\n\nThe release of OpenMythos has sparked interest in the AI community, with many eager to experiment with its unique architecture. Future developments may include optimizations for specific use cases and integration with other open-source projects. As the project gains traction, it could become a cornerstone for AI research, offering new insights into the capabilities and limitations of transformer-based models.",
+  "sourceUrl": "https://x.com/KyeGomezB/status/2045659150340723107",
+  "sourceName": "@KyeGomezB on X",
+  "category": "general",
+  "tags": [
+    "open-source",
+    "ai-architecture",
+    "transformers",
+    "research",
+    "pytorch",
+    "moe"
+  ],
+  "publishedAt": "2026-04-20T23:06:02.144048+00:00",
+  "imageUrl": "/images/articles/2026-04-20-openmythos-open-source-reconstruction-of-claude-mythos-architecture.jpg",
+  "twitterThread": [
+    "🚀 OpenMythos just dropped. An open-source remake of Claude Mythos. With a twist.\n\nA looped transformer. With Mixture-of-Experts routing.\n\nLet that sink in.",
+    "Here's why this matters:\n\nMost models are black boxes. OpenMythos? Fully transparent.\n\nResearchers can tinker. Build. Break. Improve.",
+    "The wild part?\n\nIt uses weight sharing. For iterative depth.\n\nThis could change how we think about model scaling.",
+    "Claude Mythos is powerful. But closed.\n\nOpenMythos brings that power to the masses.\n\nThis changes everything for indie AI devs.",
+    "Hot take:\n\nOpenMythos isn't just a clone. It's a catalyst.\n\nExpect a wave of new architectures. Built on this foundation.",
+    "Full breakdown → https://ainformed.dev"
+  ],
+  "standaloneTweet": "OpenMythos just open-sourced Claude Mythos' architecture. With a looped transformer + MoE routing. This is a game-changer for AI research. https://ainformed.dev/articles/introducing-openmythos"
+}

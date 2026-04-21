@@ -1,27 +1,4 @@
-"""
-generate_tts.py — Generate TTS audio for scripted YouTube Shorts using Coqui XTTS v2.
-
-Input:  content/.youtube-queue.json (entries with status == "scripted")
-Output: pipeline/cache/youtube/<slug>.wav + updates queue status to "tts_done"
-
-First run will download the XTTS v2 model (~2GB) and cache it automatically.
-Requires: pip install -r requirements-youtube.txt
-"""
-import json
-import os
-import sys
-from pathlib import Path
-
-QUEUE_FILE = Path(__file__).parent.parent / "content" / ".youtube-queue.json"
-CACHE_DIR = Path(__file__).parent / "cache" / "youtube"
-CACHE_DIR.mkdir(parents=True, exist_ok=True)
-
-# Optional: path to a reference speaker WAV for voice cloning
-# Set XTTS_SPEAKER_WAV=/path/to/voice.wav in env to use a custom voice
-SPEAKER_WAV = os.environ.get("XTTS_SPEAKER_WAV", "")
-SPEAKER_LANG = os.environ.get("XTTS_LANG", "en")
-# Default built-in XTTS v2 speaker (good quality, no reference WAV needed)
-DEFAULT_SPEAKER = os.environ.get("XTTS_SPEAKER", "Claribel Dervla")
+"""\ngenerate_tts.py \u2014 Generate TTS audio for scripted YouTube Shorts using Kokoro ONNX.\n\nInput:  content/.youtube-queue.json (entries with status == \"scripted\")\nOutput: pipeline/cache/youtube/<slug>.wav + updates queue status to \"tts_done\"\n\nFirst run downloads the Kokoro model (~300MB) automatically.\nRequires: pip install -r requirements-youtube.txt\n"""\nimport json\nimport os\nimport sys\nfrom pathlib import Path\n\nQUEUE_FILE = Path(__file__).parent.parent / "content" / ".youtube-queue.json"\nCACHE_DIR = Path(__file__).parent / "cache" / "youtube"\nCACHE_DIR.mkdir(parents=True, exist_ok=True)\n\n# Kokoro voice name — see https://huggingface.co/hexgrad/Kokoro-82M for full list\n# af_heart = American female (warm), am_fenrir = American male, bf_emma = British female\nDEFAULT_VOICE = os.environ.get("KOKORO_VOICE", "af_heart")\nSAMPLE_RATE = 24000  # Kokoro outputs 24kHz
 
 
 def load_queue() -> dict:
@@ -33,35 +10,24 @@ def save_queue(data: dict) -> None:
 
 
 def get_tts():
-    """Lazy-load Coqui XTTS v2 model. Downloads ~2GB on first run, then cached."""
+    """Lazy-load Kokoro ONNX model. Downloads ~300MB on first run, then cached."""
     try:
-        from TTS.api import TTS
-        import torch
+        from kokoro_onnx import Kokoro
     except ImportError:
-        print("ERROR: TTS not installed. Run: pip install -r requirements-youtube.txt")
+        print("ERROR: kokoro-onnx not installed. Run: pip install -r requirements-youtube.txt")
         sys.exit(1)
 
-    device = "cuda" if torch.cuda.is_available() else "cpu"
-    print(f"  [TTS] Loading XTTS v2 on {device} (first run downloads ~2GB)...")
-    tts = TTS("tts_models/multilingual/multi-dataset/xtts_v2").to(device)
-    return tts
+    print("  [TTS] Loading Kokoro ONNX (first run downloads ~300MB)...")
+    kokoro = Kokoro("kokoro-v1.9.onnx", "voices-v1.0.bin")
+    return kokoro
 
 
-def synthesize(tts, text: str, output_path: Path) -> None:
-    """Synthesize text to a WAV file using XTTS v2."""
-    kwargs: dict = {
-        "text": text,
-        "language": SPEAKER_LANG,
-        "file_path": str(output_path),
-    }
-    if SPEAKER_WAV and Path(SPEAKER_WAV).exists():
-        # Voice cloning from reference audio
-        kwargs["speaker_wav"] = SPEAKER_WAV
-    else:
-        # Use a named built-in speaker
-        kwargs["speaker"] = DEFAULT_SPEAKER
+def synthesize(kokoro, text: str, output_path: Path) -> None:
+    """Synthesize text to a WAV file using Kokoro ONNX."""
+    import soundfile as sf
 
-    tts.tts_to_file(**kwargs)
+    samples, sample_rate = kokoro.create(text, voice=DEFAULT_VOICE, speed=1.0, lang="en-us")
+    sf.write(str(output_path), samples, sample_rate)
 
 
 def main() -> None:

@@ -12,8 +12,10 @@ Pillow>=10.0.0
 numpy>=1.26.0
 imageio[ffmpeg]>=2.34.0
 
-# Text-to-speech (Coqui XTTS v2) — downloads ~2GB model on first run
-TTS>=0.22.0
+# Text-to-speech (Kokoro ONNX) — downloads ~300MB model on first run
+# Supports Python 3.13, GPU-accelerated via ONNX Runtime
+kokoro-onnx>=0.5.0
+soundfile>=0.12.0
 
 # YouTube Data API v3
 google-api-python-client>=2.100.0

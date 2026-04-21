@@ -54,11 +54,10 @@ jobs:
           YT_SCRIPTS_PER_RUN: ${{ github.event.inputs.scripts_per_run || '2' }}
         run: python generate_shorts_script.py
 
-      - name: Generate TTS audio (Coqui XTTS v2)
+      - name: Generate TTS audio (Kokoro ONNX)
         working-directory: pipeline
         env:
-          XTTS_SPEAKER: ${{ secrets.XTTS_SPEAKER || 'Claribel Dervla' }}
-          XTTS_LANG: "en"
+          KOKORO_VOICE: ${{ secrets.KOKORO_VOICE || 'af_heart' }}
         run: python generate_tts.py
 
       - name: Render Short videos (MoviePy)

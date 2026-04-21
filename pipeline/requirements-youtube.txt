@@ -1,0 +1,21 @@
+# YouTube Shorts pipeline dependencies
+# Install with: pip install -r requirements-youtube.txt
+#
+# NOTE: TTS (Coqui XTTS v2) requires PyTorch. For GPU support on Windows:
+#   pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
+# Then install the rest:
+#   pip install -r requirements-youtube.txt
+
+# Video composition
+moviepy>=2.0.0
+Pillow>=10.0.0
+numpy>=1.26.0
+imageio[ffmpeg]>=2.34.0
+
+# Text-to-speech (Coqui XTTS v2) — downloads ~2GB model on first run
+TTS>=0.22.0
+
+# YouTube Data API v3
+google-api-python-client>=2.100.0
+google-auth-oauthlib>=1.1.0
+google-auth-httplib2>=0.1.1

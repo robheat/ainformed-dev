@@ -1,0 +1,28 @@
+{
+  "slug": "2026-04-21-georepeval-testing-llms-geometry-reasoning-across-representations",
+  "title": "GeoRepEval: Testing LLMs' Geometry Reasoning Across Representations",
+  "summary": "Researchers introduce GeoRepEval, a framework to evaluate large language models' robustness to different geometric problem representations. The study highlights that current benchmarks overlook representation invariance, masking potential failures.",
+  "body": "A new paper on arXiv introduces GeoRepEval, a framework designed to test large language models' (LLMs) ability to handle geometric problems presented in different forms. The study notes that while LLMs are often evaluated on mathematical reasoning, existing benchmarks assume representation invariance, meaning they don't account for how the same problem might be expressed in Euclidean, coordinate, or vector forms.\n\nThe significance of this research lies in its potential to uncover hidden vulnerabilities in LLMs. Current benchmarks report accuracy on fixed formats, which can mask failures caused by representational changes. GeoRepEval aims to measure correctness, invariance, and consistency, providing a more comprehensive evaluation of LLMs' geometric reasoning capabilities.\n\nThe introduction of GeoRepEval could lead to more robust and reliable LLMs, particularly in fields requiring precise mathematical reasoning. Future research might explore how this framework can be applied to other domains, such as algebra or calculus, to ensure that LLMs are truly representation-invariant across various mathematical disciplines.",
+  "sourceUrl": "https://arxiv.org/abs/2604.16421",
+  "sourceName": "ArXiv cs.CL",
+  "category": "research",
+  "tags": [
+    "llms",
+    "geometry",
+    "mathematical-reasoning",
+    "evaluation-framework",
+    "ai-research",
+    "benchmarking"
+  ],
+  "publishedAt": "2026-04-21T16:02:14.751831+00:00",
+  "imageUrl": "/images/articles/2026-04-21-georepeval-testing-llms-geometry-reasoning-across-representations.jpg",
+  "twitterThread": [
+    "📊 New research exposes a blind spot in LLM math benchmarks.\n\nThey assume geometry problems in different forms are treated equally. Spoiler: they're not.\n\nHere's the twist:",
+    "Current benchmarks report accuracy on fixed formats. But identical problems can be expressed in Euclidean, coordinate, or vector forms. Big oversight.",
+    "Enter GeoRepEval. It measures correctness, invariance, and consistency. Finally, a framework that tests representation robustness in geometry.",
+    "Why this matters: It uncovers hidden failures in LLMs. Representational changes can trip up even the best models. Let that sink in.",
+    "This changes everything for LLM evaluation. No more masking failures with fixed formats. The future of math benchmarks just got more rigorous.",
+    "Full breakdown → https://ainformed.dev/articles/2026-04-21-georepeval-testing-llms-geometry-reasoning-across-representations"
+  ],
+  "standaloneTweet": "New research shows LLMs struggle with geometry problems in different forms. GeoRepEval is here to fix that. https://ainformed.dev/articles/2026-04-21-georepeval-testing-llms-geometry-reasoning-across-representations"
+}

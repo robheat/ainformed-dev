@@ -1,17 +1,14 @@
 """
-render_short.py — Render YouTube Shorts video (1080x1920) from TTS audio + article image.
+render_short.py — Render YouTube Shorts video (1080x1920) with Ken Burns animated backgrounds.
 
 Input:  content/.youtube-queue.json (entries with status == "tts_done" or "rendered")
 Output: pipeline/cache/youtube/<slug>.mp4 + updates queue status to "rendered"
 
-Style: News ticker / TV chyron
-  - Full-bleed article image fills frame (light blur only)
-  - Strong gradient darkens bottom 45% for legibility
-  - AInformed.dev logo bar top-left with indigo accent line
-  - Article title bold in upper third
-  - Category badge pill
-  - Bottom chyron: dark bar with bright caption text, progress bar underneath
-  - Subtle vignette around edges
+Visual style: News ticker / TV chyron with cinematic motion
+  - Each caption segment gets its own B-roll background image (or article image fallback)
+  - Background animates with Ken Burns pan effect (20% overscan, 6 movement patterns)
+  - Fast numpy compositing: gradient + UI overlay pre-computed per segment, one blend per frame
+  - AInformed.dev logo bar top, category badge, article title, bottom chyron, progress bar
 """
 import json
 import sys
@@ -19,28 +16,25 @@ import textwrap
 from pathlib import Path
 
 QUEUE_FILE = Path(__file__).parent.parent / "content" / ".youtube-queue.json"
-CACHE_DIR = Path(__file__).parent / "cache" / "youtube"
+CACHE_DIR  = Path(__file__).parent / "cache" / "youtube"
 PUBLIC_DIR = Path(__file__).parent.parent / "public"
 CACHE_DIR.mkdir(parents=True, exist_ok=True)
 
-VIDEO_WIDTH = 1080
+VIDEO_WIDTH  = 1080
 VIDEO_HEIGHT = 1920
-FPS = 30
+FPS          = 30
+KB_SCALE     = 1.20  # 20% overscan: ~216px horizontal / ~384px vertical travel
 
 # Palette
-INDIGO       = (99, 102, 241)
-INDIGO_DARK  = (55, 48, 163)
-WHITE        = (255, 255, 255)
-OFF_WHITE    = (230, 230, 240)
-NEAR_BLACK   = (12, 10, 22)
-CHYRON_BG    = (15, 12, 30, 230)   # near-black, semi-opaque
-ACCENT_GOLD  = (251, 191, 36)
+INDIGO     = (99, 102, 241)
+WHITE      = (255, 255, 255)
+NEAR_BLACK = (12, 10, 22)
+CHYRON_BG  = (15, 12, 30, 230)   # near-black, semi-opaque
 
 WINDOWS_FONT_DIR = Path("C:/Windows/Fonts")
-FONT_BLACK  = str(WINDOWS_FONT_DIR / "ariblk.ttf")   # Arial Black
-FONT_BOLD   = str(WINDOWS_FONT_DIR / "arialbd.ttf")
-FONT_ITALIC = str(WINDOWS_FONT_DIR / "ariali.ttf")
-FONT_REG    = str(WINDOWS_FONT_DIR / "arial.ttf")
+FONT_BLACK = str(WINDOWS_FONT_DIR / "ariblk.ttf")
+FONT_BOLD  = str(WINDOWS_FONT_DIR / "arialbd.ttf")
+FONT_REG   = str(WINDOWS_FONT_DIR / "arial.ttf")
 
 
 def load_queue() -> dict:
@@ -61,152 +55,196 @@ def _font(path: str, size: int):
     return ImageFont.load_default()
 
 
-def make_background(article_image_path: Path | None):
-    """Full-bleed image background with light blur + edge vignette."""
-    import numpy as np
-    from PIL import Image, ImageFilter, ImageDraw
+_GRADIENT_PIL = None
 
-    if article_image_path and article_image_path.exists():
-        img = Image.open(article_image_path).convert("RGB")
-        # Fill 1080x1920, center-crop
-        img_ratio = img.width / img.height
-        target_ratio = VIDEO_WIDTH / VIDEO_HEIGHT
-        if img_ratio > target_ratio:
-            new_h = VIDEO_HEIGHT
-            new_w = int(new_h * img_ratio)
-        else:
-            new_w = VIDEO_WIDTH
-            new_h = int(new_w / img_ratio)
-        img = img.resize((new_w, new_h), Image.LANCZOS)
-        left = (new_w - VIDEO_WIDTH) // 2
-        top  = (new_h - VIDEO_HEIGHT) // 2
-        img  = img.crop((left, top, left + VIDEO_WIDTH, top + VIDEO_HEIGHT))
-        # Light blur only — keep the image readable as atmosphere
-        img  = img.filter(ImageFilter.GaussianBlur(radius=6))
-    else:
-        img = Image.new("RGB", (VIDEO_WIDTH, VIDEO_HEIGHT), NEAR_BLACK)
 
-    # Bottom gradient — darkens lower 55% for chyron readability
+def _get_gradient_pil():
+    """Lazily build and cache the static gradient overlay (same for every frame)."""
+    global _GRADIENT_PIL
+    if _GRADIENT_PIL is not None:
+        return _GRADIENT_PIL
+    from PIL import Image, ImageDraw
     grad = Image.new("RGBA", (VIDEO_WIDTH, VIDEO_HEIGHT), (0, 0, 0, 0))
     d = ImageDraw.Draw(grad)
+    # Bottom gradient — darkens lower 70% for chyron readability
     grad_start = int(VIDEO_HEIGHT * 0.30)
     steps = VIDEO_HEIGHT - grad_start
     for i in range(steps):
         alpha = int(200 * (i / steps) ** 1.4)
         y = grad_start + i
-        d.line([(0, y), (VIDEO_WIDTH, y)], fill=(NEAR_BLACK[0], NEAR_BLACK[1], NEAR_BLACK[2], alpha))
-
-    # Top gradient — subtle darkening for logo area
+        d.line([(0, y), (VIDEO_WIDTH, y)], fill=(*NEAR_BLACK, alpha))
+    # Top gradient — subtle darkening for logo legibility
     for i in range(220):
         alpha = int(160 * (1 - i / 220) ** 1.2)
         d.line([(0, i), (VIDEO_WIDTH, i)], fill=(0, 0, 0, alpha))
+    _GRADIENT_PIL = grad
+    return _GRADIENT_PIL
 
-    result = Image.alpha_composite(img.convert("RGBA"), grad).convert("RGB")
-    return np.array(result)
+
+def prepare_broll_image(image_path) -> "np.ndarray":
+    """Scale + blur image to KB_SCALE overscan size for Ken Burns movement.
+
+    Returns numpy array of shape (big_h, big_w, 3) uint8.
+    """
+    import numpy as np
+    from PIL import Image, ImageFilter
+
+    big_w = int(VIDEO_WIDTH  * KB_SCALE)
+    big_h = int(VIDEO_HEIGHT * KB_SCALE)
+
+    path = Path(image_path) if image_path else None
+    if path and path.exists():
+        img = Image.open(path).convert("RGB")
+        ir  = img.width / img.height
+        tr  = big_w / big_h
+        if ir > tr:
+            h, w = big_h, int(big_h * ir)
+        else:
+            w, h = big_w, int(big_w / ir)
+        img  = img.resize((w, h), Image.LANCZOS)
+        left = (w - big_w) // 2
+        top  = (h - big_h) // 2
+        img  = img.crop((left, top, left + big_w, top + big_h))
+        img  = img.filter(ImageFilter.GaussianBlur(radius=5))
+    else:
+        img = Image.new("RGB", (big_w, big_h), NEAR_BLACK)
+
+    return np.array(img)
 
 
-def draw_frame(
-    bg,
+def apply_kenburns(big: "np.ndarray", t: float, duration: float, direction: int) -> "np.ndarray":
+    """Return a VIDEO_WIDTH x VIDEO_HEIGHT crop from the overscan image at time t.
+
+    Linearly interpolates between start/end crop positions — smooth cinematic pan.
+    """
+    mx = big.shape[1] - VIDEO_WIDTH   # max x offset (pixels)
+    my = big.shape[0] - VIDEO_HEIGHT  # max y offset (pixels)
+    p  = t / max(duration, 0.001)     # progress 0..1
+
+    # 6 cinematic pan patterns: (x_start, y_start, x_end, y_end)
+    patterns = [
+        (0,      0,      mx,     my    ),  # 0: top-left  → bottom-right
+        (mx,     0,      0,      my    ),  # 1: top-right → bottom-left
+        (0,      my,     mx,     0     ),  # 2: bottom-left → top-right
+        (mx,     my,     0,      0     ),  # 3: bottom-right → top-left
+        (mx//2,  0,      mx//2,  my    ),  # 4: vertical pan down
+        (0,      my//2,  mx,     my//2 ),  # 5: horizontal pan right
+    ]
+    x0, y0, x1, y1 = patterns[direction % len(patterns)]
+    x = max(0, min(int(x0 + (x1 - x0) * p), mx))
+    y = max(0, min(int(y0 + (y1 - y0) * p), my))
+    return big[y : y + VIDEO_HEIGHT, x : x + VIDEO_WIDTH]
+
+
+def build_ui_overlay(
     title: str,
     category: str,
-    caption_lines: list[str],
+    caption_lines: list,
     caption_idx: int,
     n_captions: int,
-) -> "numpy.ndarray":
-    """Compose one video frame — news ticker style."""
-    import numpy as np
+) -> "PIL.Image":
+    """Render per-segment UI elements as transparent RGBA PIL Image (no background).
+
+    Called once per caption segment — result reused for every frame of that segment.
+    """
     from PIL import Image, ImageDraw
 
-    img  = Image.fromarray(bg.copy()).convert("RGBA")
-    draw = ImageDraw.Draw(img)
+    overlay = Image.new("RGBA", (VIDEO_WIDTH, VIDEO_HEIGHT), (0, 0, 0, 0))
+    draw    = ImageDraw.Draw(overlay)
 
     f_logo    = _font(FONT_BOLD,  48)
     f_tag     = _font(FONT_BOLD,  34)
     f_title   = _font(FONT_BLACK, 72)
     f_caption = _font(FONT_BOLD,  56)
     f_cta     = _font(FONT_BOLD,  36)
+    PAD = 52
 
-    PAD = 52  # horizontal margin
-
-    # ── TOP BAR: logo + accent line ─────────────────────────────────────────
+    # ── TOP BAR: logo + indigo accent line ──────────────────────────────────
     bar_h = 110
-    bar = Image.new("RGBA", (VIDEO_WIDTH, bar_h), (0, 0, 0, 0))
-    bd  = ImageDraw.Draw(bar)
-    # Accent line on left
+    bar   = Image.new("RGBA", (VIDEO_WIDTH, bar_h), (0, 0, 0, 0))
+    bd    = ImageDraw.Draw(bar)
     bd.rectangle([(0, 0), (8, bar_h)], fill=INDIGO)
-    # Logo text
     bd.text((PAD + 16, bar_h // 2), "AInformed", font=f_logo, fill=WHITE, anchor="lm")
-    bd.text((PAD + 16 + f_logo.getlength("AInformed"), bar_h // 2), ".dev",
-            font=f_logo, fill=INDIGO, anchor="lm")
-    img.alpha_composite(bar, (0, 36))
+    bd.text(
+        (PAD + 16 + int(f_logo.getlength("AInformed")), bar_h // 2),
+        ".dev", font=f_logo, fill=INDIGO, anchor="lm",
+    )
+    overlay.alpha_composite(bar, (0, 36))
 
     # ── CATEGORY BADGE ──────────────────────────────────────────────────────
     cat_text = category.upper()
     cat_w    = int(f_tag.getlength(cat_text)) + 40
     cat_h    = 52
-    cat_y    = 170
     badge    = Image.new("RGBA", (cat_w, cat_h), (*INDIGO, 220))
     bd2      = ImageDraw.Draw(badge)
     bd2.text((cat_w // 2, cat_h // 2), cat_text, font=f_tag, fill=WHITE, anchor="mm")
-    img.alpha_composite(badge, (PAD, cat_y))
+    overlay.alpha_composite(badge, (PAD, 170))
 
-    # ── TITLE (upper third) ─────────────────────────────────────────────────
-    wrapped_title = textwrap.wrap(title, width=18)[:4]
+    # ── ARTICLE TITLE ───────────────────────────────────────────────────────
     title_y = 260
-    for line in wrapped_title:
-        # Shadow
-        draw.text((PAD + 3, title_y + 3), line, font=f_title,
-                  fill=(0, 0, 0, 160), anchor="lm")
-        draw.text((PAD, title_y), line, font=f_title, fill=WHITE, anchor="lm")
+    for line in textwrap.wrap(title, width=18)[:4]:
+        draw.text((PAD + 3, title_y + 3), line, font=f_title, fill=(0, 0, 0, 160), anchor="lm")
+        draw.text((PAD,     title_y    ), line, font=f_title, fill=WHITE,           anchor="lm")
         title_y += 88
 
-    # ── CHYRON BAR (bottom) ──────────────────────────────────────────────────
-    chyron_h   = 260
-    chyron_y   = VIDEO_HEIGHT - chyron_h - 20
-    chyron     = Image.new("RGBA", (VIDEO_WIDTH, chyron_h), CHYRON_BG)
-    cd         = ImageDraw.Draw(chyron)
-
-    # Top accent line on chyron
+    # ── CHYRON BAR (bottom) ─────────────────────────────────────────────────
+    chyron_h = 260
+    chyron_y = VIDEO_HEIGHT - chyron_h - 20
+    chyron   = Image.new("RGBA", (VIDEO_WIDTH, chyron_h), CHYRON_BG)
+    cd       = ImageDraw.Draw(chyron)
     cd.rectangle([(0, 0), (VIDEO_WIDTH, 5)], fill=(*INDIGO, 255))
-
-    # Caption text (current line)
     if caption_lines and caption_idx < len(caption_lines):
-        line    = caption_lines[caption_idx]
-        wrapped = textwrap.wrap(line, width=22)[:3]
-        cap_y   = 30
-        for wl in wrapped:
-            cd.text((VIDEO_WIDTH // 2, cap_y), wl, font=f_caption,
-                    fill=WHITE, anchor="mm",
-                    stroke_width=0)
+        cap_y = 30
+        for wl in textwrap.wrap(caption_lines[caption_idx], width=22)[:3]:
+            cd.text((VIDEO_WIDTH // 2, cap_y), wl, font=f_caption, fill=WHITE, anchor="mm")
             cap_y += 68
+    cd.text(
+        (VIDEO_WIDTH // 2, chyron_h - 44),
+        "More at ainformed.dev",
+        font=f_cta, fill=(*INDIGO, 220), anchor="mm",
+    )
+    overlay.alpha_composite(chyron, (0, chyron_y))
 
-    # CTA line
-    cd.text((VIDEO_WIDTH // 2, chyron_h - 44),
-            "More at ainformed.dev",
-            font=f_cta, fill=(*INDIGO, 220), anchor="mm")
-
-    img.alpha_composite(chyron, (0, chyron_y))
-
-    # ── PROGRESS BAR (below chyron) ─────────────────────────────────────────
+    # ── PROGRESS BAR ────────────────────────────────────────────────────────
     prog_y = VIDEO_HEIGHT - 18
     prog_w = int(VIDEO_WIDTH * (caption_idx + 1) / max(n_captions, 1))
-    draw.rectangle([(0, prog_y), (VIDEO_WIDTH, VIDEO_HEIGHT)], fill=(30, 30, 50))
-    draw.rectangle([(0, prog_y), (prog_w, VIDEO_HEIGHT)], fill=(*INDIGO, 255))
+    draw.rectangle([(0, prog_y), (VIDEO_WIDTH, VIDEO_HEIGHT)], fill=(30, 30, 50, 255))
+    draw.rectangle([(0, prog_y), (prog_w,      VIDEO_HEIGHT)], fill=(*INDIGO, 255))
 
-    return np.array(img.convert("RGB"))
+    return overlay
 
 
-def render_video(item: dict, force: bool = False) -> Path | None:
-    """Render one Short video. Returns output path or None on failure."""
+def _build_fast_overlay(gradient_pil, ui_pil) -> "tuple[np.ndarray, np.ndarray]":
+    """Pre-composite gradient + UI into arrays for fast per-frame numpy blending.
+
+    Returns (premult_rgb, inv_alpha):
+      - premult_rgb: float32 (H, W, 3) — pre-multiplied RGB of overlay
+      - inv_alpha:   float32 (H, W, 1) — (1 - alpha); weight for background
+    Per-frame blend: out = premult_rgb + kenburns_rgb * inv_alpha
+    """
+    import numpy as np
+    from PIL import Image
+
+    combined  = Image.alpha_composite(gradient_pil, ui_pil)
+    arr       = np.array(combined).astype(np.float32)   # (H, W, 4) 0-255
+    alpha     = arr[:, :, 3:4] / 255.0                  # (H, W, 1) 0-1
+    premult   = arr[:, :, :3] * alpha                   # pre-multiplied RGB 0-255
+    inv_alpha = 1.0 - alpha
+    return premult, inv_alpha
+
+
+def render_video(item: dict, force: bool = False) -> "Path | None":
+    """Render one Short video with Ken Burns animated B-roll backgrounds."""
+    import numpy as np
     try:
-        from moviepy import AudioFileClip, ImageClip, concatenate_videoclips
+        from moviepy import VideoClip, AudioFileClip, concatenate_videoclips
     except ImportError:
         print("ERROR: moviepy not installed. Run: pip install -r requirements-youtube.txt")
         sys.exit(1)
 
-    slug     = item["slug"]
-    title    = item["title"]
-    category = item.get("category", "general")
+    slug        = item["slug"]
+    title       = item["title"]
+    category    = item.get("category", "general")
     audio_path  = Path(item["audioFile"])
     output_path = CACHE_DIR / f"{slug}.mp4"
 
@@ -214,14 +252,21 @@ def render_video(item: dict, force: bool = False) -> Path | None:
         print(f"  [CACHED] {output_path.name}")
         return output_path
 
-    # Resolve article image from public/
-    image_url = item.get("imageUrl", "")
-    article_image_path = None
-    if image_url and image_url.startswith("/"):
-        article_image_path = PUBLIC_DIR / image_url.lstrip("/")
+    # ── Resolve background images ────────────────────────────────────────────
+    broll_paths = [Path(p) for p in item.get("brollImages", [])]
+    valid_broll = [p for p in broll_paths if p.exists()]
 
-    # Build caption lines from script sections
-    script = item.get("script", {})
+    if valid_broll:
+        bg_images = [prepare_broll_image(p) for p in valid_broll]
+        print(f"  [BROLL] {len(bg_images)} Venice AI B-roll image(s)")
+    else:
+        image_url = item.get("imageUrl", "")
+        art_img   = (PUBLIC_DIR / image_url.lstrip("/")) if image_url.startswith("/") else None
+        bg_images = [prepare_broll_image(art_img)]
+        print("  [BG] Article image + Ken Burns pan")
+
+    # ── Caption lines ────────────────────────────────────────────────────────
+    script        = item.get("script", {})
     caption_lines = (
         [script.get("hook", "")]
         + script.get("narration_lines", [])
@@ -229,23 +274,37 @@ def render_video(item: dict, force: bool = False) -> Path | None:
     )
     caption_lines = [l for l in caption_lines if l.strip()]
 
+    # ── Audio duration ───────────────────────────────────────────────────────
     try:
-        audio_clip = AudioFileClip(str(audio_path))
-        duration   = audio_clip.duration
-        audio_clip.close()
+        ac       = AudioFileClip(str(audio_path))
+        duration = ac.duration
+        ac.close()
     except Exception as exc:
-        print(f"  [ERROR] Cannot read audio duration: {exc}")
+        print(f"  [ERROR] Cannot read audio: {exc}")
         return None
 
-    bg           = make_background(article_image_path)
     n            = len(caption_lines)
     seg_duration = duration / n
+    gradient_pil = _get_gradient_pil()
 
+    # ── Build animated clips ─────────────────────────────────────────────────
     try:
         clips = []
         for i in range(n):
-            frame = draw_frame(bg, title, category, caption_lines, i, n)
-            clips.append(ImageClip(frame, duration=seg_duration))
+            big_arr   = bg_images[i % len(bg_images)]
+            direction = i % 6
+
+            # Pre-render this segment's UI overlay (once per segment, not per frame)
+            ui_pil         = build_ui_overlay(title, category, caption_lines, i, n)
+            premult, inv_a = _build_fast_overlay(gradient_pil, ui_pil)
+
+            def make_frame(t, big=big_arr, pm=premult, ia=inv_a,
+                           dur=seg_duration, d=direction):
+                kb  = apply_kenburns(big, t, dur, d).astype(np.float32)
+                out = pm + kb * ia
+                return out.clip(0, 255).astype(np.uint8)
+
+            clips.append(VideoClip(make_frame, duration=seg_duration))
 
         video = concatenate_videoclips(clips, method="compose")
         audio = AudioFileClip(str(audio_path))
@@ -261,6 +320,8 @@ def render_video(item: dict, force: bool = False) -> Path | None:
         audio.close()
     except Exception as exc:
         print(f"  [ERROR] Render failed: {exc}")
+        import traceback
+        traceback.print_exc()
         return None
 
     size_mb = output_path.stat().st_size // (1024 * 1024)
@@ -271,23 +332,19 @@ def render_video(item: dict, force: bool = False) -> Path | None:
 def main() -> None:
     import argparse
     parser = argparse.ArgumentParser()
-    parser.add_argument("--force", action="store_true",
-                        help="Re-render even if MP4 already exists")
+    parser.add_argument("--force", action="store_true", help="Re-render even if MP4 already exists")
     args = parser.parse_args()
 
     if not QUEUE_FILE.exists():
         print("ERROR: .youtube-queue.json not found.")
         sys.exit(1)
 
-    queue   = load_queue()
-    # Accept tts_done OR rendered (--force re-renders existing)
-    pending = [
-        item for item in queue["queue"]
-        if item["status"] in ("tts_done", "rendered")
-    ] if args.force else [
-        item for item in queue["queue"]
-        if item["status"] == "tts_done"
-    ]
+    queue = load_queue()
+    pending = (
+        [item for item in queue["queue"] if item["status"] in ("tts_done", "rendered")]
+        if args.force
+        else [item for item in queue["queue"] if item["status"] == "tts_done"]
+    )
 
     if not pending:
         print("No TTS-ready entries to render.")

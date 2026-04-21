@@ -1,1 +1,92 @@
-{"queue": []}
+{
+  "queue": [
+    {
+      "slug": "2026-04-19-tesla-expands-robotaxi-service-to-dallas-and-houston",
+      "title": "Tesla Expands Robotaxi Service to Dallas and Houston",
+      "category": "industry",
+      "tags": [
+        "tesla",
+        "robotaxi",
+        "autonomous-vehicles",
+        "texas",
+        "dallas",
+        "houston"
+      ],
+      "imageUrl": "/images/articles/2026-04-19-tesla-expands-robotaxi-service-to-dallas-and-houston.jpg",
+      "articleUrl": "https://ainformed.dev/articles/2026-04-19-tesla-expands-robotaxi-service-to-dallas-and-houston",
+      "script": {
+        "hook": "Tesla's robotaxis are now cruising Dallas and Houston without safety drivers",
+        "narration_lines": [
+          "Texas is the first state with three cities offering Tesla's fully autonomous ride-hailing service.",
+          "This expansion follows the removal of safety drivers in January 2026.",
+          "Tesla is pushing hard for widespread adoption of autonomous vehicles.",
+          "The company chose Texas for its favorable regulations on self-driving tech.",
+          "Dallas and Houston join Austin in Tesla's growing robotaxi network."
+        ],
+        "cta": "For more AI news, visit ainformed dot dev.",
+        "total_words": 75
+      },
+      "scriptHash": "a9310e5c62f82fb9",
+      "scriptText": "Tesla's robotaxis are now cruising Dallas and Houston without safety drivers Texas is the first state with three cities offering Tesla's fully autonomous ride-hailing service. This expansion follows the removal of safety drivers in January 2026. Tesla is pushing hard for widespread adoption of autonomous vehicles. The company chose Texas for its favorable regulations on self-driving tech. Dallas and Houston join Austin in Tesla's growing robotaxi network. For more AI news, visit ainformed dot dev.",
+      "audioFile": "D:\\AInformed dev\\ainformed-web\\pipeline\\cache\\youtube\\2026-04-19-tesla-expands-robotaxi-service-to-dallas-and-houston.wav",
+      "videoFile": "D:\\AInformed dev\\ainformed-web\\pipeline\\cache\\youtube\\2026-04-19-tesla-expands-robotaxi-service-to-dallas-and-houston.mp4",
+      "status": "rendered",
+      "youtubeVideoId": null,
+      "youtubeUrl": null,
+      "privacy": "unlisted",
+      "error": null,
+      "createdAt": "2026-04-21T12:58:36.329499+00:00",
+      "uploadedAt": null,
+      "brollImages": [
+        "D:\\AInformed dev\\ainformed-web\\pipeline\\cache\\youtube\\2026-04-19-tesla-expands-robotaxi-service-to-dallas-and-houston_bg_0.jpg",
+        "D:\\AInformed dev\\ainformed-web\\pipeline\\cache\\youtube\\2026-04-19-tesla-expands-robotaxi-service-to-dallas-and-houston_bg_1.jpg",
+        "D:\\AInformed dev\\ainformed-web\\pipeline\\cache\\youtube\\2026-04-19-tesla-expands-robotaxi-service-to-dallas-and-houston_bg_2.jpg",
+        "D:\\AInformed dev\\ainformed-web\\pipeline\\cache\\youtube\\2026-04-19-tesla-expands-robotaxi-service-to-dallas-and-houston_bg_3.jpg"
+      ]
+    },
+    {
+      "slug": "2026-04-19-openais-sora-team-leader-bill-peebles-departs-amid-strategic-shifts",
+      "title": "OpenAI's Sora Team Leader Bill Peebles Departs Amid Strategic Shifts",
+      "category": "industry",
+      "tags": [
+        "openai",
+        "sora",
+        "ai-video",
+        "leadership",
+        "strategy",
+        "departure"
+      ],
+      "imageUrl": "/images/articles/2026-04-19-openais-sora-team-leader-bill-peebles-departs-amid-strategic-shifts.jpg",
+      "articleUrl": "https://ainformed.dev/articles/2026-04-19-openais-sora-team-leader-bill-peebles-departs-amid-strategic-shifts",
+      "script": {
+        "hook": "OpenAI's Sora video team leader is leaving, signaling a major shift in the company's strategy.",
+        "narration_lines": [
+          "Bill Peebles, who led the Sora project, is departing as OpenAI refocuses its efforts.",
+          "The company has decided to deprioritize Sora, marking a significant change in direction.",
+          "This move is part of a broader effort to avoid 'side quests' and concentrate on core initiatives.",
+          "OpenAI is streamlining its projects to stay competitive in the rapidly evolving AI landscape.",
+          "The departure highlights the company's strategic realignment amid increasing competition."
+        ],
+        "cta": "For more AI news, visit ainformed dot dev.",
+        "total_words": 75
+      },
+      "scriptHash": "06d614b55e73abea",
+      "scriptText": "OpenAI's Sora video team leader is leaving, signaling a major shift in the company's strategy. Bill Peebles, who led the Sora project, is departing as OpenAI refocuses its efforts. The company has decided to deprioritize Sora, marking a significant change in direction. This move is part of a broader effort to avoid 'side quests' and concentrate on core initiatives. OpenAI is streamlining its projects to stay competitive in the rapidly evolving AI landscape. The departure highlights the company's strategic realignment amid increasing competition. For more AI news, visit ainformed dot dev.",
+      "audioFile": "D:\\AInformed dev\\ainformed-web\\pipeline\\cache\\youtube\\2026-04-19-openais-sora-team-leader-bill-peebles-departs-amid-strategic-shifts.wav",
+      "videoFile": "D:\\AInformed dev\\ainformed-web\\pipeline\\cache\\youtube\\2026-04-19-openais-sora-team-leader-bill-peebles-departs-amid-strategic-shifts.mp4",
+      "status": "rendered",
+      "youtubeVideoId": null,
+      "youtubeUrl": null,
+      "privacy": "unlisted",
+      "error": null,
+      "createdAt": "2026-04-21T12:58:38.273906+00:00",
+      "uploadedAt": null,
+      "brollImages": [
+        "D:\\AInformed dev\\ainformed-web\\pipeline\\cache\\youtube\\2026-04-19-openais-sora-team-leader-bill-peebles-departs-amid-strategic-shifts_bg_0.jpg",
+        "D:\\AInformed dev\\ainformed-web\\pipeline\\cache\\youtube\\2026-04-19-openais-sora-team-leader-bill-peebles-departs-amid-strategic-shifts_bg_1.jpg",
+        "D:\\AInformed dev\\ainformed-web\\pipeline\\cache\\youtube\\2026-04-19-openais-sora-team-leader-bill-peebles-departs-amid-strategic-shifts_bg_2.jpg",
+        "D:\\AInformed dev\\ainformed-web\\pipeline\\cache\\youtube\\2026-04-19-openais-sora-team-leader-bill-peebles-departs-amid-strategic-shifts_bg_3.jpg"
+      ]
+    }
+  ]
+}

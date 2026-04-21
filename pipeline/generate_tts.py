@@ -1,4 +1,24 @@
-"""\ngenerate_tts.py \u2014 Generate TTS audio for scripted YouTube Shorts using Kokoro ONNX.\n\nInput:  content/.youtube-queue.json (entries with status == \"scripted\")\nOutput: pipeline/cache/youtube/<slug>.wav + updates queue status to \"tts_done\"\n\nFirst run downloads the Kokoro model (~300MB) automatically.\nRequires: pip install -r requirements-youtube.txt\n"""\nimport json\nimport os\nimport sys\nfrom pathlib import Path\n\nQUEUE_FILE = Path(__file__).parent.parent / "content" / ".youtube-queue.json"\nCACHE_DIR = Path(__file__).parent / "cache" / "youtube"\nCACHE_DIR.mkdir(parents=True, exist_ok=True)\n\n# Kokoro voice name — see https://huggingface.co/hexgrad/Kokoro-82M for full list\n# af_heart = American female (warm), am_fenrir = American male, bf_emma = British female\nDEFAULT_VOICE = os.environ.get("KOKORO_VOICE", "af_heart")\nSAMPLE_RATE = 24000  # Kokoro outputs 24kHz
+"""
+generate_tts.py — Generate TTS audio for scripted YouTube Shorts using Kokoro ONNX.
+
+Input:  content/.youtube-queue.json (entries with status == "scripted")
+Output: pipeline/cache/youtube/<slug>.wav + updates queue status to "tts_done"
+
+First run downloads the Kokoro model (~300MB) automatically.
+Requires: pip install -r requirements-youtube.txt
+"""
+import json
+import os
+import sys
+from pathlib import Path
+
+QUEUE_FILE = Path(__file__).parent.parent / "content" / ".youtube-queue.json"
+CACHE_DIR = Path(__file__).parent / "cache" / "youtube"
+CACHE_DIR.mkdir(parents=True, exist_ok=True)
+
+# Kokoro voice name - see https://huggingface.co/hexgrad/Kokoro-82M for full list
+# af_heart = American female (warm), am_fenrir = American male, bf_emma = British female
+DEFAULT_VOICE = os.environ.get("KOKORO_VOICE", "af_heart")
 
 
 def load_queue() -> dict:
@@ -17,8 +37,9 @@ def get_tts():
         print("ERROR: kokoro-onnx not installed. Run: pip install -r requirements-youtube.txt")
         sys.exit(1)
 
-    print("  [TTS] Loading Kokoro ONNX (first run downloads ~300MB)...")
-    kokoro = Kokoro("kokoro-v1.9.onnx", "voices-v1.0.bin")
+    model_file = "kokoro-v1.0.fp16.onnx"
+    print(f"  [TTS] Loading Kokoro ONNX ({model_file})...")
+    kokoro = Kokoro(model_file, "voices-v1.0.bin")
     return kokoro
 
 
@@ -43,14 +64,14 @@ def main() -> None:
         return
 
     print(f"Generating TTS for {len(pending)} script(s)...")
-    tts = get_tts()
+    kokoro = get_tts()
 
     done = 0
     for item in pending:
         slug = item["slug"]
         text = item.get("scriptText", "")
         if not text:
-            print(f"  [SKIP] {slug[:60]} — no scriptText")
+            print(f"  [SKIP] {slug[:60]} -- no scriptText")
             continue
 
         output_path = CACHE_DIR / f"{slug}.wav"
@@ -62,9 +83,9 @@ def main() -> None:
             done += 1
             continue
 
-        print(f"  → {slug[:60]}")
+        print(f"  -> {slug[:60]}")
         try:
-            synthesize(tts, text, output_path)
+            synthesize(kokoro, text, output_path)
             item["audioFile"] = str(output_path)
             item["status"] = "tts_done"
             size_kb = output_path.stat().st_size // 1024
@@ -76,7 +97,7 @@ def main() -> None:
             item["error"] = str(exc)
 
     save_queue(queue)
-    print(f"\n✓ TTS done for {done} script(s)")
+    print(f"\nTTS done for {done} script(s)")
 
 
 if __name__ == "__main__":

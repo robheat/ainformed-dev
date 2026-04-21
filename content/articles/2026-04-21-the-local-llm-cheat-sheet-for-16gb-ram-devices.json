@@ -1,0 +1,27 @@
+{
+  "slug": "2026-04-21-the-local-llm-cheat-sheet-for-16gb-ram-devices",
+  "title": "The Local LLM Cheat Sheet for 16GB RAM Devices",
+  "summary": "A curated list of small LLMs optimized for 16GB RAM devices, including Qwen3.5 9B and others. These models balance performance and efficiency for daily use.",
+  "body": "Graeme (@gkisokay) has compiled a cheat sheet of small language models optimized for 16GB RAM devices, such as Mac Minis and personal laptops. The list includes Qwen3.5 9B in GGUF format with Q4_K_M quantization, designed to run efficiently without overheating the device.\n\nThis cheat sheet is significant because it addresses the growing demand for powerful yet lightweight AI models that can run locally on consumer hardware. Many users prefer local models for privacy, speed, and cost savings, but finding the right balance between model size and performance can be challenging. This list simplifies the process by providing tested and reliable options.\n\nThe future of local LLMs looks promising as more developers focus on optimizing models for consumer-grade hardware. This trend could lead to broader adoption of AI tools in everyday computing, making advanced AI capabilities more accessible. However, ongoing challenges include improving model efficiency and ensuring compatibility across different devices and operating systems.",
+  "sourceUrl": "https://x.com/gkisokay/status/2046562542202536367",
+  "sourceName": "@gkisokay on X",
+  "category": "general",
+  "tags": [
+    "llm",
+    "local-ai",
+    "mac-mini",
+    "ram",
+    "graeme",
+    "qwen3.5"
+  ],
+  "publishedAt": "2026-04-21T16:35:47.483244+00:00",
+  "imageUrl": "/images/articles/2026-04-21-the-local-llm-cheat-sheet-for-16gb-ram-devices.jpg",
+  "twitterThread": [
+    "🔥 The ultimate cheat sheet for running LLMs on 16GB RAM devices.\n\nGraeme (@gkisokay) just dropped a game-changer.\n\nHere's why this matters:",
+    "1. Qwen3.5 9B in GGUF format with Q4_K_M quantization.\n2. Runs smoothly on a Mac Mini.\n3. Leaves room for context without overheating.\n\nLet that sink in.",
+    "The wild part? These models are optimized for daily use.\n\nNo cloud. No lag. Just pure local AI power.\n\nThis changes everything for...",
+    "Developers on a budget.\nStudents with older laptops.\nAnyone who values privacy.\n\nThe future of AI is local.",
+    "Hot take: This trend will only grow.\n\nExpect more lightweight, powerful models optimized for consumer hardware.\n\nFull breakdown → https://ainformed.dev/articles/2026-04-21-the-local-llm-cheat-sheet-for-16gb-ram-devices"
+  ],
+  "standaloneTweet": "Running LLMs on 16GB RAM devices just got easier. Graeme (@gkisokay) shares a cheat sheet with Qwen3.5 9B and more. Full guide → https://ainformed.dev/articles/2026-04-21-the-local-llm-cheat-sheet-for-16gb-ram-devices"
+}

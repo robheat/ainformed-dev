@@ -271,7 +271,7 @@ def main():
         correct_url = f"https://ainformed.dev/articles/{top['slug']}"
         fixed = []
         for t in thread_tweets:
-            t = re.sub(r"https?://ainformed\.dev/articles/[\w-]+", correct_url, t)
+            t = re.sub(r"https?://ainformed\.dev/articles/[\w.-]+", correct_url, t)
             t = re.sub(r"https?://ainformed\.dev(?!/articles/)(?:\s|$)", correct_url + " ", t).rstrip()
             fixed.append(t)
         thread_tweets = fixed
@@ -301,7 +301,7 @@ def main():
         else:
             # Fix LLM-generated URL to use the actual slug (includes date prefix)
             correct_url = f"https://ainformed.dev/articles/{art['slug']}"
-            tweet = re.sub(r"https?://ainformed\.dev/articles/[\w-]+", correct_url, tweet)
+            tweet = re.sub(r"https?://ainformed\.dev/articles/[\w.-]+", correct_url, tweet)
         if len(tweet) > 280:
             tweet = tweet[:277] + "…"
 

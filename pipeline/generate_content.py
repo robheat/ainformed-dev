@@ -112,6 +112,17 @@ def generate_article(story: dict) -> dict | None:
 
     today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
     slug = f"{today}-{slugify(result['title'])}"
+    correct_url = f"https://ainformed.dev/articles/{slug}"
+
+    def _fix_urls(text: str) -> str:
+        """Replace any ainformed.dev article URL (including LLM-guessed slugs with dots)
+        with the authoritative URL for this article."""
+        text = re.sub(r"https?://ainformed\.dev/articles/[\w.-]+", correct_url, text)
+        text = re.sub(r"https?://ainformed\.dev(?!/articles/)(?:\s|$)", correct_url + " ", text).rstrip()
+        return text
+
+    fixed_thread = [_fix_urls(t) for t in result.get("twitterThread", [])]
+    fixed_standalone = _fix_urls(result.get("standaloneTweet", ""))
 
     article = {
         "slug": slug,
@@ -124,8 +135,8 @@ def generate_article(story: dict) -> dict | None:
         "tags": result.get("tags", [])[:6],
         "publishedAt": datetime.now(timezone.utc).isoformat(),
         "imageUrl": None,
-        "twitterThread": result.get("twitterThread", []),
-        "standaloneTweet": result.get("standaloneTweet", ""),
+        "twitterThread": fixed_thread,
+        "standaloneTweet": fixed_standalone,
     }
 
     # Generate article image

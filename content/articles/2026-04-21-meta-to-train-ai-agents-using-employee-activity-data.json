@@ -1,0 +1,27 @@
+{
+  "slug": "2026-04-21-meta-to-train-ai-agents-using-employee-activity-data",
+  "title": "Meta to Train AI Agents Using Employee Activity Data",
+  "summary": "Meta plans to use employee mouse and keyboard tracking data to train AI agents. This raises privacy concerns and highlights the ethical challenges of AI training methods.",
+  "body": "Meta has announced plans to use employee activity data, including mouse movements and keyboard inputs, to train its AI agents. The company will deploy tracking software to monitor employees' interactions with internal tools, aiming to improve the performance of AI assistants designed to support workplace productivity.\n\nThis move comes amid growing scrutiny over the ethical implications of AI training methods. While Meta argues that the data will be anonymized and used to enhance AI capabilities, critics raise concerns about employee privacy and the potential for misuse. The practice mirrors similar initiatives by other tech giants, but Meta's scale and influence amplify the debate.\n\nThe reaction to this announcement has been mixed. Some employees express discomfort with constant monitoring, while industry experts debate the balance between innovation and privacy. Meta has not yet disclosed the full scope of the data collection or how employees can opt out. The company's approach will likely set a precedent for how other organizations handle AI training in the future.",
+  "sourceUrl": "https://arstechnica.com/ai/2026/04/meta-will-use-employee-tracking-software-to-help-train-ai-agents-report/ning-data-2026-04-21/",
+  "sourceName": "Hacker News AI",
+  "category": "general",
+  "tags": [
+    "ai-training",
+    "employee-privacy",
+    "meta",
+    "ai-ethics",
+    "workplace-surveillance"
+  ],
+  "publishedAt": "2026-04-21T21:01:30.020534+00:00",
+  "imageUrl": "/images/articles/2026-04-21-meta-to-train-ai-agents-using-employee-activity-data.jpg",
+  "twitterThread": [
+    "🚨 Meta is tracking employees' every mouse click and keystroke to train AI agents. Privacy? What privacy?\n\nHere's the deal:",
+    "Meta's new tracking software will monitor employees' interactions with internal tools. Goal? Train AI assistants to be more productive.\n\nThe wild part? This is all in the name of 'innovation.'",
+    "But here's why this matters: Employee privacy is on the line. Anonymized data or not, constant monitoring is a slippery slope.\n\nLet that sink in.",
+    "This changes everything for workplace surveillance. If Meta can do it, who's next? Tech giants or your local startup?\n\nThe domino effect is real.",
+    "Hot take: Meta's move is a wake-up call. We need stricter regulations on AI training methods. Now.",
+    "Full breakdown → https://ainformed.dev/articles/2026-04-21-meta-to-train-ai-agents-using-employee-activity-data"
+  ],
+  "standaloneTweet": "Meta is tracking employees' mouse clicks and keystrokes to train AI agents. Privacy concerns? Absolutely. Full story → https://ainformed.dev/articles/2026-04-21-meta-to-train-ai-agents-using-employee-activity-data"
+}

@@ -1,0 +1,28 @@
+{
+  "slug": "2026-04-21-openai-scales-codex-to-enterprises-with-new-partnerships",
+  "title": "OpenAI Scales Codex to Enterprises with New Partnerships",
+  "summary": "OpenAI has launched Codex Labs and partnered with major consulting firms to help enterprises integrate Codex into their software development workflows. The move comes as Codex reaches 4 million weekly active users.",
+  "body": "OpenAI has announced the launch of Codex Labs, a new initiative aimed at scaling its AI-powered coding assistant, Codex, to enterprises worldwide. The company has partnered with Accenture, PwC, Infosys, and other consulting firms to help businesses deploy and integrate Codex across their software development lifecycles. This move is part of OpenAI's strategy to expand the reach and utility of Codex beyond individual developers.\n\nThe partnership with top consulting firms is significant as it brings Codex to large-scale enterprise environments. These firms will provide implementation support, customization, and training to help businesses leverage Codex for tasks such as code generation, debugging, and documentation. The initiative is expected to accelerate the adoption of AI in software development, making it more efficient and accessible for teams of all sizes. Notably, Codex has already reached 4 million weekly active users, highlighting its growing popularity among developers.\n\nLooking ahead, the success of Codex Labs will depend on how well these partnerships can address the unique challenges of enterprise deployment. Questions remain about the customization capabilities, security measures, and scalability of Codex in large organizations. However, the potential for AI to transform software development workflows is immense, and this initiative could set a new standard for enterprise AI adoption. As more companies integrate Codex, we can expect to see innovative use cases and further advancements in AI-assisted coding.",
+  "sourceUrl": "https://openai.com/index/scaling-codex-to-enterprises-worldwide",
+  "sourceName": "OpenAI Blog",
+  "category": "models",
+  "tags": [
+    "codex",
+    "enterprise",
+    "openai",
+    "software-development",
+    "ai-adoption",
+    "partnerships"
+  ],
+  "publishedAt": "2026-04-21T21:01:22.176325+00:00",
+  "imageUrl": "/images/articles/2026-04-21-openai-scales-codex-to-enterprises-with-new-partnerships.jpg",
+  "twitterThread": [
+    "🚀 OpenAI just scaled Codex to enterprises with a MASSIVE move. \n\nHere's why this changes everything for software development:",
+    "They launched Codex Labs + partnered with Accenture, PwC, Infosys to deploy Codex at scale. \n\n4M weekly active users now. Let that sink in.",
+    "The wild part? Enterprises will use Codex for code gen, debugging, docs. \n\nThis is AI-assisted dev hitting the mainstream.",
+    "Here's why this matters: \n\nConsulting giants are now training teams to use Codex. \n\nThe future of coding just got faster.",
+    "Hot take: \n\nThis could be the tipping point for AI in enterprise software. \n\nExpect copycats. Fast.",
+    "Full breakdown → https://ainformed.dev/articles/2026-04-21-openai-scales-codex-to-enterprises-with-new-partnerships"
+  ],
+  "standaloneTweet": "OpenAI partners with Accenture, PwC, Infosys to scale Codex to enterprises. 4M WAU now. The future of coding just got faster. https://ainformed.dev/articles/2026-04-21-openai-scales-codex-to-enterprises-with-new-partnerships"
+}

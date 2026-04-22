@@ -1,0 +1,28 @@
+{
+  "slug": "2026-04-22-youtube-expands-ai-deepfake-monitoring-to-hollywood-celebrities",
+  "title": "YouTube Expands AI Deepfake Monitoring to Hollywood Celebrities",
+  "summary": "YouTube is rolling out a new feature allowing celebrities to find and request the removal of AI-generated deepfakes. This move aims to protect public figures from unauthorized AI-generated content.",
+  "body": "YouTube is expanding its AI deepfake monitoring feature to include Hollywood celebrities. The platform's likeness detection tool scans YouTube for AI-generated deepfake content and flags it for enrolled public figures. Celebrities can use this feature to track and request the removal of unauthorized AI videos featuring their likeness.\n\nThis expansion is significant as it addresses the growing concern over AI-generated deepfakes, which can be used to create misleading or harmful content. By providing celebrities with a tool to monitor and remove such content, YouTube is taking a proactive step in combating the spread of AI-generated misinformation and privacy violations. This move is part of a broader industry effort to regulate AI-generated content and protect individuals' rights.\n\nThe reaction to this new feature has been largely positive, with celebrities and industry experts praising YouTube's initiative. However, questions remain about the effectiveness of the tool and the potential for false positives. As AI technology continues to evolve, the need for robust monitoring and removal mechanisms will only grow. The success of this feature could set a precedent for other social media platforms to follow suit.",
+  "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/915872/celebrities-will-be-able-to-find-and-request-removal-of-ai-deepfakes-on-youtube",
+  "sourceName": "The Verge AI",
+  "category": "industry",
+  "tags": [
+    "deepfakes",
+    "celebrities",
+    "YouTube",
+    "AI",
+    "content moderation",
+    "privacy"
+  ],
+  "publishedAt": "2026-04-22T11:01:59.495699+00:00",
+  "imageUrl": "/images/articles/2026-04-22-youtube-expands-ai-deepfake-monitoring-to-hollywood-celebrities.jpg",
+  "twitterThread": [
+    "🚨 YouTube just gave celebrities a powerful new weapon against AI deepfakes.\n\nHere's the game-changer:",
+    "Celebrities can now find & request removal of AI-generated deepfakes on YouTube.\n\nThe platform's likeness detection tool flags unauthorized content.",
+    "Here's why this matters: Deepfakes are a growing threat. This move is a step toward protecting public figures from AI misuse.",
+    "The wild part: This could set a precedent for other platforms. Imagine Instagram or TikTok following suit.",
+    "Hot take: This is just the beginning. As AI evolves, so must our tools to combat its misuse.",
+    "Full breakdown → https://ainformed.dev/articles/2026-04-22-youtube-expands-ai-deepfake-monitoring-to-hollywood-celebrities"
+  ],
+  "standaloneTweet": "YouTube's new AI deepfake monitoring tool lets celebrities find and remove unauthorized AI-generated content. A big step for privacy and misinformation control. https://ainformed.dev/articles/2026-04-22-youtube-expands-ai-deepfake-monitoring-to-hollywood-celebrities"
+}

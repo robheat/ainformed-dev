@@ -1,0 +1,28 @@
+{
+  "slug": "2026-04-22-study-reveals-ai-agents-lack-scientific-reasoning-in-research",
+  "title": "Study Reveals AI Agents Lack Scientific Reasoning in Research",
+  "summary": "A new study finds that AI agents conducting scientific research often produce results without adhering to traditional scientific reasoning. The research highlights significant gaps in the epistemic norms of AI-driven scientific inquiry. (~50 words)",
+  "body": "A recent study published on arXiv examines the capabilities of large language model (LLM)-based scientific agents across eight domains. The research, involving over 25,000 agent runs, reveals that these AI systems frequently generate results without following the established reasoning processes that underpin scientific inquiry. The study uses two complementary lenses: a systematic performance analysis and an evaluation of the base model and agent scaffold contributions.\n\nThe findings are concerning because they suggest that AI agents may not be self-correcting in the same way human scientists are. This could lead to the propagation of errors and misinformation in scientific research. The study underscores the need for better alignment between AI reasoning processes and scientific norms, ensuring that AI-driven research is reliable and reproducible.\n\nThe implications of this research are far-reaching. As AI agents become more integrated into scientific workflows, understanding their limitations is crucial. Future work should focus on developing frameworks that ensure AI agents adhere to scientific reasoning standards. This will require collaboration between AI researchers, scientists, and ethicists to create robust and reliable AI systems for scientific discovery.",
+  "sourceUrl": "https://arxiv.org/abs/2604.18805",
+  "sourceName": "ArXiv cs.AI",
+  "category": "research",
+  "tags": [
+    "ai-research",
+    "scientific-inquiry",
+    "llms",
+    "ai-agents",
+    "epistemic-norms",
+    "self-correcting"
+  ],
+  "publishedAt": "2026-04-22T11:02:36.033457+00:00",
+  "imageUrl": "/images/articles/2026-04-22-study-reveals-ai-agents-lack-scientific-reasoning-in-research.jpg",
+  "twitterThread": [
+    "🚨 AI agents are conducting scientific research... without proper reasoning. \n\nA new study reveals shocking gaps in how AI does science. #AIResearch",
+    "Researchers ran 25,000+ AI agent trials across 8 scientific domains. \n\nThe results? AI often produces outputs WITHOUT scientific reasoning. \n\nLet that sink in.",
+    "Here's why this matters: \n\nScientific inquiry relies on self-correcting processes. \n\nAI agents? Not so much. \n\nThis could lead to widespread errors in research.",
+    "The wild part: \n\nThe study decomposes the contributions of the base model and the agent scaffold. \n\nGuess what? Neither fully aligns with scientific norms. \n\nThis is a BIG problem.",
+    "We're on the brink of an AI-driven scientific revolution. \n\nBut if AI can't reason like scientists, we're in trouble. \n\nThis changes everything for the future of research.",
+    "Full breakdown → https://ainformed.dev/articles/2026-04-22-study-reveals-ai-agents-lack-scientific-reasoning-in-research"
+  ],
+  "standaloneTweet": "AI agents are conducting scientific research... without proper reasoning. A new study reveals shocking gaps in how AI does science. Full details → https://ainformed.dev/articles/2026-04-22-study-reveals-ai-agents-lack-scientific-reasoning-in-research"
+}

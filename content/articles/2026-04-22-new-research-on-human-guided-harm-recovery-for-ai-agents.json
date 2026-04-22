@@ -1,0 +1,27 @@
+{
+  "slug": "2026-04-22-new-research-on-human-guided-harm-recovery-for-ai-agents",
+  "title": "New Research on Human-Guided Harm Recovery for AI Agents",
+  "summary": "A new study formalizes harm recovery for AI agents, focusing on steering them back to safe states after harmful actions. The research highlights the importance of aligning recovery with human preferences.",
+  "body": "A recent paper on arXiv introduces a framework for harm recovery in AI agents capable of executing actions on real computer systems. The study, titled \"Human-Guided Harm Recovery for Computer Use Agents,\" addresses the critical need for post-execution safeguards when prevention fails. The researchers formalize harm recovery as the problem of optimally guiding an agent from a harmful state back to a safe one, aligning with human preferences.\n\nThe research is grounded in a formative user study that identifies valued recovery dimensions and produces a natural language framework for effective harm recovery. This work is particularly relevant as AI agents become more integrated into real-world systems, where the potential for harm increases. The study emphasizes the importance of human oversight and preference alignment in ensuring that AI agents can recover from harmful actions without compromising safety.\n\nThe implications of this research are significant for the future of AI safety. As AI agents become more autonomous, the ability to recover from harmful states will be crucial. The study opens up new avenues for developing more robust and safer AI systems. Future work may involve expanding the user study to include diverse populations and testing the framework in various real-world scenarios. The research also raises questions about the scalability of human-guided recovery methods as AI systems become more complex.",
+  "sourceUrl": "https://arxiv.org/abs/2604.18847",
+  "sourceName": "ArXiv cs.AI",
+  "category": "research",
+  "tags": [
+    "ai-safety",
+    "harm-recovery",
+    "ai-agents",
+    "human-ai-interaction",
+    "research"
+  ],
+  "publishedAt": "2026-04-22T11:02:53.413236+00:00",
+  "imageUrl": "/images/articles/2026-04-22-new-research-on-human-guided-harm-recovery-for-ai-agents.jpg",
+  "twitterThread": [
+    "🚨 New research on AI harm recovery is a game-changer.\n\nAI agents are getting more powerful. But what happens when they cause harm?\n\nThis paper has the answer.\n\n#AI #Safety",
+    "The study formalizes 'harm recovery' – guiding AI back to safety after harmful actions.\n\nKey insight: Human preferences must be at the core.\n\n#AIResearch #Ethics",
+    "Here's why this matters:\n\nAI agents are being integrated into real systems. Harm is inevitable.\n\nThis research provides a framework to recover from harm.\n\n#AISafety #FutureOfAI",
+    "The wild part?\n\nThey conducted a user study to identify valued recovery dimensions.\n\nNatural language frameworks are the future.\n\n#AI #HumanAI",
+    "This changes everything for AI safety.\n\nAs agents become more autonomous, recovery methods will be crucial.\n\nThe future is human-guided AI.\n\n#AIResearch #Innovation",
+    "Full breakdown → https://ainformed.dev/articles/2026-04-22-new-research-on-human-guided-harm-recovery-for-ai-agents"
+  ],
+  "standaloneTweet": "New research on AI harm recovery is a game-changer. AI agents are getting more powerful, but what happens when they cause harm? This paper has the answer. https://ainformed.dev/articles/2026-04-22-new-research-on-human-guided-harm-recovery-for-ai-agents"
+}

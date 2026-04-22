@@ -1,0 +1,27 @@
+{
+  "slug": "2026-04-22-automationbench-a-new-benchmark-for-ai-workflow-orchestration",
+  "title": "AutomationBench: A New Benchmark for AI Workflow Orchestration",
+  "summary": "Researchers introduce AutomationBench, a new benchmark for evaluating AI agents on complex, cross-application workflows. It tests coordination, API discovery, and policy adherence in real-world business scenarios.",
+  "body": "Researchers have unveiled AutomationBench, a novel benchmark designed to evaluate AI agents' capabilities in orchestrating complex workflows across multiple applications. Existing benchmarks often overlook the need for cross-application coordination, autonomous API discovery, and adherence to policy documents—critical components in real-world business processes. AutomationBench addresses this gap by simulating workflows that span CRM systems, inboxes, calendars, and messaging platforms, requiring agents to navigate and integrate these systems seamlessly.\n\nThe significance of AutomationBench lies in its ability to assess AI agents' performance in realistic, multi-step tasks. Unlike traditional benchmarks that focus on isolated tasks, AutomationBench tests an agent's ability to discover the correct API endpoints, follow policy guidelines, and accurately transfer data between different systems. This holistic approach provides a more accurate measure of an agent's readiness for deployment in enterprise environments, where workflows are often complex and interconnected.\n\nThe introduction of AutomationBench is expected to drive advancements in AI agent development, particularly in the area of workflow automation. Researchers and developers can use this benchmark to identify areas for improvement in their models, ensuring that AI agents are better equipped to handle the nuances of real-world business processes. The benchmark's focus on policy adherence and cross-application coordination also highlights the growing importance of these factors in the development of reliable and efficient AI systems. As the field continues to evolve, AutomationBench is poised to become a critical tool in the evaluation and refinement of AI agents.",
+  "sourceUrl": "https://arxiv.org/abs/2604.18934",
+  "sourceName": "ArXiv cs.AI",
+  "category": "research",
+  "tags": [
+    "ai-agents",
+    "workflow-automation",
+    "api-discovery",
+    "policy-adherence",
+    "benchmark"
+  ],
+  "publishedAt": "2026-04-22T16:02:46.677700+00:00",
+  "imageUrl": "/images/articles/2026-04-22-automationbench-a-new-benchmark-for-ai-workflow-orchestration.jpg",
+  "twitterThread": [
+    "🚀 AutomationBench just dropped. This is the benchmark AI agents have been missing. \n\nWhy? Because real workflows are messy. They span apps, APIs, and policies. Existing benchmarks? Not so much.",
+    "Here's the kicker: AutomationBench tests agents on CRM, inbox, calendar, and messaging platforms. All at once. No silos. Just like real business.",
+    "The wild part? It evaluates API discovery and policy adherence. No more 'works in lab but fails in real life' agents. This changes everything for enterprise AI.",
+    "Let that sink in. We're finally getting benchmarks that mirror real-world complexity. No more hand-wavy 'it works' claims. Just cold, hard, multi-app orchestration tests.",
+    "Hot take: AutomationBench is the wake-up call AI agent developers need. If your model can't handle this, it's not ready for prime time. Period.",
+    "Full breakdown → https://ainformed.dev/articles/2026-04-22-automationbench-a-new-benchmark-for-ai-workflow-orchestration"
+  ],
+  "standaloneTweet": "AutomationBench just dropped. This is the first benchmark to test AI agents on real-world workflows across multiple apps, APIs, and policies. The future of enterprise AI just got real. https://ainformed.dev/articles/2026-04-22-automationbench-a-new-benchmark-for-ai-workflow-orchestration"
+}

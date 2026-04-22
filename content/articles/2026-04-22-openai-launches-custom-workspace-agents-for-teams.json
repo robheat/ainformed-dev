@@ -1,0 +1,28 @@
+{
+  "slug": "2026-04-22-openai-launches-custom-workspace-agents-for-teams",
+  "title": "OpenAI Launches Custom Workspace Agents for Teams",
+  "summary": "OpenAI now allows Business, Enterprise, Edu, and Teachers plan users to create custom cloud-based agents in ChatGPT. These agents can automate tasks like gathering product feedback and sending reports.",
+  "body": "OpenAI has introduced customizable \"workspace\" agents for teams using its Business, Enterprise, Edu, and Teachers plans. These cloud-based agents, accessible within ChatGPT, can perform a variety of business tasks. Examples include an agent that scours the web for product feedback and sends a compiled report to Slack, and a sales agent that can handle customer inquiries and follow-ups.\n\nThis development marks a significant step in automating routine business processes. By enabling teams to create their own agents, OpenAI is positioning ChatGPT as a versatile tool for productivity and workflow management. The move also highlights the growing trend of AI-driven automation in the workplace, potentially changing how teams operate.\n\nThe reaction to this new feature has been largely positive, with businesses and educators expressing interest in the potential time-saving benefits. However, questions remain about the customization options available and the learning curve for creating these agents. OpenAI's ability to address these concerns will be crucial in determining the widespread adoption of this feature.",
+  "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/917065/openai-chatgpt-workspace-agents-custom-teams-bots",
+  "sourceName": "The Verge AI",
+  "category": "industry",
+  "tags": [
+    "openai",
+    "chatgpt",
+    "automation",
+    "workspace",
+    "agents",
+    "productivity"
+  ],
+  "publishedAt": "2026-04-22T21:01:59.585885+00:00",
+  "imageUrl": "/images/articles/2026-04-22-openai-launches-custom-workspace-agents-for-teams.jpg",
+  "twitterThread": [
+    "🚀 OpenAI just dropped a game-changer: custom workspace agents for teams.\n\nTeams can now build bots that do real work. Automate tasks. Free up time.\n\nThis is next-level.\n\n#OpenAI #ChatGPT",
+    "Here's why this matters:\n\nThese agents can handle tasks like gathering product feedback and sending reports to Slack. Imagine what your team could automate.\n\nThe future of work just got faster.",
+    "The wild part?\n\nOpenAI is making this available to Business, Enterprise, Edu, and Teachers plans. That's a LOT of potential users.\n\nLet that sink in.",
+    "This changes everything for teams drowning in repetitive tasks.\n\nNo more manual data entry. No more endless Slack pings.\n\nJust smart, automated workflows.",
+    "Hot take:\n\nIf OpenAI nails this, we're looking at a major shift in workplace productivity. Teams that adapt will leave the rest in the dust.\n\nThe race is on.",
+    "Full breakdown → https://ainformed.dev/articles/2026-04-22-openai-launches-custom-workspace-agents-for-teams"
+  ],
+  "standaloneTweet": "OpenAI's new custom workspace agents let teams automate tasks like never before. Imagine bots handling feedback and reports—all in ChatGPT. The future of work just got an upgrade. https://ainformed.dev/articles/2026-04-22-openai-launches-custom-workspace-agents-for-teams"
+}

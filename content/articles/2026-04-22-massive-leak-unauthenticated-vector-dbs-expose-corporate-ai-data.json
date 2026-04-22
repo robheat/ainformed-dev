@@ -1,0 +1,28 @@
+{
+  "slug": "2026-04-22-massive-leak-unauthenticated-vector-dbs-expose-corporate-ai-data",
+  "title": "Massive Leak: Unauthenticated Vector DBs Expose Corporate AI Data",
+  "summary": "A surge in misconfigured RAG pipelines has left vector databases exposed to the public internet without authentication. A live map now visualizes the scale of this critical security flaw, highlighting the risks of rushed AI adoption.",
+  "body": "Researchers have discovered a significant spike in unauthenticated vector databases left exposed on the public internet due to misconfigured RAG (Retrieval-Augmented Generation) pipelines. These databases, which store sensitive corporate AI data, are accessible without any authentication, posing a severe security risk. To illustrate the extent of the problem, a live map has been created, pulling OSINT (Open-Source Intelligence) data to visualize the locations and scale of these leaks.\n\nThis issue underscores the critical failure of perimeter security measures in the rush to deploy AI solutions. As companies rapidly adopt AI technologies, security protocols often lag behind, leaving valuable data vulnerable to exploitation. The live map serves as a stark reminder of the importance of robust security practices in AI infrastructure.\n\nIn response to this growing threat, EchelonGraph is developing a solution that processes telemetry with zero-knowledge encapsulation at the source. This approach aims to prevent data leaks by ensuring that sensitive information is encrypted and secured from the moment it is generated. The future outlook for AI security will likely involve a greater emphasis on proactive measures and zero-trust architectures to mitigate such risks.",
+  "sourceUrl": "https://news.ycombinator.com/item?id=47868779",
+  "sourceName": "Hacker News AI",
+  "category": "general",
+  "tags": [
+    "ai-security",
+    "data-leak",
+    "vector-databases",
+    "rag-pipelines",
+    "osint",
+    "zero-knowledge"
+  ],
+  "publishedAt": "2026-04-22T21:01:37.189230+00:00",
+  "imageUrl": "/images/articles/2026-04-22-massive-leak-unauthenticated-vector-dbs-expose-corporate-ai-data.jpg",
+  "twitterThread": [
+    "🚨 Massive AI data leak: Unauthenticated vector DBs exposed on the public internet. \n\nHere's why this matters:",
+    "A surge in misconfigured RAG pipelines left vector databases wide open. No auth. No protection. Just exposed corporate AI data.",
+    "Researchers built a live map to visualize the scale. The numbers are staggering. Let that sink in.",
+    "The wild part? This is happening as companies rush to deploy AI. Security is an afterthought. Again.",
+    "Zero-knowledge encapsulation at the source is the future. EchelonGraph is leading the charge. This changes everything for AI security.",
+    "Full breakdown → https://ainformed.dev/articles/2026-04-22-massive-leak-unauthenticated-vector-dbs-expose-corporate-ai-data"
+  ],
+  "standaloneTweet": "Unauthenticated vector DBs exposing corporate AI data. A live map shows the scale of the leak. Zero-knowledge encryption is the solution. https://ainformed.dev/articles/2026-04-22-massive-leak-unauthenticated-vector-dbs-expose-corporate-ai-data"
+}

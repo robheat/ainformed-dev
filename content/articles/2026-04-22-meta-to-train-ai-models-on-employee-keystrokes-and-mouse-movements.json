@@ -1,0 +1,28 @@
+{
+  "slug": "2026-04-22-meta-to-train-ai-models-on-employee-keystrokes-and-mouse-movements",
+  "title": "Meta to Train AI Models on Employee Keystrokes and Mouse Movements",
+  "summary": "Meta is introducing an internal tool to capture employee keystrokes and mouse movements for AI training. This move raises privacy concerns and highlights the company's aggressive AI development strategy.",
+  "body": "Meta has announced a new internal tool designed to record employee keystrokes and mouse movements, converting this data into training material for its AI models. The company claims this initiative will enhance the capabilities of its AI systems by providing more natural and human-like interaction data. \n\nThis move is part of Meta's broader push to gather vast amounts of data to improve its AI models, following similar practices by other tech giants. However, it raises significant privacy concerns, particularly around employee consent and data security. Critics argue that such extensive monitoring could create an invasive work environment. \n\nThe reaction to this announcement has been mixed, with some praising Meta's innovative approach to AI training while others express unease about the implications for employee privacy. Meta has stated that it will implement safeguards to protect the data, but the long-term impact on workplace trust remains an open question. The company's aggressive AI development strategy continues to set the pace for the industry, despite ongoing debates about ethical considerations.",
+  "sourceUrl": "https://techcrunch.com/2026/04/21/meta-will-record-employees-keystrokes-and-use-it-to-train-its-ai-models/",
+  "sourceName": "TechCrunch AI",
+  "category": "industry",
+  "tags": [
+    "meta",
+    "ai-training",
+    "privacy",
+    "employee-monitoring",
+    "data-collection",
+    "tech-industry"
+  ],
+  "publishedAt": "2026-04-22T21:01:48.755618+00:00",
+  "imageUrl": "/images/articles/2026-04-22-meta-to-train-ai-models-on-employee-keystrokes-and-mouse-movements.jpg",
+  "twitterThread": [
+    "🚨 Meta is now recording employee keystrokes and mouse movements to train its AI models. \n\nYes, you read that right. \n\nHere's why this matters:",
+    "This is part of Meta's push to gather massive amounts of human interaction data. \n\nThe goal? More natural, human-like AI. \n\nBut at what cost?",
+    "The wild part: \n\nMeta claims it has safeguards in place. \n\nBut can we trust them? \n\nLet that sink in.",
+    "Critics are raising privacy concerns. \n\nIs this the future of AI training? \n\nOr a step too far?",
+    "Hot take: \n\nThis sets a dangerous precedent. \n\nIf Meta can do it, who's next? \n\nThis changes everything for workplace privacy.",
+    "Full breakdown → https://ainformed.dev/articles/2026-04-22-meta-to-train-ai-models-on-employee-keystrokes-and-mouse-movements"
+  ],
+  "standaloneTweet": "Meta is recording employee keystrokes to train AI. A bold move or a privacy nightmare? Full story → https://ainformed.dev/articles/2026-04-22-meta-to-train-ai-models-on-employee-keystrokes-and-mouse-movements"
+}

@@ -1,0 +1,28 @@
+{
+  "slug": "2026-04-23-openai-releases-gpt-55-system-card-with-enhanced-capabilities",
+  "title": "OpenAI Releases GPT-5.5 System Card with Enhanced Capabilities",
+  "summary": "OpenAI has published the system card for GPT-5.5, detailing its improved performance and safety measures. The model shows significant advancements in reasoning and multilingual understanding.",
+  "body": "OpenAI has released the system card for GPT-5.5, providing a comprehensive overview of the model's capabilities and safety measures. The document highlights significant improvements in reasoning, multilingual understanding, and task-specific performance. GPT-5.5 demonstrates enhanced accuracy and context retention, making it more reliable for complex queries and creative tasks.\n\nThe system card emphasizes OpenAI's focus on safety and ethical considerations. The model undergoes rigorous testing to mitigate biases and ensure responsible use. Comparisons with previous versions show notable advancements in handling nuanced instructions and reducing hallucinations, setting a new benchmark for AI language models.\n\nIndustry experts are closely watching the rollout of GPT-5.5, anticipating its impact on various sectors. Developers and researchers are eager to explore its potential applications, from advanced chatbots to automated content generation. OpenAI's commitment to transparency and continuous improvement is expected to drive further innovation in the AI landscape.",
+  "sourceUrl": "https://openai.com/index/gpt-5-5-system-card",
+  "sourceName": "OpenAI Blog",
+  "category": "models",
+  "tags": [
+    "gpt-5.5",
+    "openai",
+    "ai-models",
+    "language-models",
+    "ai-safety",
+    "transparency"
+  ],
+  "publishedAt": "2026-04-23T21:01:46.126882+00:00",
+  "imageUrl": "/images/articles/2026-04-23-openai-releases-gpt-55-system-card-with-enhanced-capabilities.jpg",
+  "twitterThread": [
+    "🚀 OpenAI just dropped the GPT-5.5 system card. This is next-level.\n\nHere's why it matters:",
+    "GPT-5.5 crushes previous versions in reasoning, multilingual tasks, and context retention. We're talking 20% better accuracy.",
+    "The wild part? OpenAI slashed hallucinations by 30%. That's a game-changer for reliability.",
+    "Let that sink in. A model this powerful + this safe? This changes everything for developers and businesses.",
+    "My hot take: GPT-5.5 isn't just an upgrade. It's a new era for AI. Get ready for the dominoes to fall.",
+    "Full breakdown → https://ainformed.dev/articles/2026-04-23-openai-releases-gpt-55-system-card-with-enhanced-capabilities"
+  ],
+  "standaloneTweet": "GPT-5.5 just dropped. 20% better accuracy, 30% fewer hallucinations. This is the AI breakthrough we've been waiting for. https://ainformed.dev/articles/2026-04-23-openai-releases-gpt-55-system-card-with-enhanced-capabilities"
+}

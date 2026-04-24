@@ -1,0 +1,28 @@
+{
+  "slug": "2026-04-24-evoforest-a-new-ml-paradigm-via-evolution-of-computational-graphs",
+  "title": "EvoForest: A New ML Paradigm via Evolution of Computational Graphs",
+  "summary": "Researchers propose EvoForest, a novel machine learning approach that evolves computational graphs instead of optimizing weights. This could revolutionize structured prediction problems where the key challenge is discovering what to compute, not just fitting parameters.",
+  "body": "A new paper on arXiv introduces EvoForest, a machine-learning paradigm that shifts focus from optimizing weights to evolving computational graphs. Unlike traditional methods that rely on parameterized models, EvoForest dynamically discovers transformations, statistics, and interaction structures directly from data. This approach is particularly suited for structured prediction problems where the main bottleneck is identifying the right computations rather than fitting parameters.\n\nThe significance of EvoForest lies in its ability to handle non-differentiable objectives and complex interaction structures. By evolving computational graphs, it can uncover novel representations and invariances that are often overlooked by conventional methods. This could be a game-changer for fields like time-series analysis, reinforcement learning, and structured data prediction, where the right transformations are not always obvious.\n\nThe research community is buzzing with excitement over EvoForest's potential. While the initial results are promising, further validation and benchmarking against state-of-the-art models are needed. If successful, this paradigm could lead to a fundamental shift in how we approach machine learning, moving beyond the traditional weight-optimization framework to more flexible, evolutionary strategies.",
+  "sourceUrl": "https://arxiv.org/abs/2604.19761",
+  "sourceName": "ArXiv cs.AI",
+  "category": "research",
+  "tags": [
+    "machine-learning",
+    "evolutionary-algorithms",
+    "structured-prediction",
+    "research",
+    "ai-paradigm",
+    "computational-graphs"
+  ],
+  "publishedAt": "2026-04-24T11:01:45.643641+00:00",
+  "imageUrl": "/images/articles/2026-04-24-evoforest-a-new-ml-paradigm-via-evolution-of-computational-graphs.jpg",
+  "twitterThread": [
+    "🚀 A new ML paradigm just dropped: EvoForest evolves computational graphs instead of optimizing weights. Game-changer?\n\nHere's why this matters:",
+    "Traditional ML focuses on fitting parameters. EvoForest discovers what to compute from data. Huge for structured prediction problems.",
+    "The wild part? It handles non-differentiable objectives. No gradients? No problem. Let that sink in.",
+    "This changes everything for fields like time-series analysis and reinforcement learning. No more guessing the right transformations.",
+    "Hot take: EvoForest could be the start of a fundamental shift in ML. Evolutionary strategies over weight optimization. Buckle up.",
+    "Full breakdown → https://ainformed.dev/articles/2026-04-24-evoforest-a-new-ml-paradigm-via-evolution-of-computational-graphs"
+  ],
+  "standaloneTweet": "EvoForest: A new ML paradigm that evolves computational graphs instead of optimizing weights. Could this be the future of structured prediction? Full details → https://ainformed.dev/articles/2026-04-24-evoforest-a-new-ml-paradigm-via-evolution-of-computational-graphs"
+}

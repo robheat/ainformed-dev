@@ -1,0 +1,28 @@
+{
+  "slug": "2026-04-24-thermoqa-benchmark-reveals-gaps-in-llms-thermodynamic-reasoning",
+  "title": "ThermoQA Benchmark Reveals Gaps in LLMs' Thermodynamic Reasoning",
+  "summary": "ThermoQA is a new benchmark for evaluating LLMs on engineering thermodynamics problems. It shows significant performance drops as problem complexity increases, with top models like Claude Opus 4.6 leading at 94.1%.",
+  "body": "Researchers have introduced ThermoQA, a benchmark comprising 293 open-ended thermodynamics problems divided into three tiers: property lookups, component analysis, and full cycle analysis. The benchmark uses CoolProp 7.2.0 for ground truth computations, covering water, R-134a, and variable-cp air. Six frontier LLMs were evaluated across three runs each, with Claude Opus 4.6 leading the composite leaderboard at 94.1%, followed by GPT-5.4 at 93.1% and Gemini 3.1 Pro at 92.5%.\n\nThe results highlight a notable performance degradation across tiers, with the smallest drop of 2.8 percentage points for Claude Opus 4.6 and the largest at 32.5 percentage points for MiniMax. This indicates that while top models excel at simpler tasks, their performance significantly diminishes as problem complexity increases. The benchmark underscores the need for improved reasoning capabilities in LLMs, particularly in specialized engineering domains.\n\nMoving forward, the ThermoQA benchmark will likely spur further research into enhancing LLMs' thermodynamic reasoning abilities. The significant performance drops suggest that current models may struggle with real-world engineering applications requiring multi-step, complex analyses. Future work could focus on developing more robust training methodologies and fine-tuning techniques to bridge these gaps and improve model performance across all tiers.",
+  "sourceUrl": "https://arxiv.org/abs/2604.19758",
+  "sourceName": "ArXiv cs.AI",
+  "category": "research",
+  "tags": [
+    "thermodynamics",
+    "benchmark",
+    "llms",
+    "engineering",
+    "coolprop",
+    "ai-evaluation"
+  ],
+  "publishedAt": "2026-04-24T11:01:32.957400+00:00",
+  "imageUrl": "/images/articles/2026-04-24-thermoqa-benchmark-reveals-gaps-in-llms-thermodynamic-reasoning.jpg",
+  "twitterThread": [
+    "🔥 New ThermoQA benchmark exposes major flaws in LLMs' thermodynamic reasoning. \n\nTop models fail as problems get harder. Here's the breakdown:",
+    "ThermoQA tests 293 open-ended thermodynamics problems in 3 tiers.\n\nTier 1: Simple property lookups.\n\nTier 2: Component analysis.\n\nTier 3: Full cycle analysis.\n\nGround truth from CoolProp 7.2.0.",
+    "Claude Opus 4.6 leads at 94.1%, GPT-5.4 at 93.1%, Gemini 3.1 Pro at 92.5%.\n\nBut performance drops as complexity increases.\n\nOpus only drops 2.8 pp. MiniMax drops 32.5 pp.",
+    "The wild part? Top models struggle with real-world engineering problems.\n\nThis changes everything for AI in specialized domains.",
+    "LLMs need better training for complex, multi-step reasoning.\n\nFuture work must focus on bridging these gaps.",
+    "Full breakdown → https://ainformed.dev/articles/2026-04-24-thermoqa-benchmark-reveals-gaps-in-llms-thermodynamic-reasoning"
+  ],
+  "standaloneTweet": "New ThermoQA benchmark shows top LLMs struggle with complex thermodynamics problems. Claude Opus 4.6 leads at 94.1%, but performance drops as tasks get harder. https://ainformed.dev/articles/2026-04-24-thermoqa-benchmark-reveals-gaps-in-llms-thermodynamic-reasoning"
+}

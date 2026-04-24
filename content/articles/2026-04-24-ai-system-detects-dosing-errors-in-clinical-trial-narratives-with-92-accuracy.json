@@ -1,0 +1,28 @@
+{
+  "slug": "2026-04-24-ai-system-detects-dosing-errors-in-clinical-trial-narratives-with-92-accuracy",
+  "title": "AI System Detects Dosing Errors in Clinical Trial Narratives with 92% Accuracy",
+  "summary": "Researchers developed an AI model using LightGBM and multi-modal feature engineering to detect dosing errors in clinical trial narratives. The system achieved 92% accuracy by combining traditional NLP, semantic embeddings, and medical patterns.",
+  "body": "Researchers have developed an AI system capable of detecting dosing errors in unstructured clinical trial narratives with 92% accuracy. The system, detailed in a new arXiv paper, employs LightGBM gradient boosting combined with comprehensive multi-modal feature engineering. It integrates 3,451 features, including traditional NLP techniques like TF-IDF and character n-grams, dense semantic embeddings from all-MiniLM-L6v2, domain-specific medical patterns, and transformer-based scores from models like BiomedBERT and DeBERTa.\n\nThis advancement is significant because dosing errors in clinical trials can severely impact patient safety and trial integrity. Traditional methods of detecting these errors are time-consuming and prone to human error. The automated system not only improves efficiency but also enhances accuracy, potentially saving lives and ensuring the reliability of clinical trial results. The multi-modal approach allows the system to capture a wide range of linguistic and semantic cues, making it robust against various types of errors.\n\nThe research team plans to further refine the model by incorporating more advanced transformer models and expanding the dataset to include a broader range of clinical trial narratives. Future work will also focus on deploying the system in real-world clinical settings to evaluate its practical impact. While the current results are promising, the team acknowledges the need for continuous improvement to address the dynamic nature of clinical trial data and evolving medical protocols.",
+  "sourceUrl": "https://arxiv.org/abs/2604.19759",
+  "sourceName": "ArXiv cs.AI",
+  "category": "research",
+  "tags": [
+    "ai",
+    "healthcare",
+    "clinical-trials",
+    "nlp",
+    "machine-learning",
+    "medical-research"
+  ],
+  "publishedAt": "2026-04-24T16:01:59.681465+00:00",
+  "imageUrl": "/images/articles/2026-04-24-ai-system-detects-dosing-errors-in-clinical-trial-narratives-with-92-accuracy.jpg",
+  "twitterThread": [
+    "🚨 AI just got way better at catching dosing errors in clinical trials. Here's why this matters.\n\nA new system using LightGBM and multi-modal features hits 92% accuracy. #AIinHealthcare",
+    "The system combines 3,451 features:\n- Traditional NLP (TF-IDF, n-grams)\n- Semantic embeddings (all-MiniLM-L6v2)\n- Medical patterns\n- Transformer scores (BiomedBERT, DeBERTa)",
+    "Why this matters: Dosing errors in trials can be deadly. Traditional methods are slow and error-prone. This AI system changes the game.",
+    "The wild part: It captures linguistic and semantic cues that humans often miss. Let that sink in.",
+    "This changes everything for clinical trial safety. Faster, more accurate error detection could save lives.",
+    "Full breakdown → https://ainformed.dev/articles/2026-04-24-ai-system-detects-dosing-errors-in-clinical-trial-narratives-with-92-accuracy"
+  ],
+  "standaloneTweet": "AI system detects dosing errors in clinical trials with 92% accuracy. Combines NLP, embeddings, and medical patterns. A game-changer for patient safety. https://ainformed.dev/articles/2026-04-24-ai-system-detects-dosing-errors-in-clinical-trial-narratives-with-92-accuracy"
+}

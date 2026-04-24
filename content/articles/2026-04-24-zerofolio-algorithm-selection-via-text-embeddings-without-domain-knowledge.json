@@ -1,0 +1,27 @@
+{
+  "slug": "2026-04-24-zerofolio-algorithm-selection-via-text-embeddings-without-domain-knowledge",
+  "title": "ZeroFolio: Algorithm Selection via Text Embeddings Without Domain Knowledge",
+  "summary": "Researchers introduce ZeroFolio, a method for algorithm selection using pretrained text embeddings instead of hand-crafted features. This approach eliminates the need for domain knowledge or task-specific training.",
+  "body": "Researchers have developed ZeroFolio, a novel approach to algorithm selection that leverages pretrained text embeddings. The method reads raw instance files as plain text, embeds them using a pretrained model, and selects an algorithm via weighted k-nearest neighbors. The key innovation is that pretrained embeddings can distinguish problem instances without any domain knowledge or task-specific training.\n\nThis development is significant because it simplifies the algorithm selection process, making it more accessible and efficient. Traditional methods rely on hand-crafted features, which require domain expertise and extensive training. ZeroFolio's feature-free approach could democratize algorithm selection, allowing non-experts to apply sophisticated algorithms to new problems.\n\nThe implications of ZeroFolio are far-reaching. By eliminating the need for domain knowledge, this method could accelerate research in various fields where algorithm selection is a bottleneck. Future work will likely explore the method's performance across different domains and refine the embedding models used. The open questions revolve around the scalability and robustness of ZeroFolio in real-world applications.",
+  "sourceUrl": "https://arxiv.org/abs/2604.19753",
+  "sourceName": "ArXiv cs.AI",
+  "category": "research",
+  "tags": [
+    "algorithm-selection",
+    "text-embeddings",
+    "machine-learning",
+    "domain-knowledge",
+    "ai-research"
+  ],
+  "publishedAt": "2026-04-24T16:01:50.439275+00:00",
+  "imageUrl": "/images/articles/2026-04-24-zerofolio-algorithm-selection-via-text-embeddings-without-domain-knowledge.jpg",
+  "twitterThread": [
+    "🚀 A game-changer in algorithm selection: ZeroFolio uses text embeddings, no domain knowledge needed.\n\nHere's why this matters:",
+    "Traditional methods rely on hand-crafted features. ZeroFolio reads raw text, embeds it, and picks algorithms via k-nearest neighbors.\n\nNo domain expertise required.",
+    "The wild part? Pretrained embeddings can distinguish problem instances without task-specific training.\n\nLet that sink in.",
+    "This changes everything for researchers in fields where algorithm selection is a bottleneck.\n\nNo more need for domain experts.",
+    "Hot take: ZeroFolio could democratize algorithm selection, making it accessible to non-experts.\n\nThe future of AI just got more inclusive.",
+    "Full breakdown → https://ainformed.dev/articles/2026-04-24-zerofolio-algorithm-selection-via-text-embeddings-without-domain-knowledge"
+  ],
+  "standaloneTweet": "ZeroFolio uses text embeddings for algorithm selection—no domain knowledge needed. This could revolutionize AI research. https://ainformed.dev/articles/2026-04-24-zerofolio-algorithm-selection-via-text-embeddings-without-domain-knowledge"
+}

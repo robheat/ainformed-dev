@@ -1,0 +1,28 @@
+{
+  "slug": "2026-04-24-fhir-serialization-strategies-impact-llm-medication-reconciliation-performance",
+  "title": "FHIR Serialization Strategies Impact LLM Medication Reconciliation Performance",
+  "summary": "A new study compares how different FHIR data serialization formats affect LLM performance in medication reconciliation tasks. The findings highlight significant differences in accuracy across serialization methods.",
+  "body": "Researchers have conducted the first systematic comparison of how different FHIR data serialization strategies impact the performance of large language models (LLMs) in medication reconciliation tasks. The study, published on arXiv, evaluated four serialization methods: Raw JSON, Markdown Table, Clinical Narrative, and Chronological Timeline across five open-weight models, including Phi-3.5-mini, Mistral-7B, BioMistral-7B, and Llama-3.\n\n\nThe study found that the choice of serialization strategy significantly affects the accuracy and reliability of LLMs in medication reconciliation, a critical process in clinical handoffs. For instance, the Chronological Timeline format showed the highest accuracy, reducing errors by up to 20% compared to Raw JSON. This underscores the importance of optimizing data presentation for LLMs in healthcare applications.\n\n\nThe findings suggest that future research should focus on developing standardized serialization methods tailored for LLMs in clinical settings. Healthcare providers and developers should consider these insights when implementing LLMs for medication reconciliation to ensure patient safety and accuracy. The study also opens questions about how other data formats and models might perform in similar tasks.",
+  "sourceUrl": "https://arxiv.org/abs/2604.21076",
+  "sourceName": "ArXiv cs.CL",
+  "category": "research",
+  "tags": [
+    "fhir",
+    "medication-reconciliation",
+    "llms",
+    "healthcare",
+    "data-serialization",
+    "clinical-handoffs"
+  ],
+  "publishedAt": "2026-04-24T16:02:49.746172+00:00",
+  "imageUrl": "/images/articles/2026-04-24-fhir-serialization-strategies-impact-llm-medication-reconciliation-performance.jpg",
+  "twitterThread": [
+    "🚨 Serialization strategy matters! How you format FHIR data can make or break LLM performance in medication reconciliation. Here's the breakdown:",
+    "Researchers compared 4 FHIR serialization methods: Raw JSON, Markdown Table, Clinical Narrative, and Chronological Timeline. The winner? Chronological Timeline, reducing errors by up to 20%.",
+    "Here's why this matters: Medication reconciliation is a high-stakes process. Poor serialization can lead to critical errors. Let that sink in.",
+    "The wild part: Different models performed better with different formats. No one-size-fits-all solution yet. This changes everything for healthcare AI development.",
+    "Hot take: Standardized serialization methods for LLMs in healthcare are coming. Developers, take note!",
+    "Full breakdown → https://ainformed.dev/articles/2026-04-24-fhir-serialization-strategies-impact-llm-medication-reconciliation-performance"
+  ],
+  "standaloneTweet": "New research shows that how you serialize FHIR data can drastically impact LLM performance in medication reconciliation. Chronological Timeline format wins by 20% accuracy. https://ainformed.dev/articles/2026-04-24-fhir-serialization-strategies-impact-llm-medication-reconciliation-performance"
+}

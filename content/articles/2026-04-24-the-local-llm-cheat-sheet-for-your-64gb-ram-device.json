@@ -1,0 +1,28 @@
+{
+  "slug": "2026-04-24-the-local-llm-cheat-sheet-for-your-64gb-ram-device",
+  "title": "The Local LLM Cheat Sheet for Your 64GB RAM Device",
+  "summary": "A comprehensive guide for running large language models on a 64GB RAM device has been released. It covers practical tips for optimizing performance in code and math applications.",
+  "body": "Graeme, known as @gkisokay on X, has published a detailed cheat sheet for running local LLMs on a 64GB RAM device. This guide follows previous guides for 16GB and 32GB devices, addressing the growing interest in leveraging more powerful hardware for AI applications. The cheat sheet provides practical advice on optimizing performance for code and math tasks, making it easier for users to harness the full potential of their hardware.\n\nThis cheat sheet is particularly significant as 64GB RAM devices become more accessible and affordable. It bridges the gap between hobbyist and professional-grade AI setups, allowing users to run more complex models locally without relying on cloud services. The guide also highlights the increasing trend of decentralized AI, where users prefer to run models on their own hardware for privacy and cost reasons.\n\nThe release of this cheat sheet is likely to spur further experimentation and innovation in the local LLM space. Users can expect more detailed tutorials and community-driven optimizations in the coming months. Open questions remain about the scalability of these models and the potential for even more powerful local setups as hardware continues to evolve.",
+  "sourceUrl": "https://x.com/gkisokay/status/2047295369583964385",
+  "sourceName": "@gkisokay on X",
+  "category": "general",
+  "tags": [
+    "llm",
+    "local-ai",
+    "hardware",
+    "optimization",
+    "guide",
+    "ram"
+  ],
+  "publishedAt": "2026-04-24T19:39:51.509550+00:00",
+  "imageUrl": "/images/articles/2026-04-24-the-local-llm-cheat-sheet-for-your-64gb-ram-device.jpg",
+  "twitterThread": [
+    "🚀 The ultimate cheat sheet for running LLMs on your 64GB RAM device is here. \n\nGame changer for local AI.\n\nHere's the scoop:",
+    "Graeme (@gkisokay) just dropped a detailed guide for 64GB RAM setups. \n\nThis is the next big step after 16GB and 32GB guides.\n\nWhy? Because 64GB is where things get *very* interesting.",
+    "The guide covers code and math optimizations. \n\nPerfect for users who want to run complex models locally without cloud services.\n\nDecentralized AI just got a major boost.",
+    "Here's why this matters: \n\nMore power = more complex models = more privacy. \n\nNo more relying on big tech for your AI needs.\n\nThis changes everything for hobbyists and pros alike.",
+    "Hot take: \n\nWe're on the cusp of a local AI revolution. \n\nWith guides like this, anyone with a decent machine can run cutting-edge models at home.\n\nThe future is decentralized.",
+    "Full breakdown → https://ainformed.dev/articles/2026-04-24-the-local-llm-cheat-sheet-for-your-64gb-ram-device"
+  ],
+  "standaloneTweet": "Running LLMs on 64GB RAM? Graeme's new cheat sheet is a game-changer for local AI. Optimize code, math, and more. The future of decentralized AI is here. https://ainformed.dev/articles/2026-04-24-the-local-llm-cheat-sheet-for-your-64gb-ram-device"
+}

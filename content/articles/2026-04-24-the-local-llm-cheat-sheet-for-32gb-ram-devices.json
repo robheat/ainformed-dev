@@ -1,0 +1,28 @@
+{
+  "slug": "2026-04-24-the-local-llm-cheat-sheet-for-32gb-ram-devices",
+  "title": "The Local LLM Cheat Sheet for 32GB RAM Devices",
+  "summary": "Graeme (@gkisokay) shares a curated list of powerful local LLMs that run efficiently on 32GB RAM machines. This opens up flagship-class models to a wider range of users.",
+  "body": "Graeme (@gkisokay) has compiled a practical lineup of local large language models (LLMs) optimized for 32GB RAM devices. This cheat sheet includes flagship-class models and custom quantizations, making high-performance AI accessible to users with mid-range hardware. The selection focuses on models that balance performance and resource efficiency, ensuring smooth operation without requiring excessive computational power.\n\nThe availability of these models on 32GB RAM devices democratizes access to advanced AI capabilities. Users no longer need high-end hardware to run cutting-edge models, reducing barriers to entry for developers, researchers, and enthusiasts. This development also highlights the growing trend of model optimization and quantization, which are crucial for deploying AI in resource-constrained environments.\n\nLooking ahead, the trend of optimizing LLMs for lower-spec hardware is likely to continue. As more models are quantized and fine-tuned for efficiency, the gap between high-end and mid-range hardware capabilities will narrow. This could lead to a surge in local AI applications, from personal assistants to specialized tools, all running efficiently on standard consumer devices.",
+  "sourceUrl": "https://x.com/gkisokay/status/2046935822096855379",
+  "sourceName": "@gkisokay on X",
+  "category": "general",
+  "tags": [
+    "llms",
+    "local-ai",
+    "hardware",
+    "quantization",
+    "ai-accessibility",
+    "graeme"
+  ],
+  "publishedAt": "2026-04-24T19:39:40.677221+00:00",
+  "imageUrl": "/images/articles/2026-04-24-the-local-llm-cheat-sheet-for-32gb-ram-devices.jpg",
+  "twitterThread": [
+    "🚀 Local AI just got a major upgrade for 32GB RAM devices!\n\nGraeme (@gkisokay) just dropped a cheat sheet for flagship-class models on mid-range hardware. Here's why this is a game-changer:",
+    "The cheat sheet includes top-tier models optimized for 32GB RAM. No more needing a beefy GPU to run cutting-edge AI locally.",
+    "Here's why this matters: It democratizes access to powerful AI. Developers, researchers, and hobbyists can now run advanced models without high-end hardware.",
+    "The wild part: Custom quantizations are making these models even more efficient. Smaller file sizes, faster inference, and lower memory usage.",
+    "This changes everything for local AI. Expect a surge in personal AI assistants, specialized tools, and more—all running efficiently on standard devices.",
+    "Full breakdown → https://ainformed.dev/articles/2026-04-24-the-local-llm-cheat-sheet-for-32gb-ram-devices"
+  ],
+  "standaloneTweet": "Flagship-class LLMs now run smoothly on 32GB RAM devices thanks to Graeme's (@gkisokay) new cheat sheet. This is a game-changer for local AI! https://ainformed.dev/articles/2026-04-24-the-local-llm-cheat-sheet-for-32gb-ram-devices"
+}

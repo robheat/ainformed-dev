@@ -1,0 +1,28 @@
+{
+  "slug": "2026-04-24-15-year-old-develops-cryptographic-accountability-for-ai-agents",
+  "title": "15-Year-Old Develops Cryptographic Accountability for AI Agents",
+  "summary": "A high school sophomore created a protocol to verify AI agent actions cryptographically. Microsoft integrated the code into their agent governance toolkit.",
+  "body": "A 15-year-old sophomore from California has developed a groundbreaking cryptographic accountability layer for AI agents. The protocol allows users to prove what an AI agent actually did, not just log it. It uses signed receipts before and after each action, hash-chained for verifiability by anyone. This innovation ensures transparency and accountability in AI operations.\n\nThe significance of this development lies in its potential to revolutionize AI governance. Most current systems rely on logging, which can be tampered with or incomplete. This new protocol provides a tamper-proof record of AI actions, which is crucial for trust and regulatory compliance. Microsoft's decision to merge the code into their agent governance toolkit highlights its practical value and immediate applicability.\n\nThe next steps involve further testing and adoption by other major tech companies. The young developer is open to answering questions about how the protocol works, which could lead to collaborations and improvements. This breakthrough could set a new standard for AI accountability, making it harder for AI systems to act without oversight.",
+  "sourceUrl": "https://github.com/arian-gogani/nobulex",
+  "sourceName": "Hacker News AI",
+  "category": "general",
+  "tags": [
+    "ai-accountability",
+    "cryptography",
+    "governance",
+    "open-source",
+    "youth-innovation",
+    "microsoft"
+  ],
+  "publishedAt": "2026-04-24T21:02:16.031890+00:00",
+  "imageUrl": "/images/articles/2026-04-24-15-year-old-develops-cryptographic-accountability-for-ai-agents.jpg",
+  "twitterThread": [
+    "🚀 A 15-year-old just changed the game for AI accountability. \n\nHere's why this matters:",
+    "He built a protocol to *prove* what AI agents do. \n\nNot just log it. Prove it. \n\nSigned receipts. Hash-chained. Verifiable by anyone.",
+    "Microsoft merged his code into their agent governance toolkit. \n\nTwice. \n\nLet that sink in.",
+    "Most AI governance relies on logs. \n\nLogs can be tampered with. \n\nThis is tamper-proof.",
+    "This changes everything for AI trust and compliance. \n\nThe future of AI governance just got a lot more transparent.",
+    "Full breakdown → https://ainformed.dev/articles/2026-04-24-15-year-old-develops-cryptographic-accountability-for-ai-agents"
+  ],
+  "standaloneTweet": "A 15-year-old built a cryptographic accountability layer for AI agents. Microsoft merged his code. This is a game-changer. https://ainformed.dev/articles/2026-04-24-15-year-old-develops-cryptographic-accountability-for-ai-agents"
+}

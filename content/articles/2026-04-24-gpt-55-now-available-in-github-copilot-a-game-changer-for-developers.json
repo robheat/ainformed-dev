@@ -1,0 +1,28 @@
+{
+  "slug": "2026-04-24-gpt-55-now-available-in-github-copilot-a-game-changer-for-developers",
+  "title": "GPT-5.5 Now Available in GitHub Copilot: A Game Changer for Developers",
+  "summary": "GitHub Copilot now integrates GPT-5.5, enhancing code completion and debugging capabilities. This marks a significant leap in AI-assisted development tools.",
+  "body": "GitHub has announced that GPT-5.5 is now generally available for GitHub Copilot, replacing the previous GPT-4.5 model. This upgrade promises more accurate code suggestions, improved debugging, and better understanding of complex programming contexts. The new model is expected to significantly enhance productivity for developers.\n\nThe integration of GPT-5.5 into Copilot is a major milestone in AI-assisted coding. GPT-5.5 boasts superior performance in understanding and generating code, thanks to its advanced architecture and larger training dataset. This upgrade positions Copilot as a more powerful tool for both novice and experienced developers, potentially reducing the time spent on routine coding tasks.\n\nThe reaction from the developer community has been largely positive, with many highlighting the immediate improvements in code quality and context awareness. However, some users have noted that the model still occasionally generates incorrect or inefficient code, a common issue with AI-generated outputs. GitHub has indicated that they will continue to refine the model based on user feedback, suggesting that further enhancements are on the horizon.",
+  "sourceUrl": "https://github.blog/changelog/2026-04-24-gpt-5-5-is-generally-available-for-github-copilot/",
+  "sourceName": "Hacker News AI",
+  "category": "general",
+  "tags": [
+    "github",
+    "copilot",
+    "gpt-5.5",
+    "ai",
+    "developers",
+    "coding"
+  ],
+  "publishedAt": "2026-04-24T21:01:18.004755+00:00",
+  "imageUrl": "/images/articles/2026-04-24-gpt-55-now-available-in-github-copilot-a-game-changer-for-developers.jpg",
+  "twitterThread": [
+    "🚀 GPT-5.5 is now live in GitHub Copilot. Game changer for developers.\n\nHere's why this matters:",
+    "1. More accurate code suggestions. Fewer errors. Less debugging.\n\n2. Better understanding of complex codebases. Context matters now.",
+    "The wild part? It learns from your coding style. Personalized AI assistance.\n\nLet that sink in.",
+    "This changes everything for teams relying on AI-powered dev tools. Productivity boost incoming.",
+    "Hot take: GPT-5.5 in Copilot could make traditional IDE plugins obsolete. The future is here.",
+    "Full breakdown → https://ainformed.dev/articles/2026-04-24-gpt-55-now-available-in-github-copilot-a-game-changer-for-developers"
+  ],
+  "standaloneTweet": "GPT-5.5 is now in GitHub Copilot. More accurate, context-aware code suggestions. The future of coding just got brighter. https://ainformed.dev/articles/2026-04-24-gpt-55-now-available-in-github-copilot-a-game-changer-for-developers"
+}

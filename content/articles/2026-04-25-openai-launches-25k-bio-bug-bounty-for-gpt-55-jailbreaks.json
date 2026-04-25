@@ -1,0 +1,28 @@
+{
+  "slug": "2026-04-25-openai-launches-25k-bio-bug-bounty-for-gpt-55-jailbreaks",
+  "title": "OpenAI Launches $25K Bio Bug Bounty for GPT-5.5 Jailbreaks",
+  "summary": "OpenAI has introduced a bug bounty program specifically targeting bio safety risks in GPT-5.5, offering up to $25,000 for successful jailbreaks. This initiative aims to identify and mitigate potential bio safety vulnerabilities before the model's release.",
+  "body": "OpenAI has unveiled the GPT-5.5 Bio Bug Bounty, a red-teaming challenge focused on identifying universal jailbreaks that could pose bio safety risks. The program, announced on the OpenAI Blog, offers rewards of up to $25,000 for participants who successfully uncover vulnerabilities. This initiative is part of OpenAI's ongoing efforts to ensure the safety and reliability of its advanced AI models before public release.\n\nThe bug bounty program is particularly significant as it targets bio safety risks, an area of growing concern in AI development. By inviting external researchers to probe GPT-5.5 for potential jailbreaks, OpenAI aims to uncover and address vulnerabilities that could be exploited to generate harmful bio safety information. This proactive approach aligns with the broader industry trend of using crowdsourced security testing to enhance AI model robustness.\n\nThe response to this bug bounty program will be closely watched by the AI community. Success could set a precedent for future AI safety initiatives, demonstrating the effectiveness of crowdsourced security testing in identifying and mitigating risks. However, the program also raises questions about the scope and limitations of such efforts, particularly in addressing the complex and evolving nature of bio safety threats. OpenAI's ability to integrate the findings into GPT-5.5's safety measures will be crucial in determining the program's long-term impact.",
+  "sourceUrl": "https://openai.com/index/gpt-5-5-bio-bug-bounty",
+  "sourceName": "OpenAI Blog",
+  "category": "models",
+  "tags": [
+    "ai-safety",
+    "bug-bounty",
+    "bio-safety",
+    "openai",
+    "gpt-5.5",
+    "red-teaming"
+  ],
+  "publishedAt": "2026-04-25T11:01:43.709742+00:00",
+  "imageUrl": "/images/articles/2026-04-25-openai-launches-25k-bio-bug-bounty-for-gpt-55-jailbreaks.jpg",
+  "twitterThread": [
+    "🚨 OpenAI just put $25K on the table for bio safety jailbreaks in GPT-5.5.\n\nThey're asking hackers to find flaws before release.\n\nThis is next-level AI safety testing.",
+    "Here's why this matters:\n\nBio safety risks are a growing concern in AI. OpenAI wants to catch vulnerabilities before they become public.",
+    "The wild part?\n\nThey're offering up to $25K for universal jailbreaks. That's serious money for serious flaws.",
+    "Let that sink in.\n\nThis isn't just about fixing bugs. It's about preventing misuse before it happens.",
+    "Hot take:\n\nIf this works, every major AI lab will copy this model. Crowdsourced security is the future of AI safety.",
+    "Full breakdown → https://ainformed.dev/articles/2026-04-25-openai-launches-25k-bio-bug-bounty-for-gpt-55-jailbreaks"
+  ],
+  "standaloneTweet": "OpenAI is offering $25K to hackers who can jailbreak GPT-5.5 for bio safety risks. This is a game-changer for AI security. https://ainformed.dev/articles/2026-04-25-openai-launches-25k-bio-bug-bounty-for-gpt-55-jailbreaks"
+}

@@ -1,0 +1,27 @@
+{
+  "slug": "2026-04-25-a-git-based-wiki-for-ai-agents-inspired-by-karpathys-vision",
+  "title": "A Git-Based Wiki for AI Agents Inspired by Karpathy's Vision",
+  "summary": "A new wiki system allows AI agents to maintain and access knowledge in Markdown files stored in a Git repository. This approach avoids complex databases and enables portable, version-controlled knowledge sharing.",
+  "body": "A developer has created a wiki layer for AI agents that uses Markdown files and Git as the source of truth. The system includes a Bleve (BM25) and SQLite index for search functionality, running locally in a user's home directory. This design allows users to clone the wiki and take their knowledge with them, embodying a vision long discussed by AI researcher Andrej Karpathy.\n\nThe approach contrasts with many existing implementations that rely on Postgres, pgvector, Neo4j, or Kafka. By using Git, the system provides version control and portability, enabling agents to build on context across sessions without repasting information daily. This could make AI agents more efficient and consistent over time.\n\nThe project is still in its early stages, with no vector or graph database integration yet. However, it has sparked interest in the AI community for its simplicity and potential to make agent knowledge more portable. Future developments may include additional database support and enhanced collaboration features.",
+  "sourceUrl": "https://github.com/nex-crm/wuphf",
+  "sourceName": "Hacker News AI",
+  "category": "general",
+  "tags": [
+    "ai-agents",
+    "markdown",
+    "git",
+    "knowledge-management",
+    "open-source",
+    "karpathy"
+  ],
+  "publishedAt": "2026-04-25T11:01:54.205463+00:00",
+  "imageUrl": "/images/articles/2026-04-25-a-git-based-wiki-for-ai-agents-inspired-by-karpathys-vision.jpg",
+  "twitterThread": [
+    "🚀 A Git-based wiki for AI agents that actually works. No fancy databases. Just Markdown + Git. \n\nHere's why this matters:",
+    "Most AI agent setups reset context daily. This system lets agents build knowledge over time. Like a brain that remembers. \n\nThe wild part:",
+    "You can git clone your wiki. Take your knowledge anywhere. No vendor lock-in. Just pure, portable Markdown. \n\nLet that sink in.",
+    "This changes everything for personal AI agents. Imagine your assistant actually learning from past interactions. \n\nWhat's next?",
+    "More databases? Maybe. But the beauty is in the simplicity. Git solves so many problems we didn't even know we had. \n\nFull breakdown → https://ainformed.dev/articles/2026-04-25-a-git-based-wiki-for-ai-agents-inspired-by-karpathys-vision"
+  ],
+  "standaloneTweet": "A Git-based wiki for AI agents that actually works. No fancy databases. Just Markdown + Git. Take your knowledge anywhere. https://ainformed.dev/articles/2026-04-25-a-git-based-wiki-for-ai-agents-inspired-by-karpathys-vision"
+}

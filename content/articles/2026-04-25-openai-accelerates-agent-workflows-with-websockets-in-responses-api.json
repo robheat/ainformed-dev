@@ -1,0 +1,28 @@
+{
+  "slug": "2026-04-25-openai-accelerates-agent-workflows-with-websockets-in-responses-api",
+  "title": "OpenAI Accelerates Agent Workflows with WebSockets in Responses API",
+  "summary": "OpenAI's new WebSocket implementation in the Responses API reduces latency and API overhead for agentic workflows. The update enhances model performance by enabling connection-scoped caching.",
+  "body": "OpenAI has introduced WebSockets in its Responses API to significantly speed up agentic workflows. By leveraging WebSocket connections, the company has reduced API overhead and improved model latency, making agent interactions faster and more efficient. The update also includes connection-scoped caching, which minimizes redundant computations and enhances overall performance.\n\nThis development is crucial for developers building complex agent systems that require real-time interactions. The reduction in latency means agents can respond more quickly, improving user experience and enabling more dynamic applications. Compared to traditional HTTP requests, WebSockets provide a persistent connection, reducing the need for repeated handshakes and streamlining data exchange.\n\nLooking ahead, this enhancement could set a new standard for agentic workflows in the AI industry. Developers are likely to adopt this technology to build more responsive and efficient AI systems. Open questions remain about how this will scale with increased usage and whether other API providers will follow suit with similar optimizations.",
+  "sourceUrl": "https://openai.com/index/speeding-up-agentic-workflows-with-websockets",
+  "sourceName": "OpenAI Blog",
+  "category": "models",
+  "tags": [
+    "openai",
+    "websockets",
+    "api",
+    "agentic",
+    "latency",
+    "caching"
+  ],
+  "publishedAt": "2026-04-25T16:02:54.587260+00:00",
+  "imageUrl": "/images/articles/2026-04-25-openai-accelerates-agent-workflows-with-websockets-in-responses-api.jpg",
+  "twitterThread": [
+    "🚀 OpenAI just dropped a game-changer for AI agents.\n\nWebSockets in the Responses API? Yes, please.\n\nHere's why this matters:",
+    "Agentic workflows just got a MAJOR speed boost.\n\nWebSockets slash API overhead. Latency? Down. Performance? Up.\n\nLet that sink in.",
+    "The wild part? Connection-scoped caching.\n\nNo more redundant computations. Just pure, unadulterated speed.\n\nThis changes everything for real-time AI apps.",
+    "Developers, take note.\n\nThis isn't just an update. It's a new standard for agent interactions.\n\nThe future of AI agents just got faster.",
+    "Hot take: Other API providers better catch up.\n\nWebSockets + caching = the new baseline for AI performance.\n\nThe race is on.",
+    "Full breakdown → https://ainformed.dev/articles/2026-04-25-openai-accelerates-agent-workflows-with-websockets-in-responses-api"
+  ],
+  "standaloneTweet": "OpenAI just turbocharged AI agents with WebSockets. Latency down, performance up. The future of real-time AI just got faster. 🚀"
+}

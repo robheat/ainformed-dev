@@ -1,0 +1,28 @@
+{
+  "slug": "2026-04-25-openai-unveils-workspace-agents-for-chatgpt",
+  "title": "OpenAI Unveils Workspace Agents for ChatGPT",
+  "summary": "OpenAI has introduced Workspace Agents for ChatGPT, automating complex workflows securely in the cloud. These agents aim to streamline team productivity across various tools.",
+  "body": "OpenAI has launched Workspace Agents for ChatGPT, powered by Codex. These agents are designed to automate complex workflows and run securely in the cloud. They help teams scale their work across multiple tools, enhancing productivity and efficiency.\n\nThe introduction of Workspace Agents marks a significant step in integrating AI into team workflows. By automating routine tasks, these agents free up human resources for more strategic activities. This move positions OpenAI as a leader in AI-driven productivity solutions, competing with similar offerings from Google and Microsoft.\n\nThe reaction to Workspace Agents has been positive, with early adopters praising their ability to streamline operations. OpenAI plans to expand the capabilities of these agents, potentially integrating them with more third-party applications. The future outlook for Workspace Agents is promising, as they could become a standard tool in AI-driven workplaces.",
+  "sourceUrl": "https://openai.com/index/introducing-workspace-agents-in-chatgpt",
+  "sourceName": "OpenAI Blog",
+  "category": "models",
+  "tags": [
+    "openai",
+    "chatgpt",
+    "automation",
+    "productivity",
+    "ai-agents",
+    "workflow"
+  ],
+  "publishedAt": "2026-04-25T16:02:42.067646+00:00",
+  "imageUrl": "/images/articles/2026-04-25-openai-unveils-workspace-agents-for-chatgpt.jpg",
+  "twitterThread": [
+    "🚀 OpenAI just dropped Workspace Agents for ChatGPT. \n\nThey automate complex workflows. In the cloud. Securely. \n\nThis changes everything for teams.",
+    "Powered by Codex, these agents run in the cloud. \n\nThey help teams scale work across tools. \n\nNo more manual grunt work.",
+    "Here's why this matters: \n\nTeams can now automate routine tasks. \n\nFreeing up humans for strategic work. \n\nOpenAI just leveled up productivity.",
+    "The wild part: \n\nThese agents integrate with multiple tools. \n\nStreamlining operations like never before. \n\nLet that sink in.",
+    "This is a game-changer for AI-driven workplaces. \n\nExpect more tools like this soon. \n\nOpenAI is setting the pace.",
+    "Full breakdown → https://ainformed.dev/articles/2026-04-25-openai-unveils-workspace-agents-for-chatgpt"
+  ],
+  "standaloneTweet": "OpenAI's new Workspace Agents for ChatGPT automate complex workflows. Teams just got a serious productivity boost. 🚀"
+}

@@ -1,0 +1,28 @@
+{
+  "slug": "2026-04-25-target-based-prompting-aims-to-fix-demographic-bias-in-text-to-image-models",
+  "title": "Target-Based Prompting Aims to Fix Demographic Bias in Text-to-Image Models",
+  "summary": "Researchers propose a lightweight method to improve demographic representation in generative AI. The technique targets biases in professional depictions without requiring model retraining.",
+  "body": "A new paper from arXiv introduces target-based prompting to address demographic biases in text-to-image models. The study highlights how models like Stable Diffusion and DALL-E often generate lighter-skinned outputs for high-status roles (e.g., 'doctor' or 'CEO') while depicting more diversity for lower-status jobs (e.g., 'janitor'). This reinforces harmful stereotypes. Current solutions typically require extensive retraining or curated datasets, which are impractical for most users.\n\nThe proposed method allows users to specify target demographics directly in prompts, enabling fairer representations without model modifications. This approach could democratize access to bias mitigation tools. The researchers emphasize the need for lightweight, user-friendly solutions to make generative AI more inclusive.\n\nThe paper's findings come as AI ethics and fairness remain hot topics in the industry. While target-based prompting shows promise, its real-world effectiveness will depend on adoption by major platforms. Future research could explore how this method interacts with other bias-mitigation techniques.",
+  "sourceUrl": "https://arxiv.org/abs/2604.21036",
+  "sourceName": "ArXiv cs.AI",
+  "category": "research",
+  "tags": [
+    "ai-bias",
+    "text-to-image",
+    "demographics",
+    "fairness",
+    "generative-ai",
+    "arxiv"
+  ],
+  "publishedAt": "2026-04-25T16:02:01.534436+00:00",
+  "imageUrl": "/images/articles/2026-04-25-target-based-prompting-aims-to-fix-demographic-bias-in-text-to-image-models.jpg",
+  "twitterThread": [
+    "🚨 New research tackles demographic bias in AI-generated images. Here's why this matters:\n\nText-to-image models often default to lighter-skinned outputs for high-status jobs. The wild part? Lower-status roles show more diversity. This reinforces stereotypes.",
+    "Current fixes require retraining models. That's expensive and out of reach for most users.\n\nThis paper proposes a lightweight solution: target-based prompting. Users can specify demographics directly in prompts.",
+    "Let that sink in. No model retraining. No curated datasets. Just a smarter way to prompt.\n\nThis changes everything for making generative AI more inclusive.",
+    "The paper highlights how 'doctor' prompts often generate lighter-skinned outputs while 'janitor' shows more diversity. Target-based prompting could balance this.",
+    "Hot take: If major platforms adopt this, we could see a seismic shift in AI fairness. But will they prioritize inclusivity over engagement metrics?",
+    "Full breakdown → https://ainformed.dev/articles/2026-04-25-target-based-prompting-aims-to-fix-demographic-bias-in-text-to-image-models"
+  ],
+  "standaloneTweet": "New research reveals how text-to-image AI models reinforce stereotypes by defaulting to lighter-skinned outputs for high-status jobs. Target-based prompting could fix this."
+}

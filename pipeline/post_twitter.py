@@ -287,40 +287,13 @@ def main():
     if DRY_RUN:
         print("[DRY RUN MODE]")
 
+    # Cap at 3 tweets per run to minimise pay-per-use API costs
+    thread_tweets = thread_tweets[:3]
+
     ids = post_thread(thread_tweets, first_media_id=top_media_id)
     print(f"\nThread posted: {len(ids)} tweets")
     if ids and not DRY_RUN:
         tweeted_slugs.add(top["slug"])
-
-    # Post a standalone tweet for each remaining article
-    for art in articles[1:5]:  # top 5 articles max
-        tweet = art.get("standaloneTweet", "").strip()
-        # Fallback if no standalone tweet was generated
-        if not tweet:
-            tweet = f"📰 {art['title']}\n\nhttps://ainformed.dev/articles/{art['slug']}"
-        else:
-            # Fix LLM-generated URL to use the actual slug (includes date prefix)
-            correct_url = f"https://ainformed.dev/articles/{art['slug']}"
-            tweet = re.sub(r"https?://ainformed\.dev/articles/[\w.-]+", correct_url, tweet)
-        if len(tweet) > 280:
-            tweet = tweet[:277] + "…"
-
-        # Upload image for this article
-        art_media_id = None
-        art_image_path = get_article_image_path(art)
-        if art_image_path and not DRY_RUN:
-            art_media_id = upload_media(art_image_path)
-
-        print(f"\nPosting: {art['title'][:60]}...")
-        if DRY_RUN:
-            print("  [DRY RUN] Would post tweet")
-        else:
-            tweet_id = post_tweet(tweet, media_id=art_media_id)
-            if tweet_id:
-                print(f"  → Posted: {tweet_id}")
-                tweeted_slugs.add(art["slug"])
-            print(f"  Waiting {TWEET_INTERVAL}s before next tweet...")
-            time.sleep(TWEET_INTERVAL)
 
     # Persist which articles we've tweeted
     if not DRY_RUN:

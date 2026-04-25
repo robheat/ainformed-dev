@@ -43,13 +43,13 @@ Requirements:
     names, comparisons. Use phrases like "Here's why this matters:", "The wild part:",
     "Let that sink in.", "This changes everything for..."
   Tweet 5: A hot take or forward-looking angle — what this means for the industry.
-  Final tweet: "Full breakdown → https://ainformed.dev" (not the article slug, just the site)
+  Final tweet ONLY: "Full breakdown → https://ainformed.dev" (not the article slug, just the site)
+  IMPORTANT: tweets 1 through N-1 must contain NO URLs or links whatsoever. Only the final tweet may have a link.
   Do NOT use hashtags. Do NOT be generic. Every tweet should make someone want to read the next.
 
 - standaloneTweet: A single catchy tweet (≤280 chars) that could go viral on its own.
   Lead with the most interesting angle, not just the headline. Include a take or hook.
-  End with the article URL: https://ainformed.dev/articles/{slug}
-  where {slug} is the URL-safe version of the title.
+  Do NOT include any URLs or links.
   No hashtags.
 
 Write factually. Do not hallucinate details not present in the input.

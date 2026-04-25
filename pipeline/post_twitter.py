@@ -290,6 +290,13 @@ def main():
     # Cap at 3 tweets per run to minimise pay-per-use API costs
     thread_tweets = thread_tweets[:3]
 
+    # Strip https:// links from all tweets except the last — X charges $0.20/post with a link
+    def _strip_links(text: str) -> str:
+        return re.sub(r"https?://\S+", "", text).strip()
+
+    if len(thread_tweets) > 1:
+        thread_tweets = [_strip_links(t) for t in thread_tweets[:-1]] + [thread_tweets[-1]]
+
     ids = post_thread(thread_tweets, first_media_id=top_media_id)
     print(f"\nThread posted: {len(ids)} tweets")
     if ids and not DRY_RUN:

@@ -1,0 +1,27 @@
+{
+  "slug": "2026-04-25-big-techs-race-to-quantum-resistant-encryption-heats-up",
+  "title": "Big Tech's Race to Quantum-Resistant Encryption Heats Up",
+  "summary": "Major tech companies are accelerating their adoption of post-quantum cryptography, but progress remains uneven. This shift is crucial to protect against future quantum computing threats. \n\n",
+  "body": "Several Big Tech firms have made significant strides in transitioning to post-quantum cryptography (PQC), essential for protecting data from future quantum computer threats. Companies like Google, Microsoft, and IBM have announced plans to implement PQC algorithms across their platforms by 2028. This follows NIST's standardization of PQC algorithms in 2024, marking a critical milestone in cybersecurity. \n\nThe uneven adoption rates highlight the challenges in this transition. While some companies are aggressively updating their encryption protocols, others are moving more cautiously, citing concerns over performance and compatibility. This disparity could leave some systems vulnerable if quantum computers capable of breaking current encryption emerge sooner than expected. \n\nThe next few years will be pivotal as more companies adopt PQC. The tech industry faces a delicate balance between security and functionality, with the looming threat of quantum computing pushing for faster, more widespread adoption. The outcome will shape the future of data security for decades to come.",
+  "sourceUrl": "https://arstechnica.com/security/2026/04/while-some-big-tech-players-accelerate-pqc-readiness-others-stay-the-course/",
+  "sourceName": "Ars Technica AI",
+  "category": "industry",
+  "tags": [
+    "quantum",
+    "encryption",
+    "cybersecurity",
+    "big-tech",
+    "post-quantum"
+  ],
+  "publishedAt": "2026-04-25T21:02:45.968687+00:00",
+  "imageUrl": "/images/articles/2026-04-25-big-techs-race-to-quantum-resistant-encryption-heats-up.jpg",
+  "twitterThread": [
+    "🚨 Big Tech is in a race against time to go quantum-proof.\n\nHere's who's leading—and who's falling behind.",
+    "Google, Microsoft, and IBM are accelerating their transition to post-quantum cryptography (PQC).\n\nTheir goal? Full rollout by 2028.",
+    "Here's why this matters:\n\nQuantum computers could crack today's encryption. PQC is the only defense.\n\nThe wild part? Some companies are moving at a snail's pace.",
+    "The gap in adoption could leave critical systems exposed.\n\nIf quantum computers arrive sooner than expected, the fallout could be catastrophic.\n\nLet that sink in.",
+    "This changes everything for cybersecurity.\n\nThe next few years will determine whether we're ready—or left vulnerable.",
+    "Full breakdown → https://ainformed.dev/articles/2026-04-25-big-techs-race-to-quantum-resistant-encryption-heats-up"
+  ],
+  "standaloneTweet": "Big Tech is racing to adopt post-quantum encryption—but not everyone is moving fast enough. Here's the breakdown."
+}

@@ -1,0 +1,28 @@
+{
+  "slug": "2026-04-25-gemma-4-vla-demo-on-jetson-orin-nano-super",
+  "title": "Gemma 4 VLA Demo on Jetson Orin Nano Super",
+  "summary": "NVIDIA showcases Gemma 4's Variable-Length Attention (VLA) running on the Jetson Orin Nano Super. This highlights the model's efficiency and flexibility in edge computing applications.",
+  "body": "NVIDIA has released a demonstration of Gemma 4's Variable-Length Attention (VLA) running on the Jetson Orin Nano Super. This showcases the model's ability to handle complex attention mechanisms efficiently on edge devices. The demo highlights the potential for running advanced AI models in resource-constrained environments.\n\nThe demonstration is significant because it underscores the practical applications of VLA in edge computing. By running Gemma 4 on the Jetson Orin Nano Super, NVIDIA shows that high-performance AI can be deployed in devices with limited computational power. This could revolutionize industries like robotics, autonomous vehicles, and IoT, where real-time processing is crucial.\n\nThe next steps involve further optimizing Gemma 4 for various edge devices and exploring its applications in different industries. The demo has sparked interest in the AI community, with many developers eager to experiment with VLA on their own projects. The future outlook looks promising, with potential advancements in AI deployment on edge devices.",
+  "sourceUrl": "https://huggingface.co/blog/nvidia/gemma4",
+  "sourceName": "Hugging Face Blog",
+  "category": "open-source",
+  "tags": [
+    "nvidia",
+    "gemma4",
+    "vla",
+    "edge-computing",
+    "jetson",
+    "ai-models"
+  ],
+  "publishedAt": "2026-04-25T21:02:16.649889+00:00",
+  "imageUrl": "/images/articles/2026-04-25-gemma-4-vla-demo-on-jetson-orin-nano-super.jpg",
+  "twitterThread": [
+    "🚀 NVIDIA just dropped a game-changer: Gemma 4's Variable-Length Attention running on Jetson Orin Nano Super.\n\nEdge AI just got a massive upgrade.",
+    "Here's why this matters: VLA allows for efficient attention mechanisms in resource-constrained environments.\n\nThis is a BIG deal for robotics, IoT, and autonomous vehicles.",
+    "The wild part? Gemma 4 can now run advanced AI models on devices with limited computational power.\n\nLet that sink in.",
+    "This changes everything for industries relying on real-time processing.\n\nThe future of edge computing just got brighter.",
+    "Hot take: We're about to see a wave of AI innovations in edge devices.\n\nBuckle up!",
+    "Full breakdown → https://ainformed.dev/articles/2026-04-25-gemma-4-vla-demo-on-jetson-orin-nano-super"
+  ],
+  "standaloneTweet": "NVIDIA's Gemma 4 VLA demo on Jetson Orin Nano Super is a game-changer for edge AI. Real-time processing just got a massive upgrade!"
+}

@@ -1,0 +1,28 @@
+{
+  "slug": "2026-04-25-first-ransomware-family-confirmed-quantum-safe-raising-security-concerns",
+  "title": "First Ransomware Family Confirmed Quantum-Safe, Raising Security Concerns",
+  "summary": "A ransomware family has adopted post-quantum cryptography (PQC), making it the first to be quantum-safe. The move, though currently impractical, signals a concerning trend in cybersecurity.",
+  "body": "A recent analysis by cybersecurity researchers has confirmed that a specific ransomware family has integrated post-quantum cryptography (PQC) into its operations. This marks the first instance of ransomware adopting quantum-resistant encryption, a development that has caught the attention of security experts worldwide. The ransomware, identified as part of the increasingly sophisticated LockBit 5.0 strain, uses PQC algorithms to secure its communications and data exfiltration processes.\n\nWhile the practical benefits of PQC in current ransomware operations are minimal—given that quantum computers capable of breaking traditional encryption do not yet exist—the adoption of PQC by cybercriminals is a significant milestone. It suggests that threat actors are preparing for a future where quantum computing could render traditional encryption obsolete. This proactive approach by ransomware developers underscores the need for organizations to start transitioning to quantum-safe cryptographic standards sooner rather than later.\n\nThe implications of this development are far-reaching. On one hand, it serves as a wake-up call for cybersecurity firms and governments to accelerate their efforts in deploying PQC. On the other hand, it raises questions about the motivations behind this early adoption. Are cybercriminals merely future-proofing their operations, or is there a more immediate tactical advantage to using PQC that has yet to be understood? As quantum computing technology advances, the race to secure digital infrastructures against both classical and quantum threats will intensify.",
+  "sourceUrl": "https://arstechnica.com/security/2026/04/now-even-ransomware-is-using-post-quantum-cryptography/",
+  "sourceName": "Ars Technica AI",
+  "category": "industry",
+  "tags": [
+    "ransomware",
+    "quantum-safe",
+    "cybersecurity",
+    "post-quantum",
+    "encryption",
+    "lockbit"
+  ],
+  "publishedAt": "2026-04-25T21:02:34.444775+00:00",
+  "imageUrl": "/images/articles/2026-04-25-first-ransomware-family-confirmed-quantum-safe-raising-security-concerns.jpg",
+  "twitterThread": [
+    "🚨 Ransomware just got quantum-safe. Yes, you read that right.\n\nA LockBit variant is now using post-quantum cryptography. Here's why this matters:\n\n1. It's the first time ransomware has adopted PQC.\n2. Quantum computers aren't here yet. But cybercriminals are future-proofing.\n3. This changes everything for cybersecurity.",
+    "The wild part? There's no practical benefit today. Quantum computers capable of breaking traditional encryption don't exist yet. So why use PQC?\n\nIt's a signal. A warning. A sign that the future of cybercrime is already being planned.",
+    "Let that sink in. Ransomware developers are preparing for a post-quantum world. Meanwhile, many organizations are still using outdated encryption methods. The gap is widening.",
+    "This isn't just about ransomware. It's a wake-up call for governments and cybersecurity firms. The race to quantum-safe encryption just got real. Are we ready?",
+    "Hot take: This is the beginning of a new era in cybersecurity. The arms race between threat actors and defenders just leveled up. Quantum-safe everything, or get left behind.",
+    "Full breakdown → https://ainformed.dev/articles/2026-04-25-first-ransomware-family-confirmed-quantum-safe-raising-security-concerns"
+  ],
+  "standaloneTweet": "Ransomware just adopted quantum-safe encryption. The future of cybercrime is here. Are we ready? #Cybersecurity #Quantum #Ransomware"
+}

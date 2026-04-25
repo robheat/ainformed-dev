@@ -1,0 +1,27 @@
+{
+  "slug": "2026-04-25-compass-ai-system-automates-prompt-engineering-for-task-plan-explanations",
+  "title": "COMPASS: AI System Automates Prompt Engineering for Task Plan Explanations",
+  "summary": "Researchers introduce COMPASS, a system that automates prompt engineering for generating human-understandable explanations of AI task planning. The tool addresses the critical need for reliable, stakeholder-specific explanations in complex software systems.",
+  "body": "Researchers have developed COMPASS, a novel system designed to automate the generation of high-quality prompts for explaining AI-driven task planning. The system integrates Large Language Models (LLMs) to create human-understandable explanations, addressing the challenge of making opaque AI processes transparent. COMPASS aims to bridge the gap between technical AI outputs and user comprehension by systematically refining prompts tailored to diverse stakeholder groups.\n\nThe quality of AI-generated explanations heavily depends on effective prompt engineering, a process that has historically been manual and inconsistent. COMPASS represents a significant advancement by automating this process, ensuring that explanations are both reliable and tailored to the needs of different users. This development is crucial for integrating AI into complex software systems where clarity and trust are paramount. The tool's ability to adapt prompts to various stakeholder groups could revolutionize how AI systems communicate their decision-making processes.\n\nLooking ahead, COMPASS could set a new standard for AI explainability tools. The system's proof-of-concept status suggests that further refinement and testing are needed to validate its effectiveness across different applications. As AI continues to permeate various industries, tools like COMPASS will be essential in ensuring that AI systems are not only powerful but also transparent and understandable to end-users. The research highlights the importance of cognitive modeling in developing AI tools that can adapt to the diverse needs of their users.",
+  "sourceUrl": "https://arxiv.org/abs/2604.21092",
+  "sourceName": "ArXiv cs.AI",
+  "category": "research",
+  "tags": [
+    "ai-explainability",
+    "prompt-engineering",
+    "large-language-models",
+    "cognitive-modeling",
+    "task-planning",
+    "automation"
+  ],
+  "publishedAt": "2026-04-25T21:01:38.722237+00:00",
+  "imageUrl": "/images/articles/2026-04-25-compass-ai-system-automates-prompt-engineering-for-task-plan-explanations.jpg",
+  "twitterThread": [
+    "🚀 Big news in AI explainability! Meet COMPASS: a system that automates prompt engineering for task plan explanations.\n\nHere's why this matters:",
+    "COMPASS uses LLMs to generate human-understandable explanations of AI processes. The wild part? It tailors prompts to different stakeholder groups.\n\nThis changes everything for...",
+    "...complex software systems where AI transparency is critical. No more manual, inconsistent prompt engineering.\n\nLet that sink in.",
+    "The research highlights a critical gap: we need tools that can automate prompt refinement. COMPASS steps up to the plate.\n\nWhat's next?",
+    "COMPASS is still in proof-of-concept. But if it scales, it could set a new standard for AI explainability.\n\nFull breakdown → https://ainformed.dev/articles/2026-04-25-compass-ai-system-automates-prompt-engineering-for-task-plan-explanations"
+  ],
+  "standaloneTweet": "COMPASS automates prompt engineering for AI task plan explanations. A game-changer for making AI transparent and understandable to all users. 🚀"
+}

@@ -1,0 +1,28 @@
+{
+  "slug": "2026-04-26-hacker-news-ai-tool-aims-to-detect-scammers-and-influence-tactics",
+  "title": "Hacker News: AI Tool Aims to Detect Scammers and Influence Tactics",
+  "summary": "A developer has created an AI tool to identify scammers and manipulation patterns, likening it to an antivirus for human cognition. The project aims to evolve into an ecosystem to combat PSYOPS and election manipulation.",
+  "body": "A developer has launched an AI tool designed to detect scammers and influence tactics, drawing comparisons to antivirus software for human cognition. The tool is currently a proof of concept but aims to evolve into a comprehensive ecosystem. The goal is to give people more control over their awareness and protect them from social engineering and manipulation.\n\nThis initiative comes at a critical time as marketing companies and bad actors increasingly leverage advanced techniques, including large language models (LLMs), to influence public opinion. The tool could potentially level the playing field, providing individuals with the means to identify and resist manipulative content. The project's vision aligns with growing concerns about the ethical use of AI in influencing behavior.\n\nThe developer plans to expand the tool's capabilities to detect PSYOPS and election manipulation, areas where AI-driven influence campaigns are becoming more sophisticated. While the current version is a basic MVP, the long-term vision includes a robust ecosystem that empowers users with greater awareness and control. The success of this project could inspire similar tools, fostering a more informed and resilient public.",
+  "sourceUrl": "https://www.falsoai.com/",
+  "sourceName": "Hacker News AI",
+  "category": "general",
+  "tags": [
+    "ai-tools",
+    "scam-detection",
+    "social-engineering",
+    "influence",
+    "psyops",
+    "election-manipulation"
+  ],
+  "publishedAt": "2026-04-26T21:02:46.520098+00:00",
+  "imageUrl": "/images/articles/2026-04-26-hacker-news-ai-tool-aims-to-detect-scammers-and-influence-tactics.jpg",
+  "twitterThread": [
+    "🚨 A new AI tool is fighting back against scammers and manipulators. Here's how it works.\n\nAn 'antivirus for human cognition'? 🧠",
+    "Developed as an MVP, this tool detects influence patterns and scams. Think of it as a shield against social engineering.\n\nThe wild part? It's just the beginning.",
+    "Marketing companies and bad actors are getting better at manipulation. This AI aims to even the playing field.\n\nHere's why this matters:",
+    "With LLMs making influence campaigns more sophisticated, tools like this could be a game-changer.\n\nThe developer's vision? A full ecosystem to detect PSYOPS and election manipulation.",
+    "This is a big deal. As AI-driven influence grows, we need tools to fight back.\n\nThis changes everything for digital literacy and awareness.",
+    "Full breakdown → https://ainformed.dev/articles/2026-04-26-hacker-news-ai-tool-aims-to-detect-scammers-and-influence-tactics"
+  ],
+  "standaloneTweet": "Imagine an AI that acts like an antivirus for your mind, detecting scams and manipulation. This developer is building it. 🧠🔒"
+}

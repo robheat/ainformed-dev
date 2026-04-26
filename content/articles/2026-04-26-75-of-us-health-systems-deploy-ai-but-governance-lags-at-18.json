@@ -1,0 +1,28 @@
+{
+  "slug": "2026-04-26-75-of-us-health-systems-deploy-ai-but-governance-lags-at-18",
+  "title": "75% of US Health Systems Deploy AI, but Governance Lags at 18%",
+  "summary": "A new report reveals that three-quarters of US health systems have adopted AI, but only 18% have implemented governance frameworks. This highlights a critical gap in oversight and accountability.",
+  "body": "A recent study has found that 75% of US health systems are now using AI technologies, reflecting a significant adoption rate across the healthcare sector. The report, published by Wednesday.is, underscores the rapid integration of AI in medical diagnostics, treatment planning, and administrative processes.\n\nDespite the widespread adoption, only 18% of these deployments are governed by formal frameworks. This disparity raises serious concerns about data privacy, ethical considerations, and the potential for biases in AI-driven healthcare decisions. The lack of governance could lead to unintended consequences, including misdiagnoses or breaches of patient confidentiality.\n\nThe healthcare industry must prioritize the development of robust governance structures to ensure responsible AI use. As AI continues to evolve, regulatory bodies and healthcare providers need to collaborate on establishing clear guidelines. The future will likely see increased scrutiny and potential legislation to address these gaps, ensuring that AI in healthcare is both effective and ethical.",
+  "sourceUrl": "https://mobile.wednesday.is/the-enterprise-mobile-ai-report-2026",
+  "sourceName": "Hacker News AI",
+  "category": "general",
+  "tags": [
+    "ai-adoption",
+    "healthcare",
+    "governance",
+    "ethics",
+    "data-privacy",
+    "regulation"
+  ],
+  "publishedAt": "2026-04-26T11:02:17.987702+00:00",
+  "imageUrl": "/images/articles/2026-04-26-75-of-us-health-systems-deploy-ai-but-governance-lags-at-18.jpg",
+  "twitterThread": [
+    "🚨 75% of US health systems use AI. Only 18% have governance. That's a disaster waiting to happen.\n\nHere's why this matters:",
+    "AI in healthcare is booming. Diagnostics, treatment plans, admin tasks—all powered by AI. But without oversight, we're playing with fire.",
+    "The wild part? Only 18% of these deployments have governance frameworks. That means 82% are flying blind. Data privacy? Ethical concerns? Good luck.",
+    "Let that sink in. We're trusting AI with lives, but we're not ensuring it's accountable. This changes everything for patient safety and trust.",
+    "The healthcare industry needs to wake up. Governance can't be an afterthought. It's time for clear guidelines and regulations.",
+    "Full breakdown → https://ainformed.dev/articles/2026-04-26-75-of-us-health-systems-deploy-ai-but-governance-lags-at-18"
+  ],
+  "standaloneTweet": "75% of US health systems use AI, but only 18% have governance. That's a ticking time bomb for patient safety and data privacy. #AI #Healthcare"
+}

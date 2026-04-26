@@ -1,0 +1,27 @@
+{
+  "slug": "2026-04-26-openai-introduces-automations-for-codex-schedule-and-trigger-workflows",
+  "title": "OpenAI Introduces Automations for Codex: Schedule and Trigger Workflows",
+  "summary": "OpenAI's new automations feature for Codex allows users to create scheduled and triggered workflows for reports, summaries, and recurring tasks. This reduces manual effort and streamlines repetitive processes.",
+  "body": "OpenAI has launched a new automations feature for Codex, enabling users to automate repetitive tasks through schedules and triggers. This update allows for the creation of reports, summaries, and recurring workflows without manual intervention, significantly enhancing productivity.\n\nThe new automations feature is designed to streamline workflows by automating tasks that would otherwise require constant manual input. Users can set up schedules for regular tasks or triggers based on specific events, making it easier to manage complex processes. This is particularly useful for businesses and individuals who rely on consistent, timely outputs.\n\nThe introduction of automations for Codex is part of OpenAI's ongoing effort to make advanced AI tools more accessible and efficient. This feature is expected to be widely adopted, especially in industries where repetitive tasks are common. The future outlook for this feature includes potential integrations with other tools and platforms, further expanding its utility. However, the long-term impact will depend on user adoption and the ability to handle more complex workflows.",
+  "sourceUrl": "https://openai.com/academy/codex-automations",
+  "sourceName": "OpenAI Blog",
+  "category": "models",
+  "tags": [
+    "automation",
+    "codex",
+    "workflows",
+    "ai-tools",
+    "productivity"
+  ],
+  "publishedAt": "2026-04-26T16:01:53.169852+00:00",
+  "imageUrl": "/images/articles/2026-04-26-openai-introduces-automations-for-codex-schedule-and-trigger-workflows.jpg",
+  "twitterThread": [
+    "🚀 OpenAI just dropped a game-changer: Automations for Codex. \n\nSchedule. Trigger. Automate. \n\nNo more manual grunt work. \n\nLet that sink in.",
+    "Here's what you can do: \n\n- Set up recurring reports \n- Automate summaries \n- Trigger workflows on events \n\nAll hands-free.",
+    "The wild part? \n\nThis isn't just for devs. \n\nBusinesses, researchers, creatives—anyone can use it. \n\nThis changes everything for productivity.",
+    "Why this matters: \n\nRepetitive tasks eat up time. \n\nNow? Codex handles them. \n\nYou focus on the big stuff.",
+    "Hot take: \n\nThis is the start. \n\nExpect integrations with other tools soon. \n\nCodex just got a whole lot smarter.",
+    "Full breakdown → https://ainformed.dev/articles/2026-04-26-openai-introduces-automations-for-codex-schedule-and-trigger-workflows"
+  ],
+  "standaloneTweet": "OpenAI's new automations for Codex are a productivity game-changer. Schedule reports, trigger workflows, and say goodbye to manual grunt work. 🚀"
+}

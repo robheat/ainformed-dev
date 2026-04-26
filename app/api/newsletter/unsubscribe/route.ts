@@ -1,12 +1,11 @@
 import { NextRequest, NextResponse } from "next/server";
-import { getResend, getAudienceId } from "@/lib/resend";
+import { getResend } from "@/lib/resend";
 
 export async function GET(request: NextRequest) {
   const { searchParams } = new URL(request.url);
   const id = searchParams.get("id") ?? "";
-  const audienceId = getAudienceId();
 
-  if (!id || !audienceId) {
+  if (!id) {
     return new NextResponse(unsubPage("Invalid unsubscribe link."), {
       status: 400,
       headers: { "Content-Type": "text/html" },
@@ -17,7 +16,6 @@ export async function GET(request: NextRequest) {
     const resend = getResend();
     await resend.contacts.update({
       id,
-      audienceId,
       unsubscribed: true,
     });
 

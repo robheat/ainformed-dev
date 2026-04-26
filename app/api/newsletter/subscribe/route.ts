@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
-import { getResend, getAudienceId } from "@/lib/resend";
+import { getResend } from "@/lib/resend";
 
 export async function POST(request: NextRequest) {
   try {
@@ -13,19 +13,9 @@ export async function POST(request: NextRequest) {
       );
     }
 
-    const audienceId = getAudienceId();
-    if (!audienceId) {
-      console.error("RESEND_AUDIENCE_ID not configured");
-      return NextResponse.json(
-        { error: "Newsletter is not configured yet. Please try again later." },
-        { status: 503 }
-      );
-    }
-
     const resend = getResend();
     await resend.contacts.create({
       email,
-      audienceId,
       unsubscribed: false,
     });
 

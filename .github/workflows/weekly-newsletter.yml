@@ -29,6 +29,5 @@ jobs:
         working-directory: pipeline
         env:
           RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
-          RESEND_AUDIENCE_ID: ${{ secrets.RESEND_AUDIENCE_ID }}
           NEWSLETTER_SECRET: ${{ secrets.NEWSLETTER_SECRET }}
         run: python send_newsletter.py

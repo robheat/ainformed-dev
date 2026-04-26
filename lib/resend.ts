@@ -11,6 +11,4 @@ export function getResend(): Resend {
   return _resend;
 }
 
-export function getAudienceId(): string {
-  return process.env.RESEND_AUDIENCE_ID ?? "";
-}
+

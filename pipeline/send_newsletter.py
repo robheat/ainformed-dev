@@ -16,7 +16,6 @@ import urllib.request
 import urllib.error
 
 RESEND_API_KEY = os.environ["RESEND_API_KEY"]
-RESEND_AUDIENCE_ID = os.environ["RESEND_AUDIENCE_ID"]
 NEWSLETTER_SECRET = os.environ["NEWSLETTER_SECRET"]
 SITE_URL = os.environ.get("SITE_URL", "https://ainformed.dev")
 FROM_EMAIL = "AInformed <digest@ainformed.dev>"
@@ -33,8 +32,8 @@ def fetch_digest() -> dict:
 
 
 def get_contacts() -> list[dict]:
-    """List all non-unsubscribed contacts from the Resend audience."""
-    url = f"https://api.resend.com/audiences/{RESEND_AUDIENCE_ID}/contacts"
+    """List all non-unsubscribed contacts."""
+    url = "https://api.resend.com/contacts"
     req = urllib.request.Request(url, headers={
         "Authorization": f"Bearer {RESEND_API_KEY}",
         "Content-Type": "application/json",

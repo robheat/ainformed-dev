@@ -1,0 +1,26 @@
+{
+  "slug": "2026-04-27-ai-agents-reproduce-social-science-studies-from-papers-alone",
+  "title": "AI Agents Reproduce Social Science Studies from Papers Alone",
+  "summary": "Researchers developed an AI system that can reproduce social science findings using only paper descriptions and raw data. The method achieves deterministic, cell-level result comparisons without access to original code or outputs.",
+  "body": "A new study from arXiv demonstrates that large language model (LLM) agents can reproduce empirical social science results using only the methods described in research papers and the original datasets. The system extracts structured methods descriptions from papers and runs reimplementations under strict information isolation, ensuring agents never see the original code, results, or paper itself. This approach enables deterministic, cell-level comparison of reproduced outputs to the original results.\n\nThis breakthrough addresses a major challenge in scientific reproducibility. Traditional reproduction efforts often require access to original code and outputs, which are frequently unavailable. By relying solely on paper descriptions, this method could significantly improve the transparency and reliability of social science research. The study suggests that AI agents may soon play a crucial role in validating scientific findings across disciplines.\n\nThe researchers plan to expand this approach to other scientific fields, including biology and economics. Key questions remain about the system's ability to handle more complex studies and its potential biases. If successful, this method could revolutionize how scientific research is verified and built upon in the future.",
+  "sourceUrl": "https://arxiv.org/abs/2604.21965",
+  "sourceName": "ArXiv cs.AI",
+  "category": "research",
+  "tags": [
+    "ai-agents",
+    "reproducibility",
+    "social-science",
+    "llm",
+    "research-methods",
+    "data-science"
+  ],
+  "publishedAt": "2026-04-27T16:02:40.283419+00:00",
+  "imageUrl": "/images/articles/2026-04-27-ai-agents-reproduce-social-science-studies-from-papers-alone.jpg",
+  "twitterThread": [
+    "🚀 AI agents can now reproduce social science studies from just the paper and raw data. No original code. No outputs. Just the methods. \n\nThis is a BIG deal. Here's why:\n\n1. Scientists often can't reproduce studies because they lack the original code or data.\n\n2. This method changes that. It extracts methods from papers and runs reimplementations in isolation.\n\n3. The results? Deterministic, cell-level comparisons to the original findings.\n\nLet that sink in.",
+    "The wild part? The agents never see the original code, results, or even the full paper. They work from structured methods descriptions alone.\n\nThis could revolutionize scientific reproducibility.\n\nImagine verifying decades of research with just the papers and datasets.\n\nGame changer.",
+    "But here's the catch: Can this scale to more complex studies? What about biases in the reproduction process?\n\nThe researchers are expanding to biology and economics next.\n\nIf this works, we're looking at a seismic shift in how science is validated.\n\nBuckle up.",
+    "Hot take: This isn't just about reproducibility. It's about democratizing science.\n\nAnyone with the paper and data can now verify the results. No more gatekeeping.\n\nThis changes everything for open science.\n\nFull breakdown → https://ainformed.dev/articles/2026-04-27-ai-agents-reproduce-social-science-studies-from-papers-alone"
+  ],
+  "standaloneTweet": "AI agents can now reproduce social science studies from just the paper and raw data. No original code. No outputs. Just the methods. This is a game-changer for scientific reproducibility."
+}

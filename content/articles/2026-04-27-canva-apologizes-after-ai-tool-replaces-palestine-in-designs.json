@@ -1,0 +1,26 @@
+{
+  "slug": "2026-04-27-canva-apologizes-after-ai-tool-replaces-palestine-in-designs",
+  "title": "Canva apologizes after AI tool replaces 'Palestine' in designs",
+  "summary": "Canva's AI tool Magic Layers has been automatically replacing 'Palestine' with 'Palestinian territories' in user designs. The company has apologized and is working to fix the issue.",
+  "body": "Canva's AI design tool, Magic Layers, has been automatically replacing the word 'Palestine' with 'Palestinian territories' in user-generated designs. The issue came to light after users reported the unexpected changes, leading to criticism and backlash. Canva has since issued an apology and stated that they are working to resolve the problem.\n\nThe incident highlights the challenges of AI tools interpreting and altering content without user consent. Similar issues have been seen in other AI systems, where automated edits can lead to unintended consequences. This case is particularly sensitive due to the political implications of the term 'Palestine' versus 'Palestinian territories'.\n\nCanva has promised to address the issue promptly and ensure that future updates to Magic Layers respect user input. The company's response will be closely watched, as it navigates the delicate balance between AI automation and user control. The broader implications for AI tools in creative industries remain a topic of ongoing debate.",
+  "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/919028/canva-magic-layers-ai-replacing-palestine",
+  "sourceName": "Hacker News AI",
+  "category": "general",
+  "tags": [
+    "ai-tools",
+    "canva",
+    "content-modification",
+    "politics"
+  ],
+  "publishedAt": "2026-04-27T16:01:59.565459+00:00",
+  "imageUrl": "/images/articles/2026-04-27-canva-apologizes-after-ai-tool-replaces-palestine-in-designs.jpg",
+  "twitterThread": [
+    "🚨 Canva's AI is auto-replacing 'Palestine' with 'Palestinian territories'. Oops.\n\nThe backlash is real.",
+    "Here's why this matters: AI tools are making editorial decisions without user consent. This isn't just a bug—it's a policy.",
+    "The wild part? Canva apologized. But how do they fix this? AI trained on biased data will keep making biased edits.",
+    "Let that sink in. AI is rewriting history, geography, and politics. Who gets to decide what's 'correct'?",
+    "This changes everything for AI in creative tools. Users want control, not surprises.",
+    "Full breakdown → https://ainformed.dev/articles/2026-04-27-canva-apologizes-after-ai-tool-replaces-palestine-in-designs"
+  ],
+  "standaloneTweet": "Canva's AI is auto-editing 'Palestine' to 'Palestinian territories'. Who gets to decide what's 'correct'? This is a can of worms."
+}

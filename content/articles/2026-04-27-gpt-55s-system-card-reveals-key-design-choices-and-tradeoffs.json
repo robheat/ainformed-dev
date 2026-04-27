@@ -1,0 +1,27 @@
+{
+  "slug": "2026-04-27-gpt-55s-system-card-reveals-key-design-choices-and-tradeoffs",
+  "title": "GPT 5.5's System Card Reveals Key Design Choices and Tradeoffs",
+  "summary": "OpenAI's GPT 5.5 system card details its capabilities, limitations, and ethical considerations. The document highlights improvements in reasoning and multimodality while acknowledging persistent challenges.",
+  "body": "OpenAI has released the system card for GPT 5.5, providing a detailed look at the model's architecture, performance, and ethical guidelines. The document outlines significant advancements in reasoning, multimodal understanding, and context retention, positioning GPT 5.5 as a major leap forward in AI capabilities. It also addresses known limitations, such as occasional factual inaccuracies and sensitivity to input phrasing.\n\nThe system card is notable for its transparency, offering insights into the tradeoffs OpenAI made during development. For instance, it explains how the model balances creativity with factual accuracy, and how safety measures impact performance. Comparisons with previous versions highlight improvements in handling complex queries and generating coherent long-form content, though some edge cases remain problematic.\n\nReactions to the system card have been mixed, with some praising OpenAI's transparency and others questioning the extent of the model's improvements. The document has sparked discussions about the ethical implications of AI deployment, particularly regarding bias and misuse. Moving forward, OpenAI is expected to refine GPT 5.5 based on feedback, with a focus on addressing persistent limitations and enhancing safety protocols.",
+  "sourceUrl": "https://thezvi.substack.com/p/gpt-55-the-system-card",
+  "sourceName": "Hacker News AI",
+  "category": "general",
+  "tags": [
+    "gpt-5.5",
+    "openai",
+    "ai-transparency",
+    "system-card",
+    "ai-ethics"
+  ],
+  "publishedAt": "2026-04-27T16:02:52.135757+00:00",
+  "imageUrl": "/images/articles/2026-04-27-gpt-55s-system-card-reveals-key-design-choices-and-tradeoffs.jpg",
+  "twitterThread": [
+    "🚀 OpenAI just dropped the GPT 5.5 system card. Here's what you need to know.\n\nThe model's improvements are impressive... but there are tradeoffs.\n\nLet's break it down.",
+    "GPT 5.5's biggest upgrade? Multimodal reasoning. It can now process and generate text, images, and audio in a single workflow.\n\nThe wild part: It retains context across all modalities. That's a game-changer.",
+    "But here's the catch: Safety measures sometimes limit creativity. OpenAI had to balance factual accuracy with imaginative responses.\n\nLet that sink in.",
+    "The system card also admits to persistent issues. Factual inaccuracies still happen. Input phrasing can drastically change outputs.\n\nThis is why AI alignment is still an open problem.",
+    "My take: OpenAI's transparency is refreshing. But the tradeoffs show how far we still have to go.\n\nThis changes everything for AI developers... and users.",
+    "Full breakdown → https://ainformed.dev/articles/2026-04-27-gpt-55s-system-card-reveals-key-design-choices-and-tradeoffs"
+  ],
+  "standaloneTweet": "GPT 5.5's system card reveals its biggest improvements... and its biggest limitations. The tradeoffs are fascinating. 🧵"
+}

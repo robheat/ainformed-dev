@@ -1,0 +1,28 @@
+{
+  "slug": "2026-04-27-new-framework-proposes-certification-for-ai-generated-research",
+  "title": "New Framework Proposes Certification for AI-Generated Research",
+  "summary": "A new paper on arXiv introduces a two-layer certification framework to evaluate AI-generated research. This system separates knowledge quality from human contribution, addressing gaps in current publication standards.",
+  "body": "A recent paper published on arXiv proposes a novel certification framework to handle the growing volume of AI-generated academic research. The paper, titled \"Rethinking Publication: A Certification Framework for AI-Enabled Research,\" argues that current publication systems are ill-equipped to evaluate knowledge produced by automated pipelines, as they were designed under the assumption of human authorship.\n\nThe proposed framework introduces a two-layer system: one layer assesses the quality and novelty of the knowledge produced, while the other evaluates the human contribution to the research. This separation aims to provide a consistent and principled way to handle AI-generated work, ensuring it meets existing peer-review standards without being disadvantaged by its non-human origins.\n\nThe implications of this framework are significant for the future of academic publishing. As AI continues to play a larger role in research, clear guidelines for evaluating and certifying AI-generated work will be crucial. The paper suggests that this framework could help maintain the integrity and credibility of academic publications while embracing the advancements in AI research tools.",
+  "sourceUrl": "https://arxiv.org/abs/2604.22026",
+  "sourceName": "ArXiv cs.AI",
+  "category": "research",
+  "tags": [
+    "ai-research",
+    "publication",
+    "certification",
+    "academia",
+    "peer-review",
+    "automation"
+  ],
+  "publishedAt": "2026-04-27T11:02:42.440928+00:00",
+  "imageUrl": "/images/articles/2026-04-27-new-framework-proposes-certification-for-ai-generated-research.jpg",
+  "twitterThread": [
+    "🚨 A new framework could revolutionize how we publish AI-generated research. \n\nThe current system wasn't built for this. \n\nHere's the fix:",
+    "The problem: AI research pipelines produce high-quality work, but peer review wasn't designed for non-human authors. \n\nThe solution: A two-layer certification system. \n\nLayer 1: Knowledge quality. \n\nLayer 2: Human contribution. \n\nGenius.",
+    "Why this matters: \n\nWithout clear standards, AI-generated research risks being undervalued or overlooked. \n\nThis framework ensures fairness and consistency. \n\nLet that sink in.",
+    "The wild part: \n\nThis isn't just about AI tools. It's about redefining what 'research' means in the age of automation. \n\nThis changes everything for academia.",
+    "Hot take: \n\nIf adopted, this framework could accelerate AI-driven discoveries by removing publication barriers. \n\nThe future of research is here.",
+    "Full breakdown → https://ainformed.dev/articles/2026-04-27-new-framework-proposes-certification-for-ai-generated-research"
+  ],
+  "standaloneTweet": "AI-generated research needs its own certification framework. This new proposal could change how academia evaluates non-human work. Game-changer."
+}

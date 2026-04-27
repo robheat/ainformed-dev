@@ -1,0 +1,28 @@
+{
+  "slug": "2026-04-27-lightport-open-source-ai-gateway-for-openai-compatibility",
+  "title": "Lightport: Open-Source AI Gateway for OpenAI Compatibility",
+  "summary": "Glama has open-sourced Lightport, an AI gateway that makes various LLM providers compatible with OpenAI's API. This move aims to support the MCP ecosystem and give back to the community.",
+  "body": "Glama has released Lightport as open-source, an AI gateway designed to make different LLM providers compatible with OpenAI's API. Originally a fork of Portkey, Lightport was developed to streamline the integration of various language models into applications that expect OpenAI's interface. The project began as a necessity for Glama's own needs but has now been shared with the community to foster broader adoption and development.\n\nLightport's compatibility with OpenAI's API is significant because it allows developers to switch between different LLM providers without rewriting their code. This interoperability is crucial in an ecosystem where multiple providers offer varying capabilities and pricing models. By open-sourcing Lightport, Glama is also signaling a focus on the MCP (Multi-Provider) ecosystem, aiming to create a more flexible and open environment for AI development.\n\nThe open-sourcing of Lightport is expected to accelerate the adoption of multiple LLM providers in applications that previously relied solely on OpenAI. It also sets a precedent for other tools to follow, potentially leading to a more competitive and innovative AI landscape. The community's response will be critical in determining the gateway's long-term impact and the extent to which it can drive further standardization in the AI industry.",
+  "sourceUrl": "https://github.com/glama-ai/lightport",
+  "sourceName": "Hacker News AI",
+  "category": "general",
+  "tags": [
+    "open-source",
+    "ai-gateway",
+    "llm-compatibility",
+    "glama",
+    "mcp-ecosystem",
+    "openai"
+  ],
+  "publishedAt": "2026-04-27T21:01:54.113906+00:00",
+  "imageUrl": "/images/articles/2026-04-27-lightport-open-source-ai-gateway-for-openai-compatibility.jpg",
+  "twitterThread": [
+    "🚀 Glama just open-sourced Lightport – the AI gateway that makes any LLM work like OpenAI.\n\nHere's why this is a big deal:",
+    "Lightport started as a fork of Portkey but stripped down to focus on core compatibility.\n\nNo guardrails. No billing. Just pure API standardization.",
+    "The wild part? It's not just about OpenAI. Lightport lets you swap LLMs like you'd swap cloud providers.\n\nImagine switching from Mistral to Llama in one line of code.",
+    "Glama's bet? The future is multi-provider (MCP). Lightport is their way of making that future happen.\n\nLet that sink in.",
+    "This changes everything for devs who want flexibility without vendor lock-in.\n\nOpen-source just leveled up the AI game.",
+    "Full breakdown → https://ainformed.dev/articles/2026-04-27-lightport-open-source-ai-gateway-for-openai-compatibility"
+  ],
+  "standaloneTweet": "Glama open-sourced Lightport – an AI gateway that makes any LLM work like OpenAI. This is a game-changer for multi-provider flexibility. 🚀"
+}

@@ -1,0 +1,28 @@
+{
+  "slug": "2026-04-28-nvidia-unveils-nemotron-3-nano-omni-for-multimodal-ai",
+  "title": "NVIDIA Unveils Nemotron 3 Nano Omni for Multimodal AI",
+  "summary": "NVIDIA's new Nemotron 3 Nano Omni model supports long-context multimodal intelligence across documents, audio, and video. It is designed for developers to build advanced AI agents.",
+  "body": "NVIDIA has introduced the Nemotron 3 Nano Omni, a cutting-edge model that enables long-context multimodal intelligence. This model is capable of processing and understanding documents, audio, and video, making it a versatile tool for developers. It supports a context window of up to 128,000 tokens, allowing for complex and detailed interactions.\n\nThe significance of this release lies in its potential to revolutionize AI agent development. By integrating multiple modalities, the Nemotron 3 Nano Omni can handle a wide range of tasks, from transcribing and analyzing audio to interpreting and summarizing video content. This makes it a powerful tool for applications in fields such as healthcare, education, and customer service.\n\nLooking ahead, the Nemotron 3 Nano Omni is expected to drive innovation in AI agent development. Developers can now create more sophisticated and capable agents that can process and understand complex, multimodal inputs. The model's open-source nature further encourages community contributions and rapid advancements in the field of AI.",
+  "sourceUrl": "https://huggingface.co/blog/nvidia/nemotron-3-nano-omni-multimodal-intelligence",
+  "sourceName": "Hugging Face Blog",
+  "category": "open-source",
+  "tags": [
+    "nvidia",
+    "multimodal",
+    "ai-agents",
+    "long-context",
+    "open-source",
+    "nemotron"
+  ],
+  "publishedAt": "2026-04-28T16:11:41.965941+00:00",
+  "imageUrl": "/images/articles/2026-04-28-nvidia-unveils-nemotron-3-nano-omni-for-multimodal-ai.jpg",
+  "twitterThread": [
+    "🚀 NVIDIA just dropped Nemotron 3 Nano Omni. It's a game-changer.\n\nLong-context multimodal AI for docs, audio, AND video. All in one model.\n\nThis is huge. Here's why:\n\n1. 128K token context window. That's massive.\n\n2. Handles text, speech, and video. No more silos.\n\n3. Open-source. The dev community is about to go wild.\n\nThis changes everything for AI agents.",
+    "The wild part? It's not just about understanding. It's about context.\n\nImagine an AI that can read a 200-page document, listen to a 2-hour meeting, and watch a 30-minute video — all while keeping everything in context.\n\nThat's Nemotron 3 Nano Omni.\n\nThis is the future of AI.",
+    "Here's why this matters for developers:\n\n- Build agents that can handle complex, real-world tasks.\n- No need for multiple models. One does it all.\n- Open-source means you can tweak and optimize it for your needs.\n\nThis is a tool that will accelerate AI innovation.",
+    "The implications are massive.\n\n- Healthcare: AI that can analyze patient records, transcribe doctor's notes, and interpret medical imaging.\n- Education: AI tutors that can read, listen, and watch to provide personalized learning.\n- Customer Service: AI agents that can handle text, voice, and video interactions seamlessly.\n\nThis is the future we've been waiting for.",
+    "My hot take? This is the beginning of a new era in AI.\n\nWe're moving beyond single-modal models. The future is multimodal.\n\nAnd NVIDIA just put the entire AI community on notice.\n\nBuckle up. It's going to be an exciting ride.",
+    "Full breakdown → https://ainformed.dev/articles/2026-04-28-nvidia-unveils-nemotron-3-nano-omni-for-multimodal-ai"
+  ],
+  "standaloneTweet": "NVIDIA's Nemotron 3 Nano Omni is a multimodal AI powerhouse. 128K token context window. Docs, audio, video — all in one. The future of AI agents just got a whole lot brighter. 🚀"
+}

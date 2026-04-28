@@ -1,0 +1,28 @@
+{
+  "slug": "2026-04-28-onemancompany-framework-organizes-ai-agents-like-a-real-world-business",
+  "title": "OneManCompany Framework Organizes AI Agents Like a Real-World Business",
+  "summary": "Researchers introduce OneManCompany (OMC), a framework to structure multi-agent systems with dynamic team formation and governance. This approach decouples organizational strategy from individual agent skills, enabling more flexible and scalable AI workflows.",
+  "body": "Researchers have introduced OneManCompany (OMC), a groundbreaking framework designed to organize multi-agent systems like real-world companies. Traditional multi-agent systems often suffer from fixed team structures and tightly coupled coordination, limiting their adaptability. OMC addresses these issues by introducing a principled organizational layer that governs how agents are assembled, managed, and improved over time, independent of their individual capabilities.\n\nThe significance of OMC lies in its ability to decouple organizational strategy from individual agent skills. This separation allows for dynamic team formation, governance, and continuous improvement, making multi-agent systems more flexible and scalable. By treating agents as a workforce rather than isolated entities, OMC enables more efficient and adaptable AI workflows, similar to how human organizations operate.\n\nThe introduction of OMC raises questions about the future of multi-agent systems. Will this framework become the standard for organizing AI agents? How will it impact industries that rely on AI for complex tasks? As researchers and developers explore OMC's potential, we may see a shift towards more organized and efficient multi-agent systems, transforming the way AI is deployed in various sectors.",
+  "sourceUrl": "https://arxiv.org/abs/2604.22446",
+  "sourceName": "ArXiv cs.AI",
+  "category": "research",
+  "tags": [
+    "ai",
+    "multi-agent",
+    "organization",
+    "research",
+    "framework",
+    "automation"
+  ],
+  "publishedAt": "2026-04-28T16:12:17.067032+00:00",
+  "imageUrl": "/images/articles/2026-04-28-onemancompany-framework-organizes-ai-agents-like-a-real-world-business.jpg",
+  "twitterThread": [
+    "🚀 The future of AI just got more structured. Introducing OneManCompany (OMC), a framework that organizes AI agents like a real-world business. \n\nHere's why this matters:",
+    "Traditional multi-agent systems struggle with fixed teams and rigid coordination. OMC changes that by decoupling organizational strategy from individual agent skills.",
+    "The wild part? OMC enables dynamic team formation, governance, and continuous improvement. Think of it as a workforce, not just isolated AI entities.",
+    "Let that sink in. This could revolutionize how we deploy AI for complex tasks. More flexibility. More scalability. More efficiency.",
+    "Hot take: OMC might become the standard for organizing AI agents. Industries relying on AI for complex workflows, take note.",
+    "Full breakdown → https://ainformed.dev/articles/2026-04-28-onemancompany-framework-organizes-ai-agents-like-a-real-world-business"
+  ],
+  "standaloneTweet": "OMC framework treats AI agents like a business workforce. Dynamic teams, governance, and continuous improvement. The future of multi-agent systems is here."
+}

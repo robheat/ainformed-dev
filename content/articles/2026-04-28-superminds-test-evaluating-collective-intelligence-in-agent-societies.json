@@ -1,0 +1,28 @@
+{
+  "slug": "2026-04-28-superminds-test-evaluating-collective-intelligence-in-agent-societies",
+  "title": "Superminds Test: Evaluating Collective Intelligence in Agent Societies",
+  "summary": "Researchers introduce the Superminds Test to measure collective intelligence in large-scale agent societies. The study examines MoltBook's two million agents to determine if intelligence emerges from scale.",
+  "body": "Researchers have introduced the Superminds Test, a framework designed to evaluate collective intelligence in large-scale agent societies. The study focuses on MoltBook, a platform hosting over two million autonomous agents, to determine if collective intelligence emerges spontaneously as the number of agents scales.\n\nThe Superminds Test is a hierarchical framework that probes society-level intelligence using probing agents. This approach aims to answer whether the collective outcomes of millions of agents can surpass the capabilities of individual agents. The research highlights the importance of understanding how agent societies can achieve goals beyond individual capacities, potentially revolutionizing fields like automation and collaborative AI systems.\n\nThe implications of this research are significant for the future of AI. If collective intelligence can be harnessed effectively, it could lead to more efficient and powerful AI systems capable of solving complex problems. The study also raises questions about the ethical and practical considerations of managing large-scale agent societies, including issues of control, coordination, and unintended consequences. Future research will likely explore these aspects further, aiming to optimize the performance and reliability of such systems.",
+  "sourceUrl": "https://arxiv.org/abs/2604.22452",
+  "sourceName": "ArXiv cs.AI",
+  "category": "research",
+  "tags": [
+    "collective-intelligence",
+    "ai-agents",
+    "autonomous-systems",
+    "research",
+    "moltbook",
+    "superminds-test"
+  ],
+  "publishedAt": "2026-04-28T16:12:32.099799+00:00",
+  "imageUrl": "/images/articles/2026-04-28-superminds-test-evaluating-collective-intelligence-in-agent-societies.jpg",
+  "twitterThread": [
+    "🚀 The first empirical test for collective AI intelligence is here. And it's wild. \n\nResearchers just probed a society of 2M+ agents to see if intelligence emerges from scale. Here's what they found:",
+    "The Superminds Test is a hierarchical framework designed to measure society-level intelligence. It uses probing agents to evaluate collective outcomes.",
+    "The wild part: The study focuses on MoltBook, a platform hosting over two million autonomous agents. That's a massive scale for any AI experiment.",
+    "Here's why this matters: If collective intelligence emerges, it could revolutionize automation and collaborative AI systems. Imagine AI societies solving problems no single agent can.",
+    "But there are big questions: How do we control and coordinate these societies? What are the ethical implications? This is just the beginning.",
+    "Full breakdown → https://ainformed.dev/articles/2026-04-28-superminds-test-evaluating-collective-intelligence-in-agent-societies"
+  ],
+  "standaloneTweet": "Researchers just tested collective intelligence in a society of 2M+ AI agents. The results could change everything about how we think about AI collaboration. 🧵"
+}

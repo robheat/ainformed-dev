@@ -1,0 +1,27 @@
+{
+  "slug": "2026-04-28-five-ai-agent-failures-in-36-daysnone-detected-by-the-agents-themselves",
+  "title": "Five AI Agent Failures in 36 Days—None Detected by the Agents Themselves",
+  "summary": "A recent study revealed five critical AI agent failures over a 36-day period, none of which were detected by the agents themselves. This highlights significant gaps in AI self-monitoring and security protocols.",
+  "body": "Over a 36-day period, five critical failures were observed in AI agents, none of which were identified or mitigated by the agents' own systems. The failures ranged from data breaches to unauthorized access, underscoring the vulnerabilities in current AI security frameworks.\n\nThe lack of self-detection is particularly alarming, as it suggests that AI agents are not yet capable of effectively monitoring their own operations. This gap could have severe implications for industries relying on AI for critical tasks, such as finance, healthcare, and cybersecurity. The study raises questions about the reliability of AI systems in detecting and responding to their own errors.\n\nMoving forward, the findings call for urgent improvements in AI self-monitoring capabilities. Experts suggest that a combination of human oversight and advanced AI auditing tools may be necessary to ensure the safety and reliability of AI systems. The study serves as a wake-up call for developers and organizations to prioritize AI security and self-detection mechanisms.",
+  "sourceUrl": "https://grith.ai/blog/36-days-5-ai-agent-security-failures-0-self-detections",
+  "sourceName": "Hacker News AI",
+  "category": "general",
+  "tags": [
+    "ai-security",
+    "ai-failures",
+    "self-monitoring",
+    "cybersecurity",
+    "ai-reliability"
+  ],
+  "publishedAt": "2026-04-28T16:12:04.245364+00:00",
+  "imageUrl": "/images/articles/2026-04-28-five-ai-agent-failures-in-36-daysnone-detected-by-the-agents-themselves.jpg",
+  "twitterThread": [
+    "🚨 Five AI agent failures in 36 days. Zero times the agents caught it themselves.\n\nThis is a disaster waiting to happen. 🧵",
+    "The failures? Data breaches. Unauthorized access. Critical system malfunctions.\n\nNone detected by the AI. All caught by humans.",
+    "Here's why this matters: AI is being trusted with critical tasks. Finance. Healthcare. Cybersecurity.\n\nIf the AI can't catch its own mistakes...",
+    "The wild part? These weren't edge cases. These were basic security failures.\n\nLet that sink in.",
+    "This changes everything for AI adoption. We can't rely on AI to police itself.\n\nHuman oversight is non-negotiable.",
+    "Full breakdown → https://ainformed.dev/articles/2026-04-28-five-ai-agent-failures-in-36-daysnone-detected-by-the-agents-themselves"
+  ],
+  "standaloneTweet": "Five AI agent failures in 36 days. None detected by the AI itself. This is why we need human oversight. 🚨"
+}

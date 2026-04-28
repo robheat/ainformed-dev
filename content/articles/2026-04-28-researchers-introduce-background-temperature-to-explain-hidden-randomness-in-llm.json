@@ -1,0 +1,27 @@
+{
+  "slug": "2026-04-28-researchers-introduce-background-temperature-to-explain-hidden-randomness-in-llm",
+  "title": "Researchers Introduce 'Background Temperature' to Explain Hidden Randomness in LLMs",
+  "summary": "A new study formalizes the concept of 'background temperature' to describe implementation-level nondeterminism in large language models. This helps explain why identical inputs can produce divergent outputs even at temperature T=0.",
+  "body": "Researchers from Thinking Machines Lab have introduced the concept of 'background temperature' (T_bg) to characterize hidden randomness in large language models (LLMs). Even when decoding with temperature T=0, LLMs can produce varying outputs for identical inputs due to implementation-level nondeterminism. This includes factors like batch-size variation, kernel non-invariance, and floating-point non-associativity.\n\nThe study formalizes this behavior by quantifying the effective temperature induced by these implementation-dependent perturbations. This concept helps explain why LLMs can exhibit unpredictable behavior even under seemingly deterministic conditions. The researchers suggest that understanding and controlling background temperature could lead to more consistent and reliable LLM outputs.\n\nThe introduction of background temperature opens up new avenues for research into the determinism of LLMs. Future work could focus on mitigating these implementation-level sources of randomness to improve model consistency. This research also highlights the importance of considering hardware and software implementation details in the development and deployment of LLMs.",
+  "sourceUrl": "https://arxiv.org/abs/2604.22411",
+  "sourceName": "ArXiv cs.AI",
+  "category": "research",
+  "tags": [
+    "llms",
+    "nondeterminism",
+    "research",
+    "machine-learning",
+    "ai-reliability"
+  ],
+  "publishedAt": "2026-04-28T16:11:29.525583+00:00",
+  "imageUrl": "/images/articles/2026-04-28-researchers-introduce-background-temperature-to-explain-hidden-randomness-in-llm.jpg",
+  "twitterThread": [
+    "🔥 New research drops the mic on LLM randomness. Even at T=0, outputs vary. Why?\n\nBackground temperature (T_bg) is the hidden culprit. 🧵\n\n#AI #MachineLearning",
+    "Here's the wild part: Implementation details like batch size and floating-point math introduce unpredictability. Even with identical inputs, LLMs can diverge.",
+    "Thinking Machines Lab formalizes this as 'background temperature'—the effective temperature from implementation noise. This changes everything for LLM reliability.",
+    "Let that sink in. Your 'deterministic' LLM might be secretly rolling the dice. Background temperature quantifies this hidden randomness.",
+    "Hot take: This research forces us to rethink LLM consistency. Future models might need 'temperature control' features to tame background noise.",
+    "Full breakdown → https://ainformed.dev/articles/2026-04-28-researchers-introduce-background-temperature-to-explain-hidden-randomness-in-llm"
+  ],
+  "standaloneTweet": "Even at T=0, LLMs can produce different outputs. The culprit? 'Background temperature' from implementation noise. Game-changing research. 🧵"
+}

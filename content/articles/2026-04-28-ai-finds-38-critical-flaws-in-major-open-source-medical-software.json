@@ -1,0 +1,27 @@
+{
+  "slug": "2026-04-28-ai-finds-38-critical-flaws-in-major-open-source-medical-software",
+  "title": "AI Finds 38 Critical Flaws in Major Open-Source Medical Software",
+  "summary": "A team of AI researchers discovered 38 critical vulnerabilities in OpenEMR, software used by 100,000 healthcare providers. The findings highlight the urgent need for better security in open-source medical systems.",
+  "body": "Researchers using AI techniques have identified 38 critical security vulnerabilities in OpenEMR, one of the most widely used open-source electronic medical record (EMR) systems. The software, which serves approximately 100,000 healthcare providers, is now facing scrutiny over its security protocols.\n\nThe discovery underscores the critical need for enhanced security measures in open-source healthcare software. OpenEMR's widespread use makes it a prime target for cyberattacks, and these vulnerabilities could potentially expose sensitive patient data to breaches. The findings also raise questions about the adequacy of current security practices in open-source medical software.\n\nIn response to the findings, OpenEMR's development team has begun addressing the vulnerabilities. The incident has sparked discussions about the role of AI in identifying security flaws and the importance of proactive security measures in healthcare technology. The full impact of these vulnerabilities and the effectiveness of the patches will be closely monitored in the coming months.",
+  "sourceUrl": "https://aisle.com/blog/aisle-discovers-38-critical-security-vulnerabilities-in-healthcare-software-used-by-100000-providers",
+  "sourceName": "Hacker News AI",
+  "category": "general",
+  "tags": [
+    "ai",
+    "healthcare",
+    "security",
+    "open-source",
+    "vulnerabilities",
+    "medical-records"
+  ],
+  "publishedAt": "2026-04-28T16:11:51.252374+00:00",
+  "imageUrl": "/images/articles/2026-04-28-ai-finds-38-critical-flaws-in-major-open-source-medical-software.jpg",
+  "twitterThread": [
+    "🚨 AI just uncovered 38 critical vulnerabilities in OpenEMR, used by 100,000 healthcare providers. \n\nThis is a HUGE deal. \n\nHere's why:",
+    "1. OpenEMR is open-source. \n\nThat means anyone can use it, but also anyone can find flaws. \n\nThe wild part? It took AI to find these. \n\nHuman audits missed them.",
+    "2. These aren't minor bugs. \n\nWe're talking critical vulnerabilities. \n\nThe kind that could expose patient data to hackers. \n\nLet that sink in.",
+    "3. This changes everything for open-source medical software. \n\nIf AI can find these flaws, why aren't we using it more? \n\nThe healthcare industry needs to wake up.",
+    "Hot take: \n\nThis is the moment AI becomes essential for healthcare security. \n\nNo more excuses. \n\nFull breakdown → https://ainformed.dev/articles/2026-04-28-ai-finds-38-critical-flaws-in-major-open-source-medical-software"
+  ],
+  "standaloneTweet": "AI just found 38 critical flaws in OpenEMR, the medical software used by 100,000 providers. This is a wake-up call for healthcare security."
+}

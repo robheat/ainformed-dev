@@ -1,0 +1,28 @@
+{
+  "slug": "2026-04-28-cognitivetwin-ai-predicts-alzheimers-progression-with-multi-modal-data",
+  "title": "CognitiveTwin: AI Predicts Alzheimer's Progression with Multi-Modal Data",
+  "summary": "Researchers developed CognitiveTwin, a digital twin framework that predicts individual cognitive decline in Alzheimer's disease using multi-modal data. The model aims to provide accurate, fair, and robust predictions across diverse patient demographics.",
+  "body": "Researchers have introduced CognitiveTwin, a digital twin framework designed to predict individual cognitive decline in Alzheimer's disease (AD). The model integrates multi-modal longitudinal data, including cognitive scores, magnetic resonance imaging (MRI), positron emission tomography (PET), cerebrospinal fluid biomarkers, and genetics. This comprehensive approach aims to address the heterogeneity of disease progression, which has made predicting AD outcomes challenging.\n\nCognitiveTwin stands out for its focus on accuracy, fairness, and robustness. Traditional clinical tools often struggle with demographic biases and missing data, but this framework is designed to overcome these limitations. By leveraging a transformer-based architecture, the model can handle the complexities of multi-modal data, providing more reliable predictions for individual patients. This could significantly improve personalized treatment plans and patient care.\n\nThe implications of CognitiveTwin are substantial for both clinical practice and research. Accurate predictions of cognitive decline can help clinicians intervene earlier and tailor treatments to individual needs. Additionally, the model's robustness to missing data and demographic fairness could make it a valuable tool in diverse healthcare settings. Future developments may include real-world validation and integration into clinical workflows, potentially revolutionizing the management of Alzheimer's disease.",
+  "sourceUrl": "https://arxiv.org/abs/2604.22428",
+  "sourceName": "ArXiv cs.AI",
+  "category": "research",
+  "tags": [
+    "alzheimer's",
+    "digital-twins",
+    "multi-modal",
+    "healthcare-ai",
+    "predictive-modeling",
+    "neuroscience"
+  ],
+  "publishedAt": "2026-04-28T11:01:19.468099+00:00",
+  "imageUrl": "/images/articles/2026-04-28-cognitivetwin-ai-predicts-alzheimers-progression-with-multi-modal-data.jpg",
+  "twitterThread": [
+    "🚀 New AI model predicts Alzheimer's decline with stunning accuracy. Here's how it works.",
+    "Meet CognitiveTwin. It uses MRI, PET scans, biomarkers, and genetics to track cognitive decline.",
+    "Here's why this matters: It's accurate, fair across demographics, and handles missing data. A game-changer.",
+    "The wild part: It's a digital twin. Your personal AI model. Let that sink in.",
+    "This changes everything for early intervention in Alzheimer's. Personalized care at scale.",
+    "Full breakdown → https://ainformed.dev/articles/2026-04-28-cognitivetwin-ai-predicts-alzheimers-progression-with-multi-modal-data"
+  ],
+  "standaloneTweet": "AI can now predict Alzheimer's decline with multi-modal data. Meet CognitiveTwin, your personal digital twin for cognitive health."
+}

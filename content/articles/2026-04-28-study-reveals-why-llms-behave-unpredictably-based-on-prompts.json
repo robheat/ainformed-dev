@@ -1,0 +1,27 @@
+{
+  "slug": "2026-04-28-study-reveals-why-llms-behave-unpredictably-based-on-prompts",
+  "title": "Study Reveals Why LLMs Behave Unpredictably Based on Prompts",
+  "summary": "Researchers found that the variability in LLM responses to different prompt styles stems from shared underlying task representations. This explains why the same question can yield different answers depending on phrasing.",
+  "body": "A new study published on arXiv (2604.22027) investigates why large language models (LLMs) often produce inconsistent results based on how a question is phrased. The research compares two common prompting methods: instruction-based prompts, which describe the task in natural language, and example-based prompts, which use in-context few-shot demonstrations. The findings suggest that despite the differences in prompt style, LLMs rely on shared lexical task representations, leading to variability in responses.\n\nThis research is significant because it provides a deeper understanding of why LLMs can be so sensitive to prompt phrasing. The study highlights that the underlying representations of tasks in LLMs are not as stable as previously thought, which can lead to unpredictable behavior. This insight could help developers create more consistent and reliable LLM outputs by better understanding how task representations are formed and utilized.\n\nThe implications of this study are far-reaching. If developers can identify and stabilize these shared task representations, they may be able to reduce the variability in LLM responses. Future research could explore techniques to make these representations more robust, potentially leading to more consistent and reliable AI systems. The study also opens up questions about how different prompting strategies might interact with these representations and whether there are optimal ways to structure prompts to minimize variability.",
+  "sourceUrl": "https://arxiv.org/abs/2604.22027",
+  "sourceName": "ArXiv cs.CL",
+  "category": "research",
+  "tags": [
+    "llms",
+    "prompting",
+    "task-representation",
+    "ai-reliability",
+    "research"
+  ],
+  "publishedAt": "2026-04-28T11:02:15.048532+00:00",
+  "imageUrl": "/images/articles/2026-04-28-study-reveals-why-llms-behave-unpredictably-based-on-prompts.jpg",
+  "twitterThread": [
+    "🚨 New research explains why LLMs act so differently based on how you ask them questions.\n\nThe wild part? It's all about shared task representations. #AI",
+    "Researchers compared instruction-based prompts (natural language) vs. example-based prompts (few-shot demos).\n\nBoth rely on the same underlying representations. That's why phrasing matters so much.",
+    "Here's why this matters:\n\nIf we can stabilize these representations, we might reduce LLM variability. Imagine asking the same question in 10 different ways and getting the same answer every time.",
+    "Let that sink in.\n\nThis could be a game-changer for AI reliability. Developers might finally crack the code on consistent LLM behavior.",
+    "Hot take: This study suggests that prompt engineering is just the tip of the iceberg. The real challenge is understanding and controlling task representations.",
+    "Full breakdown → https://ainformed.dev/articles/2026-04-28-study-reveals-why-llms-behave-unpredictably-based-on-prompts"
+  ],
+  "standaloneTweet": "New research reveals why LLMs behave unpredictably based on prompt phrasing. The key? Shared task representations. This could change how we engineer prompts forever. #AI"
+}

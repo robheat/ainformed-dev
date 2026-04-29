@@ -1,0 +1,27 @@
+{
+  "slug": "2026-04-29-formalscience-bridging-informal-science-to-formal-verification-with-ai",
+  "title": "FormalScience: Bridging Informal Science to Formal Verification with AI",
+  "summary": "Researchers introduce FormalScience, an AI pipeline that helps domain experts formalize scientific reasoning into verifiable code. This addresses a key challenge in applying LLMs to scientific domains with complex notations.",
+  "body": "Researchers have developed FormalScience, an AI-driven pipeline designed to bridge the gap between informal scientific reasoning and formal, verifiable code. The system leverages human-in-the-loop agentic code generation to enable domain experts—even those without deep formal language experience—to formalize complex scientific concepts. This is particularly valuable in fields like physics, where domain-specific notations such as Dirac notation and vector calculus pose significant formalization challenges.\n\nThe significance of FormalScience lies in its ability to scale the formalization process, making it accessible to a broader range of experts. Traditional methods require extensive knowledge of formal languages, limiting the pool of potential contributors. By automating much of the process while keeping human experts in the loop, FormalScience could accelerate the adoption of formal verification in scientific research, ensuring greater accuracy and reproducibility.\n\nThe future of FormalScience hinges on its adaptability and scalability. As the system is further refined, it could be applied to a wider array of scientific domains, potentially revolutionizing how research is documented and verified. Open questions remain about the system's ability to handle increasingly complex scientific notations and the extent to which it can reduce the need for human intervention.",
+  "sourceUrl": "https://arxiv.org/abs/2604.23002",
+  "sourceName": "ArXiv cs.AI",
+  "category": "research",
+  "tags": [
+    "ai",
+    "formal-verification",
+    "science",
+    "llms",
+    "physics",
+    "research-tools"
+  ],
+  "publishedAt": "2026-04-29T21:03:02.175125+00:00",
+  "imageUrl": "/images/articles/2026-04-29-formalscience-bridging-informal-science-to-formal-verification-with-ai.jpg",
+  "twitterThread": [
+    "🚀 Breaking: AI is now tackling the hardest part of science — formalizing informal reasoning. Introducing FormalScience.\n\nHere's why this matters:",
+    "FormalScience lets domain experts (even without formal language skills) turn complex scientific concepts into verifiable code. No more manual headaches.\n\nThe wild part?",
+    "It handles domain-specific notations like Dirac notation and vector calculus. Physics just got a lot easier to formalize.\n\nLet that sink in.",
+    "This changes everything for scientific research. Faster verification. Fewer errors. More reproducibility.\n\nThe future of science is formalized.",
+    "Hot take: FormalScience could be the key to unlocking AI-assisted scientific discovery. Imagine auto-formalized theories tested in real-time.\n\nFull breakdown → https://ainformed.dev/articles/2026-04-29-formalscience-bridging-informal-science-to-formal-verification-with-ai"
+  ],
+  "standaloneTweet": "AI is formalizing science. FormalScience lets experts turn complex theories into verifiable code—no formal language expertise needed. Game changer."
+}

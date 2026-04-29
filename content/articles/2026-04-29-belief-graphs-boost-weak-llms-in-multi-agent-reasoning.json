@@ -1,0 +1,27 @@
+{
+  "slug": "2026-04-29-belief-graphs-boost-weak-llms-in-multi-agent-reasoning",
+  "title": "Belief Graphs Boost Weak LLMs in Multi-Agent Reasoning",
+  "summary": "A new study shows that belief graphs significantly improve weaker LLMs in cooperative reasoning tasks, while stronger models see minimal benefits. The research highlights the importance of integration architecture in leveraging these graphs effectively.",
+  "body": "Researchers have discovered that explicit belief graphs can enhance the performance of weaker large language models (LLMs) in cooperative multi-agent reasoning tasks. The study, conducted through over 3,000 controlled trials using the cooperative card game Hanabi, compared four LLM families. The findings reveal that belief graphs are only beneficial for weaker models when integrated as prompt context, particularly in tasks requiring 2nd-order Theory of Mind (80% vs 10%, p<0.0001, OR=36.0).\n\nThe key takeaway is that the integration architecture determines the value of belief graphs. For strong models, these graphs are merely decorative when used as prompt context. However, when belief graphs are used to gate action selection through ranked shortlists, they become structurally beneficial, indicating a more effective use of these tools in cooperative reasoning scenarios.\n\nThe research opens new avenues for optimizing LLM performance in multi-agent settings. Future studies could explore how different integration methods affect belief graph efficacy across various tasks and model strengths. This could lead to more tailored approaches for leveraging belief graphs in real-world applications, particularly where cooperative reasoning is crucial.",
+  "sourceUrl": "https://arxiv.org/abs/2604.23057",
+  "sourceName": "ArXiv cs.AI",
+  "category": "research",
+  "tags": [
+    "llms",
+    "multi-agent",
+    "belief-graphs",
+    "cooperative-reasoning",
+    "hanabi",
+    "ai-research"
+  ],
+  "publishedAt": "2026-04-29T21:03:25.221865+00:00",
+  "imageUrl": "/images/articles/2026-04-29-belief-graphs-boost-weak-llms-in-multi-agent-reasoning.jpg",
+  "twitterThread": [
+    "🚀 Weak LLMs just got a game-changer. Belief graphs are the secret weapon in cooperative reasoning. \n\nBut here's the twist: strong models barely notice them. #AIResearch",
+    "The study: 3,000+ trials in Hanabi. Weak LLMs see 80% improvement with belief graphs. Strong models? 10%. \n\nThe difference: integration architecture. Context vs. action gating. #LLM",
+    "Here's why this matters: belief graphs aren't just fancy diagrams. They're a structural boost for weaker models. \n\nLet that sink in. #CooperativeReasoning",
+    "The wild part: when belief graphs gate action selection, they become structurally beneficial. \n\nThis changes everything for multi-agent systems. #AI",
+    "Hot take: future LLMs might not need to read the graph. They'll make the graph think for them. \n\nFull breakdown → https://ainformed.dev/articles/2026-04-29-belief-graphs-boost-weak-llms-in-multi-agent-reasoning"
+  ],
+  "standaloneTweet": "Weak LLMs get a huge boost from belief graphs in cooperative reasoning. Strong models? Not so much. The secret is in how you integrate them. 🧵"
+}

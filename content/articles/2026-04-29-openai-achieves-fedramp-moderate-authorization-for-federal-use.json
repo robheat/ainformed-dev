@@ -1,0 +1,28 @@
+{
+  "slug": "2026-04-29-openai-achieves-fedramp-moderate-authorization-for-federal-use",
+  "title": "OpenAI Achieves FedRAMP Moderate Authorization for Federal Use",
+  "summary": "OpenAI has obtained FedRAMP Moderate authorization, allowing U.S. federal agencies to securely adopt ChatGPT Enterprise and the OpenAI API. This milestone opens doors for broader government AI integration.",
+  "body": "OpenAI has announced that its ChatGPT Enterprise and OpenAI API services are now available at the FedRAMP Moderate authorization level. This certification ensures that U.S. federal agencies can securely integrate OpenAI's AI capabilities into their operations, meeting stringent security and compliance standards.\n\nThis development is significant as it enables federal agencies to leverage advanced AI tools while adhering to the necessary security protocols. FedRAMP Moderate authorization is a critical step for AI providers looking to serve government entities, as it demonstrates compliance with federal security requirements. This move positions OpenAI as a viable option for agencies seeking to enhance their AI-driven initiatives.\n\nThe implications of this authorization are far-reaching. It not only facilitates the adoption of AI within federal agencies but also sets a precedent for other AI providers to follow. The next steps will likely involve increased collaboration between OpenAI and federal agencies to tailor AI solutions to specific government needs. The broader AI industry will be watching closely to see how this impacts the landscape of government AI contracts and partnerships.",
+  "sourceUrl": "https://openai.com/index/openai-available-at-fedramp-moderate",
+  "sourceName": "OpenAI Blog",
+  "category": "models",
+  "tags": [
+    "openai",
+    "fedramp",
+    "government",
+    "ai-adoption",
+    "compliance",
+    "chatgpt"
+  ],
+  "publishedAt": "2026-04-29T16:03:39.413729+00:00",
+  "imageUrl": "/images/articles/2026-04-29-openai-achieves-fedramp-moderate-authorization-for-federal-use.jpg",
+  "twitterThread": [
+    "🚀 OpenAI just cleared a massive hurdle: FedRAMP Moderate authorization.\n\nThis means U.S. federal agencies can now use ChatGPT Enterprise and the OpenAI API securely.",
+    "Here's why this matters:\n\n- FedRAMP Moderate is a big deal for government AI adoption.\n- It opens the door for OpenAI to work with federal agencies on sensitive projects.",
+    "The wild part?\n\nThis isn't just about OpenAI. It sets a precedent for other AI providers to follow. The federal market is about to get a lot more competitive.",
+    "Let that sink in.\n\nOpenAI is now a go-to option for agencies looking to integrate AI. This changes everything for government AI contracts.",
+    "Hot take:\n\nThis is a game-changer for AI in the public sector. Expect to see more agencies adopting AI tools as security concerns are addressed.",
+    "Full breakdown → https://ainformed.dev/articles/2026-04-29-openai-achieves-fedramp-moderate-authorization-for-federal-use"
+  ],
+  "standaloneTweet": "OpenAI just got FedRAMP Moderate authorization, making ChatGPT Enterprise and the OpenAI API available to U.S. federal agencies. This is a huge step for government AI adoption."
+}

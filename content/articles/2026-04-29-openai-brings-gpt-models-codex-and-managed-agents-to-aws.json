@@ -1,0 +1,28 @@
+{
+  "slug": "2026-04-29-openai-brings-gpt-models-codex-and-managed-agents-to-aws",
+  "title": "OpenAI Brings GPT Models, Codex, and Managed Agents to AWS",
+  "summary": "OpenAI has expanded its AI offerings to AWS, allowing enterprises to build secure AI applications within their AWS environments. This move integrates OpenAI's advanced models directly into AWS infrastructure.",
+  "body": "OpenAI has announced the availability of its GPT models, Codex, and Managed Agents on Amazon Web Services (AWS). This collaboration enables enterprises to leverage OpenAI's cutting-edge AI capabilities within their existing AWS environments, ensuring seamless integration and enhanced security.\n\nThe partnership is significant as it allows businesses to deploy OpenAI's models without leaving the AWS ecosystem. This integration simplifies the process of building AI-driven applications, as developers can now access OpenAI's tools alongside AWS's robust cloud infrastructure. The move is expected to accelerate AI adoption among enterprises that rely on AWS for their cloud needs.\n\nLooking ahead, this collaboration could set a new standard for AI deployment in enterprise environments. As more companies seek to integrate AI into their operations, the availability of OpenAI's models on AWS provides a compelling option. The next steps will likely involve further optimizations and additional integrations to enhance the user experience and expand the range of applications.",
+  "sourceUrl": "https://openai.com/index/openai-on-aws",
+  "sourceName": "OpenAI Blog",
+  "category": "models",
+  "tags": [
+    "openai",
+    "aws",
+    "gpt",
+    "codex",
+    "managed-agents",
+    "enterprise-ai"
+  ],
+  "publishedAt": "2026-04-29T16:03:21.003467+00:00",
+  "imageUrl": "/images/articles/2026-04-29-openai-brings-gpt-models-codex-and-managed-agents-to-aws.jpg",
+  "twitterThread": [
+    "🚀 OpenAI just dropped its GPT models, Codex, and Managed Agents on AWS. Game changer.\n\nHere's why this matters:",
+    "Enterprises can now build secure AI apps within AWS. No need to leave the ecosystem.\n\nSeamless integration. Enhanced security. What more could you want?",
+    "The wild part? Developers get OpenAI's tools alongside AWS's infrastructure. Best of both worlds.",
+    "Let that sink in. AI adoption just got a whole lot easier for AWS-reliant companies.",
+    "This changes everything for enterprises looking to scale AI. The future is here.",
+    "Full breakdown → https://ainformed.dev/articles/2026-04-29-openai-brings-gpt-models-codex-and-managed-agents-to-aws"
+  ],
+  "standaloneTweet": "OpenAI's GPT models, Codex, and Managed Agents are now on AWS. Enterprises just got a powerful new AI toolkit. 🚀"
+}

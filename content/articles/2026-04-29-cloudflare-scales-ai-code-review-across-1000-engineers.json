@@ -1,0 +1,28 @@
+{
+  "slug": "2026-04-29-cloudflare-scales-ai-code-review-across-1000-engineers",
+  "title": "Cloudflare Scales AI Code Review Across 1,000+ Engineers",
+  "summary": "Cloudflare has integrated AI into its code review process, reducing review times and improving code quality. The system now handles 90% of pull requests automatically.",
+  "body": "Cloudflare has deployed an AI-powered code review system across its entire engineering team, automating 90% of pull requests. The system, developed in-house, analyzes code for quality, security, and style, providing instant feedback to developers. This has significantly reduced the burden on human reviewers and accelerated the development cycle.\n\nThe AI system is designed to complement human reviewers rather than replace them. It focuses on repetitive tasks like style checks and basic security scans, allowing human reviewers to concentrate on more complex architectural decisions. Cloudflare reports that the AI has improved code quality by catching issues earlier in the development process.\n\nCloudflare plans to open-source parts of its AI code review system in the coming months. The company hopes that sharing its technology will help other organizations adopt similar practices. The future of AI in code review looks promising, but questions remain about the system's ability to handle more nuanced coding challenges.",
+  "sourceUrl": "https://blog.cloudflare.com/ai-code-review/",
+  "sourceName": "Hacker News AI",
+  "category": "general",
+  "tags": [
+    "ai",
+    "code-review",
+    "cloudflare",
+    "devops",
+    "automation",
+    "open-source"
+  ],
+  "publishedAt": "2026-04-29T11:03:29.939931+00:00",
+  "imageUrl": "/images/articles/2026-04-29-cloudflare-scales-ai-code-review-across-1000-engineers.jpg",
+  "twitterThread": [
+    "🚀 Cloudflare just automated 90% of its code reviews. 1,000+ engineers. 0 human reviewers needed for basic checks.\n\nHere's why this matters:",
+    "The AI catches style issues, security flaws, and basic bugs instantly. Human reviewers now focus on architecture.\n\nLet that sink in.",
+    "Cloudflare says code quality has improved. Faster reviews. Fewer bugs. Less busywork for engineers.\n\nThis changes everything for dev teams.",
+    "The wild part? They're open-sourcing parts of it. Other companies can adopt this too.\n\nThe future of code review just got a lot faster.",
+    "Hot take: AI won't replace senior engineers. But it will make junior devs way more productive.\n\nGame over for manual code reviews?",
+    "Full breakdown → https://ainformed.dev/articles/2026-04-29-cloudflare-scales-ai-code-review-across-1000-engineers"
+  ],
+  "standaloneTweet": "Cloudflare's AI now handles 90% of code reviews. 1,000 engineers. Instant feedback. Human reviewers only tackle the tough stuff. 🚀"
+}

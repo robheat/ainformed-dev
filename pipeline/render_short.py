@@ -10,7 +10,9 @@ Visual style: News ticker / TV chyron with cinematic motion
   - Fast numpy compositing: gradient + UI overlay pre-computed per segment, one blend per frame
   - AInformed.dev logo bar top, category badge, article title, bottom chyron, progress bar
 """
+import bisect
 import json
+import os
 import sys
 import textwrap
 from pathlib import Path
@@ -30,6 +32,9 @@ INDIGO     = (99, 102, 241)
 WHITE      = (255, 255, 255)
 NEAR_BLACK = (12, 10, 22)
 CHYRON_BG  = (15, 12, 30, 230)   # near-black, semi-opaque
+
+CHYRON_H = 260
+CHYRON_Y = VIDEO_HEIGHT - CHYRON_H - 20  # 1640
 
 WINDOWS_FONT_DIR = Path("C:/Windows/Fonts")
 FONT_BLACK = str(WINDOWS_FONT_DIR / "ariblk.ttf")
@@ -87,7 +92,7 @@ def prepare_broll_image(image_path) -> "np.ndarray":
     Returns numpy array of shape (big_h, big_w, 3) uint8.
     """
     import numpy as np
-    from PIL import Image, ImageFilter
+    from PIL import Image
 
     big_w = int(VIDEO_WIDTH  * KB_SCALE)
     big_h = int(VIDEO_HEIGHT * KB_SCALE)
@@ -105,7 +110,6 @@ def prepare_broll_image(image_path) -> "np.ndarray":
         left = (w - big_w) // 2
         top  = (h - big_h) // 2
         img  = img.crop((left, top, left + big_w, top + big_h))
-        img  = img.filter(ImageFilter.GaussianBlur(radius=5))
     else:
         img = Image.new("RGB", (big_w, big_h), NEAR_BLACK)
 
@@ -193,11 +197,6 @@ def build_ui_overlay(
     chyron   = Image.new("RGBA", (VIDEO_WIDTH, chyron_h), CHYRON_BG)
     cd       = ImageDraw.Draw(chyron)
     cd.rectangle([(0, 0), (VIDEO_WIDTH, 5)], fill=(*INDIGO, 255))
-    if caption_lines and caption_idx < len(caption_lines):
-        cap_y = 30
-        for wl in textwrap.wrap(caption_lines[caption_idx], width=22)[:3]:
-            cd.text((VIDEO_WIDTH // 2, cap_y), wl, font=f_caption, fill=WHITE, anchor="mm")
-            cap_y += 68
     cd.text(
         (VIDEO_WIDTH // 2, chyron_h - 44),
         "More at ainformed.dev",
@@ -212,6 +211,57 @@ def build_ui_overlay(
     draw.rectangle([(0, prog_y), (prog_w,      VIDEO_HEIGHT)], fill=(*INDIGO, 255))
 
     return overlay
+
+
+def _build_chyron_word_slice(
+    caption_text: str, highlight_word_idx: int, font
+) -> "tuple[np.ndarray, np.ndarray]":
+    """Render caption text with one word highlighted as an RGBA chyron slice.
+
+    Returns (premult_rgb, inv_alpha) numpy arrays shaped (CHYRON_H, VIDEO_WIDTH, *)
+    for fast per-frame compositing.
+    """
+    import numpy as np
+    from PIL import Image, ImageDraw
+
+    img  = Image.new("RGBA", (VIDEO_WIDTH, CHYRON_H), (0, 0, 0, 0))
+    draw = ImageDraw.Draw(img)
+
+    lines       = textwrap.wrap(caption_text, width=22)[:3]
+    space_w     = int(font.getlength(" "))
+    cap_y       = 50
+    word_offset = 0
+
+    for line_text in lines:
+        words       = line_text.split()
+        word_widths = [int(font.getlength(w)) for w in words]
+        total_w     = sum(word_widths) + space_w * max(0, len(words) - 1)
+        x           = VIDEO_WIDTH // 2 - total_w // 2
+
+        for j, (word, ww) in enumerate(zip(words, word_widths)):
+            gidx = word_offset + j
+            if gidx == highlight_word_idx:
+                # Indigo pill behind the active word
+                draw.rounded_rectangle(
+                    [x - 10, cap_y - 32, x + ww + 10, cap_y + 32],
+                    radius=12, fill=(*INDIGO, 230),
+                )
+                color = WHITE
+            elif gidx < highlight_word_idx:
+                color = (80, 80, 110)    # already spoken — dimmed
+            else:
+                color = (200, 200, 220)  # not yet spoken — near-white
+            draw.text((x, cap_y), word, font=font, fill=color, anchor="lm")
+            x += ww + (space_w if j < len(words) - 1 else 0)
+
+        word_offset += len(words)
+        cap_y       += 68
+
+    arr       = np.array(img).astype(np.float32)
+    alpha     = arr[:, :, 3:4] / 255.0
+    premult   = arr[:, :, :3] * alpha
+    inv_alpha = 1.0 - alpha
+    return premult, inv_alpha
 
 
 def _build_fast_overlay(gradient_pil, ui_pil) -> "tuple[np.ndarray, np.ndarray]":
@@ -291,17 +341,53 @@ def render_video(item: dict, force: bool = False) -> "Path | None":
     try:
         clips = []
         for i in range(n):
-            big_arr   = bg_images[i % len(bg_images)]
-            direction = i % 6
+            big_arr      = bg_images[i % len(bg_images)]
+            direction    = i % 6
+            caption_text = caption_lines[i]
+            f_cap        = _font(FONT_BOLD, 56)
 
-            # Pre-render this segment's UI overlay (once per segment, not per frame)
-            ui_pil         = build_ui_overlay(title, category, caption_lines, i, n)
-            premult, inv_a = _build_fast_overlay(gradient_pil, ui_pil)
+            # Base overlay: logo, title, chyron box + CTA + progress (no caption words)
+            ui_base        = build_ui_overlay(title, category, caption_lines, i, n)
+            base_pm, base_ia = _build_fast_overlay(gradient_pil, ui_base)
 
-            def make_frame(t, big=big_arr, pm=premult, ia=inv_a,
-                           dur=seg_duration, d=direction):
-                kb  = apply_kenburns(big, t, dur, d).astype(np.float32)
-                out = pm + kb * ia
+            # Flatten words across wrapped lines (same wrap used in _build_chyron_word_slice)
+            words_flat = [
+                w
+                for ln in textwrap.wrap(caption_text, width=22)[:3]
+                for w in ln.split()
+            ]
+            n_words = max(1, len(words_flat))
+
+            # Pre-render one chyron slice per word (highlight advances each slice)
+            chyron_pms  = []
+            chyron_ias  = []
+            for w_idx in range(n_words):
+                cpm, cia = _build_chyron_word_slice(caption_text, w_idx, f_cap)
+                chyron_pms.append(cpm)
+                chyron_ias.append(cia)
+
+            # Proportional word timing (character-count based)
+            char_counts = [max(1, len(w)) for w in words_flat]
+            total_chars = sum(char_counts)
+            word_starts = [
+                seg_duration * sum(char_counts[:k]) / total_chars
+                for k in range(n_words)
+            ]
+
+            def make_frame(
+                t,
+                big=big_arr, bpm=base_pm, bia=base_ia,
+                cpms=chyron_pms, cias=chyron_ias,
+                ws=word_starts, dur=seg_duration, d=direction,
+                cy=CHYRON_Y,
+            ):
+                w_idx = max(0, min(bisect.bisect_right(ws, t) - 1, len(cpms) - 1))
+                kb    = apply_kenburns(big, t, dur, d).astype(np.float32)
+                out   = bpm + kb * bia
+                # Composite highlighted-word chyron slice into the chyron region
+                out[cy : cy + CHYRON_H] = (
+                    cpms[w_idx] + out[cy : cy + CHYRON_H] * cias[w_idx]
+                )
                 return out.clip(0, 255).astype(np.uint8)
 
             clips.append(VideoClip(make_frame, duration=seg_duration))
@@ -314,6 +400,8 @@ def render_video(item: dict, force: bool = False) -> "Path | None":
             fps=FPS,
             codec="libx264",
             audio_codec="aac",
+            threads=int(os.environ.get("FFMPEG_THREADS", "2")),
+            preset="faster",
             logger=None,
         )
         video.close()

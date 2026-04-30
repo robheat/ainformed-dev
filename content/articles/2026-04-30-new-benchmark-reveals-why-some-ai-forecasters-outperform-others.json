@@ -1,0 +1,28 @@
+{
+  "slug": "2026-04-30-new-benchmark-reveals-why-some-ai-forecasters-outperform-others",
+  "title": "New Benchmark Reveals Why Some AI Forecasters Outperform Others",
+  "summary": "Researchers introduce BTF-2, a benchmark with 1,417 pastcasting questions, to analyze AI forecasters' reasoning. The study identifies accuracy differences as small as 0.004 Brier score and builds a more accurate composite forecaster.",
+  "body": "Researchers have developed Bench to the Future 2 (BTF-2), a new benchmark designed to evaluate the reasoning processes of AI forecasting agents. BTF-2 includes 1,417 pastcasting questions and a frozen 15-million-document research corpus, allowing agents to research and forecast offline while producing full reasoning traces. This benchmark can detect minute accuracy differences of 0.004 Brier score and distinguish between agents' strengths in research versus judgment.\n\nThe significance of BTF-2 lies in its ability to provide deeper insights into why some AI forecasters are more accurate than others. Traditional forecasting benchmarks often focus on accuracy leaderboards without explaining the underlying reasons for performance differences. By analyzing reasoning traces, BTF-2 can identify specific areas where agents excel or falter, such as research quality or judgment accuracy. This granular analysis enables the construction of more effective forecasting models.\n\nUsing BTF-2, researchers built a composite forecaster that is 0.011 Brier score more accurate than any single frontier agent. This achievement highlights the potential of combining the strengths of multiple agents to create a more accurate forecasting system. Future research could explore how these insights can be applied to real-world forecasting tasks, such as economic predictions or policy planning, to enhance decision-making processes.",
+  "sourceUrl": "https://arxiv.org/abs/2604.26106",
+  "sourceName": "ArXiv cs.AI",
+  "category": "research",
+  "tags": [
+    "ai",
+    "forecasting",
+    "benchmarks",
+    "research",
+    "accuracy",
+    "brier-score"
+  ],
+  "publishedAt": "2026-04-30T16:02:50.933012+00:00",
+  "imageUrl": "/images/articles/2026-04-30-new-benchmark-reveals-why-some-ai-forecasters-outperform-others.jpg",
+  "twitterThread": [
+    "🚀 Breakthrough in AI forecasting! Researchers uncover why some models outperform others. Here's the game-changer:\n\nA new benchmark called BTF-2.\n\nIt's changing everything.",
+    "BTF-2 includes 1,417 pastcasting questions + a 15M-document research corpus. Agents research & forecast offline, producing full reasoning traces.\n\nThe wild part? It detects accuracy differences as small as 0.004 Brier score.",
+    "Traditional benchmarks only show accuracy leaderboards. BTF-2 reveals WHY some forecasters are better. It distinguishes strengths in research vs. judgment.\n\nLet that sink in.",
+    "Using BTF-2, researchers built a composite forecaster 0.011 Brier score more accurate than any single frontier agent. This changes everything for AI decision-making.",
+    "This is a huge step forward. Imagine applying these insights to economic predictions or policy planning. The future of AI forecasting just got a lot brighter.",
+    "Full breakdown → https://ainformed.dev/articles/2026-04-30-new-benchmark-reveals-why-some-ai-forecasters-outperform-others"
+  ],
+  "standaloneTweet": "🚀 Researchers crack the code on AI forecasting accuracy with BTF-2. Detects tiny differences & builds a composite model 0.011 Brier score better than any single agent. Game-changer."
+}

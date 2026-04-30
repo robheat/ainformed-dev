@@ -1,0 +1,28 @@
+{
+  "slug": "2026-04-30-dreamprover-ai-agent-evolves-reusable-math-proofs-via-wake-sleep-cycle",
+  "title": "DreamProver: AI Agent Evolves Reusable Math Proofs via Wake-Sleep Cycle",
+  "summary": "DreamProver introduces a novel approach to theorem proving by creating transferable lemma libraries through an iterative wake-sleep process. This method enhances adaptability compared to fixed or overly specific lemma libraries.",
+  "body": "Researchers have unveiled DreamProver, an AI agent that revolutionizes formal theorem proving by generating reusable lemmas through a wake-sleep paradigm. Unlike existing methods that rely on static lemma libraries or highly specific intermediate proofs, DreamProver dynamically evolves its library to improve adaptability and generality.\n\nThe wake-sleep cycle at the heart of DreamProver allows it to attempt proofs during the wake stage and refine its lemma library during the sleep stage. This iterative process enables the agent to discover lemmas that are both useful for current proofs and transferable to future ones, addressing a significant limitation in current theorem-proving systems.\n\nThis breakthrough could have profound implications for automated reasoning in mathematics and computer science. By creating a more flexible and adaptable lemma library, DreamProver may accelerate advancements in formal verification and other areas requiring rigorous proof. The research raises intriguing questions about the potential for AI agents to autonomously expand mathematical knowledge.",
+  "sourceUrl": "https://arxiv.org/abs/2604.26311",
+  "sourceName": "ArXiv cs.AI",
+  "category": "research",
+  "tags": [
+    "ai",
+    "mathematics",
+    "theorem-proving",
+    "machine-learning",
+    "research",
+    "formal-verification"
+  ],
+  "publishedAt": "2026-04-30T16:03:08.819129+00:00",
+  "imageUrl": "/images/articles/2026-04-30-dreamprover-ai-agent-evolves-reusable-math-proofs-via-wake-sleep-cycle.jpg",
+  "twitterThread": [
+    "🚀 AI just got better at math proofs. DreamProver evolves reusable lemmas like never before.\n\nHere's the game-changer:",
+    "It uses a wake-sleep cycle to refine its proof library. Wake stage: attempts proofs. Sleep stage: updates lemmas.\n\nBrilliant.",
+    "Most systems use fixed or overly specific lemmas. DreamProver's approach is adaptable and transferable.\n\nThis changes everything for formal verification.",
+    "The wild part? It autonomously discovers useful lemmas for future proofs. AI expanding math knowledge on its own.\n\nLet that sink in.",
+    "Hot take: This could be the start of AI-driven breakthroughs in pure mathematics. We're not there yet, but the potential is massive.",
+    "Full breakdown → https://ainformed.dev/articles/2026-04-30-dreamprover-ai-agent-evolves-reusable-math-proofs-via-wake-sleep-cycle"
+  ],
+  "standaloneTweet": "DreamProver uses a wake-sleep cycle to evolve reusable math lemmas. This could revolutionize formal theorem proving. AI expanding math knowledge autonomously? Mind = blown."
+}

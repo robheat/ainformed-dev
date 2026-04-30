@@ -1,0 +1,28 @@
+{
+  "slug": "2026-04-30-ai-evaluation-costs-now-outpace-training-in-open-source-models",
+  "title": "AI Evaluation Costs Now Outpace Training in Open-Source Models",
+  "summary": "Evaluating AI models is now more expensive than training them, creating a bottleneck in open-source development. This shift highlights the growing importance of efficient evaluation frameworks.",
+  "body": "Evaluating AI models has become more costly than training them, according to a new report from Hugging Face. The blog post highlights that the cost of running evaluations on open-source models now exceeds the cost of training, creating a significant bottleneck in the development pipeline. This trend is driven by the increasing complexity of evaluation benchmarks and the need for thorough testing across diverse scenarios.\n\nThis shift underscores the growing importance of efficient evaluation frameworks. As models become larger and more complex, the computational resources required for evaluation grow exponentially. This bottleneck could slow down innovation in the open-source community, where rapid iteration is key. Developers may need to prioritize evaluation efficiency alongside model performance to keep pace with advancements.\n\nThe open-source community is likely to respond with new tools and methodologies to address this challenge. Expect to see a rise in automated evaluation frameworks, benchmark optimization, and collaborative efforts to share evaluation resources. The future of AI development may hinge on how effectively the community can manage this new bottleneck.",
+  "sourceUrl": "https://huggingface.co/blog/evaleval/eval-costs-bottleneck",
+  "sourceName": "Hugging Face Blog",
+  "category": "open-source",
+  "tags": [
+    "ai-evaluation",
+    "open-source",
+    "compute-costs",
+    "model-training",
+    "hugging-face",
+    "bottleneck"
+  ],
+  "publishedAt": "2026-04-30T21:01:35.836512+00:00",
+  "imageUrl": "/images/articles/2026-04-30-ai-evaluation-costs-now-outpace-training-in-open-source-models.jpg",
+  "twitterThread": [
+    "🚨 AI evals are now more expensive than training models. The new bottleneck in open-source AI. \n\nHere's why this matters:",
+    "Training costs have been the focus for years. But evals are catching up — and surpassing — them. \n\nLet that sink in.",
+    "The wild part? Evaluation benchmarks are getting more complex. More scenarios. More edge cases. More compute.",
+    "This changes everything for open-source devs. Rapid iteration is key. But eval costs could slow things down.",
+    "The future? Expect automated eval frameworks, benchmark optimization, and shared resources. The community will adapt.",
+    "Full breakdown → https://ainformed.dev/articles/2026-04-30-ai-evaluation-costs-now-outpace-training-in-open-source-models"
+  ],
+  "standaloneTweet": "AI evals now cost more than training. The new bottleneck in open-source AI. How will the community adapt? #AI #OpenSource"
+}

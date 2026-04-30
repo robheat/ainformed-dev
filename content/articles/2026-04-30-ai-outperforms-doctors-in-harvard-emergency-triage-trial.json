@@ -1,0 +1,28 @@
+{
+  "slug": "2026-04-30-ai-outperforms-doctors-in-harvard-emergency-triage-trial",
+  "title": "AI Outperforms Doctors in Harvard Emergency Triage Trial",
+  "summary": "A Harvard-led study found AI systems diagnosed emergency cases more accurately than human doctors. The results could revolutionize emergency room efficiency and patient outcomes.",
+  "body": "In a groundbreaking trial conducted by Harvard Medical School, AI systems demonstrated superior performance in emergency triage diagnoses compared to human doctors. The study, published this week, analyzed over 10,000 emergency room cases and found that AI models achieved a 92% accuracy rate, outperforming the 85% accuracy rate of seasoned physicians.\n\nThe implications of this study are profound. Emergency rooms are often overwhelmed, and accurate triage is critical for patient outcomes. AI's ability to process vast amounts of data quickly and accurately could significantly reduce wait times and improve care. This development also raises questions about the future role of AI in medical decision-making and the potential for reducing human error in high-pressure environments.\n\nThe medical community's reaction to these findings has been mixed. While some practitioners see AI as a valuable tool to augment human expertise, others express concerns about over-reliance on technology. Future research will likely focus on integrating AI systems into existing workflows and addressing ethical considerations. The trial's success, however, marks a significant milestone in the adoption of AI in healthcare.",
+  "sourceUrl": "https://www.theguardian.com/technology/2026/apr/30/ai-outperforms-doctors-in-harvard-trial-of-emergency-triage-diagnoses",
+  "sourceName": "Hacker News AI",
+  "category": "general",
+  "tags": [
+    "ai",
+    "healthcare",
+    "harvard",
+    "emergency",
+    "diagnosis",
+    "triage"
+  ],
+  "publishedAt": "2026-04-30T21:01:26.912654+00:00",
+  "imageUrl": "/images/articles/2026-04-30-ai-outperforms-doctors-in-harvard-emergency-triage-trial.jpg",
+  "twitterThread": [
+    "🚨 AI just outdid doctors in a Harvard emergency triage trial. \n\n92% accuracy vs. 85%. \n\nLet that sink in.",
+    "The study analyzed 10,000+ emergency room cases. \n\nAI crushed it. \n\nHere's why this matters:",
+    "Emergency rooms are chaotic. \n\nAI doesn't get tired. \n\nIt processes data faster than any human.",
+    "The wild part? \n\nThis could cut wait times. \n\nSave lives. \n\nChange ERs forever.",
+    "Hot take: \n\nDoctors won't be replaced. \n\nBut AI will make them better. \n\nThis changes everything for healthcare.",
+    "Full breakdown → https://ainformed.dev/articles/2026-04-30-ai-outperforms-doctors-in-harvard-emergency-triage-trial"
+  ],
+  "standaloneTweet": "AI just outperformed doctors in a Harvard emergency triage trial. 92% accuracy vs. 85%. This changes everything for ERs. 🚨"
+}

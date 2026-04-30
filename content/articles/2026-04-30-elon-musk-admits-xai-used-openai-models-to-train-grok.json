@@ -1,0 +1,28 @@
+{
+  "slug": "2026-04-30-elon-musk-admits-xai-used-openai-models-to-train-grok",
+  "title": "Elon Musk admits xAI used OpenAI models to train Grok",
+  "summary": "Elon Musk revealed in court that xAI leveraged OpenAI's models for training Grok. This admission highlights the common but controversial practice of model distillation in AI development.",
+  "body": "In a federal courtroom in California, Elon Musk testified that his AI startup, xAI, used OpenAI's models to enhance its own AI, Grok. The testimony centered around model distillation, a technique where a larger model \"teaches\" a smaller one. This practice is widely used in the industry to improve efficiency and performance.\n\nThe admission is significant as it underscores the interconnected nature of AI development. While model distillation is a standard practice, it often raises questions about intellectual property and competition. Musk's revelation could have implications for ongoing legal battles and industry standards.\n\nThe reaction to Musk's testimony has been mixed. Some industry experts view it as a pragmatic approach to AI development, while others see it as a potential violation of proprietary boundaries. The future of model distillation may now come under closer scrutiny, particularly in legal and ethical discussions. Open questions remain about how this practice will be regulated and what it means for the competitive landscape of AI.",
+  "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/921546/elon-musk-xai-openai-trial-model-distillation",
+  "sourceName": "The Verge AI",
+  "category": "industry",
+  "tags": [
+    "elon-musk",
+    "xai",
+    "openai",
+    "model-distillation",
+    "ai-training",
+    "legal"
+  ],
+  "publishedAt": "2026-04-30T21:02:28.748380+00:00",
+  "imageUrl": "/images/articles/2026-04-30-elon-musk-admits-xai-used-openai-models-to-train-grok.jpg",
+  "twitterThread": [
+    "🚨 Elon Musk just admitted xAI used OpenAI models to train Grok. \n\nThis is a BIG deal.\n\nHere's why:",
+    "Model distillation is common in AI. A big model \"teaches\" a smaller one. \n\nBut using a competitor's models? That's controversial.",
+    "Musk's admission could reshape AI ethics and legal battles. \n\nLet that sink in.",
+    "The wild part? This isn't just about Grok. It's about the future of AI competition. \n\nThis changes everything for... well, everyone.",
+    "Hot take: This might be the start of a new era in AI transparency. \n\nBuckle up.",
+    "Full breakdown → https://ainformed.dev/articles/2026-04-30-elon-musk-admits-xai-used-openai-models-to-train-grok"
+  ],
+  "standaloneTweet": "Elon Musk just revealed xAI used OpenAI models to train Grok. This admission could redefine AI ethics and competition. 🔥"
+}

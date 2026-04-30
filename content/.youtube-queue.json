@@ -117,14 +117,51 @@
       },
       "scriptHash": "dffc8d197222ea29",
       "scriptText": "Seven families are suing OpenAI after a school shooting they believe artificial intelligence could have prevented. The families claim OpenAI's systems flagged suspicious activity from the shooter but didn't warn authorities. This lawsuit could set a precedent for AI companies' responsibilities in preventing real-world harm. OpenAI has faced criticism before but this is the first major legal challenge over its duty to warn. The case highlights the urgent need for clear guidelines on how AI companies should handle potential threats. With AI becoming more integrated into daily life, this lawsuit could shape future regulations and policies. The outcome may determine whether AI companies will be held legally accountable for inaction in similar cases. For more AI news, visit ainformed dot dev.",
-      "audioFile": null,
-      "videoFile": null,
-      "status": "scripted",
+      "audioFile": "/home/runner/work/ainformed-dev/ainformed-dev/pipeline/cache/youtube/2026-04-29-tumbler-ridge-families-sue-openai-over-alleged-negligence-in-school-shooting.wav",
+      "videoFile": "/home/runner/work/ainformed-dev/ainformed-dev/pipeline/cache/youtube/2026-04-29-tumbler-ridge-families-sue-openai-over-alleged-negligence-in-school-shooting.mp4",
+      "status": "rendered",
       "youtubeVideoId": null,
       "youtubeUrl": null,
       "privacy": "unlisted",
       "error": null,
       "createdAt": "2026-04-30T12:12:10.510745+00:00",
+      "uploadedAt": null
+    },
+    {
+      "slug": "2026-04-29-openai-unveils-five-part-plan-to-strengthen-cybersecurity-in-the-intelligence-ag",
+      "title": "OpenAI Unveils Five-Part Plan to Strengthen Cybersecurity in the Intelligence Age",
+      "category": "models",
+      "tags": [
+        "cybersecurity",
+        "ai-defense",
+        "openai",
+        "intelligence-age",
+        "critical-infrastructure"
+      ],
+      "imageUrl": "/images/articles/2026-04-29-openai-unveils-five-part-plan-to-strengthen-cybersecurity-in-the-intelligence-ag.jpg",
+      "articleUrl": "https://ainformed.dev/articles/2026-04-29-openai-unveils-five-part-plan-to-strengthen-cybersecurity-in-the-intelligence-ag",
+      "script": {
+        "hook": "OpenAI just revealed a plan to fight cyber threats using artificial intelligence, and it's a game-changer.",
+        "narration_lines": [
+          "Their five-part strategy focuses on making advanced cyber defense tools accessible to everyone.",
+          "Key moves include better threat detection, stronger encryption, and global teamwork to stop cyberattacks.",
+          "This is critical as cyber threats are growing faster than ever, targeting governments and businesses alike.",
+          "The goal? To protect critical infrastructure and keep our digital world safe in the age of AI.",
+          "OpenAI's plan could set a new standard for cybersecurity worldwide."
+        ],
+        "cta": "For more AI news, visit ainformed dot dev.",
+        "total_words": 100
+      },
+      "scriptHash": "ba974247a3beaaac",
+      "scriptText": "OpenAI just revealed a plan to fight cyber threats using artificial intelligence, and it's a game-changer. Their five-part strategy focuses on making advanced cyber defense tools accessible to everyone. Key moves include better threat detection, stronger encryption, and global teamwork to stop cyberattacks. This is critical as cyber threats are growing faster than ever, targeting governments and businesses alike. The goal? To protect critical infrastructure and keep our digital world safe in the age of AI. OpenAI's plan could set a new standard for cybersecurity worldwide. For more AI news, visit ainformed dot dev.",
+      "audioFile": "/home/runner/work/ainformed-dev/ainformed-dev/pipeline/cache/youtube/2026-04-29-openai-unveils-five-part-plan-to-strengthen-cybersecurity-in-the-intelligence-ag.wav",
+      "videoFile": "/home/runner/work/ainformed-dev/ainformed-dev/pipeline/cache/youtube/2026-04-29-openai-unveils-five-part-plan-to-strengthen-cybersecurity-in-the-intelligence-ag.mp4",
+      "status": "rendered",
+      "youtubeVideoId": null,
+      "youtubeUrl": null,
+      "privacy": "unlisted",
+      "error": null,
+      "createdAt": "2026-04-30T12:15:41.732859+00:00",
       "uploadedAt": null
     }
   ]

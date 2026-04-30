@@ -87,6 +87,45 @@
         "D:\\AInformed dev\\ainformed-web\\pipeline\\cache\\youtube\\2026-04-19-openais-sora-team-leader-bill-peebles-departs-amid-strategic-shifts_bg_2.jpg",
         "D:\\AInformed dev\\ainformed-web\\pipeline\\cache\\youtube\\2026-04-19-openais-sora-team-leader-bill-peebles-departs-amid-strategic-shifts_bg_3.jpg"
       ]
+    },
+    {
+      "slug": "2026-04-29-tumbler-ridge-families-sue-openai-over-alleged-negligence-in-school-shooting",
+      "title": "Tumbler Ridge Families Sue OpenAI Over Alleged Negligence in School Shooting",
+      "category": "industry",
+      "tags": [
+        "ai-regulation",
+        "legal-action",
+        "openai",
+        "safety",
+        "chatgpt",
+        "accountability"
+      ],
+      "imageUrl": "/images/articles/2026-04-29-tumbler-ridge-families-sue-openai-over-alleged-negligence-in-school-shooting.jpg",
+      "articleUrl": "https://ainformed.dev/articles/2026-04-29-tumbler-ridge-families-sue-openai-over-alleged-negligence-in-school-shooting",
+      "script": {
+        "hook": "Seven families are suing OpenAI after a school shooting they believe artificial intelligence could have prevented.",
+        "narration_lines": [
+          "The families claim OpenAI's systems flagged suspicious activity from the shooter but didn't warn authorities.",
+          "This lawsuit could set a precedent for AI companies' responsibilities in preventing real-world harm.",
+          "OpenAI has faced criticism before but this is the first major legal challenge over its duty to warn.",
+          "The case highlights the urgent need for clear guidelines on how AI companies should handle potential threats.",
+          "With AI becoming more integrated into daily life, this lawsuit could shape future regulations and policies.",
+          "The outcome may determine whether AI companies will be held legally accountable for inaction in similar cases."
+        ],
+        "cta": "For more AI news, visit ainformed dot dev.",
+        "total_words": 120
+      },
+      "scriptHash": "dffc8d197222ea29",
+      "scriptText": "Seven families are suing OpenAI after a school shooting they believe artificial intelligence could have prevented. The families claim OpenAI's systems flagged suspicious activity from the shooter but didn't warn authorities. This lawsuit could set a precedent for AI companies' responsibilities in preventing real-world harm. OpenAI has faced criticism before but this is the first major legal challenge over its duty to warn. The case highlights the urgent need for clear guidelines on how AI companies should handle potential threats. With AI becoming more integrated into daily life, this lawsuit could shape future regulations and policies. The outcome may determine whether AI companies will be held legally accountable for inaction in similar cases. For more AI news, visit ainformed dot dev.",
+      "audioFile": null,
+      "videoFile": null,
+      "status": "scripted",
+      "youtubeVideoId": null,
+      "youtubeUrl": null,
+      "privacy": "unlisted",
+      "error": null,
+      "createdAt": "2026-04-30T12:12:10.510745+00:00",
+      "uploadedAt": null
     }
   ]
 }

@@ -1,0 +1,27 @@
+{
+  "slug": "2026-04-30-new-study-reveals-how-llms-transition-between-prompt-and-response-risks",
+  "title": "New Study Reveals How LLMs Transition Between Prompt and Response Risks",
+  "summary": "A new study analyzes how large language models (LLMs) transition between user prompts and responses in terms of safety. The research found that 61% of responses de-escalate harm, highlighting the dynamic nature of risk in AI interactions.",
+  "body": "A recent study published on arXiv introduces a novel approach to evaluating the safety of large language models (LLMs) by analyzing the transition between user prompts and model responses. Traditional safety evaluations often focus on binary outcomes like attack success rates or refusal rates, but this research takes a more nuanced approach. The study examined 1,250 prompt-response pairs, categorized by human annotators into four harm categories (Hate, Sexual, Violence, Self-harm) and aligned with the Azure AI Content Safety taxonomy.\n\nThe findings reveal that 61% of responses de-escalate harm, meaning the model's output is safer than the input prompt. This challenges the notion that LLMs simply reflect the risks present in user inputs. The study underscores the importance of understanding how models dynamically adjust their responses to mitigate potential harm, which has significant implications for AI safety protocols and ethical guidelines.\n\nThe research raises important questions about the future of AI safety evaluations. As LLMs become more integrated into daily applications, understanding their ability to de-escalate harm will be crucial. Future studies could explore how different models compare in this regard and what specific mechanisms enable these de-escalation behaviors. This work highlights the need for more sophisticated safety metrics that capture the dynamic nature of AI interactions.",
+  "sourceUrl": "https://arxiv.org/abs/2604.26052",
+  "sourceName": "ArXiv cs.CL",
+  "category": "research",
+  "tags": [
+    "llms",
+    "ai-safety",
+    "research",
+    "harm-de-escalation",
+    "content-moderation"
+  ],
+  "publishedAt": "2026-04-30T11:03:49.399706+00:00",
+  "imageUrl": "/images/articles/2026-04-30-new-study-reveals-how-llms-transition-between-prompt-and-response-risks.jpg",
+  "twitterThread": [
+    "🚨 New research flips the script on LLM safety evaluations. \n\nThe wild part? 61% of responses actually DE-escalate harm. \n\nThis changes everything. #AI",
+    "Traditional safety metrics focus on binary outcomes. \n\nBut this study looks at the TRANSITION from prompt to response. \n\n4 categories. 1,250 pairs. Human-labeled.",
+    "Here's why this matters: \n\nLLMs aren't just mirrors. \n\nThey actively REDUCE risk in responses. \n\nLet that sink in.",
+    "The study used Azure AI's Content Safety taxonomy. \n\nHate. Sexual. Violence. Self-harm. \n\n61% of responses were SAFER than the prompts.",
+    "This isn't just academic. \n\nIt's a game-changer for AI safety protocols. \n\nFuture models will need to be evaluated on their ability to de-escalate harm.",
+    "Full breakdown → https://ainformed.dev/articles/2026-04-30-new-study-reveals-how-llms-transition-between-prompt-and-response-risks"
+  ],
+  "standaloneTweet": "🚨 New research shows 61% of LLM responses DE-escalate harm. This flips the script on AI safety evaluations. #AI"
+}

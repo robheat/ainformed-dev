@@ -1,0 +1,28 @@
+{
+  "slug": "2026-04-30-new-method-estimates-black-box-llm-parameter-counts-via-factual-capacity",
+  "title": "New Method Estimates Black-Box LLM Parameter Counts via Factual Capacity",
+  "summary": "Researchers propose a novel approach to estimate the parameter count of black-box language models by analyzing their factual capacity. This method could revolutionize benchmarking and comparison of proprietary models.",
+  "body": "Researchers have developed a new technique to estimate the number of parameters in black-box language models (LLMs) without access to their internal architecture. The method, detailed in a recent paper, leverages the model's factual capacity—the ability to recall and generate accurate factual information—to infer the underlying parameter count. This breakthrough could democratize the evaluation of proprietary models, which often lack transparency about their internal configurations.\n\nThe significance of this research lies in its potential to level the playing field in AI benchmarking. Currently, comparing open-source and closed-source models is challenging due to the lack of information about the latter's architecture. By providing a reliable way to estimate parameter counts, this method could enable more fair and informed comparisons. The technique also highlights the importance of factual knowledge as a proxy for model complexity, suggesting that models with higher factual capacity are likely to have more parameters.\n\nThe research raises several questions about the future of model evaluation. Will this method be adopted by benchmarking organizations? How will proprietary model developers respond to this new transparency tool? The paper has sparked discussions in the AI community, with some researchers calling for standardized protocols to validate the method's accuracy across different types of models. As the field continues to evolve, such tools could become essential for ensuring accountability and fostering innovation in AI development.",
+  "sourceUrl": "https://arxiv.org/abs/2604.24827",
+  "sourceName": "Hacker News AI",
+  "category": "general",
+  "tags": [
+    "llms",
+    "research",
+    "parameter-count",
+    "benchmarking",
+    "transparency",
+    "ai-evaluation"
+  ],
+  "publishedAt": "2026-04-30T11:03:13.256729+00:00",
+  "imageUrl": "/images/articles/2026-04-30-new-method-estimates-black-box-llm-parameter-counts-via-factual-capacity.jpg",
+  "twitterThread": [
+    "🚀 Scientists just cracked a way to estimate black-box LLM parameter counts.\n\nNo more guessing games. Here's how:\n\n1. Measure factual capacity.\n2. Reverse-engineer the model.\n3. Boom—parameter count.\n\nThis changes everything for proprietary models. 🧵",
+    "The method relies on a model's ability to recall facts. More facts = more parameters.\n\nWhy? Because factual knowledge is a proxy for complexity.\n\nLet that sink in.",
+    "Here's why this matters:\n\n- No more opaque comparisons between open-source and closed-source models.\n- Benchmarking just got a lot fairer.\n- Transparency wins.\n\nThe AI community is buzzing.",
+    "The wild part? This could force proprietary model developers to be more transparent.\n\nWill they adapt? Or resist?\n\nEither way, the game just changed.",
+    "Hot take: This is the first step towards standardized AI model evaluation.\n\nImagine a world where every model's complexity is known.\n\nMore accountability. More innovation.\n\nThe future of AI just got brighter.",
+    "Full breakdown → https://ainformed.dev/articles/2026-04-30-new-method-estimates-black-box-llm-parameter-counts-via-factual-capacity"
+  ],
+  "standaloneTweet": "Scientists just found a way to estimate black-box LLM parameter counts by measuring factual capacity. This could revolutionize AI benchmarking. 🔥"
+}

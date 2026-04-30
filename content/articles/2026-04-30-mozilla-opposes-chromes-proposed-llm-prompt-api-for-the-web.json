@@ -1,0 +1,28 @@
+{
+  "slug": "2026-04-30-mozilla-opposes-chromes-proposed-llm-prompt-api-for-the-web",
+  "title": "Mozilla Opposes Chrome's Proposed LLM Prompt API for the Web",
+  "summary": "Mozilla has publicly opposed Google's plan to introduce an LLM Prompt API in Chrome. The move raises concerns about privacy, centralization, and competition in AI web services.",
+  "body": "Mozilla, the organization behind Firefox, has publicly criticized Google's proposal to integrate an LLM Prompt API directly into the Chrome browser. The API would allow websites to easily embed large language models (LLMs) into their services, enabling features like AI-powered chatbots, content generation, and more. Mozilla argues that this could lead to a monopolistic landscape where Google controls the infrastructure for AI on the web.\n\nThe core concern is that Google's dominance in both search and browser technology could extend to AI services, creating a walled garden that disadvantages competitors. Mozilla fears this could stifle innovation and limit user choice, as developers might prefer Google's API due to its integration with Chrome. Additionally, privacy advocates worry about the potential for increased data collection and tracking tied to AI interactions.\n\nThe debate highlights broader tensions in the tech industry around AI integration and web standards. While Google frames the API as a way to democratize AI access, critics see it as a power play. The outcome could shape the future of AI on the web, with implications for both developers and users. Mozilla has called for a more open, decentralized approach to AI integration, but it remains to be seen whether their stance will influence Google's plans.",
+  "sourceUrl": "https://mastodon.social/@firefoxwebdevs/116492853483021978",
+  "sourceName": "Hacker News AI",
+  "category": "general",
+  "tags": [
+    "ai",
+    "web",
+    "privacy",
+    "google",
+    "mozilla",
+    "chrome"
+  ],
+  "publishedAt": "2026-04-30T11:03:00.837827+00:00",
+  "imageUrl": "/images/articles/2026-04-30-mozilla-opposes-chromes-proposed-llm-prompt-api-for-the-web.jpg",
+  "twitterThread": [
+    "🚨 Mozilla just dropped a bombshell: They're opposing Google's LLM Prompt API for Chrome.\n\nThis could change everything for AI on the web.",
+    "Here's the deal: Google wants to let websites embed LLMs directly via Chrome. Sounds cool, right?\n\nBut Mozilla says it's a power grab.",
+    "The wild part? This API could make Google the default choice for AI on the web. That's a huge problem for competition and privacy.",
+    "Let that sink in. If Google controls the AI infrastructure, where does that leave startups? Open-source projects? User choice?",
+    "This is a battle for the future of the web. Will it be open and decentralized? Or controlled by a few giants?",
+    "Full breakdown → https://ainformed.dev/articles/2026-04-30-mozilla-opposes-chromes-proposed-llm-prompt-api-for-the-web"
+  ],
+  "standaloneTweet": "Mozilla just called out Google's LLM Prompt API as a potential power grab. The future of AI on the web is at stake. 🔥"
+}

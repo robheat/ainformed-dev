@@ -1,0 +1,28 @@
+{
+  "slug": "2026-04-30-onchain-ai-agents-trade-20m-in-eth-a-21-day-experiment-in-autonomous-finance",
+  "title": "Onchain AI Agents Trade $20M in ETH: A 21-Day Experiment in Autonomous Finance",
+  "summary": "Researchers deployed 3,505 AI agents to trade real ETH, processing 7.5M inferences and $20M in volume. The study highlights the reliability of language-model agents in real-world financial markets.",
+  "body": "In a groundbreaking 21-day experiment, researchers deployed 3,505 autonomous AI agents to trade real ETH on the DX Terminal Pro platform. These agents, funded by users, processed a staggering 7.5 million inferences and executed roughly 300,000 onchain actions, resulting in over $20 million in trading volume. Users configured vaults with structured controls and natural-language strategies, but the agents had the autonomy to execute normal buy and sell trades. This study marks one of the first large-scale deployments of AI agents in a real-world financial market, demonstrating their potential and reliability under real capital constraints.\n\nThe experiment's scale and scope provide valuable insights into the capabilities of language-model agents in autonomous trading. With over 5,000 ETH deployed, the study showcases the agents' ability to handle complex financial tasks while adhering to user-defined mandates. The findings suggest that AI agents can effectively translate natural-language strategies into validated tool actions, paving the way for more sophisticated and autonomous financial systems. The sheer volume of transactions and inferences indicates a robust framework for future applications in decentralized finance (DeFi).\n\nLooking ahead, the success of this experiment raises questions about the broader implications for autonomous trading and financial markets. The researchers' findings could influence the development of more advanced AI-driven financial tools and platforms. Future studies may explore the scalability and security of such systems, as well as their potential to disrupt traditional financial markets. The experiment's outcomes also highlight the need for robust regulatory frameworks to govern the use of AI in financial trading, ensuring transparency and accountability in autonomous financial systems.",
+  "sourceUrl": "https://arxiv.org/abs/2604.26091",
+  "sourceName": "ArXiv cs.AI",
+  "category": "research",
+  "tags": [
+    "ai-agents",
+    "ethereum",
+    "defi",
+    "autonomous-trading",
+    "language-models",
+    "finance"
+  ],
+  "publishedAt": "2026-04-30T11:02:39.232291+00:00",
+  "imageUrl": "/images/articles/2026-04-30-onchain-ai-agents-trade-20m-in-eth-a-21-day-experiment-in-autonomous-finance.jpg",
+  "twitterThread": [
+    "🚀 AI agents just traded $20M in ETH in 21 days. Here's why this changes everything.",
+    "3,505 autonomous AI agents executed 300K onchain actions. 7.5M inferences. $20M volume.",
+    "Users set up vaults with controls + natural-language strategies. Agents handled the trades.",
+    "The wild part? This was real capital. Not a simulation. Over 5,000 ETH deployed.",
+    "This proves AI agents can reliably trade in real markets. The future of finance is autonomous.",
+    "Full breakdown → https://ainformed.dev/articles/2026-04-30-onchain-ai-agents-trade-20m-in-eth-a-21-day-experiment-in-autonomous-finance"
+  ],
+  "standaloneTweet": "AI agents just traded $20M in ETH in 21 days. This is the future of autonomous finance. 🚀"
+}

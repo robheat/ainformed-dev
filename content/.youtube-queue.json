@@ -163,6 +163,81 @@
       "error": null,
       "createdAt": "2026-04-30T12:15:41.732859+00:00",
       "uploadedAt": null
+    },
+    {
+      "slug": "2026-04-30-openais-gpt-55-cyber-to-debut-exclusively-for-cyber-defenders",
+      "title": "OpenAI’s GPT-5.5-Cyber to Debut Exclusively for Cyber Defenders",
+      "category": "industry",
+      "tags": [
+        "cybersecurity",
+        "gpt-5-5-cyber",
+        "openai",
+        "ai-defense",
+        "sam-altman"
+      ],
+      "imageUrl": "/images/articles/2026-04-30-openais-gpt-55-cyber-to-debut-exclusively-for-cyber-defenders.jpg",
+      "articleUrl": "https://ainformed.dev/articles/2026-04-30-openais-gpt-55-cyber-to-debut-exclusively-for-cyber-defenders",
+      "script": {
+        "hook": "OpenAI's latest AI model is so powerful, it's being kept from the public.",
+        "narration_lines": [
+          "GPT-5.5-Cyber is designed for cybersecurity, exclusively for defenders.",
+          "This move shows OpenAI prioritizing critical needs over mass accessibility.",
+          "The model aims to bolster institutional defenses against growing cyber threats.",
+          "By restricting access, OpenAI hopes to minimize risks from widespread use.",
+          "Expect other specialized AI models to follow this trend in the future."
+        ],
+        "cta": "For more AI news, visit ainformed dot dev.",
+        "total_words": 70
+      },
+      "scriptHash": "463b17dab26e4cd6",
+      "scriptText": "OpenAI's latest AI model is so powerful, it's being kept from the public. GPT-5.5-Cyber is designed for cybersecurity, exclusively for defenders. This move shows OpenAI prioritizing critical needs over mass accessibility. The model aims to bolster institutional defenses against growing cyber threats. By restricting access, OpenAI hopes to minimize risks from widespread use. Expect other specialized AI models to follow this trend in the future. For more AI news, visit ainformed dot dev.",
+      "audioFile": "/home/runner/work/ainformed-dev/ainformed-dev/pipeline/cache/youtube/2026-04-30-openais-gpt-55-cyber-to-debut-exclusively-for-cyber-defenders.wav",
+      "videoFile": "/home/runner/work/ainformed-dev/ainformed-dev/pipeline/cache/youtube/2026-04-30-openais-gpt-55-cyber-to-debut-exclusively-for-cyber-defenders.mp4",
+      "status": "uploaded",
+      "youtubeVideoId": "YMOrh68A5HY",
+      "youtubeUrl": "https://youtube.com/watch?v=YMOrh68A5HY",
+      "privacy": "unlisted",
+      "error": null,
+      "createdAt": "2026-04-30T20:00:57.370684+00:00",
+      "uploadedAt": "2026-04-30T20:05:03.506029+00:00"
+    },
+    {
+      "slug": "2026-04-30-openai-scales-stargate-to-power-agi-ambitions",
+      "title": "OpenAI Scales Stargate to Power AGI Ambitions",
+      "category": "models",
+      "tags": [
+        "agi",
+        "openai",
+        "stargate",
+        "compute",
+        "ai-infrastructure",
+        "data-centers"
+      ],
+      "imageUrl": "/images/articles/2026-04-30-openai-scales-stargate-to-power-agi-ambitions.jpg",
+      "articleUrl": "https://ainformed.dev/articles/2026-04-30-openai-scales-stargate-to-power-agi-ambitions",
+      "script": {
+        "hook": "OpenAI is building data centers the size of small cities to power its AGI dreams.",
+        "narration_lines": [
+          "This is not just an upgrade, it's a full-scale expansion called Stargate.",
+          "AGI requires insane amounts of computing power, and OpenAI is doubling down.",
+          "The new data centers will be crucial for training models that think like humans.",
+          "This is a clear sign that AGI is not just a distant dream anymore.",
+          "Expect more AI breakthroughs as OpenAI ramps up its infrastructure."
+        ],
+        "cta": "For more AI news, visit ainformed dot dev.",
+        "total_words": 75
+      },
+      "scriptHash": "c14e9c913dae9958",
+      "scriptText": "OpenAI is building data centers the size of small cities to power its AGI dreams. This is not just an upgrade, it's a full-scale expansion called Stargate. AGI requires insane amounts of computing power, and OpenAI is doubling down. The new data centers will be crucial for training models that think like humans. This is a clear sign that AGI is not just a distant dream anymore. Expect more AI breakthroughs as OpenAI ramps up its infrastructure. For more AI news, visit ainformed dot dev.",
+      "audioFile": "/home/runner/work/ainformed-dev/ainformed-dev/pipeline/cache/youtube/2026-04-30-openai-scales-stargate-to-power-agi-ambitions.wav",
+      "videoFile": "/home/runner/work/ainformed-dev/ainformed-dev/pipeline/cache/youtube/2026-04-30-openai-scales-stargate-to-power-agi-ambitions.mp4",
+      "status": "uploaded",
+      "youtubeVideoId": "0imNNCNXfr8",
+      "youtubeUrl": "https://youtube.com/watch?v=0imNNCNXfr8",
+      "privacy": "unlisted",
+      "error": null,
+      "createdAt": "2026-04-30T20:00:58.502525+00:00",
+      "uploadedAt": "2026-04-30T20:05:04.950756+00:00"
     }
   ]
 }

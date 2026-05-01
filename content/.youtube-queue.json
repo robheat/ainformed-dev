@@ -391,6 +391,44 @@
       "error": null,
       "createdAt": "2026-05-01T18:14:28.324510+00:00",
       "uploadedAt": "2026-05-01T18:19:44.832891+00:00"
+    },
+    {
+      "slug": "2026-04-29-openai-brings-gpt-models-codex-and-managed-agents-to-aws",
+      "title": "OpenAI Brings GPT Models, Codex, and Managed Agents to AWS",
+      "category": "models",
+      "tags": [
+        "openai",
+        "aws",
+        "gpt",
+        "codex",
+        "managed-agents",
+        "enterprise-ai"
+      ],
+      "imageUrl": "/images/articles/2026-04-29-openai-brings-gpt-models-codex-and-managed-agents-to-aws.jpg",
+      "articleUrl": "https://ainformed.dev/articles/2026-04-29-openai-brings-gpt-models-codex-and-managed-agents-to-aws",
+      "script": {
+        "hook": "OpenAI's artificial intelligence models are now running directly on AWS, and it's a game-changer for businesses.",
+        "narration_lines": [
+          "Enterprises can now use GPT models and Codex within their AWS environments securely.",
+          "This means no more jumping between platforms to build AI applications.",
+          "Developers get seamless access to OpenAI's tools alongside AWS's powerful cloud infrastructure.",
+          "The integration simplifies building AI-driven apps, making it faster and more efficient.",
+          "This move is expected to accelerate AI adoption across industries."
+        ],
+        "cta": "For more AI news, visit ainformed dot dev.",
+        "total_words": 120
+      },
+      "scriptHash": "2926b4fe62af8968",
+      "scriptText": "OpenAI's artificial intelligence models are now running directly on AWS, and it's a game-changer for businesses. Enterprises can now use GPT models and Codex within their AWS environments securely. This means no more jumping between platforms to build AI applications. Developers get seamless access to OpenAI's tools alongside AWS's powerful cloud infrastructure. The integration simplifies building AI-driven apps, making it faster and more efficient. This move is expected to accelerate AI adoption across industries. For more AI news, visit ainformed dot dev.",
+      "audioFile": "/home/runner/work/ainformed-dev/ainformed-dev/pipeline/cache/youtube/2026-04-29-openai-brings-gpt-models-codex-and-managed-agents-to-aws.wav",
+      "videoFile": "/home/runner/work/ainformed-dev/ainformed-dev/pipeline/cache/youtube/2026-04-29-openai-brings-gpt-models-codex-and-managed-agents-to-aws.mp4",
+      "status": "uploaded",
+      "youtubeVideoId": "wVG3exb4paM",
+      "youtubeUrl": "https://youtube.com/watch?v=wVG3exb4paM",
+      "privacy": "unlisted",
+      "error": null,
+      "createdAt": "2026-05-01T19:17:28.952164+00:00",
+      "uploadedAt": "2026-05-01T19:20:08.242006+00:00"
     }
   ]
 }

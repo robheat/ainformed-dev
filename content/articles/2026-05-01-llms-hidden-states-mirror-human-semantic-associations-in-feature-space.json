@@ -1,0 +1,27 @@
+{
+  "slug": "2026-05-01-llms-hidden-states-mirror-human-semantic-associations-in-feature-space",
+  "title": "LLMs' Hidden States Mirror Human Semantic Associations in Feature Space",
+  "summary": "Researchers found that geometric relations between semantic features in LLMs' hidden states closely match human psychological associations. The study projects 360 words onto 32 semantic axes, showing high correlation with human ratings.",
+  "body": "A new study published on arXiv reveals that the geometric relations between semantic features in large language models' (LLMs) hidden states closely mirror human psychological associations. Researchers constructed feature vectors for 360 words and projected them onto 32 semantic axes, such as beautiful-ugly or soft-hard. The projections correlated highly with human ratings of those words on the respective semantic scales.\n\nThe findings suggest that LLMs inherently capture human-like semantic structures in their hidden states. The cosine similarities between the semantic axes themselves were highly predictive of the correlations between these scales in human psychology. This indicates that LLMs not only understand words but also the intricate relationships between them, much like humans do.\n\nThe implications of this research are profound for both AI development and cognitive science. Understanding how LLMs encode semantic information could lead to more intuitive and human-like AI systems. Future studies may explore how these findings can be leveraged to improve AI's ability to understand and generate more nuanced and contextually appropriate responses. The study also raises questions about the extent to which LLMs can truly replicate human cognitive processes.",
+  "sourceUrl": "https://arxiv.org/abs/2604.27169",
+  "sourceName": "ArXiv cs.CL",
+  "category": "research",
+  "tags": [
+    "llm",
+    "semantic-features",
+    "cognitive-science",
+    "hidden-states",
+    "ai-research"
+  ],
+  "publishedAt": "2026-05-01T16:02:06.563348+00:00",
+  "imageUrl": "/images/articles/2026-05-01-llms-hidden-states-mirror-human-semantic-associations-in-feature-space.jpg",
+  "twitterThread": [
+    "🔥 New research shows LLMs' hidden states mirror human semantic associations. The implications? Huge. 🧵",
+    "Scientists projected 360 words onto 32 semantic axes (e.g., beautiful-ugly, soft-hard). The projections matched human ratings almost perfectly.",
+    "Here's why this matters: LLMs don't just understand words—they encode human-like relationships between them. Let that sink in.",
+    "The cosine similarities between semantic axes predicted human-scale correlations. This is a big deal for cognitive science and AI development.",
+    "This changes everything for how we think about AI's understanding of language. Future systems could be even more human-like.",
+    "Full breakdown → https://ainformed.dev/articles/2026-05-01-llms-hidden-states-mirror-human-semantic-associations-in-feature-space"
+  ],
+  "standaloneTweet": "New research reveals LLMs' hidden states mirror human semantic associations. The implications for AI and cognitive science are massive. 🧵"
+}

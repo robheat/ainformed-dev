@@ -429,6 +429,53 @@
       "error": null,
       "createdAt": "2026-05-01T19:17:28.952164+00:00",
       "uploadedAt": "2026-05-01T19:20:08.242006+00:00"
+    },
+    {
+      "slug": "2026-04-29-openai-achieves-fedramp-moderate-authorization-for-federal-use",
+      "title": "OpenAI Achieves FedRAMP Moderate Authorization for Federal Use",
+      "category": "models",
+      "tags": [
+        "openai",
+        "fedramp",
+        "government",
+        "ai-adoption",
+        "compliance",
+        "chatgpt"
+      ],
+      "imageUrl": "/images/articles/2026-04-29-openai-achieves-fedramp-moderate-authorization-for-federal-use.jpg",
+      "articleUrl": "https://ainformed.dev/articles/2026-04-29-openai-achieves-fedramp-moderate-authorization-for-federal-use",
+      "script": {
+        "hook": "OpenAI just got the green light to power U.S. government AI tools.",
+        "narration_lines": [
+          "ChatGPT Enterprise and OpenAI API now meet FedRAMP Moderate security standards.",
+          "This means federal agencies can safely use artificial intelligence for sensitive tasks.",
+          "Only about 200 systems have achieved this level of federal security clearance.",
+          "Expect more government departments to adopt AI tools in the coming months.",
+          "This could speed up everything from policy analysis to public service delivery."
+        ],
+        "cta": "For more AI news, visit ainformed dot dev.",
+        "total_words": 120
+      },
+      "scriptHash": "58f190406a6aea60",
+      "scriptText": "OpenAI just got the green light to power U.S. government AI tools. ChatGPT Enterprise and OpenAI API now meet FedRAMP Moderate security standards. This means federal agencies can safely use artificial intelligence for sensitive tasks. Only about 200 systems have achieved this level of federal security clearance. Expect more government departments to adopt AI tools in the coming months. This could speed up everything from policy analysis to public service delivery. For more AI news, visit ainformed dot dev.",
+      "audioFile": "/home/runner/work/ainformed-dev/ainformed-dev/pipeline/cache/youtube/2026-04-29-openai-achieves-fedramp-moderate-authorization-for-federal-use.wav",
+      "videoFile": "/home/runner/work/ainformed-dev/ainformed-dev/pipeline/cache/youtube/2026-04-29-openai-achieves-fedramp-moderate-authorization-for-federal-use.mp4",
+      "status": "uploaded",
+      "youtubeVideoId": "uEwesU9NwBc",
+      "youtubeUrl": "https://youtube.com/watch?v=uEwesU9NwBc",
+      "privacy": "unlisted",
+      "error": null,
+      "createdAt": "2026-05-01T19:30:17.937393+00:00",
+      "uploadedAt": "2026-05-01T19:32:44.667359+00:00",
+      "audioLineDurations": [
+        5.226666666666667,
+        6.826666666666667,
+        5.781333333333333,
+        4.992,
+        4.565333333333333,
+        4.608,
+        2.965333333333333
+      ]
     }
   ]
 }

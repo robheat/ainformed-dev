@@ -238,6 +238,44 @@
       "error": null,
       "createdAt": "2026-04-30T20:00:58.502525+00:00",
       "uploadedAt": "2026-04-30T20:05:04.950756+00:00"
+    },
+    {
+      "slug": "2026-05-01-googles-gemini-ai-assistant-coming-to-cars-with-google-built-in",
+      "title": "Google's Gemini AI Assistant Coming to Cars with Google Built-in",
+      "category": "industry",
+      "tags": [
+        "gemini",
+        "google",
+        "automotive",
+        "ai-assistant",
+        "upgrade",
+        "in-car"
+      ],
+      "imageUrl": "/images/articles/2026-05-01-googles-gemini-ai-assistant-coming-to-cars-with-google-built-in.jpg",
+      "articleUrl": "https://ainformed.dev/articles/2026-05-01-googles-gemini-ai-assistant-coming-to-cars-with-google-built-in",
+      "script": {
+        "hook": "Google's new Gemini AI assistant is hitting the road this month, replacing Google Assistant in cars.",
+        "narration_lines": [
+          "Gemini offers more natural conversations and better vehicle-specific features.",
+          "It integrates with Google Maps, Calendar, and other services for seamless use.",
+          "This upgrade makes adjusting car settings and handling complex queries easier than ever.",
+          "Expect a significant leap in in-car artificial intelligence capabilities.",
+          "The rollout starts this month, so keep an eye out for the update."
+        ],
+        "cta": "For more AI news, visit ainformed dot dev.",
+        "total_words": 120
+      },
+      "scriptHash": "24880d4e9a402598",
+      "scriptText": "Google's new Gemini AI assistant is hitting the road this month, replacing Google Assistant in cars. Gemini offers more natural conversations and better vehicle-specific features. It integrates with Google Maps, Calendar, and other services for seamless use. This upgrade makes adjusting car settings and handling complex queries easier than ever. Expect a significant leap in in-car artificial intelligence capabilities. The rollout starts this month, so keep an eye out for the update. For more AI news, visit ainformed dot dev.",
+      "audioFile": "/home/runner/work/ainformed-dev/ainformed-dev/pipeline/cache/youtube/2026-05-01-googles-gemini-ai-assistant-coming-to-cars-with-google-built-in.wav",
+      "videoFile": "/home/runner/work/ainformed-dev/ainformed-dev/pipeline/cache/youtube/2026-05-01-googles-gemini-ai-assistant-coming-to-cars-with-google-built-in.mp4",
+      "status": "uploaded",
+      "youtubeVideoId": "vprto9OmVQo",
+      "youtubeUrl": "https://youtube.com/watch?v=vprto9OmVQo",
+      "privacy": "unlisted",
+      "error": null,
+      "createdAt": "2026-05-01T15:47:44.618376+00:00",
+      "uploadedAt": "2026-05-01T15:50:29.751598+00:00"
     }
   ]
 }

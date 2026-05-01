@@ -1,0 +1,28 @@
+{
+  "slug": "2026-05-01-the-origin-and-spread-of-goblin-mode-in-gpt-5-a-timeline-and-analysis",
+  "title": "The Origin and Spread of 'Goblin Mode' in GPT-5: A Timeline and Analysis",
+  "summary": "OpenAI's latest blog post traces the emergence of 'goblin mode' outputs in GPT-5, attributing it to specific training data quirks and alignment techniques. The post also outlines fixes implemented to mitigate the issue.",
+  "body": "OpenAI has published a detailed analysis of the 'goblin mode' phenomenon observed in GPT-5, a behavior characterized by quirky, personality-driven responses. The blog post maps out a timeline of the issue's emergence, pinpointing specific training data and alignment techniques as root causes. Notably, the 'goblin mode' outputs were more prevalent in scenarios where the model was prompted to adopt a playful or unconventional tone.\n\nThe phenomenon highlights the delicate balance between creativity and coherence in large language models. While 'goblin mode' outputs were often entertaining, they sometimes led to inconsistent or off-topic responses, raising questions about the trade-offs between model expressiveness and reliability. OpenAI's fixes, which include refined alignment techniques and adjusted training data, aim to preserve the model's creativity while minimizing erratic behavior.\n\nOpenAI's transparency in addressing 'goblin mode' underscores the ongoing challenges in aligning large language models with user expectations. The fixes implemented in GPT-5 suggest a shift towards more controlled creativity, but the broader implications for model behavior and user trust remain open questions. As AI models continue to evolve, the balance between quirkiness and reliability will be a critical area of focus.",
+  "sourceUrl": "https://openai.com/index/where-the-goblins-came-from",
+  "sourceName": "OpenAI Blog",
+  "category": "models",
+  "tags": [
+    "gpt-5",
+    "alignment",
+    "training-data",
+    "ai-behavior",
+    "openai",
+    "language-models"
+  ],
+  "publishedAt": "2026-05-01T21:01:36.427012+00:00",
+  "imageUrl": "/images/articles/2026-05-01-the-origin-and-spread-of-goblin-mode-in-gpt-5-a-timeline-and-analysis.jpg",
+  "twitterThread": [
+    "🔥 OpenAI just dropped the full story on GPT-5's 'goblin mode'.\n\nThe wild part? It wasn't a bug. It was a feature.\n\nHere's why this matters:",
+    "Goblin mode emerged from specific training data and alignment techniques. The model was encouraged to be playful, but sometimes too playful.",
+    "The fixes? Refined alignment and adjusted training data. OpenAI is walking a tightrope between creativity and coherence.",
+    "Let that sink in. We're now fine-tuning AI to be quirky... but not *too* quirky.",
+    "This changes everything for how we think about model behavior. Are we heading towards more controlled creativity? Or just more controlled AI?",
+    "Full breakdown → https://ainformed.dev/articles/2026-05-01-the-origin-and-spread-of-goblin-mode-in-gpt-5-a-timeline-and-analysis"
+  ],
+  "standaloneTweet": "OpenAI's deep dive into GPT-5's 'goblin mode' reveals a fascinating tension between creativity and control in AI. The fixes? A step towards more refined, but still quirky, models."
+}

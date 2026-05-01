@@ -36,6 +36,10 @@ CHYRON_BG  = (15, 12, 30, 230)   # near-black, semi-opaque
 CHYRON_H = 260
 CHYRON_Y = VIDEO_HEIGHT - CHYRON_H - 20  # 1640
 
+CAPTION_FONT_SIZE = 72    # word-highlight karaoke text size
+TEXT_Y_START      = 1050  # y of first caption line (full-screen layout)
+CAPTION_LINE_H    = 86    # line spacing
+
 WINDOWS_FONT_DIR = Path("C:/Windows/Fonts")
 FONT_BLACK = str(WINDOWS_FONT_DIR / "ariblk.ttf")
 FONT_BOLD  = str(WINDOWS_FONT_DIR / "arialbd.ttf")
@@ -159,7 +163,6 @@ def build_ui_overlay(
     f_logo    = _font(FONT_BOLD,  48)
     f_tag     = _font(FONT_BOLD,  34)
     f_title   = _font(FONT_BLACK, 72)
-    f_caption = _font(FONT_BOLD,  56)
     f_cta     = _font(FONT_BOLD,  36)
     PAD = 52
 
@@ -191,18 +194,12 @@ def build_ui_overlay(
         draw.text((PAD,     title_y    ), line, font=f_title, fill=WHITE,           anchor="lm")
         title_y += 88
 
-    # ── CHYRON BAR (bottom) ─────────────────────────────────────────────────
-    chyron_h = 260
-    chyron_y = VIDEO_HEIGHT - chyron_h - 20
-    chyron   = Image.new("RGBA", (VIDEO_WIDTH, chyron_h), CHYRON_BG)
-    cd       = ImageDraw.Draw(chyron)
-    cd.rectangle([(0, 0), (VIDEO_WIDTH, 5)], fill=(*INDIGO, 255))
-    cd.text(
-        (VIDEO_WIDTH // 2, chyron_h - 44),
-        "More at ainformed.dev",
-        font=f_cta, fill=(*INDIGO, 220), anchor="mm",
-    )
-    overlay.alpha_composite(chyron, (0, chyron_y))
+    # ── CTA TEXT (bottom) ───────────────────────────────────────────────────
+    cta_y = VIDEO_HEIGHT - 72
+    draw.text((VIDEO_WIDTH // 2 + 2, cta_y + 2), "More at ainformed.dev",
+              font=f_cta, fill=(0, 0, 0, 180), anchor="mm")
+    draw.text((VIDEO_WIDTH // 2, cta_y), "More at ainformed.dev",
+              font=f_cta, fill=(*INDIGO, 220), anchor="mm")
 
     # ── PROGRESS BAR ────────────────────────────────────────────────────────
     prog_y = VIDEO_HEIGHT - 18
@@ -224,12 +221,12 @@ def _build_chyron_word_slice(
     import numpy as np
     from PIL import Image, ImageDraw
 
-    img  = Image.new("RGBA", (VIDEO_WIDTH, CHYRON_H), (0, 0, 0, 0))
+    img  = Image.new("RGBA", (VIDEO_WIDTH, VIDEO_HEIGHT), (0, 0, 0, 0))
     draw = ImageDraw.Draw(img)
 
     lines       = textwrap.wrap(caption_text, width=22)[:3]
     space_w     = int(font.getlength(" "))
-    cap_y       = 50
+    cap_y       = TEXT_Y_START
     word_offset = 0
 
     for line_text in lines:
@@ -238,13 +235,19 @@ def _build_chyron_word_slice(
         total_w     = sum(word_widths) + space_w * max(0, len(words) - 1)
         x           = VIDEO_WIDTH // 2 - total_w // 2
 
+        # Dark scrim behind the entire line for readability
+        draw.rounded_rectangle(
+            [x - 18, cap_y - 44, x + total_w + 18, cap_y + 44],
+            radius=16, fill=(0, 0, 0, 165),
+        )
+
         for j, (word, ww) in enumerate(zip(words, word_widths)):
             gidx = word_offset + j
             if gidx == highlight_word_idx:
                 # Indigo pill behind the active word
                 draw.rounded_rectangle(
-                    [x - 10, cap_y - 32, x + ww + 10, cap_y + 32],
-                    radius=12, fill=(*INDIGO, 230),
+                    [x - 10, cap_y - 40, x + ww + 10, cap_y + 40],
+                    radius=14, fill=(*INDIGO, 230),
                 )
                 color = WHITE
             elif gidx < highlight_word_idx:
@@ -255,7 +258,7 @@ def _build_chyron_word_slice(
             x += ww + (space_w if j < len(words) - 1 else 0)
 
         word_offset += len(words)
-        cap_y       += 68
+        cap_y       += CAPTION_LINE_H
 
     arr       = np.array(img).astype(np.float32)
     alpha     = arr[:, :, 3:4] / 255.0
@@ -344,7 +347,7 @@ def render_video(item: dict, force: bool = False) -> "Path | None":
             big_arr      = bg_images[i % len(bg_images)]
             direction    = i % 6
             caption_text = caption_lines[i]
-            f_cap        = _font(FONT_BOLD, 56)
+            f_cap        = _font(FONT_BOLD, CAPTION_FONT_SIZE)
 
             # Base overlay: logo, title, chyron box + CTA + progress (no caption words)
             ui_base        = build_ui_overlay(title, category, caption_lines, i, n)
@@ -379,15 +382,12 @@ def render_video(item: dict, force: bool = False) -> "Path | None":
                 big=big_arr, bpm=base_pm, bia=base_ia,
                 cpms=chyron_pms, cias=chyron_ias,
                 ws=word_starts, dur=seg_duration, d=direction,
-                cy=CHYRON_Y,
             ):
                 w_idx = max(0, min(bisect.bisect_right(ws, t) - 1, len(cpms) - 1))
                 kb    = apply_kenburns(big, t, dur, d).astype(np.float32)
                 out   = bpm + kb * bia
-                # Composite highlighted-word chyron slice into the chyron region
-                out[cy : cy + CHYRON_H] = (
-                    cpms[w_idx] + out[cy : cy + CHYRON_H] * cias[w_idx]
-                )
+                # Full-screen composite of word-highlight overlay
+                out   = cpms[w_idx] + out * cias[w_idx]
                 return out.clip(0, 255).astype(np.uint8)
 
             clips.append(VideoClip(make_frame, duration=seg_duration))

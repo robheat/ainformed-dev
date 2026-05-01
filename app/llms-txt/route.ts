@@ -34,7 +34,7 @@ export async function GET() {
     "",
     "## Recent Articles",
     "",
-    ...articles.slice(0, 20).map(
+    ...articles.map(
       (a) =>
         `- [${a.publishedAt.slice(0, 10)}] ${a.title}\n  https://ainformed.dev/articles/${a.slug}`
     ),

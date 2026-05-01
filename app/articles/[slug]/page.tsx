@@ -38,6 +38,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
           url: `/api/og?title=${encodeURIComponent(article.title)}`,
           width: 1200,
           height: 630,
+          alt: article.title,
         },
       ],
     },
@@ -63,9 +64,20 @@ export default async function ArticlePage({ params }: Props) {
     .map((p) => p.trim())
     .filter(Boolean);
 
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://ainformed.dev" },
+      { "@type": "ListItem", position: 2, name: article.category, item: `https://ainformed.dev/categories/${article.category}` },
+      { "@type": "ListItem", position: 3, name: article.title, item: `https://ainformed.dev/articles/${article.slug}` },
+    ],
+  };
+
   return (
     <>
       <SchemaMarkup article={article} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <div className="max-w-3xl mx-auto px-4 sm:px-6 py-10">
         {/* Breadcrumb */}
         <nav className="text-xs text-neutral-500 mb-6 flex items-center gap-1.5">

@@ -22,6 +22,23 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     title: `${cat.label} — AI News`,
     description: `Latest AI ${cat.label.toLowerCase()} news, curated daily by AInformed.`,
     alternates: { canonical: `https://ainformed.dev/categories/${category}` },
+    openGraph: {
+      title: `${cat.label} — AI News | AInformed`,
+      description: `Latest AI ${cat.label.toLowerCase()} news, curated daily by AInformed.`,
+      url: `https://ainformed.dev/categories/${category}`,
+      images: [{
+        url: `/api/og?title=${encodeURIComponent(cat.label + " — AI News")}&category=${encodeURIComponent(cat.label)}`,
+        width: 1200,
+        height: 630,
+        alt: `${cat.label} — AI News`,
+      }],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: `${cat.label} — AI News | AInformed`,
+      description: `Latest AI ${cat.label.toLowerCase()} news, curated daily by AInformed.`,
+      images: [`/api/og?title=${encodeURIComponent(cat.label + " — AI News")}&category=${encodeURIComponent(cat.label)}`],
+    },
   };
 }
 

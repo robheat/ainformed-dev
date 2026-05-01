@@ -48,6 +48,10 @@ FONT_BLACK = str(WINDOWS_FONT_DIR / "ariblk.ttf")
 FONT_BOLD  = str(WINDOWS_FONT_DIR / "arialbd.ttf")
 FONT_REG   = str(WINDOWS_FONT_DIR / "arial.ttf")
 
+# Linux fallbacks (fonts-liberation package, installed in CI)
+_FONT_BOLD_LINUX = "/usr/share/fonts/truetype/liberation/LiberationSans-Bold.ttf"
+_FONT_REG_LINUX  = "/usr/share/fonts/truetype/liberation/LiberationSans-Regular.ttf"
+
 
 def load_queue() -> dict:
     return json.loads(QUEUE_FILE.read_text())
@@ -59,7 +63,7 @@ def save_queue(data: dict) -> None:
 
 def _font(path: str, size: int):
     from PIL import ImageFont
-    for p in [path, FONT_BOLD, FONT_REG]:
+    for p in [path, FONT_BOLD, FONT_REG, _FONT_BOLD_LINUX, _FONT_REG_LINUX]:
         try:
             return ImageFont.truetype(p, size)
         except Exception:

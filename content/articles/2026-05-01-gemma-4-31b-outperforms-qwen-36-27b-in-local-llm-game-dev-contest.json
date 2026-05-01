@@ -1,0 +1,28 @@
+{
+  "slug": "2026-05-01-gemma-4-31b-outperforms-qwen-36-27b-in-local-llm-game-dev-contest",
+  "title": "Gemma 4 31B Outperforms Qwen 3.6 27B in Local LLM Game Dev Contest",
+  "summary": "Gemma 4 31B demonstrated superior efficiency and speed in a game development contest, completing the task in a fraction of the time compared to Qwen 3.6 27B. The results highlight significant performance differences between the two models.",
+  "body": "In a recent local LLM game development contest hosted on Atomic Chat, Gemma 4 31B outperformed Qwen 3.6 27B in both speed and efficiency. The contest, run on a MacBook Pro M5 Max with 64GB RAM, saw Gemma 4 31B complete the task in just 3 minutes and 51 seconds, generating 6,209 tokens. In contrast, Qwen 3.6 27B took 18 minutes and 4 seconds to produce 33,946 tokens.\n\nThe performance gap is striking, with Gemma 4 31B not only completing the task faster but also maintaining a higher token generation rate. This contest underscores the growing competition in the LLM space, where efficiency and speed are becoming critical metrics for model evaluation. The results suggest that Gemma 4 31B may offer significant advantages for real-time applications where rapid response times are essential.\n\nThe implications of this contest extend beyond the immediate results, raising questions about the future of LLM development. As models continue to evolve, the balance between performance and resource utilization will likely become a key differentiator. The contest also highlights the importance of benchmarking models in real-world scenarios, as these tests can reveal practical advantages that may not be apparent in theoretical evaluations.",
+  "sourceUrl": "https://x.com/kimmonismus/status/2049942439147004196",
+  "sourceName": "@kimmonismus on X",
+  "category": "general",
+  "tags": [
+    "llm",
+    "gamedev",
+    "benchmark",
+    "performance",
+    "gemma",
+    "qwen"
+  ],
+  "publishedAt": "2026-05-01T23:11:33.695786+00:00",
+  "imageUrl": "/images/articles/2026-05-01-gemma-4-31b-outperforms-qwen-36-27b-in-local-llm-game-dev-contest.jpg",
+  "twitterThread": [
+    "🚀 Gemma 4 31B just crushed Qwen 3.6 27B in a local LLM gamedev contest.\n\nLet that sink in.\n\nHere's why this matters:",
+    "Gemma 4 31B finished in 3m 51s. Qwen 3.6 27B took 18m 04s. \n\nThat's a 5x speed difference.\n\nThe wild part? Gemma generated fewer tokens but completed the task faster.",
+    "This changes everything for real-time applications. Speed matters. \n\nAnd Gemma just proved it can deliver.\n\nLet that sink in.",
+    "The contest was run on a MacBook Pro M5 Max with 64GB RAM. \n\nThis wasn't some cloud-based test. This was local.\n\nLocal performance matters.",
+    "Gemma 4 31B is setting a new standard for efficiency. \n\nThe future of LLMs is about more than just size. It's about speed, efficiency, and real-world performance.\n\nThis is a game-changer.",
+    "Full breakdown → https://ainformed.dev/articles/2026-05-01-gemma-4-31b-outperforms-qwen-36-27b-in-local-llm-game-dev-contest"
+  ],
+  "standaloneTweet": "Gemma 4 31B just crushed Qwen 3.6 27B in a local LLM gamedev contest. 5x faster. That's a game-changer for real-time applications."
+}

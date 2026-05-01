@@ -43,12 +43,42 @@ def get_tts():
     return kokoro
 
 
-def synthesize(kokoro, text: str, output_path: Path) -> None:
-    """Synthesize text to a WAV file using Kokoro ONNX."""
+def synthesize(kokoro, script: dict, output_path: Path) -> list[float]:
+    """Synthesize each caption line separately, concatenate, return per-line durations (seconds).
+
+    Synthesizing per-line gives us accurate segment boundaries for karaoke highlight sync.
+    """
+    import numpy as np
     import soundfile as sf
 
-    samples, sample_rate = kokoro.create(text, voice=DEFAULT_VOICE, speed=1.0, lang="en-us")
-    sf.write(str(output_path), samples, sample_rate)
+    caption_lines = (
+        [script.get("hook", "")]
+        + script.get("narration_lines", [])
+        + [script.get("cta", "")]
+    )
+    caption_lines = [l for l in caption_lines if l.strip()]
+
+    # Fall back to full scriptText if script object is empty
+    if not caption_lines:
+        full_text = script if isinstance(script, str) else ""
+        samples, sr = kokoro.create(full_text, voice=DEFAULT_VOICE, speed=1.0, lang="en-us")
+        sf.write(str(output_path), samples, sr)
+        return [len(samples) / sr]
+
+    chunks: list["np.ndarray"] = []
+    sample_rate = None
+    durations: list[float] = []
+
+    for line in caption_lines:
+        samples, sr = kokoro.create(line, voice=DEFAULT_VOICE, speed=1.0, lang="en-us")
+        if sample_rate is None:
+            sample_rate = sr
+        chunks.append(samples)
+        durations.append(float(len(samples) / sr))
+
+    combined = np.concatenate(chunks)
+    sf.write(str(output_path), combined, sample_rate)
+    return durations
 
 
 def main() -> None:
@@ -69,9 +99,8 @@ def main() -> None:
     done = 0
     for item in pending:
         slug = item["slug"]
-        text = item.get("scriptText", "")
-        if not text:
-            print(f"  [SKIP] {slug[:60]} -- no scriptText")
+        if not item.get("script") and not item.get("scriptText"):
+            print(f"  [SKIP] {slug[:60]} -- no script")
             continue
 
         output_path = CACHE_DIR / f"{slug}.wav"
@@ -85,11 +114,12 @@ def main() -> None:
 
         print(f"  -> {slug[:60]}")
         try:
-            synthesize(kokoro, text, output_path)
+            durations = synthesize(kokoro, item.get("script", {}), output_path)
             item["audioFile"] = str(output_path)
+            item["audioLineDurations"] = durations
             item["status"] = "tts_done"
             size_kb = output_path.stat().st_size // 1024
-            print(f"  [OK] {output_path.name} ({size_kb}KB)")
+            print(f"  [OK] {output_path.name} ({size_kb}KB, {len(durations)} lines)")
             done += 1
         except Exception as exc:
             print(f"  [ERROR] {exc}")

@@ -341,7 +341,13 @@ def render_video(item: dict, force: bool = False) -> "Path | None":
         return None
 
     n            = len(caption_lines)
-    seg_duration = duration / n
+    # Use per-line durations from TTS if available (accurate sync), else equal split
+    raw_durations = item.get("audioLineDurations", [])
+    if len(raw_durations) == n:
+        seg_durations = raw_durations
+        print(f"  [SYNC] Using per-line TTS durations: {[round(d,2) for d in seg_durations]}")
+    else:
+        seg_durations = [duration / n] * n
     gradient_pil = _get_gradient_pil()
 
     # ── Build animated clips ─────────────────────────────────────────────────
@@ -351,6 +357,7 @@ def render_video(item: dict, force: bool = False) -> "Path | None":
             big_arr      = bg_images[i % len(bg_images)]
             direction    = i % 6
             caption_text = caption_lines[i]
+            seg_duration = seg_durations[i]
             f_cap        = _font(FONT_BOLD, CAPTION_FONT_SIZE)
 
             # Base overlay: logo, title, chyron box + CTA + progress (no caption words)
@@ -373,11 +380,14 @@ def render_video(item: dict, force: bool = False) -> "Path | None":
                 chyron_pms.append(cpm)
                 chyron_ias.append(cia)
 
-            # Proportional word timing (character-count based)
+            # Proportional word timing (character-count based) with small onset delay
+            # Onset delay accounts for TTS silence at start of each synthesized chunk
+            ONSET = 0.12  # seconds before first word highlight appears
             char_counts = [max(1, len(w)) for w in words_flat]
             total_chars = sum(char_counts)
+            speech_window = max(0.0, seg_duration - ONSET)
             word_starts = [
-                seg_duration * sum(char_counts[:k]) / total_chars
+                ONSET + speech_window * sum(char_counts[:k]) / total_chars
                 for k in range(n_words)
             ]
 

@@ -1,0 +1,27 @@
+{
+  "slug": "2026-05-02-openai-adds-phishing-resistant-logins-to-protect-your-account",
+  "title": "OpenAI Adds Phishing-Resistant Logins to Protect Your Account",
+  "summary": "OpenAI is rolling out new security features to make your account harder to hack. These changes aim to prevent phishing attacks and unauthorized access to your sensitive data.",
+  "body": "OpenAI has introduced Advanced Account Security, a suite of new protections designed to keep your account safe from hackers. The most notable feature is phishing-resistant login, which makes it much harder for criminals to trick you into giving away your password. Additionally, the company has strengthened account recovery options to ensure that even if you forget your password, your account remains secure.\n\nThis update matters because phishing attacks are one of the most common ways hackers gain access to accounts. By making it harder for criminals to impersonate you or trick you into revealing your credentials, OpenAI is helping to protect your personal information and sensitive data. Think of it like adding a deadbolt to your front door—it’s an extra layer of security that makes it much harder for someone to break in.\n\nIf you use OpenAI’s services, you should enable these new security features as soon as they become available. Look for notifications or settings updates in your account dashboard. Enabling two-factor authentication and setting up a strong, unique password are also good practices to keep your account secure.",
+  "sourceUrl": "https://openai.com/index/advanced-account-security",
+  "sourceName": "OpenAI Blog",
+  "category": "models",
+  "tags": [
+    "security",
+    "account",
+    "phishing",
+    "protection",
+    "openai"
+  ],
+  "publishedAt": "2026-05-02T21:01:52.105656+00:00",
+  "imageUrl": "/images/articles/2026-05-02-openai-adds-phishing-resistant-logins-to-protect-your-account.jpg",
+  "twitterThread": [
+    "🔒 OpenAI just made it way harder for hackers to steal your account. Here’s what’s new:",
+    "They added phishing-resistant logins. In plain English: scammers can’t trick you into giving up your password as easily.",
+    "Account recovery just got stronger too. Even if you forget your password, your account stays locked down.",
+    "The part that matters: This protects your personal info and sensitive data. Think of it like a deadbolt for your digital life.",
+    "If you use OpenAI, enable these features ASAP. Check your account settings for updates!",
+    "Full breakdown → https://ainformed.dev/articles/2026-05-02-openai-adds-phishing-resistant-logins-to-protect-your-account"
+  ],
+  "standaloneTweet": "🔒 OpenAI just made it way harder for hackers to steal your account with new phishing-resistant logins and stronger recovery options. Enable them ASAP!"
+}

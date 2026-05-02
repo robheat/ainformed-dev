@@ -1,0 +1,26 @@
+{
+  "slug": "2026-05-02-deepinfra-joins-hugging-face-inference-providers",
+  "title": "DeepInfra Joins Hugging Face Inference Providers",
+  "summary": "DeepInfra is now part of Hugging Face's Inference Providers, making it easier to deploy AI models. This collaboration simplifies running models for developers and researchers.",
+  "body": "DeepInfra has officially joined Hugging Face's Inference Providers. This means developers and researchers can now deploy AI models on DeepInfra's infrastructure directly through Hugging Face. The integration streamlines the process, reducing the complexity of running models in production.\n\nFor everyday users, this collaboration means faster and more reliable access to AI tools. If you've ever struggled with setting up AI models, this partnership makes it easier to get started. Think of it like having a one-stop shop for all your AI needs.\n\nIf you're a developer or researcher, you can start using DeepInfra on Hugging Face today. Simply navigate to the Inference Providers section and select DeepInfra. Keep an eye out for more integrations and updates as the collaboration grows.",
+  "sourceUrl": "https://huggingface.co/blog/inference-providers-deepinfra",
+  "sourceName": "Hugging Face Blog",
+  "category": "open-source",
+  "tags": [
+    "ai",
+    "deepinfra",
+    "hugging-face",
+    "inference",
+    "developers",
+    "models"
+  ],
+  "publishedAt": "2026-05-02T16:02:12.453486+00:00",
+  "imageUrl": "/images/articles/2026-05-02-deepinfra-joins-hugging-face-inference-providers.jpg",
+  "twitterThread": [
+    "🔥 Big news for AI developers! DeepInfra is now on Hugging Face Inference Providers.\n\nIn plain English: It's easier than ever to deploy AI models.\n\nHere's what this means for you:",
+    "1. Faster, more reliable access to AI tools.\n\n2. Simplified process for running models in production.\n\n3. One-stop shop for all your AI needs.\n\nThe part that matters:",
+    "If you've ever struggled with setting up AI models, this partnership makes it easier to get started.\n\nThink of it like having a one-stop shop for all your AI needs.\n\nWhat you can do today:",
+    "Go to Hugging Face, navigate to Inference Providers, and select DeepInfra.\n\nKeep an eye out for more integrations and updates as the collaboration grows.\n\nFull breakdown → https://ainformed.dev/articles/2026-05-02-deepinfra-joins-hugging-face-inference-providers"
+  ],
+  "standaloneTweet": "🔥 DeepInfra is now on Hugging Face Inference Providers! Easier than ever to deploy AI models. Check it out today!"
+}

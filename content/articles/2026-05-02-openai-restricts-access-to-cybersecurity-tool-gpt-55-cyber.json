@@ -1,0 +1,27 @@
+{
+  "slug": "2026-05-02-openai-restricts-access-to-cybersecurity-tool-gpt-55-cyber",
+  "title": "OpenAI Restricts Access to Cybersecurity Tool GPT-5.5 Cyber",
+  "summary": "OpenAI is limiting access to its new cybersecurity tool, GPT-5.5 Cyber, to only critical cyber defenders. This follows criticism of Anthropic for restricting its own AI tool, Mythos.",
+  "body": "OpenAI has announced that its new cybersecurity tool, GPT-5.5 Cyber, will initially be available only to \"critical cyber defenders.\" This decision comes after the company publicly criticized Anthropic for limiting access to its AI tool, Mythos. OpenAI's move suggests that even they recognize the need for controlled distribution of powerful AI tools, especially those with significant security implications.\n\nThis restriction means that most users, including businesses and individual cybersecurity professionals, won't have immediate access to GPT-5.5 Cyber. OpenAI's decision highlights the ongoing tension between making advanced AI tools widely available and ensuring they are used responsibly. For everyday users, this means that cutting-edge cybersecurity AI tools are still largely out of reach, at least for now.\n\nIf you're interested in cybersecurity, keep an eye on OpenAI's announcements for any updates on broader access to GPT-5.5 Cyber. In the meantime, you can explore other cybersecurity tools and resources available to the public, such as open-source software and educational platforms. This way, you can stay informed and prepared even without access to the latest AI tools.",
+  "sourceUrl": "https://techcrunch.com/2026/04/30/after-dissing-anthropic-for-limiting-mythos-openai-restricts-access-to-cyber-too/",
+  "sourceName": "TechCrunch AI",
+  "category": "industry",
+  "tags": [
+    "cybersecurity",
+    "ai-tools",
+    "openai",
+    "access-restrictions",
+    "tech-industry"
+  ],
+  "publishedAt": "2026-05-02T16:02:42.239740+00:00",
+  "imageUrl": "/images/articles/2026-05-02-openai-restricts-access-to-cybersecurity-tool-gpt-55-cyber.jpg",
+  "twitterThread": [
+    "🚨 OpenAI just restricted access to its new cybersecurity tool, GPT-5.5 Cyber. \n\nHere's what you need to know:",
+    "OpenAI says GPT-5.5 Cyber will only be available to \"critical cyber defenders\" at first. \n\nIn plain English: Most of us won't get to use it anytime soon.",
+    "This comes after OpenAI criticized Anthropic for limiting access to its own AI tool, Mythos. \n\nPot meet kettle?",
+    "The part that matters: Advanced AI tools for cybersecurity are still tightly controlled. \n\nIf you're not a top-tier defender, you're out of luck.",
+    "If you're into cybersecurity, keep an eye out for updates. \n\nIn the meantime, check out open-source tools and platforms to stay sharp.",
+    "Full breakdown → https://ainformed.dev/articles/2026-05-02-openai-restricts-access-to-cybersecurity-tool-gpt-55-cyber"
+  ],
+  "standaloneTweet": "OpenAI is restricting access to its new cybersecurity tool, GPT-5.5 Cyber, to only critical defenders. A reminder that even the big players are cautious about who gets access to powerful AI."
+}

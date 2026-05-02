@@ -1,0 +1,28 @@
+{
+  "slug": "2026-05-02-openai-boosts-chatgpt-security-with-new-yubico-partnership",
+  "title": "OpenAI boosts ChatGPT security with new Yubico partnership",
+  "summary": "OpenAI is introducing optional advanced security features for ChatGPT accounts, including a collaboration with Yubico for physical security keys. This move aims to make user accounts more secure against unauthorized access.",
+  "body": "OpenAI has announced new opt-in security measures for ChatGPT accounts. The update includes a partnership with Yubico, a leading provider of physical security keys. These keys add an extra layer of protection by requiring a physical device to log in, making it harder for hackers to access accounts.\n\nThis enhancement is significant for everyday users who rely on ChatGPT for personal or professional tasks. Think of it like adding a deadbolt to your front door—it's an extra step that significantly reduces the risk of someone breaking in. For those who handle sensitive information or use ChatGPT frequently, this added security can provide peace of mind.\n\nIf you're concerned about account security, you can opt into these new protections. Check your ChatGPT settings for the option to enable Yubico security keys or other advanced features. Keep an eye out for more security updates from OpenAI as they continue to prioritize user safety.",
+  "sourceUrl": "https://techcrunch.com/2026/04/30/openai-announces-new-advanced-security-for-chatgpt-accounts-including-a-partnership-with-yubico/",
+  "sourceName": "TechCrunch AI",
+  "category": "industry",
+  "tags": [
+    "security",
+    "chatgpt",
+    "openai",
+    "yubico",
+    "account-protection",
+    "ai-tools"
+  ],
+  "publishedAt": "2026-05-02T16:02:52.838652+00:00",
+  "imageUrl": "/images/articles/2026-05-02-openai-boosts-chatgpt-security-with-new-yubico-partnership.jpg",
+  "twitterThread": [
+    "🔒 OpenAI just made ChatGPT way harder to hack. Here's how it affects you.",
+    "They teamed up with Yubico to add physical security keys. Think of it like a key fob for your ChatGPT account.",
+    "In plain English: You'll need a tiny device to log in. No device? No access. Hackers can't just guess your password anymore.",
+    "The part that matters: This is optional. But if you handle sensitive stuff on ChatGPT, it's a game-changer.",
+    "Want to try it? Check your ChatGPT settings for the new security options. Easy peasy.",
+    "Full breakdown → https://ainformed.dev/articles/2026-05-02-openai-boosts-chatgpt-security-with-new-yubico-partnership"
+  ],
+  "standaloneTweet": "OpenAI just made ChatGPT more secure with physical security keys. If you use ChatGPT for important stuff, this is a big deal."
+}

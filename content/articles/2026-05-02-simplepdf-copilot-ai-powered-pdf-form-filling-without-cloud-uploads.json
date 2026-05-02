@@ -1,0 +1,27 @@
+{
+  "slug": "2026-05-02-simplepdf-copilot-ai-powered-pdf-form-filling-without-cloud-uploads",
+  "title": "SimplePDF Copilot: AI-Powered PDF Form Filling Without Cloud Uploads",
+  "summary": "SimplePDF Copilot is a new AI tool that lets users fill PDF forms directly in the browser without uploading documents to the cloud. The tool integrates with any LLM and has already gained significant traction.",
+  "body": "SimplePDF Copilot, a new AI-powered tool, allows users to fill out PDF forms directly in their browser without ever uploading the document to the cloud. The tool, built on top of SimplePDF—a client-side PDF editor used by over 200,000 people monthly—enables users to interact with PDFs by filling fields, answering questions, adding or deleting pages, and more. The AI assistant focuses on specific fields and performs actions based on user prompts, all while keeping the PDF data local.\n\nThe privacy-focused approach of SimplePDF Copilot sets it apart from other AI tools that require cloud processing. By running parsing, rendering, and field detection entirely in the browser, the tool ensures that the PDF itself never leaves the user's device. Only the text needed by the model and user messages are sent to the LLM, which can be any model the user chooses to integrate. This model is a significant step forward for privacy-conscious users who need to handle sensitive documents.\n\nSimplePDF Copilot is already making waves, with its demo proxy using DeepSeek V4 Flash. The tool's integration with various LLMs and its client-side processing make it a versatile option for businesses and individuals alike. As AI tools continue to evolve, the demand for privacy-respecting solutions like SimplePDF Copilot is likely to grow. The future of this tool will depend on its ability to scale while maintaining its core privacy promises and expanding its feature set to meet user needs.",
+  "sourceUrl": "https://copilot.simplepdf.com/?share=a7d00ad073c75a75d493228e6ff7b11eb3f2d945b6175913e87898ec96ca8076&form=w9&lang=en",
+  "sourceName": "Hacker News AI",
+  "category": "general",
+  "tags": [
+    "ai",
+    "pdf",
+    "privacy",
+    "client-side",
+    "tools",
+    "open-source"
+  ],
+  "publishedAt": "2026-05-02T11:01:34.684507+00:00",
+  "imageUrl": "/images/articles/2026-05-02-simplepdf-copilot-ai-powered-pdf-form-filling-without-cloud-uploads.jpg",
+  "twitterThread": [
+    "🚀 A game-changer in PDF editing: SimplePDF Copilot lets you fill forms WITHOUT uploading to the cloud. #AI\n\nHere's the twist: The PDF never leaves your browser. All processing happens client-side.",
+    "How it works: You point it to any LLM. By default, it uses DeepSeek V4 Flash. The AI fills fields, answers questions, even deletes pages. All local. No cloud uploads.",
+    "The wild part: SimplePDF has 200k+ monthly users. This AI upgrade keeps their privacy promise intact. Let that sink in.",
+    "This changes everything for businesses handling sensitive docs. No more worrying about cloud leaks. Just pure, local AI power.",
+    "Hot take: Privacy-focused AI tools like this will dominate in 2026. Users are done with cloud risks. The future is client-side."
+  ],
+  "standaloneTweet": "SimplePDF Copilot fills PDFs with AI—entirely in your browser. No cloud uploads. Just pure, private AI power. 🚀 #AI #Privacy"
+}

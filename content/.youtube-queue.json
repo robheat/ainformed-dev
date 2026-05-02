@@ -476,6 +476,102 @@
         4.608,
         2.965333333333333
       ]
+    },
+    {
+      "slug": "2026-05-02-stripes-link-now-lets-ai-agents-handle-your-payments",
+      "title": "Stripe's Link Now Lets AI Agents Handle Your Payments",
+      "category": "industry",
+      "tags": [
+        "payments",
+        "ai-agents",
+        "digital-wallet",
+        "stripe",
+        "shopping",
+        "security"
+      ],
+      "imageUrl": "/images/articles/2026-05-02-stripes-link-now-lets-ai-agents-handle-your-payments.jpg",
+      "articleUrl": "https://ainformed.dev/articles/2026-05-02-stripes-link-now-lets-ai-agents-handle-your-payments",
+      "script": {
+        "hook": "Imagine your personal AI assistant handling your online shopping for you, with your approval.",
+        "narration_lines": [
+          "Stripe's digital wallet, Link, now lets AI agents make purchases on your behalf.",
+          "You connect your bank accounts and cards, then approve each purchase via notification.",
+          "This could make managing subscriptions and shopping easier and more secure.",
+          "Picture an AI renewing your Netflix subscription or ordering groceries, but only after you say yes.",
+          "It's like having a personal shopper who always checks with you first.",
+          "Try connecting your accounts to see how it simplifies your online payments."
+        ],
+        "cta": "For more AI news made simple, visit ainformed dot dev.",
+        "total_words": 120
+      },
+      "scriptHash": "8d33da0775eb5142",
+      "scriptText": "Imagine your personal AI assistant handling your online shopping for you, with your approval. Stripe's digital wallet, Link, now lets AI agents make purchases on your behalf. You connect your bank accounts and cards, then approve each purchase via notification. This could make managing subscriptions and shopping easier and more secure. Picture an AI renewing your Netflix subscription or ordering groceries, but only after you say yes. It's like having a personal shopper who always checks with you first. Try connecting your accounts to see how it simplifies your online payments. For more AI news made simple, visit ainformed dot dev.",
+      "audioFile": "/home/runner/work/ainformed-dev/ainformed-dev/pipeline/cache/youtube/2026-05-02-stripes-link-now-lets-ai-agents-handle-your-payments.wav",
+      "videoFile": "/home/runner/work/ainformed-dev/ainformed-dev/pipeline/cache/youtube/2026-05-02-stripes-link-now-lets-ai-agents-handle-your-payments.mp4",
+      "status": "uploaded",
+      "youtubeVideoId": "k1ucFrFp-KE",
+      "youtubeUrl": "https://youtube.com/watch?v=k1ucFrFp-KE",
+      "privacy": "unlisted",
+      "error": null,
+      "createdAt": "2026-05-02T17:33:09.740618+00:00",
+      "uploadedAt": "2026-05-02T17:38:30.077252+00:00",
+      "audioLineDurations": [
+        5.504,
+        4.949333333333334,
+        4.949333333333334,
+        4.373333333333333,
+        6.506666666666667,
+        3.477333333333333,
+        4.074666666666666,
+        3.6906666666666665
+      ]
+    },
+    {
+      "slug": "2026-05-02-pentagon-partners-with-nvidia-microsoft-and-aws-for-classified-ai-deployment",
+      "title": "Pentagon partners with Nvidia, Microsoft, and AWS for classified AI deployment",
+      "category": "industry",
+      "tags": [
+        "pentagon",
+        "ai",
+        "defense",
+        "nvidia",
+        "microsoft",
+        "aws"
+      ],
+      "imageUrl": "/images/articles/2026-05-02-pentagon-partners-with-nvidia-microsoft-and-aws-for-classified-ai-deployment.jpg",
+      "articleUrl": "https://ainformed.dev/articles/2026-05-02-pentagon-partners-with-nvidia-microsoft-and-aws-for-classified-ai-deployment",
+      "script": {
+        "hook": "Imagine if your phone's apps could only come from one store - that's the risk the Pentagon is avoiding with AI.",
+        "narration_lines": [
+          "The Pentagon just teamed up with Nvidia, Microsoft, and AWS to use artificial intelligence in secret military networks.",
+          "They're spreading out their AI suppliers to avoid putting all their eggs in one basket.",
+          "Think of it like having backup batteries for your phone - you don't want to be stuck if one fails.",
+          "This means faster, smarter decisions for national security, and it shows how AI is becoming essential in defense.",
+          "For you, this could mean more secure tech in the future as these companies refine their AI for critical use."
+        ],
+        "cta": "For more AI news made simple, visit ainformed dot dev.",
+        "total_words": 120
+      },
+      "scriptHash": "99f687c3e2e42d0a",
+      "scriptText": "Imagine if your phone's apps could only come from one store - that's the risk the Pentagon is avoiding with AI. The Pentagon just teamed up with Nvidia, Microsoft, and AWS to use artificial intelligence in secret military networks. They're spreading out their AI suppliers to avoid putting all their eggs in one basket. Think of it like having backup batteries for your phone - you don't want to be stuck if one fails. This means faster, smarter decisions for national security, and it shows how AI is becoming essential in defense. For you, this could mean more secure tech in the future as these companies refine their AI for critical use. For more AI news made simple, visit ainformed dot dev.",
+      "audioFile": "/home/runner/work/ainformed-dev/ainformed-dev/pipeline/cache/youtube/2026-05-02-pentagon-partners-with-nvidia-microsoft-and-aws-for-classified-ai-deployment.wav",
+      "videoFile": "/home/runner/work/ainformed-dev/ainformed-dev/pipeline/cache/youtube/2026-05-02-pentagon-partners-with-nvidia-microsoft-and-aws-for-classified-ai-deployment.mp4",
+      "status": "uploaded",
+      "youtubeVideoId": "TlpqIoA9jGY",
+      "youtubeUrl": "https://youtube.com/watch?v=TlpqIoA9jGY",
+      "privacy": "unlisted",
+      "error": null,
+      "createdAt": "2026-05-02T17:33:11.161280+00:00",
+      "uploadedAt": "2026-05-02T17:38:31.711493+00:00",
+      "audioLineDurations": [
+        6.485333333333333,
+        8.32,
+        4.928,
+        5.0986666666666665,
+        7.36,
+        6.656,
+        3.6906666666666665
+      ]
     }
   ]
 }
